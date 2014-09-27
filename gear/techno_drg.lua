@@ -112,12 +112,30 @@ function init_gear_sets()
 
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
-  sets.precast.WS = {}
-  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
+  sets.precast.WS = {
+    ammo = "Olibanum Sachet",
+    head = "Perle Salade",
+    neck = "Kubira Bead Necklace",
+    ear1 = "Brutal Earring",
+    ear2 = "Bushinomimi",
+    body = "Ares' Cuirass",
+    hands = "Hecatomb Mittens",
+    ring1 = "Flame Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Blitzer Poleyn",
+    feet = "Hecatomb Leggings",
+  }
+
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    head = "Optical Hat",
+  })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-  sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {})
-  sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
+  -- sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {})
+
+  -- sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
 
 
   -- Sets to return to when not performing an action.
