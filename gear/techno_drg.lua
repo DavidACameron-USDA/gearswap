@@ -1,0 +1,115 @@
+-------------------------------------------------------------------------------------------------------------------
+-- User setup functions for this job.
+-------------------------------------------------------------------------------------------------------------------
+
+-- Setup vars that are user-dependent.
+function user_setup()
+  state.OffenseMode:options('Normal', 'Acc')
+  state.WeaponskillMode:options('Normal', 'Acc')
+
+  update_combat_form()
+
+  -- Additional local binds
+
+  select_default_macro_book()
+end
+
+
+-- Called when this job file is unloaded (eg: job change)
+function user_unload()
+
+end
+
+
+-- Define sets and vars used by this job file.
+function init_gear_sets()
+  --------------------------------------
+  -- Start defining the sets
+  --------------------------------------
+
+  -- Precast Sets
+  -- Precast sets to enhance JAs
+  sets.precast.JA.Jump = {
+    head = "Perle Salade",
+    hands = "Hecatomb Mittens",
+    ring1 = "Flame Ring",
+    waist = "Wyrm Belt",
+    legs = "Perle Brayettes",
+    feet = "Hecatomb Leggings",
+  }
+  sets.precast.JA['Spirit Link'] = {
+    head = "Drachen Armet +1",
+  }
+  sets.precast.JA['Ancient Circle'] = {
+    legs = "Drachen Brais +1",
+  }
+
+  -- Waltz set (chr and vit)
+  sets.precast.Waltz = {
+    ammo="Sonia's Plectrum",
+  }
+
+  -- Don't need any special gear for Healing Waltz.
+  sets.precast.Waltz['Healing Waltz'] = {}
+
+
+  -- Weaponskill sets
+  -- Default set for any weaponskill that isn't any more specifically defined
+  sets.precast.WS = {}
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
+
+  -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
+  sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
+
+
+  -- Sets to return to when not performing an action.
+
+  -- Resting sets
+  sets.resting = {}
+
+
+  -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
+  sets.idle.Town = {}
+
+  sets.idle.Field = {}
+
+  sets.idle.Weak = {}
+
+  -- Defense sets
+  sets.defense.PDT = {}
+
+  sets.defense.MDT = {}
+
+  sets.Kiting = {}
+
+  -- Engaged sets
+
+  -- Variations for TP weapon and (optional) offense/defense modes.  Code will
+  -- fall back on previous sets if more refined versions aren't defined. If
+  -- you create a set with both offense and defense modes, the offense mode
+  -- should be first, e.g. sets.engaged.Dagger.Accuracy.Evasion.
+
+  -- Normal melee group
+  sets.engaged = {}
+  sets.engaged.Acc = {}
+  sets.engaged.PDT = {}
+  sets.engaged.Acc.PDT = {}
+end
+
+
+-------------------------------------------------------------------------------------------------------------------
+-- Utility functions specific to this job.
+-------------------------------------------------------------------------------------------------------------------
+
+function update_combat_form()
+
+end
+
+-- Select default macro book on initial load or subjob change.
+function select_default_macro_book()
+  -- Default macro set/book
+  if player.sub_job == 'SAM' then
+      set_macro_page(1, 14)
+  end
+end
