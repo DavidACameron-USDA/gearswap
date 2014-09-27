@@ -45,7 +45,9 @@ end
 -- Set eventArgs.handled to true if we don't want any automatic gear equipping to be done.
 -- Set eventArgs.useMidcastGear to true if we want midcast gear equipped on precast.
 function job_precast(spell, action, spellMap, eventArgs)
-
+  if spell.action_type == 'Magic' then
+    equip(sets.precast.HealingBreath)
+  end
 end
 
 -- Set eventArgs.handled to true if we don't want any automatic gear equipping to be done.
@@ -56,7 +58,9 @@ end
 -- Runs when a pet initiates an action.
 -- Set eventArgs.handled to true if we don't want any automatic gear equipping to be done.
 function job_pet_midcast(spell, action, spellMap, eventArgs)
-
+  if spell.name:startswith('Healing Breath') or spell.name == 'Restoring Breath' then
+    equip(sets.midcast.HealingBreath)
+  end
 end
 
 -------------------------------------------------------------------------------------------------------------------

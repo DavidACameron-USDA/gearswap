@@ -164,6 +164,22 @@ function init_gear_sets()
   -- sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
 
 
+  -- Healing Breath sets
+  sets.precast.HealingBreath = {
+    ammo = "Olibanum Sachet",
+    head = "Drachen Armet +1",
+    ear2 = "Loquacious Earring",
+    neck = "Cougar Pendant",
+    body = "Homam Corazza",
+  }
+
+  sets.midcast.HealingBreath = {
+    head = "Wyrm Armet",
+    neck = "Chanoix's Gorget",
+    legs = "Drachen Brais +1",
+  }
+
+
   -- Sets to return to when not performing an action.
 
   -- Resting sets
