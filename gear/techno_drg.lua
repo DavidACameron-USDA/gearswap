@@ -109,9 +109,26 @@ function init_gear_sets()
   -- should be first, e.g. sets.engaged.Dagger.Accuracy.Evasion.
 
   -- Normal melee group
-  sets.engaged = {}
+  sets.engaged = {
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Love Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Aesir Ear Pendant",
+    body = "Askar Korazin",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Blitzer Poleyn",
+    feet = "Homam Gambieras",
+  }
+
   sets.engaged.Acc = {}
+
   sets.engaged.PDT = {}
+
   sets.engaged.Acc.PDT = {}
 end
 
