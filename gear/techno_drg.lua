@@ -69,12 +69,30 @@ function init_gear_sets()
   sets.resting = {}
 
 
-  -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
-  sets.idle.Town = {}
+  -- Idle sets
+  sets.idle = {
+    main = "Valkyrie's Fork",
+    sub = "Pole Grip",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Love Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Aesir Ear Pendant",
+    body = "Askar Korazin",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Crimson Cuisses",
+    feet = "Homam Gambieras",
+  }
 
-  sets.idle.Field = {}
+  -- sets.idle.Town = {}
 
-  sets.idle.Weak = {}
+  -- sets.idle.Field = {}
+
+  -- sets.idle.Weak = {}
 
   -- Defense sets
   sets.defense.PDT = {}
