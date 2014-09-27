@@ -133,6 +133,19 @@ function init_gear_sets()
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
+  -- Sonic Thrust has STR: 40% and DEX 40% modifiers.
+  sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
+    head = "Askar Zucchetto",
+    body = "Zahak's Mail",
+    legs = "Perle Brayettes",
+  })
+
+  sets.precast.WS['Sonic Thrust'].Acc = set_combine(sets.precast.WS.Acc, {
+    body = "Zahak's Mail",
+    legs = "Perle Brayettes",
+  })
+
+  -- Drakesbane has a STR: 50% modifier.
   -- sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {})
 
   -- sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
