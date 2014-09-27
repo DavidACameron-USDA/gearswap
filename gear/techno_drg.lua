@@ -27,6 +27,63 @@ function init_gear_sets()
   -- Start defining the sets
   --------------------------------------
 
+  -- Idle sets
+  sets.idle = {
+    main = "Valkyrie's Fork",
+    sub = "Pole Grip",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Love Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Aesir Ear Pendant",
+    body = "Askar Korazin",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Crimson Cuisses",
+    feet = "Homam Gambieras",
+  }
+
+  -- sets.idle.Town = {}
+
+  -- sets.idle.Field = {}
+
+  -- sets.idle.Weak = {}
+
+
+  -- Engaged sets
+
+  -- Variations for TP weapon and (optional) offense/defense modes.  Code will
+  -- fall back on previous sets if more refined versions aren't defined. If
+  -- you create a set with both offense and defense modes, the offense mode
+  -- should be first, e.g. sets.engaged.Dagger.Accuracy.Evasion.
+
+  -- Normal melee group
+  sets.engaged = {
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Love Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Aesir Ear Pendant",
+    body = "Askar Korazin",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Blitzer Poleyn",
+    feet = "Homam Gambieras",
+  }
+
+  sets.engaged.Acc = set_combine(sets.engaged, {
+    head = "Optical Hat",
+		body = "Homam Corazza",
+		waist = "Wyrm Belt",
+  })
+
+
   -- Precast Sets
   -- Precast sets to enhance JAs
   sets.precast.JA.Jump = {
@@ -69,67 +126,12 @@ function init_gear_sets()
   sets.resting = {}
 
 
-  -- Idle sets
-  sets.idle = {
-    main = "Valkyrie's Fork",
-    sub = "Pole Grip",
-    ammo = "Tiphia Sting",
-    head = "Walahra Turban",
-    neck = "Love Torque",
-    ear1 = "Brutal Earring",
-    ear2 = "Aesir Ear Pendant",
-    body = "Askar Korazin",
-    hands = "Homam Manopolas",
-    ring1 = "Ulthalam's Ring",
-    ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Crimson Cuisses",
-    feet = "Homam Gambieras",
-  }
-
-  -- sets.idle.Town = {}
-
-  -- sets.idle.Field = {}
-
-  -- sets.idle.Weak = {}
-
   -- Defense sets
   sets.defense.PDT = {}
 
   sets.defense.MDT = {}
 
   sets.Kiting = {}
-
-  -- Engaged sets
-
-  -- Variations for TP weapon and (optional) offense/defense modes.  Code will
-  -- fall back on previous sets if more refined versions aren't defined. If
-  -- you create a set with both offense and defense modes, the offense mode
-  -- should be first, e.g. sets.engaged.Dagger.Accuracy.Evasion.
-
-  -- Normal melee group
-  sets.engaged = {
-    ammo = "Tiphia Sting",
-    head = "Walahra Turban",
-    neck = "Love Torque",
-    ear1 = "Brutal Earring",
-    ear2 = "Aesir Ear Pendant",
-    body = "Askar Korazin",
-    hands = "Homam Manopolas",
-    ring1 = "Ulthalam's Ring",
-    ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Blitzer Poleyn",
-    feet = "Homam Gambieras",
-  }
-
-  sets.engaged.Acc = set_combine(sets.engaged, {
-    head = "Optical Hat",
-		body = "Homam Corazza",
-		waist = "Wyrm Belt",
-  })
 end
 
 
