@@ -111,5 +111,17 @@ function select_default_macro_book()
   -- Default macro set/book
   if player.sub_job == 'SAM' then
       set_macro_page(1, 14)
+  elseif player.sub_job == 'WAR' then
+      set_macro_page(2, 14)
+  elseif player.sub_job == 'BLU' then
+      set_macro_page(3, 14)
+  elseif player.sub_job == 'BLM' then
+      set_macro_page(4, 14)
+  elseif player.sub_job == 'RDM' then
+      set_macro_page(5, 14)
+  elseif player.sub_job == 'WHM' then
+      set_macro_page(5, 14)
+  elseif player.sub_job == 'NIN' then
+      set_macro_page(6, 14)
   end
 end
