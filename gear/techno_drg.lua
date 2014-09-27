@@ -125,11 +125,11 @@ function init_gear_sets()
     feet = "Homam Gambieras",
   }
 
-  sets.engaged.Acc = {}
-
-  sets.engaged.PDT = {}
-
-  sets.engaged.Acc.PDT = {}
+  sets.engaged.Acc = set_combine(sets.engaged, {
+    head = "Optical Hat",
+		body = "Homam Corazza",
+		waist = "Wyrm Belt",
+  })
 end
 
 
