@@ -133,7 +133,19 @@ function init_gear_sets()
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-  -- Sonic Thrust has STR: 40% and DEX 40% modifiers.
+
+  -- Stardiver has a STR: 86~100% modifier and is aligned with the Shadow, Soil,
+  -- and Light gorgets/belts.
+  -- sets.precast.WS.Stardiver = set_combine(sets.precast.WS, {
+  --  neck = "Shadow Gorget",
+  -- })
+
+  -- sets.precast.WS.Stardiver.Acc = set_combine(sets.precast.WS.Acc, {
+  --  neck = "Shadow Gorget",
+  -- })
+
+  -- Sonic Thrust has STR: 40% and DEX 40% modifiers and is aligned with the
+  -- Light and Soil gorgets/belts.
   sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
     head = "Askar Zucchetto",
     body = "Zahak's Mail",
@@ -145,7 +157,8 @@ function init_gear_sets()
     legs = "Perle Brayettes",
   })
 
-  -- Drakesbane has a STR: 50% modifier.
+  -- Drakesbane has a STR: 50% modifier and is aligned with the Flame and Light
+  -- gorgets/belts.
   -- sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {})
 
   -- sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
