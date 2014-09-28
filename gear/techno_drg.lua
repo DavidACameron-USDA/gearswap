@@ -94,9 +94,17 @@ function init_gear_sets()
     legs = "Perle Brayettes",
     feet = "Hecatomb Leggings",
   }
+
+  sets.precast.JA['High Jump'] = set_combine(sets.precast.JA.Jump, {})
+
+  sets.precast.JA['Spirit Jump'] = set_combine(sets.precast.JA.Jump, {})
+
+  sets.precast.JA['Soul Jump'] = set_combine(sets.precast.JA.Jump, {})
+
   sets.precast.JA['Spirit Link'] = {
     head = "Drachen Armet +1",
   }
+
   sets.precast.JA['Ancient Circle'] = {
     legs = "Drachen Brais +1",
   }
