@@ -176,7 +176,7 @@ function init_gear_sets()
   sets.precast.HealingBreath = {
     ammo = "Olibanum Sachet",
     head = "Drachen Armet +1",
-    ear2 = "Loquacious Earring",
+    ear1 = "Loquacious Earring",
     neck = "Cougar Pendant",
     body = "Homam Corazza",
   }
