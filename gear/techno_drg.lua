@@ -40,7 +40,7 @@ function init_gear_sets()
     hands = "Homam Manopolas",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
+    back = "Atheling Mantle",
     waist = "Swift Belt",
     legs = "Crimson Cuisses",
     feet = "Homam Gambieras",
@@ -71,7 +71,7 @@ function init_gear_sets()
     hands = "Homam Manopolas",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
+    back = "Atheling Mantle",
     waist = "Swift Belt",
     legs = "Blitzer Poleyn",
     feet = "Homam Gambieras",
@@ -80,6 +80,7 @@ function init_gear_sets()
   sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Optical Hat",
     body = "Homam Corazza",
+    back = "Cuchulain's Mantle",
     waist = "Wyrm Belt",
   })
 
