@@ -79,8 +79,8 @@ function init_gear_sets()
 
   sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Optical Hat",
-		body = "Homam Corazza",
-		waist = "Wyrm Belt",
+    body = "Homam Corazza",
+    waist = "Wyrm Belt",
   })
 
 
