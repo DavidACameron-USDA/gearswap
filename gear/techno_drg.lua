@@ -109,6 +109,10 @@ function init_gear_sets()
     legs = "Drachen Brais +1",
   }
 
+  sets.precast.JA.Angon = {
+    ammo = "Angon",
+  }
+
   -- Waltz set (chr and vit)
   sets.precast.Waltz = {
     ammo="Sonia's Plectrum",
