@@ -42,10 +42,27 @@ end
 -- Job-specific hooks for standard casting events.
 -------------------------------------------------------------------------------------------------------------------
 
+-- A list of specific spells for which we trigger Healing Breath.
+healingBreathTriggers = S{
+  'Dia',
+  'Poison',
+  'Blaze Spikes',
+  'Protect',
+  'Sprout Smack',
+  'Head Butt',
+  'Cocoon',
+  'Barfira',
+  'Barblizzara',
+  'Baraera',
+  'Barstonra',
+  'Barthundra',
+  'Barwatera',
+}
+
 -- Set eventArgs.handled to true if we don't want any automatic gear equipping to be done.
 -- Set eventArgs.useMidcastGear to true if we want midcast gear equipped on precast.
 function job_precast(spell, action, spellMap, eventArgs)
-  if spell.action_type == 'Magic' then
+  if healingBreathTriggers:contains(spell.english) or (spell.skill == 'Ninjutsu' and player.hpp < 33) then
     equip(sets.precast.HealingBreath)
   end
 end
