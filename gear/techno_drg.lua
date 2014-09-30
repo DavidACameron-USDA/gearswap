@@ -232,11 +232,11 @@ end
 -------------------------------------------------------------------------------------------------------------------
 
 -- A list of subjobs for which we would want to equip a Refresh set.
-mageSubJobs = 'WHM|BLM|RDM|BLU|SCH'
+mageSubJobs = S{'WHM', 'BLM', 'RDM', 'BLU', 'SCH'}
 
 -- Modify the default idle set after it was constructed.
 function customize_idle_set(idleSet)
-  if string.find(mageSubJobs, player.sub_job) then
+  if mageSubJobs:contains(player.sub_job) then
     idleSet = set_combine(idleSet, sets.idle.Refresh)
   end
   return idleSet
@@ -244,7 +244,7 @@ end
 
 -- Modify the default melee set after it was constructed.
 function customize_melee_set(meleeSet)
-  if string.find(mageSubJobs, player.sub_job) then
+  if mageSubJobs:contains(player.sub_job) then
     meleeSet = set_combine(meleeSet, sets.engaged.Refresh)
   end
   return meleeSet
