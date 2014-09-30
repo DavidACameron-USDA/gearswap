@@ -46,6 +46,11 @@ function init_gear_sets()
     feet = "Homam Gambieras",
   }
 
+  sets.idle.Refresh = {
+    ear2 = "Ethereal Earring",
+    body = "Ares' Cuirass",
+  }
+
   -- sets.idle.Town = {}
 
   -- sets.idle.Field = {}
@@ -83,6 +88,12 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Wyrm Belt",
   })
+
+  sets.engaged.Refresh = {
+    ear2 = "Ethereal Earring",
+    body = "Ares' Cuirass",
+    legs = "Homam Cosciales",
+  }
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
   -- Assault bonuses.
@@ -219,6 +230,25 @@ end
 -------------------------------------------------------------------------------------------------------------------
 -- Utility functions specific to this job.
 -------------------------------------------------------------------------------------------------------------------
+
+-- A list of subjobs for which we would want to equip a Refresh set.
+mageSubJobs = 'WHM|BLM|RDM|BLU|SCH'
+
+-- Modify the default idle set after it was constructed.
+function customize_idle_set(idleSet)
+  if string.find(mageSubJobs, player.sub_job) then
+    idleSet = set_combine(idleSet, sets.idle.Refresh)
+  end
+  return idleSet
+end
+
+-- Modify the default melee set after it was constructed.
+function customize_melee_set(meleeSet)
+  if string.find(mageSubJobs, player.sub_job) then
+    meleeSet = set_combine(meleeSet, sets.engaged.Refresh)
+  end
+  return meleeSet
+end
 
 function update_combat_form()
   if areas.Assault:contains(world.area) then
