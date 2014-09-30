@@ -59,6 +59,16 @@ healingBreathTriggers = S{
   'Barwatera',
 }
 
+-- A list of wyvern elemental breath attack names.
+elementalBreaths = S{
+  'Flame Breath',
+  'Frost Breath',
+  'Sand Breath',
+  'Hydro Breath',
+  'Gust Breath',
+  'Lightning Breath',
+}
+
 -- Set eventArgs.handled to true if we don't want any automatic gear equipping to be done.
 -- Set eventArgs.useMidcastGear to true if we want midcast gear equipped on precast.
 function job_precast(spell, action, spellMap, eventArgs)
@@ -77,6 +87,9 @@ end
 function job_pet_midcast(spell, action, spellMap, eventArgs)
   if spell.name:startswith('Healing Breath') or spell.name == 'Restoring Breath' then
     equip(sets.midcast.HealingBreath)
+  end
+  if elementalBreaths:contains(spell.english) then
+    equip(sets.midcast.ElementalBreath)
   end
 end
 

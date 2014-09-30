@@ -211,6 +211,11 @@ function init_gear_sets()
     legs = "Drachen Brais +1",
   }
 
+  -- Elemental Breath set
+  sets.midcast.ElementalBreath = {
+    head = "Wyrm Armet",
+  }
+
 
   -- Sets to return to when not performing an action.
 
