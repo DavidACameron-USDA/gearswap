@@ -28,7 +28,23 @@ function init_gear_sets()
   --------------------------------------
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
-  sets.idle = {}
+  sets.idle = {
+    main = "Hagun",
+    sub = "Pole Grip",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Justice Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Bushinomimi",
+    body = "Askar Korazin",
+    hands = "Perle Moufles",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Byakko's Haidate",
+    feet = "Fuma Sune-Ate",
+  }
 
   -- sets.idle.Town = {}
 
@@ -45,9 +61,28 @@ function init_gear_sets()
   -- EG: sets.engaged.Dagger.Accuracy.Evasion
 
   -- Normal melee group
-  sets.engaged = {}
+  sets.engaged = {
+    main = "Hagun",
+    sub = "Pole Grip",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Justice Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Bushinomimi",
+    body = "Askar Korazin",
+    hands = "Perle Moufles",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Byakko's Haidate",
+    feet = "Fuma Sune-Ate",
+  }
 
-  sets.engaged.Acc = {}
+  sets.engaged.Acc = {
+    head = "Optical Hat",
+    body = "Perle Hauberk",
+  }
 
 
   -- Precast Sets
