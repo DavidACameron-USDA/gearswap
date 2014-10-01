@@ -159,6 +159,16 @@ function init_gear_sets()
   sets.precast.WS.Insurgency.Acc = set_combine(sets.precast.WS.Acc, {neck="Shadow Gorget"})
 
 
+  -- Midcast sets
+  sets.midcast['Dark Magic'] = {
+    ammo = "Sturm's Report",
+    head = "Chaos Burgeonet",
+    neck = "Aesir Torque",
+    hands = "Crimson Finger Gauntlets",
+    waist = "Crimson Belt",
+    ring1 = "Omega Ring",
+  }
+
   -- Sets to return to when not performing an action.
 
   -- Resting sets
