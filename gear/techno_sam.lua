@@ -109,7 +109,21 @@ function init_gear_sets()
 
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
-  sets.precast.WS = {}
+  sets.precast.WS = {
+    ammo = "Olibanum Sachet",
+    head = "Perle Salade",
+    neck = "Justice Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Bushinomimi",
+    body = "Perle Hauberk",
+    hands = "Myochin Kote +1",
+    ring1 = "Flame Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Shura Haidate",
+    feet = "Perle Solerets",
+  }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
 
@@ -126,7 +140,7 @@ function init_gear_sets()
 
   sets.precast.WS['Tachi: Rana'].Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
 
-  sets.precast.WS['Tachi: Kasha'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Tachi: Kasha'] = set_combine(sets.precast.WS, {neck="Shadow Gorget"})
 
   sets.precast.WS['Tachi: Gekko'] = set_combine(sets.precast.WS, {})
 
