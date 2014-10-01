@@ -14,7 +14,7 @@ end
 -- Setup vars that are user-independent.  state.Buff vars initialized here will automatically be tracked.
 function job_setup()
   state.Buff.Souleater = buffactive.Souleater or false
-  state.Buff.['Last Resort'] = buffactive.['Last Resort'] or false
+  state.Buff['Last Resort'] = buffactive['Last Resort'] or false
   state.Buff['Blood Weapon'] = buffactive['Blood Weapon'] or false
 end
 
