@@ -96,13 +96,19 @@ function init_gear_sets()
 
   -- Precast Sets
   -- Precast sets to enhance JAs
-  sets.precast.JA.Souleater = {}
+  sets.precast.JA.Souleater = {
+    feet = "Chaos Burgeonet",
+  }
 
-  sets.precast.JA['Arcane Circle'] = {}
+  sets.precast.JA['Arcane Circle'] = {
+    feet = "Chaos Sollerets",
+  }
 
   sets.precast.JA['Last Resort'] = {}
 
-  sets.precast.JA['Weapon Bash'] = {}
+  sets.precast.JA['Weapon Bash'] = {
+    feet = "Chaos Gauntlets",
+  }
 
   sets.precast.JA['Nether Void'] = {}
 
