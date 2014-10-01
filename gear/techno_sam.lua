@@ -84,6 +84,14 @@ function init_gear_sets()
     body = "Perle Hauberk",
   }
 
+  -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
+  -- Assault bonuses.
+  sets.engaged.Assault = set_combine(sets.engaged, {
+    ring1 = "Imperial Ring",
+  })
+
+  sets.engaged.Assault.Acc = set_combine(sets.engaged.Acc, {})
+
 
   -- Precast Sets
   -- Precast sets to enhance JAs
