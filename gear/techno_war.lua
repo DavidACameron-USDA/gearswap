@@ -120,20 +120,42 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-
+    ammo = "Olibanum Sachet",
+    head = "Perle Salade",
+    neck = "Justice Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Bushinomimi",
+    body = "Ares' Cuirass",
+    hands = "Hecatomb Mittens",
+    ring1 = "Flame Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Blitzer Poleyn",
+    feet = "Hecatomb Leggings",
   }
 
-  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    head = "Optical Hat",
+    body = "Perle Hauberk",
+  })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-  sets.precast.WS['Raging Rush'] = set_combine(sets.precast.WS, {})
 
-  sets.precast.WS['Raging Rush'].Acc = set_combine(sets.precast.WS.Acc, {})
+  -- Raging Rush has a STR: 35% modifier and is aligned with the Snow and Aqua
+  -- gorgets/belts.
+  sets.precast.WS['Raging Rush'] = set_combine(sets.precast.WS, {neck="Snow Gorget"})
 
-  sets.precast.WS['Steel Cyclone'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Raging Rush'].Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
 
-  sets.precast.WS['Steel Cyclone'].Acc = set_combine(sets.precast.WS.Acc, {})
+  -- Steel Cyclone has STR: 60% and VIT 60% modifiers and is aligned with the
+  -- Breeze, Aqua, and Snow gorgets/belts.
+  sets.precast.WS['Steel Cyclone'] = set_combine(sets.precast.WS, {neck="Snow Gorget"})
 
+  sets.precast.WS['Steel Cyclone'].Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
+
+  -- King's Justice has a STR: 50% modifier and is aligned with the Breeze,
+  -- Thunder, and Soil gorgets/belts.
   sets.precast.WS["King's Justice"] = set_combine(sets.precast.WS, {})
 
   sets.precast.WS["King's Justice"].Acc = set_combine(sets.precast.WS.Acc, {})
