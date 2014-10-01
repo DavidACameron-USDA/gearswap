@@ -29,7 +29,21 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-
+    main = "Perdu Sickle",
+    sub = "Pole Grip",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Parade Gorget",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Ares' Cuirass",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Crimson Cuisses",
+    feet = "Homam Gambieras",
   }
 
   -- sets.idle.Town = {}
@@ -48,12 +62,28 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-
+    main = "Perdu Sickle",
+    sub = "Pole Grip",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Justice Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Askar Korazin",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Homam Cosciales",
+    feet = "Homam Gambieras",
   }
 
-  sets.engaged.Acc = {
-
-  }
+  sets.engaged.Acc = set_combine(sets.engaged, {
+    head = "Optical Hat",
+    body = "Homam Corazza",
+    legs = "Perle Brayettes",
+  })
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
   -- Assault bonuses.
