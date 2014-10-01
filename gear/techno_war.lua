@@ -105,9 +105,9 @@ function init_gear_sets()
 
   sets.precast.WS['Steel Cyclone'].Acc = set_combine(sets.precast.WS.Acc, {})
 
-  sets.precast.WS['King's Justice'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["King's Justice"] = set_combine(sets.precast.WS, {})
 
-  sets.precast.WS['King's Justice'].Acc = set_combine(sets.precast.WS.Acc, {})
+  sets.precast.WS["King's Justice"].Acc = set_combine(sets.precast.WS.Acc, {})
 
 
   -- Sets to return to when not performing an action.
