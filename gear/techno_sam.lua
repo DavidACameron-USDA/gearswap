@@ -79,10 +79,10 @@ function init_gear_sets()
     feet = "Fuma Sune-Ate",
   }
 
-  sets.engaged.Acc = {
+  sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Optical Hat",
     body = "Perle Hauberk",
-  }
+  })
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
   -- Assault bonuses.
