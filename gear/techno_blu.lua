@@ -145,7 +145,13 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical)
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
-
+    ammo = "Sturm's Report",
+    head = "Homam Zucchetto",
+    ear1 = "Aptus Earring",
+    hands = "Nashira Gages",
+    ring2 = "Omega Ring",
+    legs = "Denali Kecks",
+    feet = "Denali Gamashes",
   }
 
   -- Breath Spells --
