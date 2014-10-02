@@ -187,8 +187,12 @@ function init_gear_sets()
 
   -- Gear for learning spells: +skill and AF hands.
   sets.Learning = {
-
+    hands = "Magus Bazubands",
   }
+  -- Optional learning gear with +blue magic skill that lowers the minimum level
+  -- needed to learn the spell.
+  -- head = "Mirage Keffiyeh",
+  -- body = "Magus Jubbah +1",
 
 
   sets.latent_refresh = {}
