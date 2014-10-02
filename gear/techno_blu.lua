@@ -92,31 +92,62 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
-
+    ammo = "Olibanum Sachet",
+    neck = "Kubira Bead Necklace",
+    ear2 = "Bushinomimi",
+    body = "Magus Jubbah +1",
+    ring1 = "Flame Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    feet = "Denali Gamashes",
   })
 
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
-
+    neck = "Kubira Bead Necklace",
+    ear1 = "Delta Earring",
+    body = "Magus Jubbah +1",
+    hands = "Mirage Bazubands",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Magus Shalwar +1",
   })
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
-
+    ammo = "Bibiki Seashell",
+    head = "Mirage Keffiyeh",
+    waist = "Warwolf Belt",
+    legs = "Magus Shalwar +1",
   })
 
   sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {
-
+    legs = "Denali Kecks",
   })
 
   sets.midcast['Blue Magic'].PhysicalInt = set_combine(sets.midcast['Blue Magic'].Physical, {
-
+    ammo = "Phantom Tathlum",
+    head = "Magus Keffiyeh +1",
+    ear1 = "Morion Earring",
+    body = "Errant Houppelande",
+    ring2 = "Omega Ring",
+    back = "Gleeman's Cape",
+    feet = "Yigit Crackows",
   })
 
   sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
-
+    head = "Magus Keffiyeh +1",
+    neck = "Morgana's Choker",
+    body = "Errant Houppelande",
+    hands = "Mirage Bazubands",
+    ring2 = "Omega Ring",
+    feet = "Yigit Crackows",
   })
 
   sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {
-
+    ear1 = "Delta Earring",
+    body = "Errant Houppelande",
+    ring2 = "Omega Ring",
   })
 
   sets.midcast['Blue Magic'].PhysicalHP = set_combine(sets.midcast['Blue Magic'].Physical)
