@@ -133,11 +133,24 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-
+    ammo = "Olibanum Sachet",
+    head = "Perle Salade",
+    neck = "Justice Torque",
+    ear1 = "Brutal Earring",
+    ear2 = "Bushinomimi",
+    body = "Ares' Cuirass",
+    hands = "Hecatomb Mittens",
+    ring1 = "Flame Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Blitzer Poleyn",
+    feet = "Hecatomb Leggings",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-
+    head = "Optical Hat",
+    body = "Perle Hauberk",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
