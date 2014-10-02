@@ -169,7 +169,8 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'].SkillBasedBuff = {
-
+    head = "Mirage Keffiyeh",
+    body = "Magus Jubbah +1",
   }
 
   sets.midcast['Blue Magic'].Buff = {}
