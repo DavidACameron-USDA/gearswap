@@ -240,28 +240,38 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-
+    main = "Perdu Hanger",
+    sub = "Demon Slayer",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Chivalrous Chain",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Mirage Jubbah",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Homam Cosciales",
+    feet = "Homam Gambieras",
   }
 
   sets.engaged.Acc = {
-
+    head = "Optical Hat",
+    body = "Homam Corazza",
   }
 
-  sets.engaged.Refresh = {
+  sets.engaged.Refresh = {}
 
-  }
-
-  sets.engaged.DW = {
-
-  }
+  sets.engaged.DW = {}
 
   sets.engaged.DW.Acc = {
-
+    head = "Optical Hat",
+    body = "Homam Corazza",
   }
 
-  sets.engaged.DW.Refresh = {
-
-  }
+  sets.engaged.DW.Refresh = {}
 
   sets.engaged.Learning = set_combine(sets.engaged, sets.Learning)
   sets.engaged.DW.Learning = set_combine(sets.engaged.DW, sets.Learning)
