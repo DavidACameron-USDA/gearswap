@@ -95,6 +95,14 @@ function init_gear_sets()
 
 
   -- Precast Sets
+  -- Fast Cast set
+  sets.precast.FC = {
+    ear2 = "Loquacious Earring",
+    waist = "Swift Belt",
+    legs = "Homam Cosciales",
+  }
+
+
   -- Precast sets to enhance JAs
   sets.precast.JA.Souleater = {
     feet = "Chaos Burgeonet",
