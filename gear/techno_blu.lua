@@ -200,12 +200,26 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-
+    main = "Perdu Hanger",
+    sub = "Demon Slayer",
+    ammo = "Tiphia Sting",
+    head = "Walahra Turban",
+    neck = "Chivalrous Chain",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Mirage Jubbah",
+    hands = "Homam Manopolas",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Crimson Cuisses",
+    feet = "Homam Gambieras",
   }
 
-  sets.idle.PDT = {}
+  -- sets.idle.PDT = {}
 
-  sets.idle.Town = {}
+  -- sets.idle.Town = {}
 
   sets.idle.Learning = set_combine(sets.idle, sets.Learning)
 
