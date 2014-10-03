@@ -84,11 +84,31 @@ function init_gear_sets()
   -- Physical Spells --
 
   sets.midcast['Blue Magic'].Physical = {
-
+    ammo = "Olibanum Sachet",
+    head = "Mirage Keffiyeh",
+    neck = "Chivalrous Chain",
+    body = "Magus Jubbah +1",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Denali Kecks",
+    feet = "Denali Gamashes",
   }
 
   sets.midcast['Blue Magic'].PhysicalAcc = {
-
+    ammo = "Tiphia Sting",
+    head = "Optical Hat",
+    neck = "Chivalrous Chain",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Homam Corazza",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Denali Kecks",
+    feet = "Denali Gamashes",
   }
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
