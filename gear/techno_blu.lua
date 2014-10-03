@@ -61,18 +61,50 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-
+    ammo = "Olibanum Sachet",
+    neck = "Kubira Bead Necklace",
+    ear2 = "Bushinomimi",
+    body = "Magus Jubbah +1",
+    ring1 = "Flame Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    feet = "Denali Gamashes",
   }
 
   sets.precast.WS.acc = set_combine(sets.precast.WS, {
-
+    head = "Optical Hat",
+    body = "Homam Corazza",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-  -- sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {})
 
+  -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
+  -- Soil gorgets/belts.
+  -- sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
+  --   neck = "Shadow Gorget"
+  --   ear1 = "Geist Earring",
+  --   hands = "Mirage Bazubands",
+  -- })
+
+  -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
+  -- element.
   sets.precast.WS['Sanguine Blade'] = {
+    ear1 = "Geist Earring",
+    hands = "Mirage Bazubands",
+  }
 
+  -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
+  -- the Aqua, Snow, and Soil gorgets/belts.
+  sets.precast.WS.Expiacion = {
+    neck = "Snow Gorget"
+  }
+
+  -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
+  -- Breeze, Thunder, and Soil gorgets/belts.
+  sets.precast.WS['Savage Blade'] = {
+    ear1 = "Geist Earring",
+    hands = "Mirage Bazubands",
   }
 
 
