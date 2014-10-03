@@ -110,7 +110,13 @@ function init_gear_sets()
 
   -- Resting sets
   sets.resting = {
-
+    main = "Dark Staff",
+    neck = "Grandiose Chain",
+    ear2 = "Antivenom Earring",
+    head = "Yigit Turban",
+    body = "Yigit Gomlek",
+    back = "Intensifying Cape",
+    legs = "Yigit Seraweels",
   }
 
   -- Idle sets
