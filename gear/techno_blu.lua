@@ -197,6 +197,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
     neck = "Morgana's Choker",
+    ear1 = "Geist Earring",
     hands = "Mirage Bazubands",
   })
 
@@ -235,19 +236,30 @@ function init_gear_sets()
   -- Breath Spells --
 
   sets.midcast['Blue Magic'].Breath = {
-
+    head = "Mirage Keffiyeh",
+    neck = "Cougar Pendant",
+    body = "Homam Corazza",
+    hands = "Homam Manopolas",
+    ring1 = "Griffon Ring",
+    back = "Gleeman's Cape",
+    legs = "Homam Cosciales",
+    feet = "Homam Gambieras",
   }
 
   -- Other Types --
 
-  sets.midcast['Blue Magic'].Stun = set_combine(sets.midcast['Blue Magic'].MagicAccuracy, {
-
-  })
+  sets.midcast['Blue Magic'].Stun = set_combine(sets.midcast['Blue Magic'].MagicAccuracy, {})
 
   sets.midcast['Blue Magic']['White Wind'] = {}
 
   sets.midcast['Blue Magic'].Healing = {
-
+    head = "Magus Keffiyeh +1",
+    neck = "Morgana's Choker",
+    ear1 = "Geist Earring",
+    body = "Errant Houppelande",
+    hands = "Mirage Bazubands",
+    ring2 = "Omega Ring",
+    feet = "Yigit Crackows",
   }
 
   sets.midcast['Blue Magic'].SkillBasedBuff = {
