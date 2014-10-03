@@ -144,7 +144,7 @@ function init_gear_sets()
 
   }
 
-  sets.idle.PDT.Avatar = {}
+  -- sets.idle.PDT.Avatar = {}
 
   sets.idle.Spirit = {}
 
