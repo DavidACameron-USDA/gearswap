@@ -115,7 +115,21 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-
+    main = "Earth Staff",
+    sub = "Staff Strap",
+    ammo = "Phantom Tathlum",
+    neck = "Morgana's Choker",
+    ear1 = "Loquacious Earring",
+    ear2 = "Antivenom Earring",
+    head = "Walahra Turban",
+    body = "Yinyang Robe",
+    hands = "Nashira Gages",
+    ring1 = "Ether Ring",
+    ring2 = "Evoker's Ring",
+    back = "Intensifying Cape",
+    waist = "Hierarch Belt",
+    legs = "Summoner's Spats",
+    feet = "Evoker's Pigaches +1",
   }
 
   -- sets.idle.PDT = {}
