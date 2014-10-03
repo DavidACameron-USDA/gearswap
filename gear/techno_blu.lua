@@ -176,24 +176,51 @@ function init_gear_sets()
   -- Magical Spells --
 
   sets.midcast['Blue Magic'].Magical = {
-
+    ammo = "Phantom Tathlum",
+    head = "Magus Keffiyeh +1",
+    ear2 = "Moldavite Earring",
+    body = "Errant Houppelande",
+    ring2 = "Omega Ring",
+    back = "Gleeman's Cape",
+    legs = "Denali Kecks",
+    feet = "Yigit Crackows",
   }
 
   sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
-
+    ammo = "Phantom Tathlum",
+    head = "Homam Zucchetto",
+    ear1 = "Aptus Earring",
+    body = "Errant Houppelande",
+    hands = "Nashira Gages",
+    feet = "Denali Gamashes",
   })
 
   sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
-
+    neck = "Morgana's Choker",
+    hands = "Mirage Bazubands",
   })
 
-  sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical)
+  sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {
+    ear1 = "Delta Earring",
+  })
 
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
-
+    ammo = "Bibiki Seashell",
+    head = "Mirage Keffiyeh",
+    waist = "Warwolf Belt",
+    legs = "Magus Shalwar +1",
   })
 
-  sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical)
+  sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
+    neck = "Kubira Bead Necklace",
+    ear1 = "Delta Earring",
+    body = "Magus Jubbah +1",
+    hands = "Mirage Bazubands",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Magus Shalwar +1",
+  })
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     ammo = "Sturm's Report",
@@ -217,9 +244,7 @@ function init_gear_sets()
 
   })
 
-  sets.midcast['Blue Magic']['White Wind'] = {
-
-  }
+  sets.midcast['Blue Magic']['White Wind'] = {}
 
   sets.midcast['Blue Magic'].Healing = {
 
