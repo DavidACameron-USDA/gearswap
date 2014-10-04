@@ -134,7 +134,7 @@ function init_gear_sets()
     ring2 = "Evoker's Ring",
     back = "Intensifying Cape",
     waist = "Hierarch Belt",
-    legs = "Summoner's Spats",
+    legs = "Yigit Seraweels",
     feet = "Evoker's Pigaches +1",
   }
 
