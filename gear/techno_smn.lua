@@ -160,9 +160,9 @@ function init_gear_sets()
 
   -- Can make due without either the head or the body, and use +refresh items in those slots.
 
-  sets.idle.Avatar = {
-
-  }
+  sets.idle.Avatar = set_combine(sets.idle, {
+    legs = "Evoker's Spats",
+  })
 
   -- sets.idle.PDT.Avatar = {}
 
@@ -179,16 +179,53 @@ function init_gear_sets()
   -- Using -10 (Gridavor, ring, Conv.feet), standard avatars would then cost 5, halved to 2.
   -- We can then use Hagondes Coat and end up with the same net MP cost, but significantly better defense.
   -- Weather is the same, but we can also use the latent on the pendant to negate the last point lost.
-  sets.perp.Day = {body="Hagondes Coat",hands="Caller's Bracers +2"}
-
-  sets.perp.Weather = {neck="Caller's Pendant",body="Hagondes Coat",hands="Caller's Bracers +2"}
-
-  -- Carby: Mitts+Conv.feet = 1/tick perp.  Everything else should be +refresh
-  sets.perp.Carbuncle = {
-
+  sets.perp.Day = {
+    body="Summoner's Doublet",
   }
 
-  sets.perp.staff_and_grip = {main=gear.perp_staff,sub="Achaq Grip"}
+  sets.perp.Weather = {
+    head = "Summoner's Horn"
+  }
+
+  sets.perp.Carbuncle = {
+    main = "Light Staff",
+    hands = "Carbuncle Mitts",
+  }
+
+  sets.perp.Fenrir = {
+    main = "Dark Staff",
+  }
+
+  sets.perp.Ifrit = {
+    main = "Fire Staff",
+  }
+
+  sets.perp.Titan = {
+    main = "Earth Staff",
+  }
+
+  sets.perp.Leviathan = {
+    main = "Water Staff",
+  }
+
+  sets.perp.Garuda = {
+    main = "Wind Staff",
+    head = "Karura Hachigane",
+  }
+
+  sets.perp.Shiva = {
+    main = "Ice Staff",
+  }
+
+  sets.perp.Ramuh = {
+    main = "Thunder Staff",
+  }
+
+  sets.perp.Diabolos = {
+    main = "Dark Staff",
+  }
+
+  sets.perp.staff_and_grip = {}
 
   -- Defense sets
   sets.defense.PDT = {}
