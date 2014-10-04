@@ -57,11 +57,38 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-
+    head = "Optical Hat",
   }
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-  sets.precast.WS['Myrkr'] = {}
+
+  -- Myrkr is not aligned with any elemental gorget/belt.
+  sets.precast.WS.Myrkr = {}
+
+  -- Garland of Bliss has STR: 30% and MND 70% modifiers and is aligned with the
+  -- Flame, Light, and Aqua gorgets/belts.
+  sets.precast.WS['Garland of Bliss'] = {
+    head = "Yigit Turban",
+    legs = "Summoner's Spats",
+    feet = "Yigit Crackows",
+  }
+
+  -- Retribution has STR: 30% and MND 50% modifiers and is aligned with the
+  -- Shadow, Soil, and Aqua gorgets/belts.
+  sets.precast.WS.Retribution = {
+    head = "Yigit Turban",
+    neck = "Shadow Gorget",
+    legs = "Summoner's Spats",
+    feet = "Yigit Crackows",
+  }
+
+  -- Spirit Taker has INT: 50% and MND 50% modifiers and is not aligned with any
+  -- elemental gorget/belt.
+  sets.precast.WS['Spirit Taker'] = {
+    head = "Yigit Turban",
+    legs = "Summoner's Spats",
+    feet = "Yigit Crackows",
+  }
 
 
   --------------------------------------
