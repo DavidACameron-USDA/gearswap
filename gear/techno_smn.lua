@@ -31,7 +31,11 @@ function init_gear_sets()
 
   -- Pact delay reduction gear
   sets.precast.BloodPactWard = {
-
+    head = "Summoner's Horn",
+    body = "Yinyang Robe",
+    hands = "Summoner's Bracers",
+    legs = "Summoner's Spats",
+    feet = "Summoner's Pgch.",
   }
 
   sets.precast.BloodPactRage = sets.precast.BloodPactWard
@@ -75,23 +79,38 @@ function init_gear_sets()
   -- Avatar pact sets.  All pacts are Ability type.
 
   sets.midcast.Pet.BloodPactWard = {
-
+    head = "Evoker's Horn",
+    neck = "Summoning Torque",
+    hands = "Summoner's Bracers",
+    feet = "Nashira Crackows",
   }
 
   sets.midcast.Pet.DebuffBloodPactWard = {
-
+    head = "Evoker's Horn",
+    neck = "Summoning Torque",
+    hands = "Summoner's Bracers",
+    feet = "Nashira Crackows",
   }
 
   sets.midcast.Pet.DebuffBloodPactWard.Acc = sets.midcast.Pet.DebuffBloodPactWard
 
   sets.midcast.Pet.PhysicalBloodPactRage = {
-
+    head = "Evoker's Horn",
+    neck = "Summoning Torque",
+    body = "Summoner's Doublet",
+    hands = "Summoner's Bracers",
+    legs = "Evoker's Spats",
+    feet = "Summoner's Pgch.",
   }
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = sets.midcast.Pet.PhysicalBloodPactRage
 
   sets.midcast.Pet.MagicalBloodPactRage = {
-
+    head = "Evoker's Horn",
+    neck = "Summoning Torque",
+    hands = "Summoner's Bracers",
+    back = "Altius Mantle",
+    feet = "Nashira Crackows",
   }
 
   sets.midcast.Pet.MagicalBloodPactRage.Acc = sets.midcast.Pet.MagicalBloodPactRage
