@@ -39,7 +39,9 @@ function init_gear_sets()
   -- Fast cast sets for spells
 
   sets.precast.FC = {
-
+    hands = "Nashira Gages",
+    waist = "Swift Belt",
+    feet = "Nashira Crackows",
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
