@@ -24,7 +24,10 @@ function init_gear_sets()
   sets.precast.JA['Astral Flow'] = {}
 
   sets.precast.JA['Elemental Siphon'] = {
-
+    head = "Evoker's Horn",
+    neck = "Summoning Torque",
+    hands = "Summoner's Bracers",
+    feet = "Nashira Crackows",
   }
 
   sets.precast.JA['Mana Cede'] = {}
