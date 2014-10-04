@@ -70,9 +70,13 @@ function init_gear_sets()
 
   sets.midcast.FastRecast = {}
 
-  sets.midcast.Cure = {}
+  sets.midcast.Cure = {
+    main = "Light Staff",
+  }
 
-  sets.midcast.Stoneskin = {}
+  sets.midcast.Stoneskin = {
+    main = "Water Staff",
+  }
 
   sets.midcast['Elemental Magic'] = {}
 
