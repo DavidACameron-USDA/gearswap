@@ -124,13 +124,33 @@ function init_gear_sets()
 
   -- Resting sets
   sets.resting = {
-
+    main = "Dark Staff",
+    ear1 = "Antivenom Earring",
+    body = "Errant Hpl.",
+    neck = "Grandiose Chain",
+    hands = "Oracle's Gloves",
+    waist = "Hierarch Belt",
+    feet = "Goliard Clogs",
   }
 
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-
+    main = "Earth Staff",
+    sub = "Staff Strap",
+    ammo = "Holy Ampulla",
+    head = "Walahra Turban",
+    neck = "Morgana's Choker",
+    ear1 = "Insomnia Earring",
+    ear2 = "Loquacious Earring",
+    body = "Cleric's Briault",
+    hands = "Blessed Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    back = "Aslan Cape",
+    waist = "Hierarch Belt",
+    legs = "Tatsumaki Sitagoromo",
+    feet = "Blessed Pumps",
   }
 
   -- sets.idle.PDT = {}
