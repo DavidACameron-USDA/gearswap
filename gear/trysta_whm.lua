@@ -21,7 +21,10 @@ function init_gear_sets()
 
   -- Fast cast sets for spells
   sets.precast.FC = {
-
+    head = "Walahra Turban",
+    hands = "Blessed Mitts",
+    legs = "Blessed Trousers",
+    feet = "Blessed Pumps",
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
@@ -54,7 +57,10 @@ function init_gear_sets()
   -- Midcast Sets
 
   sets.midcast.FastRecast = {
-
+    head = "Walahra Turban",
+    hands = "Blessed Mitts",
+    legs = "Blessed Trousers",
+    feet = "Blessed Pumps",
   }
 
   -- Cure sets
