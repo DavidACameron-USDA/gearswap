@@ -158,11 +158,27 @@ function init_gear_sets()
 
   -- Custom spell classes
   sets.midcast.MndEnfeebles = {
-
+    ammo = "Holy Ampulla",
+    head = "Teal Chapeau",
+    neck = "Morgana's Choker",
+    body = "Healer's Briault",
+    hands = "Cleric's Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    back = "Aslan Cape",
+    legs = "Blessed Trousers",
+    feet = "Goliard Clogs",
   }
 
   sets.midcast.IntEnfeebles = {
-
+    head = "Teal Chapeau",
+    neck = "Enlightened Chain",
+    body = "Healer's Briault",
+    hands = "Cleric's Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    legs = "Tatsumaki Sitagoromo",
+    feet = "Goliard Clogs",
   }
 
 
