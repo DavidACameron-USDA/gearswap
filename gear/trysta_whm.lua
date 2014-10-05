@@ -148,7 +148,10 @@ function init_gear_sets()
 
 
   sets.midcast['Divine Magic'] = {
-
+    head = "Yigit Turban",
+    body = "Shadow Coat",
+    legs = "Healer's Pantaloons",
+    feet = "Goliard Clogs",
   }
 
   sets.midcast['Dark Magic'] = {}
