@@ -22,6 +22,7 @@ function init_gear_sets()
   -- Fast cast sets for spells
   sets.precast.FC = {
     head = "Walahra Turban",
+    ear2 = "Loquacious Earring",
     hands = "Blessed Mitts",
     legs = "Blessed Trousers",
     feet = "Blessed Pumps",
@@ -58,26 +59,54 @@ function init_gear_sets()
 
   sets.midcast.FastRecast = {
     head = "Walahra Turban",
+    ear2 = "Loquacious Earring",
     hands = "Blessed Mitts",
     legs = "Blessed Trousers",
     feet = "Blessed Pumps",
   }
 
   -- Cure sets
-  sets.midcast.CureSolace = {
-
-  }
+  sets.midcast.CureSolace = {}
 
   sets.midcast.Cure = {
-
+    main = "Light Staff",
+    ammo = "Holy Ampulla",
+    head = "Teal Chapeau",
+    neck = "Morgana's Choker",
+    body = "Noble's Tunic",
+    hands = "Blessed Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    back = "Aslan Cape",
+    legs = "Blessed Trousers",
+    feet = "Cleric's Duckbills",
   }
 
   sets.midcast.Curaga = {
-
+    main = "Light Staff",
+    ammo = "Holy Ampulla",
+    head = "Teal Chapeau",
+    neck = "Morgana's Choker",
+    body = "Noble's Tunic",
+    hands = "Blessed Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    back = "Aslan Cape",
+    legs = "Blessed Trousers",
+    feet = "Cleric's Duckbills",
   }
 
   sets.midcast.CureMelee = {
-
+    ammo = "Holy Ampulla",
+    head = "Teal Chapeau",
+    neck = "Morgana's Choker",
+    body = "Noble's Tunic",
+    hands = "Blessed Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    back = "Aslan Cape",
+    legs = "Blessed Trousers",
+    feet = "Cleric's Duckbills",
   }
 
   sets.midcast.StatusRemoval = {
