@@ -115,23 +115,31 @@ function init_gear_sets()
 
   -- 110 total Enhancing Magic Skill; caps even without Light Arts
   sets.midcast['Enhancing Magic'] = {
-
+    feet = "Cleric's Duckbills",
   }
 
   sets.midcast.Stoneskin = {
-
+    main = "Water Staff",
+    ammo = "Holy Ampulla",
+    head = "Teal Chapeau",
+    neck = "Morgana's Choker",
+    body = "Noble's Tunic",
+    hands = "Blessed Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    back = "Aslan Cape",
+    legs = "Blessed Trousers",
+    feet = "Cleric's Duckbills",
   }
 
-  sets.midcast.Auspice = {
-
-  }
+  sets.midcast.Auspice = {}
 
   sets.midcast.BarElement = {
-
+    legs = "Cleric's Pantaloons",
   }
 
   sets.midcast.Regen = {
-
+    body = "Cleric's Briault",
   }
 
   sets.midcast.Protectra = {}
