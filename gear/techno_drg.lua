@@ -147,7 +147,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
     head = "Perle Salade",
-    neck = "Kubira Bead Necklace",
+    neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
     body = "Ares' Cuirass",
@@ -180,6 +180,7 @@ function init_gear_sets()
   -- Light and Soil gorgets/belts.
   sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
     head = "Askar Zucchetto",
+    neck = "Kubira Bead Necklace",
     body = "Zahak's Mail",
     legs = "Perle Brayettes",
   })
@@ -208,13 +209,14 @@ function init_gear_sets()
 
   sets.midcast.HealingBreath = {
     head = "Wyrm Armet",
-    neck = "Chanoix's Gorget",
+    neck = "Lancer's Torque",
     legs = "Drachen Brais +1",
   }
 
   -- Elemental Breath set
   sets.midcast.ElementalBreath = {
     head = "Wyrm Armet",
+    neck = "Lancer's Torque",
   }
 
 
