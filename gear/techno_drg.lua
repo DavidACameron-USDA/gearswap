@@ -29,7 +29,7 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Valkyrie's Fork",
+    main = "Eminent Lance",
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
     head = "Walahra Turban",
@@ -41,9 +41,9 @@ function init_gear_sets()
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Swift Belt",
+    waist = "Paewr Belt",
     legs = "Crimson Cuisses",
-    feet = "Homam Gambieras",
+    feet = "Wrathwing Nails",
   }
 
   sets.idle.Refresh = {
@@ -77,9 +77,9 @@ function init_gear_sets()
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Swift Belt",
+    waist = "Paewr Belt",
     legs = "Blitzer Poleyn",
-    feet = "Homam Gambieras",
+    feet = "Wrathwing Nails",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
@@ -112,7 +112,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
     legs = "Perle Brayettes",
-    feet = "Hecatomb Leggings",
+    feet = "Wrathwing Nails",
   }
 
   sets.precast.JA['High Jump'] = set_combine(sets.precast.JA.Jump, {})
@@ -157,7 +157,7 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
     legs = "Blitzer Poleyn",
-    feet = "Hecatomb Leggings",
+    feet = "Wrathwing Nails",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
