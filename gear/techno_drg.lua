@@ -37,7 +37,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
     body = "Askar Korazin",
-    hands = "Homam Manopolas",
+    hands = "Brego Gloves",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -156,7 +156,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Blitzer Poleyn",
+    legs = "Avant Cuisses",
     feet = "Wrathwing Nails",
   }
 
