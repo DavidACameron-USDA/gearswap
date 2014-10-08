@@ -204,6 +204,8 @@ function init_gear_sets()
     ear1 = "Loquacious Earring",
     neck = "Cougar Pendant",
     body = "Homam Corazza",
+    hands = "Homam Manopolas",
+    legs = "Homam Cosciales",
     feet = "Homam Gambieras",
   }
 
