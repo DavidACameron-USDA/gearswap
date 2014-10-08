@@ -203,6 +203,7 @@ function init_gear_sets()
     ear1 = "Loquacious Earring",
     neck = "Cougar Pendant",
     body = "Homam Corazza",
+    feet = "Homam Gambieras",
   }
 
   sets.midcast.HealingBreath = {
