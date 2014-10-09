@@ -29,10 +29,10 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Quint Spear",
+    main = "Eminent Lance",
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
+    head = "Vishap Armet",
     neck = "Love Torque",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
@@ -68,7 +68,7 @@ function init_gear_sets()
   -- Normal melee group
   sets.engaged = {
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
+    head = "Vishap Armet",
     neck = "Love Torque",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
@@ -107,7 +107,7 @@ function init_gear_sets()
   -- Precast Sets
   -- Precast sets to enhance JAs
   sets.precast.JA.Jump = {
-    head = "Perle Salade",
+    head = "Vishap Armet",
     hands = "Hecatomb Mittens",
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
@@ -122,7 +122,7 @@ function init_gear_sets()
   sets.precast.JA['Soul Jump'] = set_combine(sets.precast.JA.Jump, {})
 
   sets.precast.JA['Spirit Link'] = {
-    head = "Drachen Armet +1",
+    head = "Vishap Armet",
   }
 
   sets.precast.JA['Ancient Circle'] = {
@@ -146,7 +146,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
-    head = "Perle Salade",
+    head = "Vishap Armet",
     neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
@@ -179,7 +179,7 @@ function init_gear_sets()
   -- Sonic Thrust has STR: 40% and DEX 40% modifiers and is aligned with the
   -- Light and Soil gorgets/belts.
   sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
-    head = "Askar Zucchetto",
+    head = "Vishap Armet",
     neck = "Kubira Bead Necklace",
     body = "Zahak's Mail",
     legs = "Perle Brayettes",
