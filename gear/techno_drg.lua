@@ -169,13 +169,13 @@ function init_gear_sets()
 
   -- Stardiver has a STR: 86~100% modifier and is aligned with the Shadow, Soil,
   -- and Light gorgets/belts.
-  -- sets.precast.WS.Stardiver = set_combine(sets.precast.WS, {
-  --  neck = "Shadow Gorget",
-  -- })
+  sets.precast.WS.Stardiver = set_combine(sets.precast.WS, {
+    neck = "Shadow Gorget",
+  })
 
-  -- sets.precast.WS.Stardiver.Acc = set_combine(sets.precast.WS.Acc, {
-  --  neck = "Shadow Gorget",
-  -- })
+  sets.precast.WS.Stardiver.Acc = set_combine(sets.precast.WS.Acc, {
+    neck = "Shadow Gorget",
+  })
 
   -- Sonic Thrust has STR: 40% and DEX 40% modifiers and is aligned with the
   -- Light and Soil gorgets/belts.
