@@ -36,7 +36,7 @@ function init_gear_sets()
     neck = "Love Torque",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
-    body = "Askar Korazin",
+    body = "Espial Gambison",
     hands = "Brego Gloves",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
@@ -72,13 +72,13 @@ function init_gear_sets()
     neck = "Love Torque",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
-    body = "Askar Korazin",
+    body = "Espial Gambison",
     hands = "Homam Manopolas",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
-    legs = "Blitzer Poleyn",
+    legs = "Espial Hose",
     feet = "Wrathwing Nails",
   }
 
@@ -91,8 +91,8 @@ function init_gear_sets()
 
   sets.engaged.Refresh = {
     ear2 = "Ethereal Earring",
-    body = "Ares' Cuirass",
-    legs = "Homam Cosciales",
+    body = "Espial Gambison",
+    legs = "Espial Hose",
   }
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
@@ -108,10 +108,11 @@ function init_gear_sets()
   -- Precast sets to enhance JAs
   sets.precast.JA.Jump = {
     head = "Vishap Armet",
+    body = "Espial Gambison",
     hands = "Hecatomb Mittens",
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
-    legs = "Perle Brayettes",
+    legs = "Espial Hose",
     feet = "Wrathwing Nails",
   }
 
@@ -150,13 +151,13 @@ function init_gear_sets()
     neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
-    body = "Ares' Cuirass",
+    body = "Espial Gambison",
     hands = "Hecatomb Mittens",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Avant Cuisses",
+    legs = "Espial Hose",
     feet = "Wrathwing Nails",
   }
 
@@ -179,16 +180,10 @@ function init_gear_sets()
   -- Sonic Thrust has STR: 40% and DEX 40% modifiers and is aligned with the
   -- Light and Soil gorgets/belts.
   sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
-    head = "Vishap Armet",
     neck = "Kubira Bead Necklace",
-    body = "Zahak's Mail",
-    legs = "Perle Brayettes",
   })
 
-  sets.precast.WS['Sonic Thrust'].Acc = set_combine(sets.precast.WS.Acc, {
-    body = "Zahak's Mail",
-    legs = "Perle Brayettes",
-  })
+  sets.precast.WS['Sonic Thrust'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Drakesbane has a STR: 50% modifier and is aligned with the Flame and Light
   -- gorgets/belts.
@@ -203,9 +198,9 @@ function init_gear_sets()
     head = "Drachen Armet +1",
     ear1 = "Loquacious Earring",
     neck = "Cougar Pendant",
-    body = "Homam Corazza",
+    body = "Espial Gambison",
     hands = "Homam Manopolas",
-    legs = "Homam Cosciales",
+    legs = "Espial Hose",
     feet = "Homam Gambieras",
   }
 
