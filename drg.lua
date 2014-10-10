@@ -75,6 +75,18 @@ function job_precast(spell, action, spellMap, eventArgs)
   if healingBreathTriggers:contains(spell.english) or (spell.skill == 'Ninjutsu' and player.hpp < 33) then
     equip(sets.precast.HealingBreath)
   end
+
+  -- Use Spirit Jump instead of Jump if the wyvern is present.
+  if pet.isvalid and player.main_job_level >= 77 and spell.name == "Jump" then
+    eventArgs.cancel = true
+    send_command('@input /ja "Spirit Jump" <t>')
+  end
+
+  -- Use Soul Jump instead of High Jump if the wyvern is present.
+  if pet.isvalid and player.main_job_level >= 85 and spell.name == "High Jump" then
+    eventArgs.cancel = true
+    send_command('@input /ja "Soul Jump" <t>')
+  end
 end
 
 -- Set eventArgs.handled to true if we don't want any automatic gear equipping to be done.
