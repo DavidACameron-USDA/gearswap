@@ -73,7 +73,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
     body = "Espial Gambison",
-    hands = "Homam Manopolas",
+    hands = "Brego Gloves",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
