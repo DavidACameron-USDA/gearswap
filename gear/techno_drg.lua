@@ -208,6 +208,7 @@ function init_gear_sets()
     head = "Wyrm Armet",
     neck = "Lancer's Torque",
     legs = "Drachen Brais +1",
+    feet = "Homam Gambieras",
   }
 
   -- Elemental Breath set
