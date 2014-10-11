@@ -104,6 +104,8 @@ function init_gear_sets()
 
   sets.precast.JA.Restraint = {}
 
+  sets.precast.JA['Blood Rage'] = {}
+
 
   -- Waltz set (chr and vit)
   sets.precast.Waltz = {
