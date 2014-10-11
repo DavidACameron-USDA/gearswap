@@ -160,6 +160,16 @@ function init_gear_sets()
     waist = "Thunder Belt",
   })
 
+  -- Fell Cleave has a STR: 60% modifier and is aligned with the Breeze,
+  -- Thunder, and Soil gorgets/belts.
+  sets.precast.WS["Fell Cleave"] = set_combine(sets.precast.WS, {
+    waist = "Thunder Belt",
+  })
+
+  sets.precast.WS["Fell Cleave"].Acc = set_combine(sets.precast.WS.Acc, {
+    waist = "Thunder Belt",
+  })
+
 
   -- Sets to return to when not performing an action.
 
