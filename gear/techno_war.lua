@@ -32,18 +32,18 @@ function init_gear_sets()
     main = "Eminent Voulge",
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
+    head = "Outrider Mask",
     neck = "Chivalrous Chain",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
-    body = "Askar Korazin",
-    hands = "Brego Gloves",
+    body = "Outrider Mail",
+    hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
-    legs = "Byakko's Haidate",
-    feet = "Wrathwing Nails",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
   -- sets.idle.Town = {}
@@ -65,24 +65,21 @@ function init_gear_sets()
     main = "Eminent Voulge",
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
+    head = "Outrider Mask",
     neck = "Chivalrous Chain",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
-    body = "Askar Korazin",
-    hands = "Brego Gloves",
+    body = "Outrider Mail",
+    hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
-    legs = "Byakko's Haidate",
-    feet = "Wrathwing Nails",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
-  sets.engaged.Acc = {
-    head = "Optical Hat",
-    body = "Perle Hauberk",
-  }
+  sets.engaged.Acc = {}
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
   -- Assault bonuses.
@@ -121,24 +118,21 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
-    head = "Perle Salade",
+    head = "Outrider Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
-    body = "Ares' Cuirass",
+    body = "Outrider Mail",
     hands = "Hecatomb Mittens",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Avant Cuisses",
-    feet = "Hecatomb Leggings",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
-  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-    head = "Optical Hat",
-    body = "Perle Hauberk",
-  })
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
