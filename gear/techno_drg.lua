@@ -134,6 +134,12 @@ function init_gear_sets()
     ammo = "Angon",
   }
 
+  -- Steady Wing's potency is improved by +Wyvern HP gear.
+  sets.precast.JA['Steady Wing'] = {
+    legs = "Drachen Brais +1",
+    feet = "Homam Gambieras",
+  }
+
   -- Waltz set (chr and vit)
   sets.precast.Waltz = {
     ammo="Sonia's Plectrum",
