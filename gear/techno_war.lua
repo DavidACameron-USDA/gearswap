@@ -152,9 +152,13 @@ function init_gear_sets()
 
   -- King's Justice has a STR: 50% modifier and is aligned with the Breeze,
   -- Thunder, and Soil gorgets/belts.
-  sets.precast.WS["King's Justice"] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["King's Justice"] = set_combine(sets.precast.WS, {
+    waist = "Thunder Belt",
+  })
 
-  sets.precast.WS["King's Justice"].Acc = set_combine(sets.precast.WS.Acc, {})
+  sets.precast.WS["King's Justice"].Acc = set_combine(sets.precast.WS.Acc, {
+    waist = "Thunder Belt",
+  })
 
 
   -- Sets to return to when not performing an action.
