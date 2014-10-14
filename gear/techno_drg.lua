@@ -43,7 +43,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Paewr Belt",
     legs = "Crimson Cuisses",
-    feet = "Wrathwing Nails",
+    feet = "Vishap Greaves",
   }
 
   sets.idle.Refresh = {
@@ -79,7 +79,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Paewr Belt",
     legs = "Espial Hose",
-    feet = "Wrathwing Nails",
+    feet = "Vishap Greaves",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
@@ -113,7 +113,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
     legs = "Espial Hose",
-    feet = "Wrathwing Nails",
+    feet = "Vishap Greaves",
   }
 
   sets.precast.JA['High Jump'] = set_combine(sets.precast.JA.Jump, {})
@@ -164,7 +164,7 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
     legs = "Espial Hose",
-    feet = "Wrathwing Nails",
+    feet = "Vishap Greaves",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
