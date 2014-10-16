@@ -32,7 +32,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Eminent Voulge",
     sub = "Pole Grip",
-    ammo = "Tiphia Sting",
+    ammo = "Aqreqaq Bomblet",
     head = "Outrider Mask",
     neck = "Chivalrous Chain",
     ear1 = "Brutal Earring",
@@ -69,7 +69,7 @@ function init_gear_sets()
   sets.engaged = {
     main = "Eminent Voulge",
     sub = "Pole Grip",
-    ammo = "Tiphia Sting",
+    ammo = "Aqreqaq Bomblet",
     head = "Outrider Mask",
     neck = "Chivalrous Chain",
     ear1 = "Brutal Earring",
