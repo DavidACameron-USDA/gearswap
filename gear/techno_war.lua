@@ -6,6 +6,7 @@
 function user_setup()
   state.OffenseMode:options('Normal', 'Acc')
   state.WeaponskillMode:options('Normal', 'Acc')
+  state.IdleMode:options('Normal', 'PDT')
 
   update_combat_form()
 
@@ -51,6 +52,10 @@ function init_gear_sets()
   -- sets.idle.Field = {}
 
   -- sets.idle.Weak = {}
+
+  sets.idle.PDT = set_combine(sets.idle, {
+    ring1 = "Patronus Ring",
+  })
 
 
   -- Engaged sets
