@@ -33,7 +33,7 @@ function init_gear_sets()
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
     head = "Vishap Armet",
-    neck = "Love Torque",
+    neck = "Asperity Necklace",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
     body = "Espial Gambison",
@@ -69,7 +69,7 @@ function init_gear_sets()
   sets.engaged = {
     ammo = "Tiphia Sting",
     head = "Vishap Armet",
-    neck = "Love Torque",
+    neck = "Asperity Necklace",
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
     body = "Espial Gambison",
@@ -84,6 +84,7 @@ function init_gear_sets()
 
   sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Optical Hat",
+    neck = "Love Torque",
     body = "Homam Corazza",
     back = "Cuchulain's Mantle",
     waist = "Wyrm Belt",
