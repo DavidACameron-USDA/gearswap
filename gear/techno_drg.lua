@@ -78,7 +78,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
-    legs = "Espial Hose",
+    legs = "Vishap Brais +1",
     feet = "Vishap Greaves",
   }
 
@@ -93,7 +93,7 @@ function init_gear_sets()
   sets.engaged.Refresh = {
     ear2 = "Ethereal Earring",
     body = "Espial Gambison",
-    legs = "Espial Hose",
+    legs = "Vishap Brais +1",
   }
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
@@ -113,7 +113,7 @@ function init_gear_sets()
     hands = "Hecatomb Mittens",
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
-    legs = "Espial Hose",
+    legs = "Vishap Brais +1",
     feet = "Vishap Greaves",
   }
 
@@ -137,7 +137,7 @@ function init_gear_sets()
 
   -- Steady Wing's potency is improved by +Wyvern HP gear.
   sets.precast.JA['Steady Wing'] = {
-    legs = "Drachen Brais +1",
+    legs = "Vishap Brais +1",
     feet = "Homam Gambieras",
   }
 
@@ -164,7 +164,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Espial Hose",
+    legs = "Vishap Brais +1",
     feet = "Vishap Greaves",
   }
 
@@ -207,14 +207,14 @@ function init_gear_sets()
     neck = "Cougar Pendant",
     body = "Espial Gambison",
     hands = "Homam Manopolas",
-    legs = "Espial Hose",
+    legs = "Vishap Brais +1",
     feet = "Homam Gambieras",
   }
 
   sets.midcast.HealingBreath = {
     head = "Wyrm Armet",
     neck = "Lancer's Torque",
-    legs = "Drachen Brais +1",
+    legs = "Vishap Brais +1",
     feet = "Homam Gambieras",
   }
 
