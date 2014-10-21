@@ -62,19 +62,21 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
+    head = "Assimilator's Keffiyeh",
     neck = "Kubira Bead Necklace",
     ear2 = "Bushinomimi",
-    body = "Magus Jubbah +1",
+    body = "Espial Gambison",
+    hands = "Espial Bracers",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    feet = "Denali Gamashes",
+    legs = "Espial Hose",
+    feet = "Espial Socks",
   }
 
   sets.precast.WS.acc = set_combine(sets.precast.WS, {
     head = "Optical Hat",
-    body = "Homam Corazza",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -84,14 +86,12 @@ function init_gear_sets()
   -- sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
   --   neck = "Shadow Gorget"
   --   ear1 = "Geist Earring",
-  --   hands = "Mirage Bazubands",
   -- })
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
   -- element.
   sets.precast.WS['Sanguine Blade'] = {
     ear1 = "Geist Earring",
-    hands = "Mirage Bazubands",
   }
 
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
@@ -104,12 +104,13 @@ function init_gear_sets()
   -- Breeze, Thunder, and Soil gorgets/belts.
   sets.precast.WS['Savage Blade'] = {
     ear1 = "Geist Earring",
-    hands = "Mirage Bazubands",
   }
 
 
   -- Midcast Sets
-  sets.midcast.FastRecast = {}
+  sets.midcast.FastRecast = {
+    legs = "Assimilator's Shalwar",
+  }
 
   sets.midcast['Blue Magic'] = {}
 
@@ -117,15 +118,16 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].Physical = {
     ammo = "Olibanum Sachet",
-    head = "Mirage Keffiyeh",
+    head = "Assimilator's Keffiyeh",
     neck = "Chivalrous Chain",
-    body = "Magus Jubbah +1",
+    body = "Espial Gambison",
+    hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Denali Kecks",
-    feet = "Denali Gamashes",
+    legs = "Espial Hose",
+    feet = "Espial Socks",
   }
 
   sets.midcast['Blue Magic'].PhysicalAcc = {
@@ -134,71 +136,49 @@ function init_gear_sets()
     neck = "Chivalrous Chain",
     ear1 = "Brutal Earring",
     ear2 = "Ethereal Earring",
-    body = "Homam Corazza",
+    body = "Espial Gambison",
+    hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Denali Kecks",
-    feet = "Denali Gamashes",
+    legs = "Espial Hose",
+    feet = "Espial Socks",
   }
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
-    ammo = "Olibanum Sachet",
     neck = "Kubira Bead Necklace",
     ear2 = "Bushinomimi",
-    body = "Magus Jubbah +1",
     ring1 = "Flame Ring",
-    ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
-    feet = "Denali Gamashes",
   })
 
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Kubira Bead Necklace",
     ear1 = "Delta Earring",
-    body = "Magus Jubbah +1",
-    hands = "Mirage Bazubands",
-    ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
-    legs = "Magus Shalwar +1",
   })
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
     ammo = "Bibiki Seashell",
-    head = "Mirage Keffiyeh",
-    waist = "Warwolf Belt",
-    legs = "Magus Shalwar +1",
   })
 
-  sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {
-    legs = "Denali Kecks",
-  })
+  sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {})
 
   sets.midcast['Blue Magic'].PhysicalInt = set_combine(sets.midcast['Blue Magic'].Physical, {
     ammo = "Phantom Tathlum",
-    head = "Magus Keffiyeh +1",
+    neck = "Imbodla Necklace",
     ear1 = "Morion Earring",
-    body = "Errant Houppelande",
     ring2 = "Omega Ring",
     back = "Gleeman's Cape",
     feet = "Yigit Crackows",
   })
 
   sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
-    head = "Magus Keffiyeh +1",
-    neck = "Morgana's Choker",
-    body = "Errant Houppelande",
-    hands = "Mirage Bazubands",
+    neck = "Imbodla Necklace",
     ring2 = "Omega Ring",
-    feet = "Yigit Crackows",
   })
 
   sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {
     ear1 = "Delta Earring",
-    body = "Errant Houppelande",
     ring2 = "Omega Ring",
   })
 
@@ -209,28 +189,24 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].Magical = {
     ammo = "Phantom Tathlum",
-    head = "Magus Keffiyeh +1",
+    head = "Assimilator's Keffiyeh",
+    neck = "Imbodla Necklace",
     ear2 = "Moldavite Earring",
-    body = "Errant Houppelande",
+    body = "Espial Gambison",
+    hands = "Espial Bracers",
     ring2 = "Omega Ring",
     back = "Gleeman's Cape",
-    legs = "Denali Kecks",
+    legs = "Espial Hose",
     feet = "Yigit Crackows",
   }
 
   sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
-    ammo = "Phantom Tathlum",
-    head = "Homam Zucchetto",
     ear1 = "Aptus Earring",
-    body = "Errant Houppelande",
-    hands = "Nashira Gages",
     feet = "Denali Gamashes",
   })
 
   sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
-    neck = "Morgana's Choker",
     ear1 = "Geist Earring",
-    hands = "Mirage Bazubands",
   })
 
   sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {
@@ -239,29 +215,21 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
     ammo = "Bibiki Seashell",
-    head = "Mirage Keffiyeh",
     waist = "Warwolf Belt",
-    legs = "Magus Shalwar +1",
   })
 
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
     neck = "Kubira Bead Necklace",
     ear1 = "Delta Earring",
-    body = "Magus Jubbah +1",
-    hands = "Mirage Bazubands",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Magus Shalwar +1",
   })
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     ammo = "Sturm's Report",
-    head = "Homam Zucchetto",
     ear1 = "Aptus Earring",
-    hands = "Nashira Gages",
     ring2 = "Omega Ring",
-    legs = "Denali Kecks",
     feet = "Denali Gamashes",
   }
 
@@ -270,11 +238,11 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Breath = {
     head = "Mirage Keffiyeh",
     neck = "Cougar Pendant",
-    body = "Homam Corazza",
-    hands = "Homam Manopolas",
+    body = "Espial Gambison",
+    hands = "Espial Bracers",
     ring1 = "Griffon Ring",
     back = "Gleeman's Cape",
-    legs = "Homam Cosciales",
+    legs = "Espial Hose",
     feet = "Homam Gambieras",
   }
 
@@ -285,13 +253,14 @@ function init_gear_sets()
   sets.midcast['Blue Magic']['White Wind'] = {}
 
   sets.midcast['Blue Magic'].Healing = {
-    head = "Magus Keffiyeh +1",
-    neck = "Morgana's Choker",
+    head = "Assimilator's Keffiyeh",
+    neck = "Imbodla Necklace",
     ear1 = "Geist Earring",
-    body = "Errant Houppelande",
-    hands = "Mirage Bazubands",
+    body = "Espial Gambison",
+    hands = "Espial Bracers",
     ring2 = "Omega Ring",
-    feet = "Yigit Crackows",
+    legs = "Espial Hose",
+    feet = "Espial Socks",
   }
 
   sets.midcast['Blue Magic'].SkillBasedBuff = {
@@ -328,21 +297,21 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Perdu Hanger",
-    sub = "Demon Slayer",
+    main = "Eminent Scimitar",
+    sub = "Predatrice",
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
-    neck = "Chivalrous Chain",
+    head = "Assimilator's Keffiyeh",
+    neck = "Asperity Necklace",
     ear1 = "Brutal Earring",
     ear2 = "Ethereal Earring",
     body = "Mirage Jubbah",
-    hands = "Homam Manopolas",
+    hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
+    back = "Atheling Mantle",
+    waist = "Paewr Belt",
     legs = "Crimson Cuisses",
-    feet = "Homam Gambieras",
+    feet = "Espial Socks",
   }
 
   -- sets.idle.PDT = {}
@@ -368,35 +337,33 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Perdu Hanger",
-    sub = "Demon Slayer",
+    main = "Eminent Scimitar",
+    sub = "Predatrice",
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
-    neck = "Chivalrous Chain",
+    head = "Assimilator's Keffiyeh",
+    neck = "Asperity Necklace",
     ear1 = "Brutal Earring",
     ear2 = "Ethereal Earring",
-    body = "Mirage Jubbah",
-    hands = "Homam Manopolas",
+    body = "Espial Gambison",
+    hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Homam Cosciales",
-    feet = "Homam Gambieras",
+    back = "Atheling Mantle",
+    waist = "Paewr Belt",
+    legs = "Assimilator's Shalwar",
+    feet = "Espial Socks",
   }
 
   sets.engaged.Acc = {
     head = "Optical Hat",
-    body = "Homam Corazza",
   }
 
   sets.engaged.Refresh = {}
 
-  sets.engaged.DW = {}
+  sets.engaged.DW = set_combine(sets.engaged, {})
 
   sets.engaged.DW.Acc = {
     head = "Optical Hat",
-    body = "Homam Corazza",
   }
 
   sets.engaged.DW.Refresh = {}
