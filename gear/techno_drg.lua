@@ -37,13 +37,13 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
     body = "Espial Gambison",
-    hands = "Brego Gloves",
+    hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
     legs = "Crimson Cuisses",
-    feet = "Vishap Greaves",
+    feet = "Vishap Greaves +1",
   }
 
   sets.idle.Refresh = {
@@ -73,13 +73,13 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Aesir Ear Pendant",
     body = "Espial Gambison",
-    hands = "Brego Gloves",
+    hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
     legs = "Vishap Brais +1",
-    feet = "Vishap Greaves",
+    feet = "Vishap Greaves +1",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
@@ -110,11 +110,11 @@ function init_gear_sets()
   sets.precast.JA.Jump = {
     head = "Vishap Armet",
     body = "Espial Gambison",
-    hands = "Hecatomb Mittens",
+    hands = "Espial Bracers",
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
     legs = "Vishap Brais +1",
-    feet = "Vishap Greaves",
+    feet = "Vishap Greaves +1",
   }
 
   sets.precast.JA['High Jump'] = set_combine(sets.precast.JA.Jump, {})
@@ -159,13 +159,13 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
     body = "Espial Gambison",
-    hands = "Hecatomb Mittens",
+    hands = "Espial Bracers",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
     legs = "Vishap Brais +1",
-    feet = "Vishap Greaves",
+    feet = "Vishap Greaves +1",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
@@ -206,7 +206,7 @@ function init_gear_sets()
     ear1 = "Loquacious Earring",
     neck = "Cougar Pendant",
     body = "Espial Gambison",
-    hands = "Homam Manopolas",
+    hands = "Espial Bracers",
     legs = "Vishap Brais +1",
     feet = "Homam Gambieras",
   }
