@@ -29,21 +29,21 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Hagun",
+    main = "Ichimonji-Yofusa",
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
-    neck = "Justice Torque",
+    head = "Outrider Mask",
+    neck = "Asperity Necklace",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
-    body = "Askar Korazin",
-    hands = "Perle Moufles",
+    body = "Outrider Mail",
+    hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Byakko's Haidate",
-    feet = "Fuma Sune-Ate",
+    back = "Atheling Mantle",
+    waist = "Paewr Belt",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
   -- sets.idle.Town = {}
@@ -62,26 +62,25 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Hagun",
+    main = "Ichimonji-Yofusa",
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
-    head = "Walahra Turban",
-    neck = "Justice Torque",
+    head = "Outrider Mask",
+    neck = "Asperity Necklace",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
-    body = "Askar Korazin",
-    hands = "Perle Moufles",
+    body = "Outrider Mail",
+    hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Byakko's Haidate",
-    feet = "Fuma Sune-Ate",
+    back = "Atheling Mantle",
+    waist = "Paewr Belt",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
-    head = "Optical Hat",
-    body = "Perle Hauberk",
+    neck = "Justice Torque",
   })
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
@@ -119,18 +118,18 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
-    head = "Perle Salade",
+    head = "Outrider Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
-    body = "Perle Hauberk",
+    body = "Outrider Mail",
     hands = "Myochin Kote +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
+    back = "Unkai Sugemino",
     waist = "Warwolf Belt",
-    legs = "Shura Haidate",
-    feet = "Perle Solerets",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
