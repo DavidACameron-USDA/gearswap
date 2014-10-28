@@ -34,8 +34,8 @@ function init_gear_sets()
     ammo = "Tiphia Sting",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
-    ear1 = "Brutal Earring",
-    ear2 = "Bushinomimi",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
     body = "Outrider Mail",
     hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
@@ -67,8 +67,8 @@ function init_gear_sets()
     ammo = "Tiphia Sting",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
-    ear1 = "Brutal Earring",
-    ear2 = "Bushinomimi",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
     body = "Outrider Mail",
     hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
@@ -80,6 +80,7 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
+    ear2 = "Bushinomimi",
     neck = "Justice Torque",
   })
 
@@ -95,11 +96,11 @@ function init_gear_sets()
   -- Precast Sets
   -- Precast sets to enhance JAs
   sets.precast.JA.Meditate = {
-    head="Myochin Kabuto +1"
+    head="Wakido Kabuto",
   }
 
   sets.precast.JA['Warding Circle'] = {
-    head="Myochin Kabuto +1"
+    head="Wakido Kabuto",
   }
 
   sets.precast.JA['Blade Bash'] = {}

@@ -34,8 +34,8 @@ function init_gear_sets()
     ammo = "Tiphia Sting",
     head = "Vishap Armet",
     neck = "Asperity Necklace",
-    ear1 = "Brutal Earring",
-    ear2 = "Aesir Ear Pendant",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
     body = "Espial Gambison",
     hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
@@ -47,7 +47,6 @@ function init_gear_sets()
   }
 
   sets.idle.Refresh = {
-    ear2 = "Ethereal Earring",
     body = "Ares' Cuirass",
   }
 
@@ -70,8 +69,8 @@ function init_gear_sets()
     ammo = "Tiphia Sting",
     head = "Vishap Armet",
     neck = "Asperity Necklace",
-    ear1 = "Brutal Earring",
-    ear2 = "Aesir Ear Pendant",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
     body = "Espial Gambison",
     hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
@@ -91,7 +90,6 @@ function init_gear_sets()
   })
 
   sets.engaged.Refresh = {
-    ear2 = "Ethereal Earring",
     body = "Espial Gambison",
     legs = "Vishap Brais +1",
   }
@@ -204,6 +202,7 @@ function init_gear_sets()
     ammo = "Olibanum Sachet",
     head = "Drachen Armet +1",
     ear1 = "Loquacious Earring",
+    ear2 = "Ethereal Earring",
     neck = "Cougar Pendant",
     body = "Espial Gambison",
     hands = "Espial Bracers",
