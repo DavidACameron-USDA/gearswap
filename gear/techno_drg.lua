@@ -32,7 +32,7 @@ function init_gear_sets()
     main = "Olyndicus",
     sub = "Pole Grip",
     ammo = "Tiphia Sting",
-    head = "Vishap Armet",
+    head = "Vishap Armet +1",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -67,7 +67,7 @@ function init_gear_sets()
   -- Normal melee group
   sets.engaged = {
     ammo = "Tiphia Sting",
-    head = "Vishap Armet",
+    head = "Vishap Armet +1",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -106,7 +106,7 @@ function init_gear_sets()
   -- Precast Sets
   -- Precast sets to enhance JAs
   sets.precast.JA.Jump = {
-    head = "Vishap Armet",
+    head = "Vishap Armet +1",
     body = "Espial Gambison",
     hands = "Espial Bracers",
     ring1 = "Flame Ring",
@@ -122,7 +122,7 @@ function init_gear_sets()
   sets.precast.JA['Soul Jump'] = set_combine(sets.precast.JA.Jump, {})
 
   sets.precast.JA['Spirit Link'] = {
-    head = "Vishap Armet",
+    head = "Vishap Armet +1",
   }
 
   sets.precast.JA['Ancient Circle'] = {
@@ -152,7 +152,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
-    head = "Vishap Armet",
+    head = "Vishap Armet +1",
     neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
