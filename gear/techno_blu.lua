@@ -343,7 +343,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Espial Gambison",
+    body = "Qaaxo Harness",
     hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
