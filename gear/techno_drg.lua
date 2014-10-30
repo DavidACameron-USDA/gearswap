@@ -155,7 +155,7 @@ function init_gear_sets()
     head = "Vishap Armet +1",
     neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
-    ear2 = "Bushinomimi",
+    ear2 = "Kemas Earring",
     body = "Espial Gambison",
     hands = "Espial Bracers",
     ring1 = "Flame Ring",

@@ -128,7 +128,7 @@ function init_gear_sets()
     head = "Outrider Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
-    ear2 = "Bushinomimi",
+    ear2 = "Kemas Earring",
     body = "Outrider Mail",
     hands = "Hecatomb Mittens",
     ring1 = "Flame Ring",

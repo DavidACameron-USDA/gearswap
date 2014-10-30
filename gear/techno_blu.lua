@@ -65,7 +65,7 @@ function init_gear_sets()
     head = "Assimilator's Keffiyeh",
     neck = "Kubira Bead Necklace",
     ear1 = "Brutal Earring",
-    ear2 = "Bushinomimi",
+    ear2 = "Kemas Earring",
     body = "Espial Gambison",
     hands = "Espial Bracers",
     ring1 = "Flame Ring",
@@ -147,7 +147,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Kubira Bead Necklace",
-    ear2 = "Bushinomimi",
+    ear2 = "Kemas Earring",
     ring1 = "Flame Ring",
   })
 
@@ -158,6 +158,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
     ammo = "Bibiki Seashell",
+    ear2 = "Kemas Earring",
   })
 
   sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {})
@@ -214,6 +215,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
     ammo = "Bibiki Seashell",
+    ear1 = "Kemas Earring",
     waist = "Warwolf Belt",
   })
 
