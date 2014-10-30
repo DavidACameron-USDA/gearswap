@@ -201,6 +201,7 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
+    ammo = "Mavi Tathlum",
     ear1 = "Aptus Earring",
     feet = "Denali Gamashes",
   })
@@ -237,6 +238,7 @@ function init_gear_sets()
   -- Breath Spells --
 
   sets.midcast['Blue Magic'].Breath = {
+    ammo = "Mavi Tathlum",
     head = "Mirage Keffiyeh",
     neck = "Cougar Pendant",
     body = "Espial Gambison",
@@ -267,6 +269,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].SkillBasedBuff = {
     head = "Mirage Keffiyeh",
     body = "Magus Jubbah +1",
+    ammo = "Mavi Tathlum",
   }
 
   sets.midcast['Blue Magic'].Buff = {}
@@ -282,6 +285,7 @@ function init_gear_sets()
   -- needed to learn the spell.
   -- head = "Mirage Keffiyeh",
   -- body = "Magus Jubbah +1",
+  -- ammo = "Mavi Tathlum",
 
 
   sets.latent_refresh = {}
