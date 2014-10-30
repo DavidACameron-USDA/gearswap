@@ -400,6 +400,8 @@ function select_default_macro_book()
     set_macro_page(2, 16)
   elseif player.sub_job == 'THF' then
     set_macro_page(3, 16)
+  elseif player.sub_job == 'RDM' then
+    set_macro_page(4, 16)
   else
     set_macro_page(1, 16)
   end
