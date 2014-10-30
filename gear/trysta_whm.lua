@@ -69,7 +69,7 @@ function init_gear_sets()
   sets.midcast.CureSolace = {}
 
   sets.midcast.Cure = {
-    main = "Light Staff",
+    main = "Templar Mace",
     ammo = "Holy Ampulla",
     head = "Teal Chapeau",
     neck = "Morgana's Choker",
@@ -83,7 +83,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Curaga = {
-    main = "Light Staff",
+    main = "Templar Mace",
     ammo = "Holy Ampulla",
     head = "Teal Chapeau",
     neck = "Morgana's Choker",
@@ -198,8 +198,8 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Earth Staff",
-    sub = "Staff Strap",
+    main = "Templar Mace",
+    sub = "Tariqah",
     ammo = "Holy Ampulla",
     head = "Walahra Turban",
     neck = "Morgana's Choker",
@@ -239,7 +239,23 @@ function init_gear_sets()
   -- EG: sets.engaged.Dagger.Accuracy.Evasion
 
   -- Basic set for if no TP weapon is defined.
-  sets.engaged = {}
+  sets.engaged = {
+    main = "Templar Mace",
+    sub = "Tariqah",
+    ammo = "Holy Ampulla",
+    head = "Walahra Turban",
+    neck = "Morgana's Choker",
+    ear1 = "Insomnia Earring",
+    ear2 = "Loquacious Earring",
+    body = "Cleric's Briault",
+    hands = "Blessed Mitts",
+    ring1 = "Omega Ring",
+    ring2 = "Tamas Ring",
+    back = "Aslan Cape",
+    waist = "Hierarch Belt",
+    legs = "Blessed Trousers",
+    feet = "Blessed Pumps",
+  }
 
 
   -- Buff sets: Gear that needs to be worn to actively enhance a current player buff.
