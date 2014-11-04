@@ -29,21 +29,21 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Perdu Sickle",
+    main = "Last Rest",
     sub = "Pole Grip",
-    ammo = "Tiphia Sting",
-    head = "Walahra Turban",
+    ammo = "Aqreqaq Bomblet",
+    head = "Outrider Mask",
     neck = "Parade Gorget",
-    ear1 = "Brutal Earring",
-    ear2 = "Ethereal Earring",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
     body = "Ares' Cuirass",
-    hands = "Homam Manopolas",
+    hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
+    back = "Atheling Mantle",
+    waist = "Paewr Belt",
     legs = "Crimson Cuisses",
-    feet = "Homam Gambieras",
+    feet = "Outrider Greaves",
   }
 
   -- sets.idle.Town = {}
@@ -62,27 +62,25 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Perdu Sickle",
+    main = "Last Rest",
     sub = "Pole Grip",
-    ammo = "Tiphia Sting",
-    head = "Walahra Turban",
-    neck = "Justice Torque",
-    ear1 = "Brutal Earring",
-    ear2 = "Ethereal Earring",
-    body = "Askar Korazin",
-    hands = "Homam Manopolas",
+    ammo = "Aqreqaq Bomblet",
+    head = "Outrider Mask",
+    neck = "Asperity Necklace",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
+    body = "Outrider Mail",
+    hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Homam Cosciales",
-    feet = "Homam Gambieras",
+    back = "Atheling Mantle",
+    waist = "Paewr Belt",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
-    head = "Optical Hat",
-    body = "Homam Corazza",
-    legs = "Perle Brayettes",
+    neck = "Justice Torque",
   })
 
   -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
@@ -98,7 +96,7 @@ function init_gear_sets()
   -- Fast Cast set
   sets.precast.FC = {
     ear2 = "Loquacious Earring",
-    waist = "Swift Belt",
+    waist = "Paewr Belt",
     legs = "Homam Cosciales",
   }
 
@@ -133,25 +131,22 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    ammo = "Olibanum Sachet",
-    head = "Perle Salade",
+    ammo = "Aqreqaq Bomblet",
+    head = "Outrider Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
-    body = "Ares' Cuirass",
+    body = "Outrider Mail",
     hands = "Hecatomb Mittens",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Blitzer Poleyn",
-    feet = "Hecatomb Leggings",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   }
 
-  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-    head = "Optical Hat",
-    body = "Perle Hauberk",
-  })
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
