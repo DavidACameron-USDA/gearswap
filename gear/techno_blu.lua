@@ -66,7 +66,7 @@ function init_gear_sets()
     neck = "Kubira Bead Necklace",
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
-    body = "Espial Gambison",
+    body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
@@ -121,7 +121,7 @@ function init_gear_sets()
     ammo = "Olibanum Sachet",
     head = "Assimilator's Keffiyeh",
     neck = "Chivalrous Chain",
-    body = "Espial Gambison",
+    body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
@@ -192,7 +192,7 @@ function init_gear_sets()
     head = "Assimilator's Keffiyeh",
     neck = "Imbodla Necklace",
     ear2 = "Moldavite Earring",
-    body = "Espial Gambison",
+    body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
     ring2 = "Omega Ring",
     back = "Gleeman's Cape",
@@ -241,7 +241,7 @@ function init_gear_sets()
     ammo = "Mavi Tathlum",
     head = "Mirage Keffiyeh",
     neck = "Cougar Pendant",
-    body = "Espial Gambison",
+    body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
     ring1 = "Griffon Ring",
     back = "Gleeman's Cape",
@@ -259,7 +259,7 @@ function init_gear_sets()
     head = "Assimilator's Keffiyeh",
     neck = "Imbodla Necklace",
     ear1 = "Geist Earring",
-    body = "Espial Gambison",
+    body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
     ring2 = "Omega Ring",
     legs = "Espial Hose",
@@ -268,7 +268,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].SkillBasedBuff = {
     head = "Mirage Keffiyeh",
-    body = "Magus Jubbah +1",
+    body = "Assimilator's Jubbah +1",
     ammo = "Mavi Tathlum",
   }
 
@@ -284,7 +284,7 @@ function init_gear_sets()
   -- Optional learning gear with +blue magic skill that lowers the minimum level
   -- needed to learn the spell.
   -- head = "Mirage Keffiyeh",
-  -- body = "Magus Jubbah +1",
+  --  body = "Assimilator's Jubbah +1",
   -- ammo = "Mavi Tathlum",
 
 
@@ -309,7 +309,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Mirage Jubbah",
+    body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
