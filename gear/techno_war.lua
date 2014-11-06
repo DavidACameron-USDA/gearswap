@@ -37,7 +37,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Outrider Mail",
+    body = "Xaddi Mail",
     hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
@@ -54,7 +54,12 @@ function init_gear_sets()
   -- sets.idle.Weak = {}
 
   sets.idle.PDT = set_combine(sets.idle, {
+    head = "Outrider Mask",
+    body = "Outrider Mail",
+    hands = "Outrider Mittens",
     ring1 = "Patronus Ring",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
   })
 
 
@@ -74,7 +79,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Outrider Mail",
+    body = "Xaddi Mail",
     hands = "Outrider Mittens",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
@@ -139,7 +144,9 @@ function init_gear_sets()
     feet = "Outrider Greaves",
   }
 
-  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    body = "Xaddi Mail",
+  })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
@@ -183,7 +190,14 @@ function init_gear_sets()
 
 
   -- Defense sets
-  sets.defense.PDT = {}
+  sets.defense.PDT = {
+    head = "Outrider Mask",
+    body = "Outrider Mail",
+    hands = "Outrider Mittens",
+    ring1 = "Patronus Ring",
+    legs = "Outrider Hose",
+    feet = "Outrider Greaves",
+  }
 
   sets.defense.MDT = {}
 
