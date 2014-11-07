@@ -295,7 +295,7 @@ function init_gear_sets()
     head = "Yigit Turban",
     neck = "Grandiose Chain",
     ear1 = "Antivenom Earring",
-    body = "Yigit Gomlek",
+    body = "Assimilator's Jubbah",
     waist = "Hierarch Belt",
     legs = "Yigit Seraweels",
   }
@@ -307,11 +307,11 @@ function init_gear_sets()
     ammo = "Tiphia Sting",
     head = "Assimilator's Keffiyeh",
     neck = "Asperity Necklace",
-    ear1 = "Steelflash Earring",
-    ear2 = "Bladeborn Earring",
+    ear1 = "Dudgeon Earring",
+    ear2 = "Heartseeker Earring",
     body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
-    ring1 = "Ulthalam's Ring",
+    ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
@@ -351,7 +351,7 @@ function init_gear_sets()
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
     hands = "Espial Bracers",
-    ring1 = "Ulthalam's Ring",
+    ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Paewr Belt",
@@ -365,7 +365,10 @@ function init_gear_sets()
 
   sets.engaged.Refresh = {}
 
-  sets.engaged.DW = set_combine(sets.engaged, {})
+  sets.engaged.DW = set_combine(sets.engaged, {
+    ear1 = "Dudgeon Earring",
+    ear2 = "Heartseeker Earring",
+  })
 
   sets.engaged.DW.Acc = {
     head = "Optical Hat",

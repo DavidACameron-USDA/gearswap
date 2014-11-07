@@ -31,17 +31,17 @@ function init_gear_sets()
   sets.idle = {
     main = "Olyndicus",
     sub = "Pole Grip",
-    ammo = "Tiphia Sting",
+    ammo = "Thew Bomblet",
     head = "Vishap Armet +1",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Espial Bracers",
-    ring1 = "Ulthalam's Ring",
+    hands = "Xaddi Gauntlets",
+    ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Paewr Belt",
+    waist = "Zoran's Belt",
     legs = "Crimson Cuisses",
     feet = "Vishap Greaves +1",
   }
@@ -66,17 +66,17 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    ammo = "Tiphia Sting",
+    ammo = "Thew Bomblet",
     head = "Vishap Armet +1",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Espial Bracers",
-    ring1 = "Ulthalam's Ring",
+    hands = "Xaddi Gauntlets",
+    ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Paewr Belt",
+    waist = "Zoran's Belt",
     legs = "Vishap Brais +1",
     feet = "Vishap Greaves +1",
   }
@@ -108,7 +108,7 @@ function init_gear_sets()
   sets.precast.JA.Jump = {
     head = "Vishap Armet +1",
     body = "Xaddi Mail",
-    hands = "Espial Bracers",
+    hands = "Xaddi Gauntlets",
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
     legs = "Vishap Brais +1",
@@ -151,13 +151,13 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    ammo = "Olibanum Sachet",
+    ammo = "Thew Bomblet",
     head = "Vishap Armet +1",
     neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Xaddi Mail",
-    hands = "Espial Bracers",
+    hands = "Xaddi Gauntlets",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -199,13 +199,13 @@ function init_gear_sets()
 
   -- Healing Breath sets
   sets.precast.HealingBreath = {
-    ammo = "Olibanum Sachet",
+    ammo = "Thew Bomblet",
     head = "Drachen Armet +1",
     ear1 = "Loquacious Earring",
     ear2 = "Ethereal Earring",
     neck = "Cougar Pendant",
     body = "Xaddi Mail",
-    hands = "Espial Bracers",
+    hands = "Xaddi Gauntlets",
     legs = "Vishap Brais +1",
     feet = "Homam Gambieras",
   }
