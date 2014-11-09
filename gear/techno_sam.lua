@@ -31,13 +31,13 @@ function init_gear_sets()
   sets.idle = {
     main = "Ichimonji-Yofusa",
     sub = "Pole Grip",
-    ammo = "Tiphia Sting",
+    ammo = "Thew Bomblet",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Outrider Mittens",
+    hands = "Xaddi Gauntlets",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -73,13 +73,13 @@ function init_gear_sets()
   sets.engaged = {
     main = "Ichimonji-Yofusa",
     sub = "Pole Grip",
-    ammo = "Tiphia Sting",
+    ammo = "Thew Bomblet",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Outrider Mittens",
+    hands = "Xaddi Gauntlets",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -105,11 +105,11 @@ function init_gear_sets()
   -- Precast Sets
   -- Precast sets to enhance JAs
   sets.precast.JA.Meditate = {
-    head="Wakido Kabuto",
+    head = "Wakido Kabuto",
   }
 
   sets.precast.JA['Warding Circle'] = {
-    head="Wakido Kabuto",
+    head = "Wakido Kabuto",
   }
 
   sets.precast.JA['Blade Bash'] = {}
@@ -117,7 +117,7 @@ function init_gear_sets()
 
   -- Waltz set (chr and vit)
   sets.precast.Waltz = {
-    ammo="Sonia's Plectrum",
+    ammo = "Sonia's Plectrum",
   }
 
   -- Don't need any special gear for Healing Waltz.
@@ -127,13 +127,13 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    ammo = "Olibanum Sachet",
+    ammo = "Thew Bomblet",
     head = "Outrider Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
     body = "Outrider Mail",
-    hands = "Myochin Kote +1",
+    hands = "Xaddi Gauntlets",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Unkai Sugemino",

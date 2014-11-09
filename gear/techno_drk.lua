@@ -37,7 +37,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Ares' Cuirass",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -79,7 +79,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -104,6 +104,7 @@ function init_gear_sets()
   -- Precast Sets
   -- Fast Cast set
   sets.precast.FC = {
+    head = "Cizin Helm",
     ear2 = "Loquacious Earring",
     waist = "Zoran's Belt",
     legs = "Homam Cosciales",
@@ -146,7 +147,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
     body = "Outrider Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -212,7 +213,9 @@ function init_gear_sets()
     feet = "Outrider Greaves",
   }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    hands = "Cizin Mufflers +1",
+  }
 
   sets.Kiting = {}
 end

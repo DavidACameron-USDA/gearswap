@@ -37,7 +37,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -72,7 +72,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -82,15 +82,13 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
-    head = "Optical Hat",
     neck = "Love Torque",
-    body = "Homam Corazza",
     back = "Cuchulain's Mantle",
     waist = "Wyrm Belt",
   })
 
   sets.engaged.Refresh = {
-    body = "Espial Gambison",
+    body = "Xaddi Mail",
     legs = "Vishap Brais +1",
   }
 
@@ -108,7 +106,7 @@ function init_gear_sets()
   sets.precast.JA.Jump = {
     head = "Vishap Armet +1",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Flame Ring",
     waist = "Wyrm Belt",
     legs = "Vishap Brais +1",
@@ -126,7 +124,7 @@ function init_gear_sets()
   }
 
   sets.precast.JA['Ancient Circle'] = {
-    legs = "Drachen Brais +1",
+    legs = "Vishap Brais +1",
   }
 
   sets.precast.JA.Angon = {
@@ -157,7 +155,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -166,9 +164,7 @@ function init_gear_sets()
     feet = "Vishap Greaves +1",
   }
 
-  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-    head = "Optical Hat",
-  })
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
@@ -200,12 +196,12 @@ function init_gear_sets()
   -- Healing Breath sets
   sets.precast.HealingBreath = {
     ammo = "Thew Bomblet",
-    head = "Drachen Armet +1",
+    head = "Vishap Armet +1",
     ear1 = "Loquacious Earring",
     ear2 = "Ethereal Earring",
     neck = "Cougar Pendant",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     legs = "Vishap Brais +1",
     feet = "Homam Gambieras",
   }
@@ -231,9 +227,13 @@ function init_gear_sets()
 
 
   -- Defense sets
-  sets.defense.PDT = {}
+  sets.defense.PDT = {
+    hands = "Cizin Mufflers +1",
+  }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    hands = "Cizin Mufflers +1",
+  }
 
   sets.Kiting = {}
 end

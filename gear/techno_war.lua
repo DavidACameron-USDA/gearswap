@@ -38,7 +38,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -80,7 +80,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -129,13 +129,13 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    ammo = "Olibanum Sachet",
+    ammo = "Aqreqaq Bomblet",
     head = "Outrider Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Outrider Mail",
-    hands = "Xaddi Gauntlets",
+    hands = "Cizin Mufflers +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -199,7 +199,9 @@ function init_gear_sets()
     feet = "Outrider Greaves",
   }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    hands = "Cizin Mufflers +1",
+  }
 
   sets.Kiting = {}
 end
