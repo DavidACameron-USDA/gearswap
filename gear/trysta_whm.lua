@@ -21,11 +21,7 @@ function init_gear_sets()
 
   -- Fast cast sets for spells
   sets.precast.FC = {
-    head = "Walahra Turban",
     ear2 = "Loquacious Earring",
-    hands = "Blessed Mitts",
-    legs = "Blessed Trousers",
-    feet = "Blessed Pumps",
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
@@ -36,7 +32,9 @@ function init_gear_sets()
 
   sets.precast.FC.StatusRemoval = sets.precast.FC['Healing Magic']
 
-  sets.precast.FC.Cure = set_combine(sets.precast.FC['Healing Magic'], {})
+  sets.precast.FC.Cure = set_combine(sets.precast.FC['Healing Magic'], {
+    head = "Theophany Cap",
+  })
 
   sets.precast.FC.Curaga = sets.precast.FC.Cure
 
@@ -58,60 +56,65 @@ function init_gear_sets()
   -- Midcast Sets
 
   sets.midcast.FastRecast = {
-    head = "Walahra Turban",
+    head = "Wayfarer Circlet",
     ear2 = "Loquacious Earring",
+    body = "Wayfarer Robe",
     hands = "Blessed Mitts",
-    legs = "Blessed Trousers",
-    feet = "Blessed Pumps",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   -- Cure sets
   sets.midcast.CureSolace = {}
 
   sets.midcast.Cure = {
-    main = "Templar Mace",
-    ammo = "Holy Ampulla",
-    head = "Teal Chapeau",
+    main = "Eminent Wand",
+    ammo = "Kalboron Stone",
+    head = "Theophany Cap",
     neck = "Morgana's Choker",
     body = "Noble's Tunic",
-    hands = "Blessed Mitts",
+    hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
-    legs = "Blessed Trousers",
-    feet = "Cleric's Duckbills",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   sets.midcast.Curaga = {
-    main = "Templar Mace",
-    ammo = "Holy Ampulla",
-    head = "Teal Chapeau",
+    main = "Eminent Wand",
+    ammo = "Kalboron Stone",
+    head = "Theophany Cap",
     neck = "Morgana's Choker",
     body = "Noble's Tunic",
-    hands = "Blessed Mitts",
+    hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
-    legs = "Blessed Trousers",
-    feet = "Cleric's Duckbills",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   sets.midcast.CureMelee = {
-    ammo = "Holy Ampulla",
-    head = "Teal Chapeau",
+    ammo = "Kalboron Stone",
+    head = "Theophany Cap",
     neck = "Morgana's Choker",
     body = "Noble's Tunic",
-    hands = "Blessed Mitts",
+    hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
-    legs = "Blessed Trousers",
-    feet = "Cleric's Duckbills",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   sets.midcast.StatusRemoval = {
 
   }
+
+  sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
+    legs = "Theophany Pantaloons",
+  })
 
   -- 110 total Enhancing Magic Skill; caps even without Light Arts
   sets.midcast['Enhancing Magic'] = {
@@ -119,17 +122,17 @@ function init_gear_sets()
   }
 
   sets.midcast.Stoneskin = {
-    main = "Water Staff",
-    ammo = "Holy Ampulla",
-    head = "Teal Chapeau",
+    main = "Eminent Wand",
+    ammo = "Kalboron Stone",
+    head = "Wayfarer Circlet",
     neck = "Morgana's Choker",
-    body = "Noble's Tunic",
-    hands = "Blessed Mitts",
+    body = "Wayfarer Robe",
+    hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
-    legs = "Blessed Trousers",
-    feet = "Cleric's Duckbills",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   sets.midcast.Auspice = {}
@@ -140,6 +143,7 @@ function init_gear_sets()
 
   sets.midcast.Regen = {
     body = "Cleric's Briault",
+    legs = "Theophany Pantaloons",
   }
 
   sets.midcast.Protectra = {}
@@ -148,37 +152,38 @@ function init_gear_sets()
 
 
   sets.midcast['Divine Magic'] = {
-    head = "Yigit Turban",
-    body = "Shadow Coat",
-    legs = "Healer's Pantaloons",
-    feet = "Goliard Clogs",
+    head = "Wayfarer Circlet",
+    body = "Wayfarer Robe",
+    hands = "Wayfarer Cuffs",
+    legs = "Theophany Pantaloons",
+    feet = "Wayfarer Clogs",
   }
 
   sets.midcast['Dark Magic'] = {}
 
   -- Custom spell classes
   sets.midcast.MndEnfeebles = {
-    ammo = "Holy Ampulla",
-    head = "Teal Chapeau",
-    neck = "Morgana's Choker",
+    ammo = "Kalboron Stone",
+    head = "Wayfarer Circlet",
+    neck = "Imbodla Necklace",
     body = "Healer's Briault",
     hands = "Cleric's Mitts",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
-    legs = "Blessed Trousers",
-    feet = "Goliard Clogs",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   sets.midcast.IntEnfeebles = {
-    head = "Teal Chapeau",
-    neck = "Enlightened Chain",
+    head = "Wayfarer Circlet",
+    neck = "Imbodla Necklace",
     body = "Healer's Briault",
     hands = "Cleric's Mitts",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
-    legs = "Tatsumaki Sitagoromo",
-    feet = "Goliard Clogs",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
 
@@ -187,37 +192,41 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     main = "Dark Staff",
+    head = "Wayfarer Circlet",
     ear1 = "Antivenom Earring",
-    body = "Errant Hpl.",
+    body = "Wayfarer Robe",
     neck = "Grandiose Chain",
-    hands = "Oracle's Gloves",
+    hands = "Wayfarer Cuffs",
     waist = "Hierarch Belt",
-    feet = "Goliard Clogs",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Templar Mace",
+    main = "Eminent Wand",
     sub = "Tariqah",
-    ammo = "Holy Ampulla",
-    head = "Walahra Turban",
+    ammo = "Kalboron Stone",
+    head = "Wayfarer Circlet",
     neck = "Morgana's Choker",
     ear1 = "Insomnia Earring",
     ear2 = "Loquacious Earring",
-    body = "Cleric's Briault",
-    hands = "Blessed Mitts",
+    body = "Wayfarer Robe",
+    hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
     waist = "Hierarch Belt",
-    legs = "Tatsumaki Sitagoromo",
-    feet = "Blessed Pumps",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   -- sets.idle.PDT = {}
 
-  -- sets.idle.Town = {}
+  sets.idle.Town = set_combine(sets.idle, {
+    legs = "Tatsumaki Sitagoromo",
+  })
 
   -- sets.idle.Weak = {}
 
@@ -240,21 +249,21 @@ function init_gear_sets()
 
   -- Basic set for if no TP weapon is defined.
   sets.engaged = {
-    main = "Templar Mace",
+    main = "Eminent Wand",
     sub = "Tariqah",
-    ammo = "Holy Ampulla",
-    head = "Walahra Turban",
+    ammo = "Kalboron Stone",
+    head = "Wayfarer Circlet",
     neck = "Morgana's Choker",
     ear1 = "Insomnia Earring",
     ear2 = "Loquacious Earring",
-    body = "Cleric's Briault",
-    hands = "Blessed Mitts",
+    body = "Wayfarer Robe",
+    hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
     waist = "Hierarch Belt",
-    legs = "Blessed Trousers",
-    feet = "Blessed Pumps",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
 
