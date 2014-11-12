@@ -65,39 +65,32 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    head = "Optical Hat",
+    head = "Bokwus Circlet",
+    body = "Orvail Robe +1",
+    legs = "Convoker's Spats +1",
+    feet = "Artsieq Boots",
   }
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
   -- Myrkr is not aligned with any elemental gorget/belt.
-  sets.precast.WS.Myrkr = {}
+  sets.precast.WS.Myrkr = set_combine(sets.precast.WS, {})
 
   -- Garland of Bliss has STR: 30% and MND 70% modifiers and is aligned with the
   -- Flame, Light, and Aqua gorgets/belts.
-  sets.precast.WS['Garland of Bliss'] = {
-    head = "Bokwus Circlet",
+  sets.precast.WS['Garland of Bliss'] = set_combine(sets.precast.WS, {
     neck = "Light Gorget",
-    legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
-  }
+  })
 
   -- Retribution has STR: 30% and MND 50% modifiers and is aligned with the
   -- Shadow, Soil, and Aqua gorgets/belts.
-  sets.precast.WS.Retribution = {
-    head = "Bokwus Circlet",
+  sets.precast.WS.Retribution = set_combine(sets.precast.WS, {
     neck = "Shadow Gorget",
-    legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
-  }
+  })
 
   -- Spirit Taker has INT: 50% and MND 50% modifiers and is not aligned with any
   -- elemental gorget/belt.
-  sets.precast.WS['Spirit Taker'] = {
-    head = "Bokwus Circlet",
-    legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
-  }
+  sets.precast.WS['Spirit Taker'] = set_combine(sets.precast.WS, {})
 
 
   --------------------------------------
@@ -115,24 +108,28 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     head = "Bokwus Circlet",
+    body = "Orvail Robe +1",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
 
   sets.midcast.Stoneskin = {
     head = "Bokwus Circlet",
+    body = "Orvail Robe +1",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
 
   sets.midcast['Elemental Magic'] = {
     head = "Bokwus Circlet",
+    body = "Orvail Robe +1",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
 
   sets.midcast['Dark Magic'] = {
     head = "Bokwus Circlet",
+    body = "Orvail Robe +1",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
@@ -182,7 +179,7 @@ function init_gear_sets()
     head = "Convoker's Horn",
     neck = "Grandiose Chain",
     ear2 = "Antivenom Earring",
-    body = "Yigit Gomlek",
+    body = "Orvail Robe +1",
     legs = "Yigit Seraweels",
   }
 
@@ -190,12 +187,12 @@ function init_gear_sets()
   sets.idle = {
     main = "Patriarch Cane",
     sub = "Genbu's Shield",
-    ammo = "Phantom Tathlum",
+    ammo = "Eminent Sachet",
     head = "Convoker's Horn",
     neck = "Morgana's Choker",
     ear1 = "Loquacious Earring",
     ear2 = "Antivenom Earring",
-    body = "Yinyang Robe",
+    body = "Orvail Robe +1",
     hands = "Nashira Gages",
     ring1 = "Ether Ring",
     ring2 = "Evoker's Ring",
@@ -245,7 +242,7 @@ function init_gear_sets()
   sets.perp = {
     main = "Patriarch Cane",
     head = "Convoker's Horn",
-    body = "Yinyang Robe",
+    body = "Orvail Robe +1",
     hands = "Nashira Gages",
     ring2 = "Evoker's Ring",
     feet = "Artsieq Boots",
