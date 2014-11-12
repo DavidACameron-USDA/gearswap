@@ -21,9 +21,9 @@ function init_gear_sets()
   --------------------------------------
 
   sets['Summoning Magic Skill'] = {
-    head = "Bokwus Circlet",
+    head = "Convoker's Horn",
     neck = "Summoning Torque",
-    hands = "Summoner's Bracers",
+    hands = "Summoner's Bracers +2",
     back = "Conveyance Cape",
     feet = "Nashira Crackows",
   }
@@ -44,9 +44,9 @@ function init_gear_sets()
 
   -- Pact delay reduction gear
   sets.precast.BloodPactWard = {
-    head = "Summoner's Horn",
+    head = "Convoker's Horn",
     body = "Yinyang Robe",
-    hands = "Summoner's Bracers",
+    hands = "Summoner's Bracers +2",
     legs = "Summoner's Spats",
     feet = "Summoner's Pgch.",
   }
@@ -56,10 +56,7 @@ function init_gear_sets()
   -- Fast cast sets for spells
 
   sets.precast.FC = {
-    hands = "Nashira Gages",
-    waist = "Paewr Belt",
-    legs = "Convoker's spats",
-    feet = "Artsieq Boots",
+    ear1 = "Loquacious Earring",
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
@@ -81,7 +78,7 @@ function init_gear_sets()
   sets.precast.WS['Garland of Bliss'] = {
     head = "Bokwus Circlet",
     neck = "Light Gorget",
-    legs = "Convoker's spats",
+    legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
 
@@ -90,7 +87,7 @@ function init_gear_sets()
   sets.precast.WS.Retribution = {
     head = "Bokwus Circlet",
     neck = "Shadow Gorget",
-    legs = "Convoker's spats",
+    legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
 
@@ -98,7 +95,7 @@ function init_gear_sets()
   -- elemental gorget/belt.
   sets.precast.WS['Spirit Taker'] = {
     head = "Bokwus Circlet",
-    legs = "Convoker's spats",
+    legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
 
@@ -107,19 +104,38 @@ function init_gear_sets()
   -- Midcast sets
   --------------------------------------
 
-  sets.midcast.FastRecast = {}
+  sets.midcast.FastRecast = {
+    head = "Convoker's Horn",
+    ear1 = "Loquacious Earring",
+    hands = "Nashira Gages",
+    waist = "Paewr Belt",
+    legs = "Convoker's Spats +1",
+    feet = "Artsieq Boots",
+  }
 
   sets.midcast.Cure = {
-    main = "Light Staff",
+    head = "Bokwus Circlet",
+    legs = "Convoker's Spats +1",
+    feet = "Artsieq Boots",
   }
 
   sets.midcast.Stoneskin = {
-    main = "Water Staff",
+    head = "Bokwus Circlet",
+    legs = "Convoker's Spats +1",
+    feet = "Artsieq Boots",
   }
 
-  sets.midcast['Elemental Magic'] = {}
+  sets.midcast['Elemental Magic'] = {
+    head = "Bokwus Circlet",
+    legs = "Convoker's Spats +1",
+    feet = "Artsieq Boots",
+  }
 
-  sets.midcast['Dark Magic'] = {}
+  sets.midcast['Dark Magic'] = {
+    head = "Bokwus Circlet",
+    legs = "Convoker's Spats +1",
+    feet = "Artsieq Boots",
+  }
 
 
   -- Avatar pact sets.  All pacts are Ability type.
@@ -136,8 +152,8 @@ function init_gear_sets()
   })
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
-    hands = "Summoner's Bracers",
-    legs = "Convoker's Spats",
+    hands = "Summoner's Bracers +2",
+    legs = "Convoker's Spats +1",
   })
 
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
@@ -163,29 +179,29 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     main = "Dark Staff",
+    head = "Convoker's Horn",
     neck = "Grandiose Chain",
     ear2 = "Antivenom Earring",
-    head = "Yigit Turban",
     body = "Yigit Gomlek",
     legs = "Yigit Seraweels",
   }
 
   -- Idle sets
   sets.idle = {
-    main = "Earth Staff",
-    sub = "Staff Strap",
+    main = "Patriarch Cane",
+    sub = "Genbu's Shield",
     ammo = "Phantom Tathlum",
+    head = "Convoker's Horn",
     neck = "Morgana's Choker",
     ear1 = "Loquacious Earring",
     ear2 = "Antivenom Earring",
-    head = "Bokwus Circlet",
     body = "Yinyang Robe",
     hands = "Nashira Gages",
     ring1 = "Ether Ring",
     ring2 = "Evoker's Ring",
     back = "Conveyance Cape",
     waist = "Hierarch Belt",
-    legs = "Convoker's spats",
+    legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
 
@@ -212,7 +228,8 @@ function init_gear_sets()
   -- Can make due without either the head or the body, and use +refresh items in those slots.
 
   sets.idle.Avatar = set_combine(sets.idle, {
-    legs = "Convoker's Spats",
+    head = "Convoker's Horn",
+    legs = "Convoker's Spats +1",
   })
 
   -- sets.idle.PDT.Avatar = {}
@@ -226,6 +243,9 @@ function init_gear_sets()
   sets.idle.Avatar.Melee = {}
 
   sets.perp = {
+    main = "Patriarch Cane",
+    head = "Convoker's Horn",
+    body = "Yinyang Robe",
     hands = "Nashira Gages",
     ring2 = "Evoker's Ring",
     feet = "Artsieq Boots",
@@ -243,41 +263,7 @@ function init_gear_sets()
   }
 
   sets.perp.Carbuncle = {
-    main = "Light Staff",
     hands = "Carbuncle Mitts",
-  }
-
-  sets.perp.Fenrir = {
-    main = "Dark Staff",
-  }
-
-  sets.perp.Ifrit = {
-    main = "Fire Staff",
-  }
-
-  sets.perp.Titan = {
-    main = "Earth Staff",
-  }
-
-  sets.perp.Leviathan = {
-    main = "Water Staff",
-  }
-
-  sets.perp.Garuda = {
-    main = "Wind Staff",
-    head = "Karura Hachigane",
-  }
-
-  sets.perp.Shiva = {
-    main = "Ice Staff",
-  }
-
-  sets.perp.Ramuh = {
-    main = "Thunder Staff",
-  }
-
-  sets.perp.Diabolos = {
-    main = "Dark Staff",
   }
 
   sets.perp.staff_and_grip = {}
