@@ -17,18 +17,28 @@ end
 -- Define sets and vars used by this job file.
 function init_gear_sets()
   --------------------------------------
+  -- Base Sets
+  --------------------------------------
+
+  sets['Summoning Magic Skill'] = {
+    head = "Bokwus Circlet",
+    neck = "Summoning Torque",
+    hands = "Summoner's Bracers",
+    back = "Conveyance Cape",
+    feet = "Nashira Crackows",
+  }
+
+
+  --------------------------------------
   -- Precast Sets
   --------------------------------------
 
   -- Precast sets to enhance JAs
   sets.precast.JA['Astral Flow'] = {}
 
-  sets.precast.JA['Elemental Siphon'] = {
-    head = "Evoker's Horn",
-    neck = "Summoning Torque",
-    hands = "Summoner's Bracers",
-    feet = "Nashira Crackows",
-  }
+  sets.precast.JA['Elemental Siphon'] = set_combine(sets['Summoning Magic Skill'], {
+    back = "Conveyance Cape",
+  })
 
   sets.precast.JA['Mana Cede'] = {}
 
@@ -47,8 +57,9 @@ function init_gear_sets()
 
   sets.precast.FC = {
     hands = "Nashira Gages",
-    waist = "Swift Belt",
-    feet = "Nashira Crackows",
+    waist = "Paewr Belt",
+    legs = "Convoker's spats",
+    feet = "Artsieq Boots",
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
@@ -68,26 +79,27 @@ function init_gear_sets()
   -- Garland of Bliss has STR: 30% and MND 70% modifiers and is aligned with the
   -- Flame, Light, and Aqua gorgets/belts.
   sets.precast.WS['Garland of Bliss'] = {
-    head = "Yigit Turban",
-    legs = "Summoner's Spats",
-    feet = "Yigit Crackows",
+    head = "Bokwus Circlet",
+    neck = "Light Gorget",
+    legs = "Convoker's spats",
+    feet = "Artsieq Boots",
   }
 
   -- Retribution has STR: 30% and MND 50% modifiers and is aligned with the
   -- Shadow, Soil, and Aqua gorgets/belts.
   sets.precast.WS.Retribution = {
-    head = "Yigit Turban",
+    head = "Bokwus Circlet",
     neck = "Shadow Gorget",
-    legs = "Summoner's Spats",
-    feet = "Yigit Crackows",
+    legs = "Convoker's spats",
+    feet = "Artsieq Boots",
   }
 
   -- Spirit Taker has INT: 50% and MND 50% modifiers and is not aligned with any
   -- elemental gorget/belt.
   sets.precast.WS['Spirit Taker'] = {
-    head = "Yigit Turban",
-    legs = "Summoner's Spats",
-    feet = "Yigit Crackows",
+    head = "Bokwus Circlet",
+    legs = "Convoker's spats",
+    feet = "Artsieq Boots",
   }
 
 
@@ -112,49 +124,34 @@ function init_gear_sets()
 
   -- Avatar pact sets.  All pacts are Ability type.
 
-  sets.midcast.Pet.BloodPactWard = {
-    head = "Evoker's Horn",
-    neck = "Summoning Torque",
-    hands = "Summoner's Bracers",
-    feet = "Nashira Crackows",
-  }
+  sets.midcast.Pet.BloodPactWard = set_combine(sets['Summoning Magic Skill'], {})
 
-  sets.midcast.Pet.DebuffBloodPactWard = {
-    head = "Evoker's Horn",
-    neck = "Summoning Torque",
-    hands = "Summoner's Bracers",
-    feet = "Nashira Crackows",
-  }
+  sets.midcast.Pet.DebuffBloodPactWard = set_combine(sets['Summoning Magic Skill'], {})
 
   sets.midcast.Pet.DebuffBloodPactWard.Acc = sets.midcast.Pet.DebuffBloodPactWard
 
-  sets.midcast.Pet.PhysicalBloodPactRage = {
-    head = "Evoker's Horn",
-    neck = "Summoning Torque",
+  sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     body = "Summoner's Doublet",
-    hands = "Summoner's Bracers",
-    legs = "Evoker's Spats",
     feet = "Summoner's Pgch.",
-  }
+  })
 
-  sets.midcast.Pet.PhysicalBloodPactRage.Acc = sets.midcast.Pet.PhysicalBloodPactRage
-
-  sets.midcast.Pet.MagicalBloodPactRage = {
-    head = "Evoker's Horn",
-    neck = "Summoning Torque",
+  sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
     hands = "Summoner's Bracers",
+    legs = "Convoker's Spats",
+  })
+
+  sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     back = "Altius Mantle",
-    feet = "Nashira Crackows",
-  }
+  })
 
   sets.midcast.Pet.MagicalBloodPactRage.Acc = sets.midcast.Pet.MagicalBloodPactRage
 
 
   -- Spirits cast magic spells, which can be identified in standard ways.
 
-  sets.midcast.Pet.WhiteMagic = {legs="Summoner's Spats"}
+  sets.midcast.Pet.WhiteMagic = {legs = "Summoner's Spats"}
 
-  sets.midcast.Pet['Elemental Magic'] = set_combine(sets.midcast.Pet.BloodPactRage, {legs="Summoner's Spats"})
+  sets.midcast.Pet['Elemental Magic'] = set_combine(sets.midcast.Pet.BloodPactRage, {legs = "Summoner's Spats"})
 
   sets.midcast.Pet['Elemental Magic'].Resistant = {}
 
@@ -170,7 +167,6 @@ function init_gear_sets()
     ear2 = "Antivenom Earring",
     head = "Yigit Turban",
     body = "Yigit Gomlek",
-    back = "Intensifying Cape",
     legs = "Yigit Seraweels",
   }
 
@@ -182,15 +178,15 @@ function init_gear_sets()
     neck = "Morgana's Choker",
     ear1 = "Loquacious Earring",
     ear2 = "Antivenom Earring",
-    head = "Walahra Turban",
+    head = "Bokwus Circlet",
     body = "Yinyang Robe",
     hands = "Nashira Gages",
     ring1 = "Ether Ring",
     ring2 = "Evoker's Ring",
-    back = "Intensifying Cape",
+    back = "Conveyance Cape",
     waist = "Hierarch Belt",
-    legs = "Yigit Seraweels",
-    feet = "Evoker's Pigaches +1",
+    legs = "Convoker's spats",
+    feet = "Artsieq Boots",
   }
 
   -- sets.idle.PDT = {}
@@ -216,7 +212,7 @@ function init_gear_sets()
   -- Can make due without either the head or the body, and use +refresh items in those slots.
 
   sets.idle.Avatar = set_combine(sets.idle, {
-    legs = "Evoker's Spats",
+    legs = "Convoker's Spats",
   })
 
   -- sets.idle.PDT.Avatar = {}
@@ -229,7 +225,11 @@ function init_gear_sets()
   sets.idle.Avatar.Favor = {}
   sets.idle.Avatar.Melee = {}
 
-  sets.perp = {}
+  sets.perp = {
+    hands = "Nashira Gages",
+    ring2 = "Evoker's Ring",
+    feet = "Artsieq Boots",
+  }
   -- Caller's Bracer's halve the perp cost after other costs are accounted for.
   -- Using -10 (Gridavor, ring, Conv.feet), standard avatars would then cost 5, halved to 2.
   -- We can then use Hagondes Coat and end up with the same net MP cost, but significantly better defense.
