@@ -66,6 +66,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     head = "Bokwus Circlet",
+    ear2 = "Influx Earring",
     body = "Orvail Robe +1",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -108,6 +109,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     head = "Bokwus Circlet",
+    ear2 = "Influx Earring",
     body = "Orvail Robe +1",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -115,6 +117,7 @@ function init_gear_sets()
 
   sets.midcast.Stoneskin = {
     head = "Bokwus Circlet",
+    ear2 = "Influx Earring",
     body = "Orvail Robe +1",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -178,7 +181,6 @@ function init_gear_sets()
     main = "Dark Staff",
     head = "Convoker's Horn",
     neck = "Grandiose Chain",
-    ear2 = "Antivenom Earring",
     body = "Orvail Robe +1",
     legs = "Yigit Seraweels",
   }
@@ -191,7 +193,7 @@ function init_gear_sets()
     head = "Convoker's Horn",
     neck = "Morgana's Choker",
     ear1 = "Loquacious Earring",
-    ear2 = "Antivenom Earring",
+    ear2 = "Influx Earring",
     body = "Orvail Robe +1",
     hands = "Nashira Gages",
     ring1 = "Ether Ring",
