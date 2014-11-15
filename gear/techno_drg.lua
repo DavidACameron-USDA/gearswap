@@ -43,7 +43,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Zoran's Belt",
     legs = "Crimson Cuisses",
-    feet = "Vishap Greaves +1",
+    feet = "Whirlpool Greaves",
   }
 
   sets.idle.Refresh = {
@@ -78,7 +78,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Zoran's Belt",
     legs = "Vishap Brais +1",
-    feet = "Vishap Greaves +1",
+    feet = "Whirlpool Greaves",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {

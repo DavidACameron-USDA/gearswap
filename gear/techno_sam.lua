@@ -43,7 +43,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Paewr Belt",
     legs = "Outrider Hose",
-    feet = "Outrider Greaves",
+    feet = "Whirlpool Greaves",
   }
 
   -- sets.idle.Town = {}
@@ -85,7 +85,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Paewr Belt",
     legs = "Outrider Hose",
-    feet = "Outrider Greaves",
+    feet = "Whirlpool Greaves",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
@@ -139,7 +139,7 @@ function init_gear_sets()
     back = "Unkai Sugemino",
     waist = "Warwolf Belt",
     legs = "Outrider Hose",
-    feet = "Outrider Greaves",
+    feet = "Whirlpool Greaves",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
