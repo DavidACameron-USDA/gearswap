@@ -129,6 +129,7 @@ function init_gear_sets()
 
   sets.precast.JA.Angon = {
     ammo = "Angon",
+    hands = "Wyrm Finger Gauntlets +2",
   }
 
   -- Steady Wing's potency is improved by +Wyvern HP gear.
