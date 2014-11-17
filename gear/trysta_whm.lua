@@ -117,6 +117,7 @@ function init_gear_sets()
 
   sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
     legs = "Theophany Pantaloons",
+    feet = "Gendewitha Galoshes",
   })
 
   -- 110 total Enhancing Magic Skill; caps even without Light Arts
@@ -161,7 +162,7 @@ function init_gear_sets()
     body = "Wayfarer Robe",
     hands = "Wayfarer Cuffs",
     legs = "Theophany Pantaloons",
-    feet = "Wayfarer Clogs",
+    feet = "Gendewitha Galoshes",
   }
 
   sets.midcast['Dark Magic'] = {}
@@ -217,14 +218,14 @@ function init_gear_sets()
     neck = "Morgana's Choker",
     ear1 = "Influx Earring",
     ear2 = "Loquacious Earring",
-    body = "Wayfarer Robe",
+    body = "Gendewitha Bliaut",
     hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
     waist = "Hierarch Belt",
-    legs = "Wayfarer Slops",
-    feet = "Wayfarer Clogs",
+    legs = "Theophany Pantaloons",
+    feet = "Gendewitha Galoshes",
   }
 
   -- sets.idle.PDT = {}
