@@ -258,7 +258,7 @@ function init_gear_sets()
   }
 
   sets.perp.Weather = {
-    head = "Summoner's Horn"
+    head = "Summoner's Horn",
     neck = "Caller's Pendant",
   }
 
