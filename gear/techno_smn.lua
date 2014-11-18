@@ -22,7 +22,7 @@ function init_gear_sets()
 
   sets['Summoning Magic Skill'] = {
     head = "Convoker's Horn",
-    neck = "Summoning Torque",
+    neck = "Caller's Pendant",
     hands = "Summoner's Bracers +2",
     back = "Conveyance Cape",
     feet = "Nashira Crackows",
@@ -191,7 +191,7 @@ function init_gear_sets()
     sub = "Genbu's Shield",
     ammo = "Eminent Sachet",
     head = "Convoker's Horn",
-    neck = "Morgana's Choker",
+    neck = "Caller's Pendant",
     ear1 = "Loquacious Earring",
     ear2 = "Influx Earring",
     body = "Orvail Robe +1",
@@ -259,6 +259,7 @@ function init_gear_sets()
 
   sets.perp.Weather = {
     head = "Summoner's Horn"
+    neck = "Caller's Pendant",
   }
 
   sets.perp.Carbuncle = {
