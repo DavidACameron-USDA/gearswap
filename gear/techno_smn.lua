@@ -148,7 +148,7 @@ function init_gear_sets()
 
   sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     body = "Summoner's Doublet",
-    feet = "Summoner's Pgch.",
+    feet = "Convoker's Pigaches",
   })
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
@@ -158,6 +158,7 @@ function init_gear_sets()
 
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     back = "Altius Mantle",
+    feet = "Convoker's Pigaches",
   })
 
   sets.midcast.Pet.MagicalBloodPactRage.Acc = sets.midcast.Pet.MagicalBloodPactRage
@@ -229,6 +230,7 @@ function init_gear_sets()
   sets.idle.Avatar = set_combine(sets.idle, {
     head = "Convoker's Horn",
     legs = "Convoker's Spats +1",
+    feet = "Convoker's Pigaches",
   })
 
   -- sets.idle.PDT.Avatar = {}
@@ -247,7 +249,7 @@ function init_gear_sets()
     body = "Orvail Robe +1",
     hands = "Nashira Gages",
     ring2 = "Evoker's Ring",
-    feet = "Artsieq Boots",
+    feet = "Convoker's Pigaches",
   }
   -- Caller's Bracer's halve the perp cost after other costs are accounted for.
   -- Using -10 (Gridavor, ring, Conv.feet), standard avatars would then cost 5, halved to 2.
