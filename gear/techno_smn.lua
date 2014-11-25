@@ -158,7 +158,7 @@ function init_gear_sets()
 
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     back = "Altius Mantle",
-    feet = "Convoker's Pigaches",
+    feet = "Hagondes Sabots",
   })
 
   sets.midcast.Pet.MagicalBloodPactRage.Acc = sets.midcast.Pet.MagicalBloodPactRage

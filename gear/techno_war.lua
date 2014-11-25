@@ -42,7 +42,7 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Zoran's Belt",
+    waist = "Cetl Belt",
     legs = "Outrider Hose",
     feet = "Whirlpool Greaves",
   }
@@ -84,7 +84,7 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Zoran's Belt",
+    waist = "Cetl Belt",
     legs = "Outrider Hose",
     feet = "Whirlpool Greaves",
   }

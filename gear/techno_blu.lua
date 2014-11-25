@@ -122,7 +122,7 @@ function init_gear_sets()
     head = "Assimilator's Keffiyeh",
     neck = "Chivalrous Chain",
     body = "Assimilator's Jubbah +1",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -136,7 +136,7 @@ function init_gear_sets()
     head = "Optical Hat",
     neck = "Chivalrous Chain",
     body = "Espial Gambison",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -154,6 +154,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Kubira Bead Necklace",
     ear1 = "Delta Earring",
+    hands = "Espial Bracers",
   })
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -169,20 +170,26 @@ function init_gear_sets()
     ear1 = "Morion Earring",
     ring2 = "Omega Ring",
     back = "Gleeman's Cape",
-    feet = "Yigit Crackows",
+    feet = "Hagondes Sabots",
   })
 
   sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Imbodla Necklace",
+    hands = "Espial Bracers",
     ring2 = "Omega Ring",
+    feet = "Hagondes Sabots",
   })
 
   sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {
     ear1 = "Delta Earring",
+    hands = "Espial Bracers",
     ring2 = "Omega Ring",
+    feet = "Hagondes Sabots",
   })
 
-  sets.midcast['Blue Magic'].PhysicalHP = set_combine(sets.midcast['Blue Magic'].Physical)
+  sets.midcast['Blue Magic'].PhysicalHP = set_combine(sets.midcast['Blue Magic'].Physical, {
+    feet = "Hagondes Sabots",
+  })
 
 
   -- Magical Spells --
@@ -193,25 +200,26 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear2 = "Moldavite Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands",
     ring2 = "Omega Ring",
     back = "Gleeman's Cape",
     legs = "Espial Hose",
-    feet = "Yigit Crackows",
+    feet = "Hagondes Sabots",
   }
 
   sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
     ammo = "Mavi Tathlum",
     ear1 = "Aptus Earring",
-    feet = "Denali Gamashes",
   })
 
   sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
     ear1 = "Geist Earring",
+    hands = "Espial Bracers",
   })
 
   sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {
     ear1 = "Delta Earring",
+    hands = "Espial Bracers",
   })
 
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
@@ -223,6 +231,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
     neck = "Kubira Bead Necklace",
     ear1 = "Delta Earring",
+    hands = "Espial Bracers",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
@@ -232,7 +241,6 @@ function init_gear_sets()
     ammo = "Sturm's Report",
     ear1 = "Aptus Earring",
     ring2 = "Omega Ring",
-    feet = "Denali Gamashes",
   }
 
   -- Breath Spells --
@@ -260,10 +268,10 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear1 = "Geist Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands",
     ring2 = "Omega Ring",
     legs = "Espial Hose",
-    feet = "Espial Socks",
+    feet = "Hagondes Sabots",
   }
 
   sets.midcast['Blue Magic'].SkillBasedBuff = {
@@ -310,7 +318,7 @@ function init_gear_sets()
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -350,7 +358,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",

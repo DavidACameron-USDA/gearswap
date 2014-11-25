@@ -41,7 +41,7 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Zoran's Belt",
+    waist = "Cetl Belt",
     legs = "Crimson Cuisses",
     feet = "Whirlpool Greaves",
   }
@@ -83,7 +83,7 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Zoran's Belt",
+    waist = "Cetl Belt",
     legs = "Outrider Hose",
     feet = "Whirlpool Greaves",
   }
@@ -104,7 +104,7 @@ function init_gear_sets()
   -- Precast Sets
   -- Fast Cast set
   sets.precast.FC = {
-    head = "Cizin Helm",
+    head = "Cizin Helm +1",
     ear2 = "Loquacious Earring",
     waist = "Zoran's Belt",
     legs = "Homam Cosciales",
