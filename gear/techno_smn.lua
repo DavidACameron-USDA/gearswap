@@ -23,7 +23,7 @@ function init_gear_sets()
   sets['Summoning Magic Skill'] = {
     head = "Convoker's Horn",
     neck = "Caller's Pendant",
-    hands = "Summoner's Bracers +2",
+    hands = "Glyphic Bracers",
     back = "Conveyance Cape",
     feet = "Nashira Crackows",
   }
@@ -45,8 +45,8 @@ function init_gear_sets()
   -- Pact delay reduction gear
   sets.precast.BloodPactWard = {
     head = "Convoker's Horn",
-    body = "Yinyang Robe",
-    hands = "Summoner's Bracers +2",
+    body = "Convoker's Doublet",
+    hands = "Glyphic Bracers",
     legs = "Summoner's Spats",
     feet = "Summoner's Pgch.",
   }
@@ -68,6 +68,7 @@ function init_gear_sets()
     head = "Bokwus Circlet",
     ear2 = "Influx Earring",
     body = "Orvail Robe +1",
+    hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
@@ -101,7 +102,7 @@ function init_gear_sets()
   sets.midcast.FastRecast = {
     head = "Convoker's Horn",
     ear1 = "Loquacious Earring",
-    hands = "Nashira Gages",
+    hands = "Glyphic Bracers",
     waist = "Paewr Belt",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -111,6 +112,7 @@ function init_gear_sets()
     head = "Bokwus Circlet",
     ear2 = "Influx Earring",
     body = "Orvail Robe +1",
+    hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
@@ -119,6 +121,7 @@ function init_gear_sets()
     head = "Bokwus Circlet",
     ear2 = "Influx Earring",
     body = "Orvail Robe +1",
+    hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
@@ -126,6 +129,7 @@ function init_gear_sets()
   sets.midcast['Elemental Magic'] = {
     head = "Bokwus Circlet",
     body = "Orvail Robe +1",
+    hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
@@ -133,6 +137,7 @@ function init_gear_sets()
   sets.midcast['Dark Magic'] = {
     head = "Bokwus Circlet",
     body = "Orvail Robe +1",
+    hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
@@ -147,16 +152,17 @@ function init_gear_sets()
   sets.midcast.Pet.DebuffBloodPactWard.Acc = sets.midcast.Pet.DebuffBloodPactWard
 
   sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
-    body = "Summoner's Doublet",
+    body = "Convoker's Doublet",
     feet = "Convoker's Pigaches",
   })
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
-    hands = "Summoner's Bracers +2",
+    hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
   })
 
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
+    body = "Convoker's Doublet",
     back = "Altius Mantle",
     feet = "Hagondes Sabots",
   })
@@ -196,7 +202,7 @@ function init_gear_sets()
     ear1 = "Loquacious Earring",
     ear2 = "Influx Earring",
     body = "Orvail Robe +1",
-    hands = "Nashira Gages",
+    hands = "Glyphic Bracers",
     ring1 = "Ether Ring",
     ring2 = "Evoker's Ring",
     back = "Conveyance Cape",
