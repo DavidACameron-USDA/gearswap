@@ -92,14 +92,6 @@ function init_gear_sets()
     legs = "Vishap Brais +1",
   }
 
-  -- Melee sets for use in Assault and Salvage.  Sets should utilize gear with
-  -- Assault bonuses.
-  sets.engaged.Assault = set_combine(sets.engaged, {
-    ring1 = "Imperial Ring",
-  })
-
-  sets.engaged.Assault.Acc = set_combine(sets.engaged.Acc, {})
-
 
   -- Precast Sets
   -- Precast sets to enhance JAs
@@ -264,11 +256,7 @@ function customize_melee_set(meleeSet)
 end
 
 function update_combat_form()
-  if areas.Assault:contains(world.area) then
-    state.CombatForm:set('Assault')
-  else
-    state.CombatForm:reset()
-  end
+
 end
 
 -- Select default macro book on initial load or subjob change.
