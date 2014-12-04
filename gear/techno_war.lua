@@ -6,7 +6,7 @@
 function user_setup()
   state.OffenseMode:options('Normal', 'Acc')
   state.WeaponskillMode:options('Normal', 'Acc')
-  state.IdleMode:options('Normal', 'PDT')
+  state.IdleMode:options('Normal', 'PDT', 'Proc')
 
   update_combat_form()
 
@@ -62,6 +62,10 @@ function init_gear_sets()
     feet = "Outrider Greaves",
   })
 
+  sets.idle.Proc = set_combine(sets.idle, {
+    main = "",
+    sub = "",
+  })
 
   -- Engaged sets
 
@@ -72,8 +76,6 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Eminent Voulge",
-    sub = "Pole Grip",
     ammo = "Aqreqaq Bomblet",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
