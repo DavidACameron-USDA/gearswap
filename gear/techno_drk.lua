@@ -41,7 +41,7 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Cetl Belt",
+    waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
     feet = "Whirlpool Greaves",
   }
@@ -201,6 +201,7 @@ function init_gear_sets()
     body = "Outrider Mail",
     hands = "Outrider Mittens",
     ring1 = "Patronus Ring",
+    waist = "Flume Belt +1",
     legs = "Outrider Hose",
     feet = "Outrider Greaves",
   }
