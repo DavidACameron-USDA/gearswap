@@ -95,21 +95,27 @@ function init_gear_sets()
 
   -- Precast Sets
   -- Precast sets to enhance JAs
-  sets.precast.JA.Jump = {
-    head = "Vishap Armet +1",
-    body = "Xaddi Mail",
-    hands = "Cizin Mufflers +1",
-    ring1 = "Flame Ring",
-    waist = "Wyrm Belt",
-    legs = "Vishap Brais +1",
+  sets.precast.JA.Jump = set_combine(sets.engaged, {
+    body = "Vishap Mail",
+    waist = "Windbuffet Belt",
     feet = "Vishap Greaves +1",
-  }
+  })
 
-  sets.precast.JA['High Jump'] = set_combine(sets.precast.JA.Jump, {})
+  sets.precast.JA['High Jump'] = set_combine(sets.engaged, {
+    body = "Vishap Mail",
+    waist = "Windbuffet Belt",
+    legs = "Vishap Brais +1",
+  })
 
-  sets.precast.JA['Spirit Jump'] = set_combine(sets.precast.JA.Jump, {})
+  sets.precast.JA['Spirit Jump'] = set_combine(sets.engaged, {
+    legs = "Lancer's Cuissots +1",
+    waist = "Windbuffet Belt",
+  })
 
-  sets.precast.JA['Soul Jump'] = set_combine(sets.precast.JA.Jump, {})
+  sets.precast.JA['Soul Jump'] = set_combine(sets.engaged, {
+    legs = "Lancer's Cuissots +1",
+    waist = "Windbuffet Belt",
+  })
 
   sets.precast.JA['Spirit Link'] = {
     head = "Vishap Armet +1",
