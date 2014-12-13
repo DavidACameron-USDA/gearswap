@@ -40,7 +40,7 @@ function init_gear_sets()
     hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
-    back = "Atheling Mantle",
+    back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
     feet = "Whirlpool Greaves",
@@ -228,6 +228,7 @@ function init_gear_sets()
   -- Defense sets
   sets.defense.PDT = {
     hands = "Cizin Mufflers +1",
+    back = "Repulse Mantle",
     waist = "Flume Belt +1",
   }
 

@@ -212,7 +212,9 @@ function init_gear_sets()
     feet = "Artsieq Boots",
   }
 
-  -- sets.idle.PDT = {}
+  sets.idle.PDT = {
+    back = "Repulse Mantle",
+  }
 
   -- perp costs:
   -- spirits: 7
@@ -280,7 +282,9 @@ function init_gear_sets()
   sets.perp.staff_and_grip = {}
 
   -- Defense sets
-  sets.defense.PDT = {}
+  sets.defense.PDT = {
+    back = "Repulse Mantle",
+  }
 
   sets.defense.MDT = {}
 
