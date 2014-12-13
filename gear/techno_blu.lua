@@ -54,6 +54,7 @@ function init_gear_sets()
   -- Fast cast sets for spells
   sets.precast.FC = {
     ear2 = "Loquacious Earring",
+    body = "Mavi Mintan +1",
     legs = "Homam Cosciales",
   }
 
@@ -107,6 +108,7 @@ function init_gear_sets()
 
   -- Midcast Sets
   sets.midcast.FastRecast = {
+    hands = "Mavi Bazubands +1",
     legs = "Assimilator's Shalwar +1",
   }
 
