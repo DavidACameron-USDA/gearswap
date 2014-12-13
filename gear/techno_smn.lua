@@ -23,6 +23,7 @@ function init_gear_sets()
   sets['Summoning Magic Skill'] = {
     head = "Convoker's Horn",
     neck = "Caller's Pendant",
+    body = "Caller's Doublet +1",
     hands = "Glyphic Bracers",
     back = "Conveyance Cape",
     feet = "Nashira Crackows",
@@ -235,6 +236,7 @@ function init_gear_sets()
 
   sets.idle.Avatar = set_combine(sets.idle, {
     head = "Convoker's Horn",
+    body = "Caller's Doublet +1",
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches",
   })
@@ -252,7 +254,7 @@ function init_gear_sets()
   sets.perp = {
     main = "Patriarch Cane",
     head = "Convoker's Horn",
-    body = "Orvail Robe +1",
+    body = "Caller's Doublet +1",
     hands = "Nashira Gages",
     ring2 = "Evoker's Ring",
     feet = "Convoker's Pigaches",
@@ -262,7 +264,8 @@ function init_gear_sets()
   -- We can then use Hagondes Coat and end up with the same net MP cost, but significantly better defense.
   -- Weather is the same, but we can also use the latent on the pendant to negate the last point lost.
   sets.perp.Day = {
-    body="Summoner's Doublet",
+    -- body="Summoner's Doublet",
+    hands = "Caller's Bracers +1",
   }
 
   sets.perp.Weather = {
