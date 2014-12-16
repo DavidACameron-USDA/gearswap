@@ -147,15 +147,23 @@ function init_gear_sets()
 
   -- Raging Rush has a STR: 35% modifier and is aligned with the Snow and Aqua
   -- gorgets/belts.
-  sets.precast.WS['Raging Rush'] = set_combine(sets.precast.WS, {neck="Snow Gorget"})
+  sets.precast.WS['Raging Rush'] = set_combine(sets.precast.WS, {
+    neck="Snow Gorget",
+  })
 
-  sets.precast.WS['Raging Rush'].Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
+  sets.precast.WS['Raging Rush'].Acc = set_combine(sets.precast.WS.Acc, {
+    neck="Snow Gorget",
+  })
 
   -- Steel Cyclone has STR: 60% and VIT 60% modifiers and is aligned with the
   -- Breeze, Aqua, and Snow gorgets/belts.
-  sets.precast.WS['Steel Cyclone'] = set_combine(sets.precast.WS, {neck="Snow Gorget"})
+  sets.precast.WS['Steel Cyclone'] = set_combine(sets.precast.WS, {
+    neck="Snow Gorget",
+  })
 
-  sets.precast.WS['Steel Cyclone'].Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
+  sets.precast.WS['Steel Cyclone'].Acc = set_combine(sets.precast.WS.Acc, {
+    neck="Snow Gorget",
+  })
 
   -- King's Justice has a STR: 50% modifier and is aligned with the Breeze,
   -- Thunder, and Soil gorgets/belts.
