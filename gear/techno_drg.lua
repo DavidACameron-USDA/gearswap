@@ -182,16 +182,22 @@ function init_gear_sets()
   -- Sonic Thrust has STR: 40% and DEX 40% modifiers and is aligned with the
   -- Light and Soil gorgets/belts.
   sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
-    neck = "Kubira Bead Necklace",
+    neck = "Light Gorget",
   })
 
-  sets.precast.WS['Sonic Thrust'].Acc = set_combine(sets.precast.WS.Acc, {})
+  sets.precast.WS['Sonic Thrust'].Acc = set_combine(sets.precast.WS.Acc, {
+    neck = "Light Gorget",
+  })
 
   -- Drakesbane has a STR: 50% modifier and is aligned with the Flame and Light
   -- gorgets/belts.
-  -- sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {
+    neck = "Light Gorget",
+  })
 
-  -- sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
+  sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {
+    neck = "Light Gorget",
+  })
 
 
   -- Healing Breath sets
