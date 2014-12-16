@@ -32,7 +32,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Eminent Voulge",
     sub = "Pole Grip",
-    ammo = "Aqreqaq Bomblet",
+    ammo = "Ginsen",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
@@ -76,7 +76,7 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    ammo = "Aqreqaq Bomblet",
+    ammo = "Ginsen",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
@@ -139,6 +139,7 @@ function init_gear_sets()
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    ammo = "Ginsen",
     body = "Xaddi Mail",
   })
 

@@ -31,7 +31,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Olyndicus",
     sub = "Pole Grip",
-    ammo = "Thew Bomblet",
+    ammo = "Ginsen",
     head = "Vishap Armet +1",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
@@ -66,7 +66,7 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    ammo = "Thew Bomblet",
+    ammo = "Ginsen",
     head = "Vishap Armet +1",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
@@ -163,7 +163,9 @@ function init_gear_sets()
     feet = "Vishap Greaves +1",
   }
 
-  sets.precast.WS.Acc = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    ammo = "Ginsen",
+  })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 

@@ -307,7 +307,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Eminent Scimitar",
     sub = "Predatrice",
-    ammo = "Tiphia Sting",
+    ammo = "Ginsen",
     head = "Assimilator's Keffiyeh +1",
     neck = "Asperity Necklace",
     ear1 = "Dudgeon Earring",
@@ -352,7 +352,7 @@ function init_gear_sets()
   sets.engaged = {
     main = "Eminent Scimitar",
     sub = "Predatrice",
-    ammo = "Tiphia Sting",
+    ammo = "Ginsen",
     head = "Assimilator's Keffiyeh +1",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",

@@ -31,7 +31,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Ichimonji-Yofusa",
     sub = "Pole Grip",
-    ammo = "Thew Bomblet",
+    ammo = "Ginsen",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
@@ -74,7 +74,7 @@ function init_gear_sets()
   sets.engaged = {
     main = "Ichimonji-Yofusa",
     sub = "Pole Grip",
-    ammo = "Thew Bomblet",
+    ammo = "Ginsen",
     head = "Outrider Mask",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
@@ -136,6 +136,7 @@ function init_gear_sets()
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    ammo = "Ginsen",
     body = "Xaddi Mail",
   })
 
