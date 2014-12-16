@@ -158,27 +158,43 @@ function init_gear_sets()
 
   -- Guillotine has STR: 25% and MND 25% modifiers and is aligned with the Snow
   -- gorgets/belts.
-  sets.precast.WS.Guillotine = set_combine(sets.precast.WS, {neck="Snow Gorget"})
+  sets.precast.WS.Guillotine = set_combine(sets.precast.WS, {
+    neck="Snow Gorget",
+  })
 
-  sets.precast.WS.Guillotine.Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
+  sets.precast.WS.Guillotine.Acc = set_combine(sets.precast.WS.Acc, {
+    neck="Snow Gorget",
+  })
 
   -- Cross Reaper has STR: 30% and MND 30% modifiers and is aligned with the
   -- Aqua and Snow gorgets/belts.
-  sets.precast.WS['Cross Reaper'] = set_combine(sets.precast.WS, {neck="Snow Gorget"})
+  sets.precast.WS['Cross Reaper'] = set_combine(sets.precast.WS, {
+    neck="Snow Gorget",
+  })
 
-  sets.precast.WS['Cross Reaper'].Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
+  sets.precast.WS['Cross Reaper'].Acc = set_combine(sets.precast.WS.Acc, {
+    neck="Snow Gorget",
+  })
 
   -- Spiral Hell has STR: 50% and INT 50% modifiers and is aligned with the
   -- Aqua, Snow, and Soil gorgets/belts.
-  sets.precast.WS['Spiral Hell'] = set_combine(sets.precast.WS, {neck="Snow Gorget"})
+  sets.precast.WS['Spiral Hell'] = set_combine(sets.precast.WS, {
+    neck="Snow Gorget",
+  })
 
-  sets.precast.WS['Spiral Hell'].Acc = set_combine(sets.precast.WS.Acc, {neck="Snow Gorget"})
+  sets.precast.WS['Spiral Hell'].Acc = set_combine(sets.precast.WS.Acc, {
+    neck="Snow Gorget",
+  })
 
   -- Insurgency has STR: 20% and INT 20% modifiers and is aligned with the
   -- Flame, Light, and Shadow gorgets/belts.
-  sets.precast.WS.Insurgency = set_combine(sets.precast.WS, {neck="Shadow Gorget"})
+  sets.precast.WS.Insurgency = set_combine(sets.precast.WS, {
+    neck="Shadow Gorget",
+  })
 
-  sets.precast.WS.Insurgency.Acc = set_combine(sets.precast.WS.Acc, {neck="Shadow Gorget"})
+  sets.precast.WS.Insurgency.Acc = set_combine(sets.precast.WS.Acc, {
+    neck="Shadow Gorget",
+  })
 
 
   -- Midcast sets
