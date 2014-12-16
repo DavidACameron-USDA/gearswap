@@ -67,7 +67,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
     head = "Assimilator's Keffiyeh +1",
-    neck = "Kubira Bead Necklace",
+    neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Assimilator's Jubbah +1",
@@ -97,7 +97,7 @@ function init_gear_sets()
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
   -- the Aqua, Snow, and Soil gorgets/belts.
   sets.precast.WS.Expiacion = {
-    neck = "Snow Gorget"
+    neck = "Snow Gorget",
   }
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
@@ -121,7 +121,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Physical = {
     ammo = "Mavi Tathlum",
     head = "Assimilator's Keffiyeh +1",
-    neck = "Chivalrous Chain",
+    neck = "Justice Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Assimilator's Jubbah +1",
@@ -148,13 +148,12 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
-    neck = "Kubira Bead Necklace",
     ear2 = "Kemas Earring",
     ring1 = "Flame Ring",
   })
 
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
-    neck = "Kubira Bead Necklace",
+    neck = "Love Torque",
     ear1 = "Delta Earring",
     hands = "Espial Bracers",
   })
@@ -227,7 +226,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
-    neck = "Kubira Bead Necklace",
+    neck = "Love Torque",
     ear1 = "Delta Earring",
     hands = "Espial Bracers",
     ring2 = "Rajas Ring",
