@@ -54,11 +54,12 @@ function init_gear_sets()
   -- Fast cast sets for spells
   sets.precast.FC = {
     ear2 = "Loquacious Earring",
-    body = "Mavi Mintan +1",
     legs = "Homam Cosciales",
   }
 
-  sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {})
+  sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {
+    body = "Mavi Mintan +1",
+  })
 
 
   -- Weaponskill sets
@@ -108,11 +109,12 @@ function init_gear_sets()
 
   -- Midcast Sets
   sets.midcast.FastRecast = {
-    hands = "Mavi Bazubands +1",
     legs = "Assimilator's Shalwar +1",
   }
 
-  sets.midcast['Blue Magic'] = {}
+  sets.midcast['Blue Magic'] = {
+    hands = "Mavi Bazubands +1",
+  }
 
   -- Physical Spells --
 
