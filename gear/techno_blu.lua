@@ -297,6 +297,7 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     body = "Assimilator's Jubbah",
+    waist = "Fucho-no-Obi",
   }
 
   -- Idle sets

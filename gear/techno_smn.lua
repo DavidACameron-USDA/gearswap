@@ -189,6 +189,7 @@ function init_gear_sets()
     main = "Dark Staff",
     head = "Convoker's Horn",
     body = "Orvail Robe +1",
+    waist = "Fucho-no-Obi",
   }
 
   -- Idle sets
@@ -205,7 +206,7 @@ function init_gear_sets()
     ring1 = "Ether Ring",
     ring2 = "Evoker's Ring",
     back = "Conveyance Cape",
-    waist = "Hierarch Belt",
+    waist = "Fucho-no-Obi",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
   }
