@@ -188,9 +188,7 @@ function init_gear_sets()
   sets.resting = {
     main = "Dark Staff",
     head = "Convoker's Horn",
-    neck = "Grandiose Chain",
     body = "Orvail Robe +1",
-    legs = "Yigit Seraweels",
   }
 
   -- Idle sets
