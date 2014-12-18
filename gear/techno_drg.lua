@@ -6,6 +6,7 @@
 function user_setup()
   state.OffenseMode:options('Normal', 'Acc')
   state.WeaponskillMode:options('Normal', 'Acc')
+  state.IdleMode:options('Normal', 'Refresh')
 
   update_combat_form()
 
@@ -86,11 +87,6 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Wyrm Belt",
   })
-
-  sets.engaged.Refresh = {
-    body = "Xaddi Mail",
-    legs = "Vishap Brais +1",
-  }
 
 
   -- Precast Sets
@@ -251,25 +247,6 @@ end
 -------------------------------------------------------------------------------------------------------------------
 -- Utility functions specific to this job.
 -------------------------------------------------------------------------------------------------------------------
-
--- A list of subjobs for which we would want to equip a Refresh set.
-mageSubJobs = S{'WHM', 'BLM', 'RDM', 'BLU', 'SCH'}
-
--- Modify the default idle set after it was constructed.
-function customize_idle_set(idleSet)
-  if mageSubJobs:contains(player.sub_job) then
-    idleSet = set_combine(idleSet, sets.idle.Refresh)
-  end
-  return idleSet
-end
-
--- Modify the default melee set after it was constructed.
-function customize_melee_set(meleeSet)
-  if mageSubJobs:contains(player.sub_job) then
-    meleeSet = set_combine(meleeSet, sets.engaged.Refresh)
-  end
-  return meleeSet
-end
 
 function update_combat_form()
 
