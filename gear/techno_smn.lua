@@ -41,7 +41,9 @@ function init_gear_sets()
     back = "Conveyance Cape",
   })
 
-  sets.precast.JA['Mana Cede'] = {}
+  sets.precast.JA['Mana Cede'] = {
+    hands = "Caller's Bracers +2",
+  }
 
   -- Pact delay reduction gear
   sets.precast.BloodPactWard = {
@@ -266,12 +268,13 @@ function init_gear_sets()
   -- Weather is the same, but we can also use the latent on the pendant to negate the last point lost.
   sets.perp.Day = {
     -- body="Summoner's Doublet",
-    hands = "Caller's Bracers +1",
+    hands = "Caller's Bracers +2",
   }
 
   sets.perp.Weather = {
     head = "Summoner's Horn",
     neck = "Caller's Pendant",
+    hands = "Caller's Bracers +2",
   }
 
   sets.perp.Carbuncle = {
