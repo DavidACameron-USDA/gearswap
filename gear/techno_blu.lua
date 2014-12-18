@@ -31,7 +31,9 @@ function init_gear_sets()
   sets.buff['Burst Affinity'] = {
     legs = "Assimilator's Shalwar +1",
   }
-  sets.buff['Chain Affinity'] = {}
+  sets.buff['Chain Affinity'] = {
+    head = "Mavi Kavuk +2",
+  }
   sets.buff.Convergence = {}
   sets.buff.Diffusion = {}
   sets.buff.Enchainment = {}
@@ -365,6 +367,7 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = {
+    head = "Mavi Kavuk +2",
     legs = "Espial Hose",
   }
 
