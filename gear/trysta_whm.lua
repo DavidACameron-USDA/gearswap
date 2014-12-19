@@ -59,25 +59,28 @@ function init_gear_sets()
     head = "Wayfarer Circlet",
     ear2 = "Loquacious Earring",
     body = "Wayfarer Robe",
-    hands = "Blessed Mitts",
+    hands = "Weatherspoon Cuffs +1",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
 
   -- Cure sets
-  sets.midcast.CureSolace = {}
+  sets.midcast.CureSolace = {
+    body = "Orison Bliaud +1",
+  }
 
   sets.midcast.Cure = {
     main = "Eminent Wand",
     ammo = "Kalboron Stone",
     head = "Theophany Cap",
-    neck = "Morgana's Choker",
+    neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
-    body = "Noble's Tunic",
-    hands = "Wayfarer Cuffs",
-    ring1 = "Omega Ring",
+    body = "Gendewitha Bliaut",
+    hands = "Weatherspoon Cuffs +1",
+    ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
-    back = "Aslan Cape",
+    back = "Orison Cape",
+    waist = "Bishop's Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -86,36 +89,29 @@ function init_gear_sets()
     main = "Eminent Wand",
     ammo = "Kalboron Stone",
     head = "Theophany Cap",
-    neck = "Morgana's Choker",
+    neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
-    body = "Noble's Tunic",
-    hands = "Wayfarer Cuffs",
+    body = "Gendewitha Bliaut",
+    hands = "Weatherspoon Cuffs +1",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
-    back = "Aslan Cape",
+    back = "Orison Cape",
+    waist = "Demonry Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
 
-  sets.midcast.CureMelee = {
-    ammo = "Kalboron Stone",
-    head = "Theophany Cap",
-    neck = "Morgana's Choker",
-    ear1 = "Influx Earring",
-    body = "Noble's Tunic",
-    hands = "Wayfarer Cuffs",
-    ring1 = "Omega Ring",
-    ring2 = "Tamas Ring",
-    back = "Aslan Cape",
-    legs = "Wayfarer Slops",
-    feet = "Wayfarer Clogs",
-  }
+  sets.midcast.CureMelee = set_combine(sets.midcast.Cure, {
+    main = "",
+    sub = "",
+  })
 
   sets.midcast.StatusRemoval = {
-
+    head = "Orison Cap +2",
   }
 
   sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
+    ring1 = "Ephedra Ring",
     legs = "Theophany Pantaloons",
     feet = "Gendewitha Galoshes",
   })
@@ -129,13 +125,14 @@ function init_gear_sets()
     main = "Eminent Wand",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
-    neck = "Morgana's Choker",
+    neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     body = "Wayfarer Robe",
     hands = "Wayfarer Cuffs",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
+    waist = "Demonry Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -148,6 +145,7 @@ function init_gear_sets()
 
   sets.midcast.Regen = {
     body = "Cleric's Briault",
+    hands = "Orison Mitts +1",
     legs = "Theophany Pantaloons",
   }
 
@@ -161,6 +159,7 @@ function init_gear_sets()
     ear1 = "Influx Earring",
     body = "Wayfarer Robe",
     hands = "Wayfarer Cuffs",
+    waist = "Bishop's Sash",
     legs = "Theophany Pantaloons",
     feet = "Gendewitha Galoshes",
   }
@@ -178,6 +177,7 @@ function init_gear_sets()
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
     back = "Aslan Cape",
+    waist = "Demonry Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -189,6 +189,7 @@ function init_gear_sets()
     hands = "Cleric's Mitts",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
+    waist = "Demonry Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -212,19 +213,18 @@ function init_gear_sets()
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
     main = "Eminent Wand",
-    sub = "Tariqah",
+    sub = "Thuellaic Ecu +1",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
-    neck = "Morgana's Choker",
+    neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     ear2 = "Loquacious Earring",
     body = "Gendewitha Bliaut",
-    hands = "Wayfarer Cuffs",
-    ring1 = "Omega Ring",
+    hands = "Weatherspoon Cuffs +1",
+    ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
-    back = "Aslan Cape",
-    waist = "Hierarch Belt",
-    legs = "Theophany Pantaloons",
+    back = "Orison Cape",
+    legs = "Tatsumaki Sitagoromo",
     feet = "Gendewitha Galoshes",
   }
 
@@ -256,18 +256,17 @@ function init_gear_sets()
   -- Basic set for if no TP weapon is defined.
   sets.engaged = {
     main = "Eminent Wand",
-    sub = "Tariqah",
+    sub = "Thuellaic Ecu +1",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
-    neck = "Morgana's Choker",
+    neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     ear2 = "Loquacious Earring",
     body = "Wayfarer Robe",
-    hands = "Wayfarer Cuffs",
-    ring1 = "Omega Ring",
+    hands = "Weatherspoon Cuffs +1",
+    ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
-    back = "Aslan Cape",
-    waist = "Hierarch Belt",
+    back = "Orison Cape",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
