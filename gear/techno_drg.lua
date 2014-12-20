@@ -84,7 +84,7 @@ function init_gear_sets()
 
   sets.engaged.Acc = set_combine(sets.engaged, {
     neck = "Love Torque",
-    back = "Cuchulain's Mantle",
+    back = "Updraft Mantle",
     waist = "Wyrm Belt",
   })
 
@@ -161,6 +161,7 @@ function init_gear_sets()
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
+    back = "Updraft Mantle",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -212,6 +213,7 @@ function init_gear_sets()
   sets.midcast.HealingBreath = {
     head = "Wyrm Armet",
     neck = "Lancer's Torque",
+    back = "Updraft Mantle",
     legs = "Vishap Brais +1",
     feet = "Homam Gambieras",
   }
