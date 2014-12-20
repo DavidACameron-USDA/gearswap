@@ -25,6 +25,7 @@ function init_gear_sets()
     neck = "Caller's Pendant",
     body = "Caller's Doublet +1",
     hands = "Glyphic Bracers",
+    ring1 = "Fervor Ring",
     back = "Conveyance Cape",
     feet = "Nashira Crackows",
   }
@@ -205,7 +206,7 @@ function init_gear_sets()
     ear2 = "Influx Earring",
     body = "Orvail Robe +1",
     hands = "Glyphic Bracers",
-    ring1 = "Ether Ring",
+    ring1 = "Fervor Ring",
     ring2 = "Evoker's Ring",
     back = "Conveyance Cape",
     waist = "Fucho-no-Obi",
