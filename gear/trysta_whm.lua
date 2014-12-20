@@ -71,6 +71,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     main = "Eminent Wand",
+    sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Theophany Cap",
     neck = "Imbodla Necklace",
@@ -87,6 +88,7 @@ function init_gear_sets()
 
   sets.midcast.Curaga = {
     main = "Eminent Wand",
+    sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Theophany Cap",
     neck = "Imbodla Necklace",
@@ -213,7 +215,7 @@ function init_gear_sets()
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
     main = "Eminent Wand",
-    sub = "Thuellaic Ecu +1",
+    sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
     neck = "Imbodla Necklace",
@@ -256,7 +258,7 @@ function init_gear_sets()
   -- Basic set for if no TP weapon is defined.
   sets.engaged = {
     main = "Eminent Wand",
-    sub = "Thuellaic Ecu +1",
+    sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
     neck = "Imbodla Necklace",
