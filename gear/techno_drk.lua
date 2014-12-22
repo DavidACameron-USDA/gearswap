@@ -6,6 +6,7 @@
 function user_setup()
   state.OffenseMode:options('Normal', 'Acc')
   state.WeaponskillMode:options('Normal', 'Acc')
+  state.IdleMode:options('Normal', 'Refresh')
 
   update_combat_form()
 
@@ -36,7 +37,7 @@ function init_gear_sets()
     neck = "Parade Gorget",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Ares' Cuirass",
+    body = "Xaddi Mail",
     hands = "Cizin Mufflers +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
@@ -44,6 +45,10 @@ function init_gear_sets()
     waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
     feet = "Whirlpool Greaves",
+  }
+
+  sets.idle.Refresh = {
+    body = "Ares' Cuirass",
   }
 
   -- sets.idle.Town = {}
