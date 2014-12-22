@@ -68,7 +68,7 @@ function init_gear_sets()
   -- Normal melee group
   sets.engaged = {
     ammo = "Ginsen",
-    head = "Vishap Armet +1",
+    head = "Otomi Helm",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -77,12 +77,13 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Cetl Belt",
+    waist = "Windbuffet Belt +1",
     legs = "Vishap Brais +1",
     feet = "Whirlpool Greaves",
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
+    head = "Vishap Armet +1",
     neck = "Love Torque",
     back = "Updraft Mantle",
     waist = "Wyrm Belt",
@@ -93,24 +94,20 @@ function init_gear_sets()
   -- Precast sets to enhance JAs
   sets.precast.JA.Jump = set_combine(sets.engaged, {
     body = "Vishap Mail",
-    waist = "Windbuffet Belt",
     feet = "Vishap Greaves +1",
   })
 
   sets.precast.JA['High Jump'] = set_combine(sets.engaged, {
     body = "Vishap Mail",
-    waist = "Windbuffet Belt",
     legs = "Vishap Brais +1",
   })
 
   sets.precast.JA['Spirit Jump'] = set_combine(sets.engaged, {
     legs = "Lancer's Cuissots +1",
-    waist = "Windbuffet Belt",
   })
 
   sets.precast.JA['Soul Jump'] = set_combine(sets.engaged, {
     legs = "Lancer's Cuissots +1",
-    waist = "Windbuffet Belt",
   })
 
   sets.precast.JA['Spirit Link'] = {
@@ -145,7 +142,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Thew Bomblet",
-    head = "Vishap Armet +1",
+    head = "Otomi Helm",
     neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",

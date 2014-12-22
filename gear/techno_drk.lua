@@ -80,7 +80,7 @@ function init_gear_sets()
     main = "Last Rest",
     sub = "Pole Grip",
     ammo = "Ginsen",
-    head = "Outrider Mask",
+    head = "Otomi Helm",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -89,7 +89,7 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Cetl Belt",
+    waist = "Windbuffet Belt +1",
     legs = "Outrider Hose",
     feet = "Whirlpool Greaves",
   }
@@ -140,7 +140,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Aqreqaq Bomblet",
-    head = "Outrider Mask",
+    head = "Otomi Helm",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
