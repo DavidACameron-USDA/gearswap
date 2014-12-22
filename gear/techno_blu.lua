@@ -33,6 +33,7 @@ function init_gear_sets()
   }
   sets.buff['Chain Affinity'] = {
     head = "Mavi Kavuk +2",
+    feet = "Assimilator's Charuqs +1",
   }
   sets.buff.Convergence = {}
   sets.buff.Diffusion = {}
@@ -79,7 +80,7 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
     legs = "Assimilator's Shalwar +1",
-    feet = "Espial Socks",
+    feet = "Assimilator's Charuqs +1",
   }
 
   sets.precast.WS.acc = set_combine(sets.precast.WS, {})
@@ -133,7 +134,7 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
     legs = "Assimilator's Shalwar +1",
-    feet = "Espial Socks",
+    feet = "Assimilator's Charuqs +1",
   }
 
   sets.midcast['Blue Magic'].PhysicalAcc = {
@@ -146,7 +147,7 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
     legs = "Espial Hose",
-    feet = "Espial Socks",
+    feet = "Assimilator's Charuqs +1",
   }
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -189,7 +190,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Blue Magic'].PhysicalHP = set_combine(sets.midcast['Blue Magic'].Physical, {
-    feet = "Hagondes Sabots",
+    feet = "Assimilator's Charuqs +1",
   })
 
 
@@ -225,6 +226,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
     ear1 = "Kemas Earring",
     waist = "Warwolf Belt",
+    feet = "Assimilator's Charuqs +1",
   })
 
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
@@ -234,6 +236,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
+    feet = "Assimilator's Charuqs +1",
   })
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
@@ -253,7 +256,7 @@ function init_gear_sets()
     ring1 = "Griffon Ring",
     back = "Gleeman's Cape",
     legs = "Assimilator's Shalwar +1",
-    feet = "Homam Gambieras",
+    feet = "Assimilator's Charuqs +1",
   }
 
   -- Other Types --
@@ -318,7 +321,7 @@ function init_gear_sets()
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
-    feet = "Espial Socks",
+    feet = "Assimilator's Charuqs +1",
   }
 
   -- sets.idle.PDT = {}
@@ -363,7 +366,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Cetl Belt",
     legs = "Assimilator's Shalwar +1",
-    feet = "Espial Socks",
+    feet = "Assimilator's Charuqs +1",
   }
 
   sets.engaged.Acc = {
