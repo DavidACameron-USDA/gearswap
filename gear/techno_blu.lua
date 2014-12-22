@@ -364,7 +364,7 @@ function init_gear_sets()
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
-    waist = "Cetl Belt",
+    waist = "Windbuffet Belt +1",
     legs = "Assimilator's Shalwar +1",
     feet = "Assimilator's Charuqs +1",
   }
