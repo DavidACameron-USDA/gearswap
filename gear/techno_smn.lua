@@ -23,7 +23,7 @@ function init_gear_sets()
   sets['Summoning Magic Skill'] = {
     head = "Convoker's Horn",
     neck = "Caller's Pendant",
-    body = "Caller's Doublet +1",
+    body = "Caller's Doublet +2",
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     back = "Conveyance Cape",
@@ -240,7 +240,7 @@ function init_gear_sets()
 
   sets.idle.Avatar = set_combine(sets.idle, {
     head = "Convoker's Horn",
-    body = "Caller's Doublet +1",
+    body = "Caller's Doublet +2",
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches",
   })
@@ -258,7 +258,7 @@ function init_gear_sets()
   sets.perp = {
     main = "Patriarch Cane",
     head = "Convoker's Horn",
-    body = "Caller's Doublet +1",
+    body = "Caller's Doublet +2",
     hands = "Nashira Gages",
     ring2 = "Evoker's Ring",
     feet = "Convoker's Pigaches",
