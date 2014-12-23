@@ -77,7 +77,7 @@ function init_gear_sets()
     hands = "Espial Bracers",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
+    back = "Cornflower Cape",
     waist = "Warwolf Belt",
     legs = "Assimilator's Shalwar +1",
     feet = "Assimilator's Charuqs +1",
@@ -131,7 +131,7 @@ function init_gear_sets()
     hands = "Iuitl Wristbands",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
+    back = "Cornflower Cape",
     waist = "Warwolf Belt",
     legs = "Assimilator's Shalwar +1",
     feet = "Assimilator's Charuqs +1",
@@ -171,7 +171,6 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear1 = "Psystorm Earring",
     ring2 = "Omega Ring",
-    back = "Gleeman's Cape",
     feet = "Hagondes Sabots",
   })
 
@@ -205,7 +204,7 @@ function init_gear_sets()
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands",
     ring2 = "Omega Ring",
-    back = "Gleeman's Cape",
+    back = "Cornflower Cape",
     legs = "Assimilator's Shalwar +1",
     feet = "Hagondes Sabots",
   }
@@ -254,7 +253,6 @@ function init_gear_sets()
     body = "Assimilator's Jubbah +1",
     hands = "Espial Bracers",
     ring1 = "Griffon Ring",
-    back = "Gleeman's Cape",
     legs = "Assimilator's Shalwar +1",
     feet = "Assimilator's Charuqs +1",
   }
@@ -271,14 +269,16 @@ function init_gear_sets()
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands",
     ring2 = "Omega Ring",
+    back = "Cornflower Cape",
     legs = "Assimilator's Shalwar +1",
     feet = "Hagondes Sabots",
   }
 
   sets.midcast['Blue Magic'].SkillBasedBuff = {
+    ammo = "Mavi Tathlum",
     head = "Mirage Keffiyeh",
     body = "Assimilator's Jubbah +1",
-    ammo = "Mavi Tathlum",
+    back = "Cornflower Cape",
   }
 
   sets.midcast['Blue Magic'].Buff = {}
