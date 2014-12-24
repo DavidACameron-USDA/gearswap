@@ -241,18 +241,31 @@ function init_gear_sets()
   sets.idle.Avatar = set_combine(sets.idle, {
     head = "Convoker's Horn",
     body = "Caller's Doublet +2",
+    hands = "Nashira Gages",
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches",
   })
 
   -- sets.idle.PDT.Avatar = {}
 
-  sets.idle.Spirit = {}
+  sets.idle.Spirit = {
+    head = "Convoker's Horn",
+    body = "Orvail Robe +2",
+    hands = "Glyphic Bracers",
+    feet = "Convoker's Pigaches",
+  }
 
   -- sets.idle.Town = {}
 
   -- Favor uses Caller's Horn instead of Convoker's Horn for refresh
-  sets.idle.Avatar.Favor = {}
+  sets.idle.Avatar.Favor = {
+    head = "Convoker's Horn",
+    body = "Caller's Doublet +2",
+    hands = "Nashira Gages",
+    legs = "Convoker's Spats +1",
+    feet = "Convoker's Pigaches",
+  }
+
   sets.idle.Avatar.Melee = {}
 
   sets.perp = {
@@ -263,22 +276,27 @@ function init_gear_sets()
     ring2 = "Evoker's Ring",
     feet = "Convoker's Pigaches",
   }
+
   -- Caller's Bracer's halve the perp cost after other costs are accounted for.
   -- Using -10 (Gridavor, ring, Conv.feet), standard avatars would then cost 5, halved to 2.
   -- We can then use Hagondes Coat and end up with the same net MP cost, but significantly better defense.
   -- Weather is the same, but we can also use the latent on the pendant to negate the last point lost.
   sets.perp.Day = {
-    -- body="Summoner's Doublet",
+    head = "Convoker's Horn",
+    body = "Orvail Robe +1",
     hands = "Caller's Bracers +2",
   }
 
   sets.perp.Weather = {
-    head = "Summoner's Horn",
+    head = "Convoker's Horn",
     neck = "Caller's Pendant",
+    body = "Orvail Robe +1",
     hands = "Caller's Bracers +2",
   }
 
   sets.perp.Carbuncle = {
+    head = "Convoker's Horn",
+    body = "Orvail Robe +1",
     hands = "Carbuncle Mitts",
   }
 
