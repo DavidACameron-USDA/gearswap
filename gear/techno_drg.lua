@@ -47,9 +47,9 @@ function init_gear_sets()
     feet = "Whirlpool Greaves",
   }
 
-  sets.idle.Refresh = {
+  sets.idle.Refresh = set_combine(sets.idle, {
     body = "Ares' Cuirass",
-  }
+  })
 
   -- sets.idle.Town = {}
 
