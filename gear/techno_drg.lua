@@ -209,7 +209,7 @@ function init_gear_sets()
   }
 
   sets.midcast.HealingBreath = {
-    head = "Wyrm Armet",
+    head = "Pteroslaver Armet",
     neck = "Lancer's Torque",
     back = "Updraft Mantle",
     legs = "Vishap Brais +1",
@@ -218,7 +218,7 @@ function init_gear_sets()
 
   -- Elemental Breath set
   sets.midcast.ElementalBreath = {
-    head = "Wyrm Armet",
+    head = "Pteroslaver Armet",
     neck = "Lancer's Torque",
   }
 
