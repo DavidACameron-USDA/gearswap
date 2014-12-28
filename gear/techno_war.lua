@@ -43,7 +43,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Outrider Hose",
+    legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -87,7 +87,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Outrider Hose",
+    legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -134,7 +134,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Outrider Hose",
+    legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -206,6 +206,7 @@ function init_gear_sets()
 
   sets.defense.MDT = {
     hands = "Cizin Mufflers +1",
+    legs = "Cizin Breeches +1",
   }
 
   sets.Kiting = {}

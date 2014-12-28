@@ -78,7 +78,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Vishap Brais +1",
+    legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -87,6 +87,7 @@ function init_gear_sets()
     neck = "Love Torque",
     back = "Updraft Mantle",
     waist = "Wyrm Belt",
+    legs = "Vishap Brais +1",
   })
 
 
@@ -152,7 +153,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
-    legs = "Vishap Brais +1",
+    legs = "Cizin Breeches +1",
     feet = "Vishap Greaves +1",
   }
 
@@ -237,6 +238,7 @@ function init_gear_sets()
 
   sets.defense.MDT = {
     hands = "Cizin Mufflers +1",
+    legs = "Cizin Breeches +1",
   }
 
   sets.Kiting = {}
