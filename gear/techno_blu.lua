@@ -307,8 +307,8 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Eminent Scimitar",
-    sub = "Xiutleato",
+    main = "Usonmunku",
+    sub = "Eminent Scimitar",
     ammo = "Ginsen",
     head = "Assimilator's Keffiyeh +1",
     neck = "Asperity Necklace",
@@ -352,8 +352,8 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Eminent Scimitar",
-    sub = "Xiuleato",
+    main = "Usonmunku",
+    sub = "Eminent Scimitar",
     ammo = "Ginsen",
     head = "Assimilator's Keffiyeh +1",
     neck = "Asperity Necklace",
