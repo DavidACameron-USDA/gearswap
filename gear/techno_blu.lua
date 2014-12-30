@@ -89,9 +89,12 @@ function init_gear_sets()
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
   -- Soil gorgets/belts.
-  -- sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
-  --   neck = "Shadow Gorget"
-  -- })
+  sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
+    ammo = "Ginsen",
+    neck = "Shadow Gorget",
+    ear2 = "Bladeborn Earring",
+    ring1 = "Omega Ring",
+  })
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
   -- element.
