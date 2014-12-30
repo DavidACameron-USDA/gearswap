@@ -72,7 +72,7 @@ function init_gear_sets()
     head = "Assimilator's Keffiyeh +1",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
-    ear2 = "Kemas Earring",
+    ear2 = "Bushinomimi",
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands +1",
     ring1 = "Flame Ring",
