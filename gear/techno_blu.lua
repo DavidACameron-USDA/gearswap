@@ -74,7 +74,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
@@ -128,7 +128,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Iuitl Wristbands",
+    hands = "Iuitl Wristbands +1",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
@@ -141,7 +141,7 @@ function init_gear_sets()
     head = "Assimilator's Keffiyeh +1",
     neck = "Chivalrous Chain",
     body = "Espial Gambison",
-    hands = "Iuitl Wristbands",
+    hands = "Iuitl Wristbands +1",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -176,7 +176,6 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Imbodla Necklace",
-    hands = "Espial Bracers",
     ring2 = "Omega Ring",
     feet = "Hagondes Sabots",
   })
@@ -202,7 +201,7 @@ function init_gear_sets()
     ear1 = "Psystorm Earring",
     ear2 = "Moldavite Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Iuitl Wristbands",
+    hands = "Iuitl Wristbands +1",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
     legs = "Assimilator's Shalwar +1",
@@ -213,9 +212,7 @@ function init_gear_sets()
     ear1 = "Aptus Earring",
   })
 
-  sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
-    hands = "Espial Bracers",
-  })
+  sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
   sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {
     ear1 = "Delta Earring",
@@ -231,7 +228,6 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
     neck = "Love Torque",
     ear1 = "Delta Earring",
-    hands = "Espial Bracers",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Warwolf Belt",
@@ -251,7 +247,7 @@ function init_gear_sets()
     head = "Mirage Keffiyeh",
     neck = "Cougar Pendant",
     body = "Assimilator's Jubbah +1",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands +1",
     ring1 = "Griffon Ring",
     legs = "Assimilator's Shalwar +1",
     feet = "Assimilator's Charuqs +1",
@@ -267,7 +263,7 @@ function init_gear_sets()
     head = "Assimilator's Keffiyeh +1",
     neck = "Imbodla Necklace",
     body = "Assimilator's Jubbah +1",
-    hands = "Iuitl Wristbands",
+    hands = "Iuitl Wristbands +1",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
     legs = "Assimilator's Shalwar +1",
@@ -315,7 +311,7 @@ function init_gear_sets()
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Iuitl Wristbands",
+    hands = "Iuitl Wristbands +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
@@ -333,6 +329,7 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
+    hands = "Iuitl Wristbands +1",
     waist = "Flume Belt +1",
     back = "Repulse Mantle",
   }
@@ -360,7 +357,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
-    hands = "Iuitl Wristbands",
+    hands = "Iuitl Wristbands +1",
     ring1 = "Tyrant's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
