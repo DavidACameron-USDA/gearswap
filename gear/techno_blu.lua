@@ -61,7 +61,7 @@ function init_gear_sets()
   }
 
   sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {
-    body = "Mavi Mintan +1",
+    body = "Mavi Mintan +2",
   })
 
 
