@@ -371,7 +371,9 @@ function init_gear_sets()
     legs = "Espial Hose",
   }
 
-  sets.engaged.Refresh = {}
+  sets.engaged.Refresh = set_combine(sets.engaged, {
+    body = "Assimilator's Jubbah +1",
+  })
 
   sets.engaged.DW = set_combine(sets.engaged, {
     ear1 = "Dudgeon Earring",
@@ -382,7 +384,9 @@ function init_gear_sets()
     legs = "Espial Hose",
   }
 
-  sets.engaged.DW.Refresh = {}
+  sets.engaged.DW.Refresh = set_combine(sets.engaged.DW, {
+    body = "Assimilator's Jubbah +1",
+  })
 
   sets.engaged.Learning = set_combine(sets.engaged, sets.Learning)
   sets.engaged.DW.Learning = set_combine(sets.engaged.DW, sets.Learning)
