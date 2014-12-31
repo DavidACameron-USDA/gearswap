@@ -36,7 +36,9 @@ function init_gear_sets()
     feet = "Assimilator's Charuqs +1",
   }
   sets.buff.Convergence = {}
-  sets.buff.Diffusion = {}
+  sets.buff.Diffusion = {
+    feet = "Luhlaza Charuqs",
+  }
   sets.buff.Enchainment = {}
   sets.buff.Efflux = {}
 
@@ -278,6 +280,7 @@ function init_gear_sets()
     head = "Mirage Keffiyeh",
     body = "Assimilator's Jubbah +1",
     back = "Cornflower Cape",
+    feet = "Luhlaza Charuqs",
   }
 
   sets.midcast['Blue Magic'].Buff = {}
