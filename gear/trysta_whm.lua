@@ -66,7 +66,7 @@ function init_gear_sets()
 
   -- Cure sets
   sets.midcast.CureSolace = {
-    body = "Orison Bliaud +1",
+    body = "Orison Bliaud +2",
   }
 
   sets.midcast.Cure = {
@@ -147,7 +147,7 @@ function init_gear_sets()
 
   sets.midcast.Regen = {
     body = "Cleric's Briault",
-    hands = "Orison Mitts +1",
+    hands = "Orison Mitts +2",
     legs = "Theophany Pantaloons",
   }
 
@@ -221,7 +221,7 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     ear2 = "Loquacious Earring",
-    body = "Gendewitha Bliaut",
+    body = "Orison Bliaud +2",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
@@ -230,7 +230,9 @@ function init_gear_sets()
     feet = "Gendewitha Galoshes",
   }
 
-  -- sets.idle.PDT = {}
+  sets.idle.PDT = {
+    body = "Gendewitha Bliaut",
+  }
 
   sets.idle.Town = set_combine(sets.idle, {
     legs = "Tatsumaki Sitagoromo",
@@ -275,7 +277,9 @@ function init_gear_sets()
 
 
   -- Buff sets: Gear that needs to be worn to actively enhance a current player buff.
-  sets.buff['Divine Caress'] = {}
+  sets.buff['Divine Caress'] = {
+    hands = "Orison Mitts +2",
+  }
 end
 
 
