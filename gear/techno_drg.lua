@@ -30,7 +30,7 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Olyndicus",
+    main = "Upukirex",
     sub = "Pole Grip",
     ammo = "Ginsen",
     head = "Vishap Armet +1",
