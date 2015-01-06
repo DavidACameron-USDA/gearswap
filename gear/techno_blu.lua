@@ -213,9 +213,7 @@ function init_gear_sets()
     feet = "Hagondes Sabots",
   }
 
-  sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
-    ear1 = "Aptus Earring",
-  })
+  sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
   sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
