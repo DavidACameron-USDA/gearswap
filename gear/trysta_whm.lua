@@ -66,11 +66,24 @@ function init_gear_sets()
 
   -- Cure sets
   sets.midcast.CureSolace = {
+    main = "Tamaxchi",
+    sub = "Sors Shield",
+    ammo = "Kalboron Stone",
+    head = "Theophany Cap",
+    neck = "Imbodla Necklace",
+    ear1 = "Influx Earring",
     body = "Orison Bliaud +2",
+    hands = "Weatherspoon Cuffs +1",
+    ring1 = "Ephedra Ring",
+    ring2 = "Tamas Ring",
+    back = "Orison Cape",
+    waist = "Bishop's Sash",
+    legs = "Wayfarer Slops",
+    feet = "Wayfarer Clogs",
   }
 
   sets.midcast.Cure = {
-    main = "Eminent Wand",
+    main = "Tamaxchi",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Theophany Cap",
@@ -87,7 +100,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Curaga = {
-    main = "Eminent Wand",
+    main = "Tamaxchi",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Theophany Cap",
@@ -214,7 +227,7 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Eminent Wand",
+    main = "Tamaxchi",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
