@@ -203,8 +203,8 @@ function init_gear_sets()
     ammo = "Mavi Tathlum",
     head = "Assimilator's Keffiyeh +1",
     neck = "Imbodla Necklace",
-    ear1 = "Psystorm Earring",
-    ear2 = "Moldavite Earring",
+    ear1 = "Lifestorm Earring",
+    ear2 = "Psystorm Earring",
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands +1",
     ring2 = "Omega Ring",
@@ -241,7 +241,6 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     head = "Assimilator's Keffiyeh +1",
-    ear1 = "Aptus Earring",
     ring2 = "Omega Ring",
   }
 
