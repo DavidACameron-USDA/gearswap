@@ -71,7 +71,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
-    head = "Assimilator's Keffiyeh +1",
+    head = "Whirlpool Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
     ear2 = "Bushinomimi",
@@ -128,7 +128,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].Physical = {
     ammo = "Mavi Tathlum",
-    head = "Assimilator's Keffiyeh +1",
+    head = "Whirlpool Mask",
     neck = "Justice Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -143,7 +143,7 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'].PhysicalAcc = {
-    head = "Assimilator's Keffiyeh +1",
+    head = "Whirlpool Mask",
     neck = "Chivalrous Chain",
     body = "Espial Gambison",
     hands = "Iuitl Wristbands +1",
@@ -358,7 +358,7 @@ function init_gear_sets()
     main = "Usonmunku",
     sub = "Eminent Scimitar",
     ammo = "Ginsen",
-    head = "Assimilator's Keffiyeh +1",
+    head = "Whirlpool Mask",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
