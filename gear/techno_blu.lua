@@ -74,7 +74,7 @@ function init_gear_sets()
     head = "Whirlpool Mask",
     neck = "Justice Torque",
     ear1 = "Brutal Earring",
-    ear2 = "Bushinomimi",
+    ear2 = "Moonshade Earring",
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands +1",
     ring1 = "Flame Ring",
@@ -94,7 +94,6 @@ function init_gear_sets()
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
     neck = "Shadow Gorget",
-    ear2 = "Bladeborn Earring",
     ring1 = "Omega Ring",
   })
 

@@ -146,7 +146,7 @@ function init_gear_sets()
     head = "Otomi Helm",
     neck = "Lancer's Torque",
     ear1 = "Brutal Earring",
-    ear2 = "Kemas Earring",
+    ear2 = "Moonshade Earring",
     body = "Xaddi Mail",
     hands = "Cizin Mufflers +1",
     ring1 = "Flame Ring",
