@@ -71,7 +71,7 @@ function init_gear_sets()
   sets.precast.WS = {
     head = "Bokwus Circlet",
     ear2 = "Influx Earring",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -115,7 +115,7 @@ function init_gear_sets()
   sets.midcast.Cure = {
     head = "Bokwus Circlet",
     ear2 = "Influx Earring",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -124,7 +124,7 @@ function init_gear_sets()
   sets.midcast.Stoneskin = {
     head = "Bokwus Circlet",
     ear2 = "Influx Earring",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -132,7 +132,7 @@ function init_gear_sets()
 
   sets.midcast['Elemental Magic'] = {
     head = "Bokwus Circlet",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -140,7 +140,7 @@ function init_gear_sets()
 
   sets.midcast['Dark Magic'] = {
     head = "Bokwus Circlet",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
     feet = "Artsieq Boots",
@@ -196,7 +196,7 @@ function init_gear_sets()
   sets.resting = {
     main = "Dark Staff",
     head = "Convoker's Horn",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     waist = "Fucho-no-Obi",
   }
 
@@ -209,7 +209,7 @@ function init_gear_sets()
     neck = "Caller's Pendant",
     ear1 = "Loquacious Earring",
     ear2 = "Influx Earring",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     ring2 = "Evoker's Ring",
@@ -255,7 +255,7 @@ function init_gear_sets()
 
   sets.idle.Spirit = {
     head = "Convoker's Horn",
-    body = "Orvail Robe +2",
+    body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     feet = "Convoker's Pigaches",
   }
@@ -288,20 +288,20 @@ function init_gear_sets()
   -- Weather is the same, but we can also use the latent on the pendant to negate the last point lost.
   sets.perp.Day = {
     head = "Convoker's Horn",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Caller's Bracers +2",
   }
 
   sets.perp.Weather = {
     head = "Convoker's Horn",
     neck = "Caller's Pendant",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Caller's Bracers +2",
   }
 
   sets.perp.Carbuncle = {
     head = "Convoker's Horn",
-    body = "Hagondes Coat",
+    body = "Hagondes Coat +1",
     hands = "Carbuncle Mitts",
   }
 
