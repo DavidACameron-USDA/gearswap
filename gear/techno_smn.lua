@@ -21,6 +21,8 @@ function init_gear_sets()
   --------------------------------------
 
   sets['Summoning Magic Skill'] = {
+    main = "Tumafyrig",
+    sub = "Vox Grip",
     head = "Convoker's Horn",
     neck = "Caller's Pendant",
     body = "Caller's Doublet +2",
@@ -156,16 +158,19 @@ function init_gear_sets()
   sets.midcast.Pet.DebuffBloodPactWard.Acc = sets.midcast.Pet.DebuffBloodPactWard
 
   sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
+    main = "Tumafyrig",
     body = "Convoker's Doublet",
     feet = "Convoker's Pigaches",
   })
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
+    main = "Gridarvor",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
   })
 
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
+    main = "Tumafyrig",
     body = "Convoker's Doublet",
     back = "Altius Mantle",
     legs = "Summoner's Spats +2",
@@ -202,8 +207,8 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Patriarch Cane",
-    sub = "Genbu's Shield",
+    main = "Gridarvor",
+    sub = "Vox Grip",
     ammo = "Eminent Sachet",
     head = "Convoker's Horn",
     neck = "Caller's Pendant",
@@ -244,40 +249,52 @@ function init_gear_sets()
   -- Can make due without either the head or the body, and use +refresh items in those slots.
 
   sets.idle.Avatar = set_combine(sets.idle, {
+    main = "Gridarvor",
     head = "Convoker's Horn",
     body = "Caller's Doublet +2",
-    hands = "Nashira Gages",
+    hands = "Glyphic Bracers",
+    ring2 = "Evoker's Ring",
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches",
   })
 
   -- sets.idle.PDT.Avatar = {}
 
-  sets.idle.Spirit = {
-    head = "Convoker's Horn",
-    body = "Hagondes Coat +1",
+  -- Summoning magic skill increases spirit AI.
+  sets.idle.Spirit = set_combine(sets.idle, {
+    main = "Tumafyrig",
+    sub = "Vox Grip",
+    head = "Caller's Horn +2",
+    neck = "Caller's Pendant +2",
+    body = "Caller's Doublet +2",
     hands = "Glyphic Bracers",
+    ring1 = "Fervor Ring",
+    back = "Conveyance Mantle",
     feet = "Convoker's Pigaches",
-  }
+  })
 
   -- sets.idle.Town = {}
 
-  -- Favor uses Caller's Horn instead of Convoker's Horn for refresh
-  sets.idle.Avatar.Favor = {
-    head = "Convoker's Horn",
+  -- Favor uses Caller's Horn instead of Convoker's Horn for refresh.  Equip
+  -- Summoning Magic skill gear for increased potency.
+  sets.idle.Avatar.Favor = set_combine(sets.idle, {
+    main = "Gridarvor",
+    sub = "Vox Grip",
+    head = "Caller's Horn +2",
+    neck = "Caller's Pendant",
     body = "Caller's Doublet +2",
-    hands = "Nashira Gages",
+    hands = "Glyphic Bracers",
+    ring1 = "Fervor Ring",
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches",
-  }
+  })
 
   sets.idle.Avatar.Melee = {}
 
   sets.perp = {
-    main = "Patriarch Cane",
+    main = "Gridarvor",
     head = "Convoker's Horn",
     body = "Caller's Doublet +2",
-    hands = "Nashira Gages",
     ring2 = "Evoker's Ring",
     feet = "Convoker's Pigaches",
   }
@@ -287,19 +304,26 @@ function init_gear_sets()
   -- We can then use Hagondes Coat and end up with the same net MP cost, but significantly better defense.
   -- Weather is the same, but we can also use the latent on the pendant to negate the last point lost.
   sets.perp.Day = {
+    main = "Gridarvor",
     head = "Convoker's Horn",
     body = "Hagondes Coat +1",
     hands = "Caller's Bracers +2",
+    ring2 = "Evoker's Ring",
+    feet = "Convoker's Pigaches",
   }
 
   sets.perp.Weather = {
+    main = "Gridarvor",
     head = "Convoker's Horn",
     neck = "Caller's Pendant",
     body = "Hagondes Coat +1",
     hands = "Caller's Bracers +2",
+    ring2 = "Evoker's Ring",
+    feet = "Convoker's Pigaches",
   }
 
   sets.perp.Carbuncle = {
+    main = "Gridarvor",
     head = "Convoker's Horn",
     body = "Hagondes Coat +1",
     hands = "Carbuncle Mitts",
