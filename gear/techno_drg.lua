@@ -174,6 +174,13 @@ function init_gear_sets()
     neck = "Shadow Gorget",
   })
 
+  -- Camlann's Torment has STR: 60% and VIT: 60% modifiers and is aligned with
+  -- the Light, Breeze, and Thunder gorgets/belts.
+  sets.precast.WS["Camlann's Torment"] = set_combine(sets.precast.WS, {
+    neck = "Light Gorget",
+    waist = "Thunder Belt",
+  })
+
   -- Sonic Thrust has STR: 40% and DEX 40% modifiers and is aligned with the
   -- Light and Soil gorgets/belts.
   sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
