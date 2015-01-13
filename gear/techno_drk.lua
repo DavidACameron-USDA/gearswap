@@ -95,6 +95,7 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
+    head = "Yaoyotl Helm",
     neck = "Justice Torque",
   })
 
@@ -155,6 +156,7 @@ function init_gear_sets()
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    head = "Yaoyotl Helm",
     ammo = "Ginsen",
     body = "Xaddi Mail",
   })
