@@ -49,7 +49,10 @@ function init_gear_sets()
 
   -- Fast cast sets for spells
 
-  sets.precast.FC = {}
+  sets.precast.FC = {
+    head = "Cizin Helm +1",
+    ear2 = "Loquacious Earring",
+  }
 
 
   -- Weaponskill sets
@@ -104,9 +107,20 @@ function init_gear_sets()
   -- Midcast sets
   --------------------------------------
 
-  sets.midcast.FastRecast = {}
+  sets.midcast.FastRecast = {
+    head = "Cizin Helm +1",
+    ear2 = "Loquacious Earring",
+    body = "Xaddi Mail",
+    hands = "Cizin Mufflers +1",
+    waist = "Cetl Belt",
+    legs = "Cizin Breeches +1",
+    feet = "Whirlpool Greaves",
+  }
 
-  sets.midcast.Enmity = {}
+  sets.midcast.Enmity = {
+    head = "Cizin Helm +1",
+    hands = "Cizin Mufflers +1",
+  }
 
   sets.midcast.Flash = set_combine(sets.midcast.Enmity, {})
 
