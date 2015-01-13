@@ -123,7 +123,23 @@ function init_gear_sets()
   sets.resting = {}
 
   -- Idle sets
-  sets.idle = {}
+  sets.idle = {
+    main = "Usonmunku",
+    sub = "Svalinn",
+    ammo = "Ginsen",
+    head = "Otomi Helm",
+    neck = "Asperity Necklace",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
+    body = "Xaddi Mail",
+    hands = "Cizin Mufflers +1",
+    ring1 = "K'ayres Ring",
+    ring2 = "Rajas Ring",
+    back = "Repulse Mantle",
+    waist = "Flume Belt +1",
+    legs = "Crimson Cuisses",
+    feet = "Whirlpool Greaves",
+  }
 
   -- sets.idle.Town = {}
 
@@ -134,11 +150,19 @@ function init_gear_sets()
   -- Defense sets
   --------------------------------------
 
-  sets.defense.PDT = {}
+  sets.defense.PDT = {
+    hands = "Cizin Mufflers +1",
+    back = "Repulse Mantle",
+    waist = "Flume Belt +1",
+    legs = "Cizin Breeches +1",
+  }
   sets.defense.HP = {}
   -- To cap MDT with Shell IV (52/256), need 76/256 in gear.
   -- Shellra V can provide 75/256, which would need another 53/256 in gear.
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    hands = "Cizin Mufflers +1",
+    legs = "Cizin Breeches +1",
+  }
 
 
   --------------------------------------
