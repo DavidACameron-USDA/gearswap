@@ -169,19 +169,42 @@ function init_gear_sets()
   -- Engaged sets
   --------------------------------------
 
-  sets.engaged = {}
+  sets.engaged = {
+    ammo = "Ginsen",
+    head = "Otomi Helm",
+    neck = "Asperity Necklace",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
+    body = "Xaddi Mail",
+    hands = "Cizin Mufflers +1",
+    ring1 = "K'ayres Ring",
+    ring2 = "Rajas Ring",
+    back = "Atheling Mantle",
+    waist = "Windbuffet Belt +1",
+    legs = "Cizin Breeches +1",
+    feet = "Whirlpool Greaves",
+  }
 
-  sets.engaged.Acc = {}
+  sets.engaged.Acc = set_combine(sets.engaged, {
+    head = "Yaoyotl Helm",
+    neck = "Fortitude Torque",
+  })
 
-  sets.engaged.DW = {}
+  sets.engaged.DW = set_combine(sets.engaged, {
+    ear1 = "Dudgeon Earring",
+    ear2 = "Heartseeker Earring",
+  })
 
-  sets.engaged.DW.Acc = {}
+  sets.engaged.DW.Acc = set_combine(sets.engaged.Acc, {
+    ear1 = "Dudgeon Earring",
+    ear2 = "Heartseeker Earring",
+  })
 
-  sets.engaged.PDT = set_combine(sets.engaged, {})
-  sets.engaged.Acc.PDT = set_combine(sets.engaged.Acc, {})
+  sets.engaged.PDT = set_combine(sets.engaged, sets.defense.PDT)
+  sets.engaged.Acc.PDT = set_combine(sets.engaged.Acc, sets.defense.PDT)
 
-  sets.engaged.DW.PDT = set_combine(sets.engaged.DW, {})
-  sets.engaged.DW.Acc.PDT = set_combine(sets.engaged.DW.Acc, {})
+  sets.engaged.DW.PDT = set_combine(sets.engaged.DW, sets.defense.PDT)
+  sets.engaged.DW.Acc.PDT = set_combine(sets.engaged.DW.Acc, sets.defense.PDT)
 
 
   --------------------------------------
