@@ -23,7 +23,7 @@ function init_gear_sets()
   sets['Summoning Magic Skill'] = {
     main = "Tumafyrig",
     sub = "Vox Grip",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     neck = "Caller's Pendant",
     body = "Caller's Doublet +2",
     hands = "Glyphic Bracers",
@@ -50,8 +50,8 @@ function init_gear_sets()
 
   -- Pact delay reduction gear
   sets.precast.BloodPactWard = {
-    head = "Convoker's Horn",
-    body = "Convoker's Doublet",
+    head = "Convoker's Horn +1",
+    body = "Convoker's Doublet +1",
     hands = "Glyphic Bracers",
     legs = "Summoner's Spats +2",
     feet = "Summoner's Pgch. +2",
@@ -76,7 +76,7 @@ function init_gear_sets()
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
+    feet = "Convoker's Pigaches +1",
   }
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -106,12 +106,12 @@ function init_gear_sets()
   --------------------------------------
 
   sets.midcast.FastRecast = {
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     ear1 = "Loquacious Earring",
     hands = "Glyphic Bracers",
     waist = "Paewr Belt",
     legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
+    feet = "Convoker's Pigaches +1",
   }
 
   sets.midcast.Cure = {
@@ -120,7 +120,7 @@ function init_gear_sets()
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
+    feet = "Convoker's Pigaches +1",
   }
 
   sets.midcast.Stoneskin = {
@@ -129,7 +129,7 @@ function init_gear_sets()
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
+    feet = "Convoker's Pigaches +1",
   }
 
   sets.midcast['Elemental Magic'] = {
@@ -137,7 +137,6 @@ function init_gear_sets()
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
   }
 
   sets.midcast['Dark Magic'] = {
@@ -145,7 +144,6 @@ function init_gear_sets()
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
     legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
   }
 
 
@@ -159,8 +157,8 @@ function init_gear_sets()
 
   sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     main = "Tumafyrig",
-    body = "Convoker's Doublet",
-    feet = "Convoker's Pigaches",
+    body = "Convoker's Doublet +1",
+    feet = "Convoker's Pigaches +1",
   })
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
@@ -171,7 +169,7 @@ function init_gear_sets()
 
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     main = "Tumafyrig",
-    body = "Convoker's Doublet",
+    body = "Convoker's Doublet +1",
     back = "Altius Mantle",
     legs = "Summoner's Spats +2",
     feet = "Hagondes Sabots",
@@ -200,7 +198,7 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     main = "Dark Staff",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     body = "Hagondes Coat +1",
     waist = "Fucho-no-Obi",
   }
@@ -210,7 +208,7 @@ function init_gear_sets()
     main = "Gridarvor",
     sub = "Vox Grip",
     ammo = "Eminent Sachet",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     neck = "Caller's Pendant",
     ear1 = "Loquacious Earring",
     ear2 = "Influx Earring",
@@ -221,7 +219,7 @@ function init_gear_sets()
     back = "Conveyance Cape",
     waist = "Fucho-no-Obi",
     legs = "Convoker's Spats +1",
-    feet = "Artsieq Boots",
+    feet = "Convoker's Pigaches +1",
   }
 
   sets.idle.PDT = {
@@ -243,19 +241,19 @@ function init_gear_sets()
   -- Glyphic Horn: -4
   -- Caller's Doublet +2/Glyphic Doublet: -4
   -- Evoker's Ring: -1
-  -- Convoker's Pigaches: -4
+  -- Convoker's Pigaches +1: -4
   -- total: -18
 
   -- Can make due without either the head or the body, and use +refresh items in those slots.
 
   sets.idle.Avatar = set_combine(sets.idle, {
     main = "Gridarvor",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     body = "Caller's Doublet +2",
     hands = "Glyphic Bracers",
     ring2 = "Evoker's Ring",
     legs = "Convoker's Spats +1",
-    feet = "Convoker's Pigaches",
+    feet = "Convoker's Pigaches +1",
   })
 
   -- sets.idle.PDT.Avatar = {}
@@ -270,7 +268,7 @@ function init_gear_sets()
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     back = "Conveyance Mantle",
-    feet = "Convoker's Pigaches",
+    feet = "Convoker's Pigaches +1",
   })
 
   -- sets.idle.Town = {}
@@ -286,17 +284,17 @@ function init_gear_sets()
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     legs = "Convoker's Spats +1",
-    feet = "Convoker's Pigaches",
+    feet = "Convoker's Pigaches +1",
   })
 
   sets.idle.Avatar.Melee = {}
 
   sets.perp = {
     main = "Gridarvor",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     body = "Caller's Doublet +2",
     ring2 = "Evoker's Ring",
-    feet = "Convoker's Pigaches",
+    feet = "Convoker's Pigaches +1",
   }
 
   -- Caller's Bracer's halve the perp cost after other costs are accounted for.
@@ -305,26 +303,26 @@ function init_gear_sets()
   -- Weather is the same, but we can also use the latent on the pendant to negate the last point lost.
   sets.perp.Day = {
     main = "Gridarvor",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     body = "Hagondes Coat +1",
     hands = "Caller's Bracers +2",
     ring2 = "Evoker's Ring",
-    feet = "Convoker's Pigaches",
+    feet = "Convoker's Pigaches +1",
   }
 
   sets.perp.Weather = {
     main = "Gridarvor",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     neck = "Caller's Pendant",
     body = "Hagondes Coat +1",
     hands = "Caller's Bracers +2",
     ring2 = "Evoker's Ring",
-    feet = "Convoker's Pigaches",
+    feet = "Convoker's Pigaches +1",
   }
 
   sets.perp.Carbuncle = {
     main = "Gridarvor",
-    head = "Convoker's Horn",
+    head = "Convoker's Horn +1",
     body = "Hagondes Coat +1",
     hands = "Carbuncle Mitts",
   }
