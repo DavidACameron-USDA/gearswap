@@ -99,19 +99,19 @@ function init_gear_sets()
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
   -- element.
-  sets.precast.WS['Sanguine Blade'] = {}
+  sets.precast.WS['Sanguine Blade'] = set_combine(sets.precast.WS, {})
 
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
   -- the Aqua, Snow, and Soil gorgets/belts.
-  sets.precast.WS.Expiacion = {
+  sets.precast.WS.Expiacion = set_combine(sets.precast.WS, {
     neck = "Snow Gorget",
-  }
+  })
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
   -- Breeze, Thunder, and Soil gorgets/belts.
-  sets.precast.WS['Savage Blade'] = {
+  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {
     waist = "Thunder Belt",
-  }
+  })
 
 
   -- Midcast Sets
