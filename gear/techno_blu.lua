@@ -85,7 +85,9 @@ function init_gear_sets()
     feet = "Assimilator's Charuqs +1",
   }
 
-  sets.precast.WS.acc = set_combine(sets.precast.WS, {})
+  sets.precast.WS.acc = set_combine(sets.precast.WS, {
+    ammo = "Honed Tathlum",
+  })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
@@ -142,6 +144,7 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'].PhysicalAcc = {
+    ammo = "Honed Tathlum",
     head = "Whirlpool Mask",
     neck = "Chivalrous Chain",
     body = "Espial Gambison",
@@ -369,7 +372,9 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = {
-    head = "Mavi Kavuk +2",
+    ammo = "Honed Tathlum",
+    neck = "Fortitude Torque",
+    body = "Assimilator's Jubbah +1",
     legs = "Espial Hose",
   }
 
@@ -382,9 +387,7 @@ function init_gear_sets()
     ear2 = "Heartseeker Earring",
   })
 
-  sets.engaged.DW.Acc = {
-    legs = "Espial Hose",
-  }
+  sets.engaged.DW.Acc = set_combine(sets.engaged.DW, sets.engaged.Acc)
 
   sets.engaged.DW.Refresh = set_combine(sets.engaged.DW, {
     body = "Assimilator's Jubbah +1",
