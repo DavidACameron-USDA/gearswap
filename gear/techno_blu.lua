@@ -118,6 +118,7 @@ function init_gear_sets()
 
   -- Midcast Sets
   sets.midcast.FastRecast = {
+    body = "Luhlaza Jubbah",
     legs = "Assimilator's Shalwar +1",
   }
 
@@ -374,7 +375,7 @@ function init_gear_sets()
   sets.engaged.Acc = {
     ammo = "Honed Tathlum",
     neck = "Fortitude Torque",
-    body = "Assimilator's Jubbah +1",
+    body = "Luhlaza Jubbah",
     legs = "Espial Hose",
   }
 
