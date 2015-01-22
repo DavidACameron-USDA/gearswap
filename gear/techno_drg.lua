@@ -48,7 +48,7 @@ function init_gear_sets()
   }
 
   sets.idle.Refresh = set_combine(sets.idle, {
-    body = "Ares' Cuirass",
+    body = "Ares' Cuirass +1",
   })
 
   -- sets.idle.Town = {}
