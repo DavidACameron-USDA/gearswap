@@ -60,7 +60,7 @@ function init_gear_sets()
   -- Fast cast sets for spells
   sets.precast.FC = {
     ear2 = "Loquacious Earring",
-    body = "Luhlaza Jubbah",
+    body = "Luhlaza Jubbah +1",
     legs = "Homam Cosciales",
   }
 
@@ -98,7 +98,7 @@ function init_gear_sets()
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
     neck = "Shadow Gorget",
-    body = "Luhlaza Jubbah",
+    body = "Luhlaza Jubbah +1",
     ring1 = "K'ayres Ring",
     back = "Atheling Mantle",
   })
@@ -133,7 +133,7 @@ function init_gear_sets()
 
   -- Midcast Sets
   sets.midcast.FastRecast = {
-    body = "Luhlaza Jubbah",
+    body = "Luhlaza Jubbah +1",
     legs = "Assimilator's Shalwar +1",
   }
 
@@ -163,7 +163,7 @@ function init_gear_sets()
     ammo = "Honed Tathlum",
     head = "Whirlpool Mask",
     neck = "Chivalrous Chain",
-    body = "Luhlaza Jubbah",
+    body = "Luhlaza Jubbah +1",
     hands = "Iuitl Wristbands +1",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
@@ -332,7 +332,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
-    body = "Assimilator's Jubbah +1",
+    body = "Luhlaza Jubbah +1",
     hands = "Iuitl Wristbands +1",
     ring1 = "K'ayres Ring",
     ring2 = "Rajas Ring",
@@ -391,7 +391,7 @@ function init_gear_sets()
   sets.engaged.Acc = {
     ammo = "Honed Tathlum",
     neck = "Fortitude Torque",
-    body = "Luhlaza Jubbah",
+    body = "Luhlaza Jubbah +1",
     legs = "Espial Hose",
   }
 
