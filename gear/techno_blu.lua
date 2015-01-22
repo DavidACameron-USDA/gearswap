@@ -283,7 +283,6 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands +1",
-    ring2 = "Omega Ring",
     back = "Cornflower Cape",
     legs = "Assimilator's Shalwar +1",
     feet = "Hagondes Sabots",
