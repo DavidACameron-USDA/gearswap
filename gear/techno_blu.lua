@@ -39,7 +39,6 @@ function init_gear_sets()
   sets.buff.Diffusion = {
     feet = "Luhlaza Charuqs",
   }
-  sets.buff.Enchainment = {}
   sets.buff.Efflux = {}
 
 
@@ -50,7 +49,9 @@ function init_gear_sets()
 
 
   -- Waltz set (chr and vit)
-  sets.precast.Waltz = {ammo = "Sonia's Plectrum"}
+  sets.precast.Waltz = {
+    ammo = "Sonia's Plectrum"
+  }
 
   -- Don't need any special gear for Healing Waltz.
   sets.precast.Waltz['Healing Waltz'] = {}
@@ -59,6 +60,7 @@ function init_gear_sets()
   -- Fast cast sets for spells
   sets.precast.FC = {
     ear2 = "Loquacious Earring",
+    body = "Luhlaza Jubbah",
     legs = "Homam Cosciales",
   }
 
@@ -96,7 +98,9 @@ function init_gear_sets()
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
     neck = "Shadow Gorget",
-    ring1 = "Omega Ring",
+    body = "Luhlaza Jubbah",
+    ring1 = "K'ayres Ring",
+    back = "Atheling Mantle",
   })
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
@@ -159,7 +163,7 @@ function init_gear_sets()
     ammo = "Honed Tathlum",
     head = "Whirlpool Mask",
     neck = "Chivalrous Chain",
-    body = "Espial Gambison",
+    body = "Luhlaza Jubbah",
     hands = "Iuitl Wristbands +1",
     ring1 = "Ulthalam's Ring",
     ring2 = "Rajas Ring",
@@ -170,18 +174,17 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
-    ear2 = "Kemas Earring",
     ring1 = "Flame Ring",
   })
 
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Love Torque",
     ear1 = "Delta Earring",
-    hands = "Espial Bracers",
+    hands = "Iuitl Wristbands +1",
   })
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
-    ear2 = "Kemas Earring",
+    neck = "Fortitude Torque",
   })
 
   sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {})
@@ -237,7 +240,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
-    ear1 = "Kemas Earring",
+    neck = "Fortitude Torque",
     waist = "Warwolf Belt",
     feet = "Assimilator's Charuqs +1",
   })
@@ -310,7 +313,9 @@ function init_gear_sets()
   -- ammo = "Mavi Tathlum",
 
 
-  sets.latent_refresh = {}
+  sets.latent_refresh = {
+    waist = "Fucho-no-Obi",
+  }
 
   -- Resting sets
   sets.resting = {
