@@ -50,6 +50,7 @@ function init_gear_sets()
 
   -- Pact delay reduction gear
   sets.precast.BloodPactWard = {
+    ammo = "Seraphicaller",
     head = "Convoker's Horn +1",
     body = "Convoker's Doublet +1",
     hands = "Glyphic Bracers",
@@ -207,7 +208,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Gridarvor",
     sub = "Vox Grip",
-    ammo = "Eminent Sachet",
+    ammo = "Seraphicaller",
     head = "Convoker's Horn +1",
     neck = "Caller's Pendant",
     ear1 = "Loquacious Earring",
