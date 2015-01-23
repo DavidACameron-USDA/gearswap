@@ -105,18 +105,19 @@ function init_gear_sets()
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
   -- element.
-  sets.precast.WS['Sanguine Blade'] = set_combine(sets.precast.WS, {
+  sets.precast.WS['Sanguine Blade'] = {
     head = "Pixie Hairpin +1",
     neck = "Imbodla Necklace",
     ear1 = "Psystorm Earring",
+    ear2 = "Moonshade Earring",
     body = "Hagondes Coat +1",
     hands = "Mavi Bazubands +1",
-    ring1 = "Archon Ring",
-    ring2 = "Omega Ring",
+    ring2 = "Archon Ring",
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
+    legs = "Assimilator's Shalwar +1",
     feet = "Hagondes Sabots",
-  })
+  }
 
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
   -- the Aqua, Snow, and Soil gorgets/belts.
