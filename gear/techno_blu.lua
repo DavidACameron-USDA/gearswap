@@ -107,7 +107,7 @@ function init_gear_sets()
   -- element.
   sets.precast.WS['Sanguine Blade'] = {
     head = "Pixie Hairpin +1",
-    neck = "Imbodla Necklace",
+    neck = "Eddy Necklace",
     ear1 = "Psystorm Earring",
     ear2 = "Moonshade Earring",
     body = "Hagondes Coat +1",
