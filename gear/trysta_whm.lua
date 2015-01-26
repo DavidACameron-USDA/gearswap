@@ -28,7 +28,9 @@ function init_gear_sets()
 
   sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {})
 
-  sets.precast.FC['Healing Magic'] = set_combine(sets.precast.FC, {})
+  sets.precast.FC['Healing Magic'] = set_combine(sets.precast.FC, {
+    legs = "Orison Pantaloons +2",
+  })
 
   sets.precast.FC.StatusRemoval = sets.precast.FC['Healing Magic']
 
@@ -78,7 +80,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Orison Cape",
     waist = "Bishop's Sash",
-    legs = "Wayfarer Slops",
+    legs = "Orison Pantaloons +2",
     feet = "Wayfarer Clogs",
   }
 
@@ -95,7 +97,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Orison Cape",
     waist = "Bishop's Sash",
-    legs = "Wayfarer Slops",
+    legs = "Orison Pantaloons +2",
     feet = "Wayfarer Clogs",
   }
 
@@ -112,7 +114,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Orison Cape",
     waist = "Demonry Sash",
-    legs = "Wayfarer Slops",
+    legs = "Orison Pantaloons +2",
     feet = "Wayfarer Clogs",
   }
 
@@ -123,6 +125,7 @@ function init_gear_sets()
 
   sets.midcast.StatusRemoval = {
     head = "Orison Cap +2",
+    legs = "Orison Pantaloons +2",
   }
 
   sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
