@@ -172,6 +172,7 @@ function init_gear_sets()
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     main = "Tumafyrig",
     body = "Convoker's Doublet +1",
+    hands = "Tethyan Cuffs +3",
     back = "Argochampsa Mantle",
     legs = "Summoner's Spats +2",
     feet = "Hagondes Sabots",
