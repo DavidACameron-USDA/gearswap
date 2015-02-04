@@ -30,7 +30,7 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Last Rest",
+    main = "Mekosuchus Blade",
     sub = "Pole Grip",
     ammo = "Ginsen",
     head = "Outrider Mask",
@@ -77,8 +77,6 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Last Rest",
-    sub = "Pole Grip",
     ammo = "Ginsen",
     head = "Otomi Helm",
     neck = "Asperity Necklace",
