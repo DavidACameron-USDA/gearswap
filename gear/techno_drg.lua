@@ -83,7 +83,7 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
-    head = "Vishap Armet +1",
+    head = "Yaoyotl Helm",
     neck = "Love Torque",
     back = "Updraft Mantle",
     waist = "Wyrm Belt",
