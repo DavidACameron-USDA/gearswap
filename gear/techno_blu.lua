@@ -152,7 +152,7 @@ function init_gear_sets()
     ear2 = "Bladeborn Earring",
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands +1",
-    ring1 = "Ulthalam's Ring",
+    ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = "Warwolf Belt",
@@ -160,19 +160,11 @@ function init_gear_sets()
     feet = "Assimilator's Charuqs +1",
   }
 
-  sets.midcast['Blue Magic'].PhysicalAcc = {
+  sets.midcast['Blue Magic'].PhysicalAcc = set_combine(sets.midcast['Blue Magic'].Physical, {
     ammo = "Honed Tathlum",
-    head = "Whirlpool Mask",
-    neck = "Chivalrous Chain",
     body = "Luhlaza Jubbah +1",
-    hands = "Iuitl Wristbands +1",
-    ring1 = "Ulthalam's Ring",
-    ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
-    legs = "Espial Hose",
-    feet = "Assimilator's Charuqs +1",
-  }
+  })
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
     ring1 = "Flame Ring",
@@ -181,7 +173,6 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Love Torque",
     ear1 = "Delta Earring",
-    hands = "Iuitl Wristbands +1",
   })
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -205,7 +196,6 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {
     ear1 = "Delta Earring",
-    hands = "Espial Bracers",
     ring2 = "Omega Ring",
     feet = "Hagondes Sabots",
   })
@@ -237,7 +227,6 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {
     ear1 = "Delta Earring",
-    hands = "Espial Bracers",
   })
 
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
