@@ -59,9 +59,11 @@ function init_gear_sets()
 
   -- Fast cast sets for spells
   sets.precast.FC = {
+    head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
     body = "Luhlaza Jubbah +1",
-    legs = "Homam Cosciales",
+    back = "Swith Cape",
+    legs = "Orvail Pants +1",
   }
 
   sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {
