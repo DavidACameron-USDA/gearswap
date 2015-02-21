@@ -81,7 +81,7 @@ function init_gear_sets()
     ear2 = "Moonshade Earring",
     body = "Assimilator's Jubbah +1",
     hands = "Iuitl Wristbands +1",
-    ring1 = "Flame Ring",
+    ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = "Warwolf Belt",
@@ -95,13 +95,23 @@ function init_gear_sets()
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
+  -- Chant du Cygne has a DEX 80% modifier, has a chance of dealing critical
+  -- damage, and is aligned with the Light, Flame, Thunder, Breeze, Aqua, and
+  -- Snow gorgets/belts.
+  sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
+    ammo = "Ginsen",
+    neck = "Light Gorget",
+    back = "Atheling Mantle",
+    waist = "Thunder Belt",
+  })
+
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
   -- Soil gorgets/belts.
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
     neck = "Shadow Gorget",
     body = "Luhlaza Jubbah +1",
-    ring1 = "K'ayres Ring",
+    ring2 = "K'ayres Ring",
     back = "Atheling Mantle",
   })
 
@@ -117,7 +127,7 @@ function init_gear_sets()
     ring2 = "Archon Ring",
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
-    legs = "Assimilator's Shalwar +1",
+    legs = "Hagondes Pants",
     feet = "Hagondes Sabots",
   }
 
