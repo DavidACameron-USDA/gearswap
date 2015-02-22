@@ -42,6 +42,7 @@ function init_gear_sets()
 
   sets.precast.JA['Elemental Siphon'] = set_combine(sets['Summoning Magic Skill'], {
     back = "Conveyance Cape",
+    feet = "Caller's Pigaches +2",
   })
 
   sets.precast.JA['Mana Cede'] = {
