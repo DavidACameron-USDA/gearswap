@@ -7,7 +7,7 @@ function user_setup()
   state.OffenseMode:options('Normal', 'Acc', 'Refresh', 'Learning')
   state.WeaponskillMode:options('Normal', 'Acc')
   state.CastingMode:options('Normal', 'Resistant')
-  state.IdleMode:options('Normal', 'PDT', 'Learning')
+  state.IdleMode:options('Normal', 'PDT', 'Learning', 'Nuking')
 
   -- Additional local binds
 
@@ -222,43 +222,46 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Magical = {
     ammo = "Mavi Tathlum",
     head = "Assimilator's Keffiyeh +1",
-    neck = "Imbodla Necklace",
-    ear1 = "Lifestorm Earring",
+    neck = "Eddy Necklace",
+    ear1 = "Hecate's Earring",
     ear2 = "Psystorm Earring",
-    body = "Assimilator's Jubbah +1",
+    body = "Hagondes Coat +1",
     hands = "Iuitl Wristbands +1",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
-    legs = "Assimilator's Shalwar +1",
+    waist = "Yamabuki-no-Obi",
+    legs = "Hagondes Pants",
     feet = "Hagondes Sabots",
   }
 
-  sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {})
+  sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
+    ear1 = "Lifestorm Earring",
+    ear2 = "Psystorm Earring",
+  })
 
-  sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {})
+  sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
+    ear2 = "Lifestorm Earring",
+  })
 
   sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {
-    ear1 = "Delta Earring",
+    ear2 = "Delta Earring",
   })
 
-  sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {
-    neck = "Fortitude Torque",
-    waist = "Warwolf Belt",
-    feet = "Assimilator's Charuqs +1",
-  })
+  sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
-    neck = "Love Torque",
-    ear1 = "Delta Earring",
+    ear2 = "Delta Earring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
     feet = "Assimilator's Charuqs +1",
   })
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     head = "Assimilator's Keffiyeh +1",
+    ear1 = "Lifestorm Earring",
+    ear2 = "Psystorm Earring",
+    body = "Assimilator's Jubbah +1",
     ring2 = "Omega Ring",
+    back = "Cornflower Cape",
   }
 
   -- Breath Spells --
@@ -349,6 +352,11 @@ function init_gear_sets()
 
   sets.idle.Learning = set_combine(sets.idle, sets.Learning)
 
+  sets.idle.Nuking = set_combine(sets.idle, {
+    main = "Bolelabunga",
+    sub = "Tamaxchi",
+  })
+
 
   -- Defense sets
   sets.defense.PDT = {
@@ -372,8 +380,6 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Usonmunku",
-    sub = "Usonmunku",
     ammo = "Ginsen",
     head = "Whirlpool Mask",
     neck = "Asperity Necklace",
