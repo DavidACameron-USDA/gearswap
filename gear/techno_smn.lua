@@ -153,7 +153,9 @@ function init_gear_sets()
 
   sets.midcast.Pet.BloodPactWard = set_combine(sets['Summoning Magic Skill'], {})
 
-  sets.midcast.Pet.DebuffBloodPactWard = set_combine(sets['Summoning Magic Skill'], {})
+  sets.midcast.Pet.DebuffBloodPactWard = set_combine(sets['Summoning Magic Skill'], {
+    legs = "Helios Spats",
+  })
 
   sets.midcast.Pet.DebuffBloodPactWard.Acc = sets.midcast.Pet.DebuffBloodPactWard
 
@@ -161,7 +163,7 @@ function init_gear_sets()
     main = "Tumafyrig",
     body = "Convoker's Doublet +1",
     back = "Argochampsa Mantle",
-    feet = "Convoker's Pigaches +1",
+    legs = "Helios Spats",
   })
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
@@ -175,7 +177,7 @@ function init_gear_sets()
     body = "Convoker's Doublet +1",
     hands = "Tethyan Cuffs +3",
     back = "Argochampsa Mantle",
-    legs = "Summoner's Spats +2",
+    legs = "Helios Spats",
     feet = "Hagondes Sabots",
   })
 
