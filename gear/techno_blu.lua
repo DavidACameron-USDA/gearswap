@@ -128,7 +128,7 @@ function init_gear_sets()
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
     legs = "Hagondes Pants",
-    feet = "Hagondes Sabots",
+    feet = "Helios Boots",
   }
 
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
@@ -231,7 +231,7 @@ function init_gear_sets()
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
     legs = "Hagondes Pants",
-    feet = "Hagondes Sabots",
+    feet = "Helios Boots",
   }
 
   sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
