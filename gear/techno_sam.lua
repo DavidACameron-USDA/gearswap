@@ -42,7 +42,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Outrider Hose",
+    legs = "Acro Breeches",
     feet = "Whirlpool Greaves",
   }
 
@@ -85,7 +85,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Outrider Hose",
+    legs = "Acro Breeches",
     feet = "Whirlpool Greaves",
   }
 
@@ -132,7 +132,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Unkai Sugemino",
     waist = "Warwolf Belt",
-    legs = "Outrider Hose",
+    legs = "Acro Breeches",
     feet = "Whirlpool Greaves",
   }
 

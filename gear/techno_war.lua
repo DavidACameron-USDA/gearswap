@@ -144,6 +144,7 @@ function init_gear_sets()
     head = "Yaoyotl Helm",
     ammo = "Ginsen",
     body = "Xaddi Mail",
+    legs = "Acro Breeches",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.

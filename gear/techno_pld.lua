@@ -75,6 +75,7 @@ function init_gear_sets()
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     head = "Yaoyotl Helm",
     neck = "Fortitude Torque",
+    legs = "Acro Breeches",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
