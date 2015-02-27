@@ -85,7 +85,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = "Warwolf Belt",
-    legs = "Assimilator's Shalwar +1",
+    legs = "Taeon Tights",
     feet = "Assimilator's Charuqs +1",
   }
 
@@ -176,6 +176,7 @@ function init_gear_sets()
     ammo = "Honed Tathlum",
     body = "Luhlaza Jubbah +1",
     back = "Cuchulain's Mantle",
+    legs = "Taeon Tights",
   })
 
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -391,7 +392,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Assimilator's Shalwar +1",
+    legs = "Taeon Tights",
     feet = "Assimilator's Charuqs +1",
   }
 
