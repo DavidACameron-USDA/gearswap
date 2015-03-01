@@ -145,7 +145,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Thew Bomblet",
     head = "Otomi Helm",
-    neck = "Lancer's Torque",
+    neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Xaddi Mail",
@@ -153,7 +153,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
+    waist = "Fotia Belt",
     legs = "Cizin Breeches +1",
     feet = "Vishap Greaves +1",
   }
@@ -166,42 +166,23 @@ function init_gear_sets()
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
-  -- Stardiver has a STR: 86~100% modifier and is aligned with the Shadow, Soil,
-  -- and Light gorgets/belts.
-  sets.precast.WS.Stardiver = set_combine(sets.precast.WS, {
-    neck = "Shadow Gorget",
-  })
-
-  sets.precast.WS.Stardiver.Acc = set_combine(sets.precast.WS.Acc, {
-    neck = "Shadow Gorget",
-  })
+  -- Stardiver has a STR: 86~100% modifier.
+  sets.precast.WS.Stardiver = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Stardiver.Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Camlann's Torment has STR: 60% and VIT: 60% modifiers and is aligned with
   -- the Light, Breeze, and Thunder gorgets/belts.
-  sets.precast.WS["Camlann's Torment"] = set_combine(sets.precast.WS, {
-    neck = "Light Gorget",
-    waist = "Thunder Belt",
-  })
+  sets.precast.WS["Camlann's Torment"] = set_combine(sets.precast.WS, {})
 
   -- Sonic Thrust has STR: 40% and DEX 40% modifiers and is aligned with the
   -- Light and Soil gorgets/belts.
-  sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {
-    neck = "Light Gorget",
-  })
-
-  sets.precast.WS['Sonic Thrust'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck = "Light Gorget",
-  })
+  sets.precast.WS['Sonic Thrust'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Sonic Thrust'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Drakesbane has a STR: 50% modifier and is aligned with the Flame and Light
   -- gorgets/belts.
-  sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {
-    neck = "Light Gorget",
-  })
-
-  sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {
-    neck = "Light Gorget",
-  })
+  sets.precast.WS.Drakesbane = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Drakesbane.Acc = set_combine(sets.precast.WS.Acc, {})
 
 
   -- Healing Breath sets

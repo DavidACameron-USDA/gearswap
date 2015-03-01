@@ -123,7 +123,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Thew Bomblet",
     head = "Otomi Helm",
-    neck = "Justice Torque",
+    neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Outrider Mail",
@@ -131,7 +131,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Unkai Sugemino",
-    waist = "Warwolf Belt",
+    waist = "Fotia Belt",
     legs = "Acro Breeches",
     feet = "Whirlpool Greaves",
   }
@@ -143,51 +143,24 @@ function init_gear_sets()
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-  sets.precast.WS['Tachi: Fudo'] = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
+  -- sets.precast.WS['Tachi: Fudo'] = set_combine(sets.precast.WS, {})
+  -- sets.precast.WS['Tachi: Fudo'].Acc = set_combine(sets.precast.WS.Acc, {})
 
-  sets.precast.WS['Tachi: Fudo'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Snow Gorget",
-  })
+  -- sets.precast.WS['Tachi: Shoha'] = set_combine(sets.precast.WS, {})
+  -- sets.precast.WS['Tachi: Shoha'].Acc = set_combine(sets.precast.WS.Acc, {})
 
-  sets.precast.WS['Tachi: Shoha'] = set_combine(sets.precast.WS, {
-    neck = "Shadow Gorget",
-    waist = "Thunder Belt",
-  })
+  -- sets.precast.WS['Tachi: Rana'] = set_combine(sets.precast.WS, {})
+  -- sets.precast.WS['Tachi: Rana'].Acc = set_combine(sets.precast.WS.Acc, {})
 
-  sets.precast.WS['Tachi: Shoha'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck = "Shadow Gorget",
-    waist = "Thunder Belt",
-  })
+  -- sets.precast.WS['Tachi: Kasha'] = set_combine(sets.precast.WS, {})
 
-  sets.precast.WS['Tachi: Rana'] = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
+  -- sets.precast.WS['Tachi: Gekko'] = set_combine(sets.precast.WS, {})
 
-  sets.precast.WS['Tachi: Rana'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Snow Gorget",
-  })
+  -- sets.precast.WS['Tachi: Yukikaze'] = set_combine(sets.precast.WS, {})
 
-  sets.precast.WS['Tachi: Kasha'] = set_combine(sets.precast.WS, {
-    neck="Shadow Gorget",
-  })
+  -- sets.precast.WS['Tachi: Ageha'] = set_combine(sets.precast.WS, {})
 
-  sets.precast.WS['Tachi: Gekko'] = set_combine(sets.precast.WS, {
-    neck = "Snow Gorget",
-  })
-
-  sets.precast.WS['Tachi: Yukikaze'] = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
-
-  sets.precast.WS['Tachi: Ageha'] = set_combine(sets.precast.WS, {
-    neck = "Shadow Gorget",
-  })
-
-  sets.precast.WS['Tachi: Jinpu'] = set_combine(sets.precast.WS, {
-    neck = "Shadow Gorget",
-  })
+  -- sets.precast.WS['Tachi: Jinpu'] = set_combine(sets.precast.WS, {})
 
 
   -- Sets to return to when not performing an action.

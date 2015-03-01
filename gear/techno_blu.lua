@@ -76,7 +76,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
     head = "Whirlpool Mask",
-    neck = "Justice Torque",
+    neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Assimilator's Jubbah +1",
@@ -84,7 +84,7 @@ function init_gear_sets()
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
-    waist = "Warwolf Belt",
+    waist = "Fotia Belt",
     legs = "Taeon Tights",
     feet = "Assimilator's Charuqs +1",
   }
@@ -100,16 +100,13 @@ function init_gear_sets()
   -- Snow gorgets/belts.
   sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
-    neck = "Light Gorget",
     back = "Atheling Mantle",
-    waist = "Thunder Belt",
   })
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
   -- Soil gorgets/belts.
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
-    neck = "Shadow Gorget",
     body = "Luhlaza Jubbah +1",
     ring2 = "K'ayres Ring",
     back = "Atheling Mantle",
@@ -133,15 +130,11 @@ function init_gear_sets()
 
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
   -- the Aqua, Snow, and Soil gorgets/belts.
-  sets.precast.WS.Expiacion = set_combine(sets.precast.WS, {
-    neck = "Snow Gorget",
-  })
+  sets.precast.WS.Expiacion = set_combine(sets.precast.WS, {})
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
   -- Breeze, Thunder, and Soil gorgets/belts.
-  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {
-    waist = "Thunder Belt",
-  })
+  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {})
 
 
   -- Midcast Sets

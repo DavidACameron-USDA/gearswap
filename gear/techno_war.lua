@@ -127,7 +127,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Aqreqaq Bomblet",
     head = "Otomi Helm",
-    neck = "Justice Torque",
+    neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Outrider Mail",
@@ -135,7 +135,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
+    waist = "Fotia Belt",
     legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
   }
@@ -151,43 +151,23 @@ function init_gear_sets()
 
   -- Raging Rush has a STR: 35% modifier and is aligned with the Snow and Aqua
   -- gorgets/belts.
-  sets.precast.WS['Raging Rush'] = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
-
-  sets.precast.WS['Raging Rush'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Snow Gorget",
-  })
+  sets.precast.WS['Raging Rush'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Raging Rush'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Steel Cyclone has STR: 60% and VIT 60% modifiers and is aligned with the
   -- Breeze, Aqua, and Snow gorgets/belts.
-  sets.precast.WS['Steel Cyclone'] = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
-
-  sets.precast.WS['Steel Cyclone'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Snow Gorget",
-  })
+  sets.precast.WS['Steel Cyclone'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Steel Cyclone'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- King's Justice has a STR: 50% modifier and is aligned with the Breeze,
   -- Thunder, and Soil gorgets/belts.
-  sets.precast.WS["King's Justice"] = set_combine(sets.precast.WS, {
-    waist = "Thunder Belt",
-  })
-
-  sets.precast.WS["King's Justice"].Acc = set_combine(sets.precast.WS.Acc, {
-    waist = "Thunder Belt",
-  })
+  sets.precast.WS["King's Justice"] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["King's Justice"].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Fell Cleave has a STR: 60% modifier and is aligned with the Breeze,
   -- Thunder, and Soil gorgets/belts.
-  sets.precast.WS["Fell Cleave"] = set_combine(sets.precast.WS, {
-    waist = "Thunder Belt",
-  })
-
-  sets.precast.WS["Fell Cleave"].Acc = set_combine(sets.precast.WS.Acc, {
-    waist = "Thunder Belt",
-  })
+  sets.precast.WS["Fell Cleave"] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Fell Cleave"].Acc = set_combine(sets.precast.WS.Acc, {})
 
 
   -- Sets to return to when not performing an action.

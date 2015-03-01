@@ -140,7 +140,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Aqreqaq Bomblet",
     head = "Otomi Helm",
-    neck = "Justice Torque",
+    neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Outrider Mail",
@@ -148,7 +148,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
+    waist = "Fotia Belt",
     legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
   }
@@ -164,43 +164,23 @@ function init_gear_sets()
 
   -- Guillotine has STR: 25% and MND 25% modifiers and is aligned with the Snow
   -- gorgets/belts.
-  sets.precast.WS.Guillotine = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
-
-  sets.precast.WS.Guillotine.Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Snow Gorget",
-  })
+  sets.precast.WS.Guillotine = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Guillotine.Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Cross Reaper has STR: 30% and MND 30% modifiers and is aligned with the
   -- Aqua and Snow gorgets/belts.
-  sets.precast.WS['Cross Reaper'] = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
-
-  sets.precast.WS['Cross Reaper'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Snow Gorget",
-  })
+  sets.precast.WS['Cross Reaper'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Cross Reaper'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Spiral Hell has STR: 50% and INT 50% modifiers and is aligned with the
   -- Aqua, Snow, and Soil gorgets/belts.
-  sets.precast.WS['Spiral Hell'] = set_combine(sets.precast.WS, {
-    neck="Snow Gorget",
-  })
-
-  sets.precast.WS['Spiral Hell'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Snow Gorget",
-  })
+  sets.precast.WS['Spiral Hell'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Spiral Hell'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Insurgency has STR: 20% and INT 20% modifiers and is aligned with the
   -- Flame, Light, and Shadow gorgets/belts.
-  sets.precast.WS.Insurgency = set_combine(sets.precast.WS, {
-    neck="Shadow Gorget",
-  })
-
-  sets.precast.WS.Insurgency.Acc = set_combine(sets.precast.WS.Acc, {
-    neck="Shadow Gorget",
-  })
+  sets.precast.WS.Insurgency = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Insurgency.Acc = set_combine(sets.precast.WS.Acc, {})
 
 
   -- Midcast sets

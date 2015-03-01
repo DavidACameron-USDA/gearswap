@@ -60,7 +60,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Ginsen",
     head = "Otomi Helm",
-    neck = "Justice Torque",
+    neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Xaddi Mail",
@@ -68,7 +68,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
+    waist = "Fotia Belt",
     legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
   }
@@ -82,21 +82,13 @@ function init_gear_sets()
 
   -- Chant du Cygne has a DEX: 80% modifier and is aligned with the Light, Aqua,
   -- and Snow gorgets/belts.
-  sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
-    neck = "Light Gorget",
-  })
-  sets.precast.WS['Chant du Cygne'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck = "Light Gorget",
-  })
+  sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Chant du Cygne'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
   -- Soil gorgets/belts.
-  sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
-    neck = "Shadow Gorget",
-  })
-  sets.precast.WS['Requiescat'].Acc = set_combine(sets.precast.WS.Acc, {
-    neck = "Shadow Gorget",
-  })
+  sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Requiescat'].Acc = set_combine(sets.precast.WS.Acc, {})
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
   -- element.
@@ -104,21 +96,13 @@ function init_gear_sets()
 
   -- Atonement damage is based on enmity and is aligned with the Light, Aqua,
   -- and Flame gorgets/belts.
-  sets.precast.WS['Atonement'] = {
-    neck = "Light Gorget",
-  }
-  sets.precast.WS['Atonement'].Acc = {
-    neck = "Light Gorget",
-  }
+  sets.precast.WS['Atonement'] = {}
+  sets.precast.WS['Atonement'].Acc = {}
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
   -- Breeze, Thunder, and Soil gorgets/belts.
-  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {
-    waist = "Thunder Belt",
-  })
-  sets.precast.WS['Savage Blade'].Acc = set_combine(sets.precast.WS.Acc, {
-    waist = "Thunder Belt",
-  })
+  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Savage Blade'].Acc = set_combine(sets.precast.WS.Acc, {})
 
 
   --------------------------------------
