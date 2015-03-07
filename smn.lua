@@ -388,8 +388,8 @@ function handle_siphoning()
     end
 
     if not (pet.isvalid and spirits:contains(pet.name)) then
-        command = command..'input /ma "'..elements.spirit_of[siphonElement]..'" <me>;wait 4;'
-        releaseWait = releaseWait - 4
+        command = command..'input /ma "'..elements.spirit_of[siphonElement]..'" <me>;wait 5;'
+        releaseWait = releaseWait - 5
     end
 
     command = command..'input /ja "Elemental Siphon" <me>;'
