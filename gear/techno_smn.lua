@@ -9,6 +9,7 @@ function user_setup()
   state.IdleMode:options('Normal', 'PDT')
 
   gear.perp_staff = {name=""}
+  gear.fc_helios_boots = {name="Helios Boots", augments={'"Mag. Atk. Bns."+4', '"Fast Cast"+5', 'Mag. crit. hit dmg. +8%'}}
 
   select_default_macro_book()
 end
@@ -64,7 +65,11 @@ function init_gear_sets()
   -- Fast cast sets for spells
 
   sets.precast.FC = {
-    ear1 = "Loquacious Earring",
+    head = "Haruspex Hat",
+    ear2 = "Loquacious Earring",
+    back = "Swith Cape",
+    legs = "Orvail Pants +1",
+    feet = gear.fc_helios_boots,
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})

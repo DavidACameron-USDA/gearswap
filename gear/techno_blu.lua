@@ -9,6 +9,8 @@ function user_setup()
   state.CastingMode:options('Normal', 'Resistant')
   state.IdleMode:options('Normal', 'PDT', 'Learning', 'Nuking')
 
+  gear.fc_helios_boots = {name="Helios Boots", augments={'"Mag. Atk. Bns."+4', '"Fast Cast"+5', 'Mag. crit. hit dmg. +8%'}}
+
   -- Additional local binds
 
   update_combat_form()
@@ -64,6 +66,7 @@ function init_gear_sets()
     body = "Luhlaza Jubbah +1",
     back = "Swith Cape",
     legs = "Orvail Pants +1",
+    feet = gear.fc_helios_boots,
   }
 
   sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {
