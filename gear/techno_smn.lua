@@ -79,9 +79,11 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     head = "Bokwus Circlet",
+    neck = "Fotia Gorget",
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
+    waist = "Fotia Belt",
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches +1",
   }
@@ -93,15 +95,11 @@ function init_gear_sets()
 
   -- Garland of Bliss has STR: 30% and MND 70% modifiers and is aligned with the
   -- Flame, Light, and Aqua gorgets/belts.
-  sets.precast.WS['Garland of Bliss'] = set_combine(sets.precast.WS, {
-    neck = "Light Gorget",
-  })
+  sets.precast.WS['Garland of Bliss'] = set_combine(sets.precast.WS, {})
 
   -- Retribution has STR: 30% and MND 50% modifiers and is aligned with the
   -- Shadow, Soil, and Aqua gorgets/belts.
-  sets.precast.WS.Retribution = set_combine(sets.precast.WS, {
-    neck = "Shadow Gorget",
-  })
+  sets.precast.WS.Retribution = set_combine(sets.precast.WS, {})
 
   -- Spirit Taker has INT: 50% and MND 50% modifiers and is not aligned with any
   -- elemental gorget/belt.
