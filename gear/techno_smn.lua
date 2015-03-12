@@ -56,7 +56,7 @@ function init_gear_sets()
     head = "Convoker's Horn +1",
     body = "Glyphic Doublet",
     hands = "Glyphic Bracers",
-    legs = "Summoner's Spats +2",
+    legs = "Glyphic Spats",
     feet = "Summoner's Pgch. +2",
   }
 
@@ -191,11 +191,11 @@ function init_gear_sets()
   -- Spirits cast magic spells, which can be identified in standard ways.
 
   sets.midcast.Pet.WhiteMagic = {
-    legs = "Summoner's Spats +2",
+    legs = "Glyphic Spats",
   }
 
   sets.midcast.Pet['Elemental Magic'] = set_combine(sets.midcast.Pet.BloodPactRage, {
-    legs = "Summoner's Spats +2 "
+    legs = "Glyphic Spats"
   })
 
   sets.midcast.Pet['Elemental Magic'].Resistant = {}
