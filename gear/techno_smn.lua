@@ -54,7 +54,7 @@ function init_gear_sets()
   sets.precast.BloodPactWard = {
     ammo = "Seraphicaller",
     head = "Convoker's Horn +1",
-    body = "Convoker's Doublet +1",
+    body = "Glyphic Doublet",
     hands = "Glyphic Bracers",
     legs = "Summoner's Spats +2",
     feet = "Summoner's Pgch. +2",
@@ -259,7 +259,7 @@ function init_gear_sets()
   sets.idle.Avatar = set_combine(sets.idle, {
     main = "Gridarvor",
     head = "Convoker's Horn +1",
-    body = "Caller's Doublet +2",
+    body = "Glyphic Doublet",
     hands = "Glyphic Bracers",
     ring2 = "Evoker's Ring",
     legs = "Convoker's Spats +1",
@@ -302,7 +302,7 @@ function init_gear_sets()
   sets.perp = {
     main = "Gridarvor",
     head = "Convoker's Horn +1",
-    body = "Caller's Doublet +2",
+    body = "Glyphic Doublet",
     ring2 = "Evoker's Ring",
     feet = "Convoker's Pigaches +1",
   }
