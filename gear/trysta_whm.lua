@@ -140,7 +140,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Stoneskin = {
-    main = "Eminent Wand",
+    main = "Bolelabunga",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
     neck = "Imbodla Necklace",
@@ -217,7 +217,7 @@ function init_gear_sets()
 
   -- Resting sets
   sets.resting = {
-    main = "Dark Staff",
+    main = "Bolelabunga",
     head = "Wayfarer Circlet",
     body = "Wayfarer Robe",
     neck = "Grandiose Chain",
@@ -230,7 +230,7 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Eminent Wand",
+    main = "Bolelabunga",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
@@ -275,7 +275,7 @@ function init_gear_sets()
 
   -- Basic set for if no TP weapon is defined.
   sets.engaged = {
-    main = "Eminent Wand",
+    main = "Bolelabunga",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Wayfarer Circlet",
