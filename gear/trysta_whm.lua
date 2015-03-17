@@ -162,6 +162,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Regen = {
+    main = "Bolelabunga",
     body = "Cleric's Briault",
     hands = "Orison Mitts +2",
     legs = "Theophany Pantaloons",
