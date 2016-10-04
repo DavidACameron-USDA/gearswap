@@ -41,7 +41,9 @@ function init_gear_sets()
   sets.buff.Diffusion = {
     feet = "Luhlaza Charuqs",
   }
-  sets.buff.Efflux = {}
+  sets.buff.Efflux = {
+    back = "Rosmerta's Cape",
+  }
 
 
   -- Precast Sets
