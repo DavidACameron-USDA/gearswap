@@ -172,7 +172,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].PhysicalAcc = set_combine(sets.midcast['Blue Magic'].Physical, {
     ammo = "Honed Tathlum",
     body = "Luhlaza Jubbah +1",
-    back = "Cuchulain's Mantle",
+    back = "Rosmerta's Cape",
     legs = "Taeon Tights",
   })
 
@@ -389,7 +389,7 @@ function init_gear_sets()
     hands = "Iuitl Wristbands +1",
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
-    back = "Atheling Mantle",
+    back = "Rosmerta's Cape",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
     feet = "Assimilator's Charuqs +1",
