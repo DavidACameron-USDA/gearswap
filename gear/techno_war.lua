@@ -38,7 +38,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Cizin Mufflers +1",
+    hands = "Sulevia's Gauntlets +1",
     ring1 = "K'ayres Ring",
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
@@ -131,7 +131,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Outrider Mail",
-    hands = "Cizin Mufflers +1",
+    hands = "Sulevia's Gauntlets +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -189,7 +189,7 @@ function init_gear_sets()
   }
 
   sets.defense.MDT = {
-    hands = "Cizin Mufflers +1",
+    hands = "Sulevia's Gauntlets +1",
     legs = "Cizin Breeches +1",
   }
 

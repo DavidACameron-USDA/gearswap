@@ -38,7 +38,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Cizin Mufflers +1",
+    hands = "Sulevia's Gauntlets +1",
     ring1 = "K'ayres Ring",
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
@@ -85,6 +85,7 @@ function init_gear_sets()
   sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Yaoyotl Helm",
     neck = "Love Torque",
+    hands = "Sulevia's Gauntlets +1",
     back = "Updraft Mantle",
     waist = "Wyrm Belt",
     legs = "Vishap Brais +1",
@@ -149,7 +150,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Xaddi Mail",
-    hands = "Cizin Mufflers +1",
+    hands = "Sulevia's Gauntlets +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -221,13 +222,13 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
-    hands = "Cizin Mufflers +1",
+    hands = "Sulevia's Gauntlets +1",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
   }
 
   sets.defense.MDT = {
-    hands = "Cizin Mufflers +1",
+    hands = "Sulevia's Gauntlets +1",
     legs = "Cizin Breeches +1",
   }
 
