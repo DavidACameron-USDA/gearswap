@@ -44,7 +44,7 @@ function init_gear_sets()
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
-    feet = "Whirlpool Greaves",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.idle.Refresh = {
@@ -95,6 +95,7 @@ function init_gear_sets()
   sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Yaoyotl Helm",
     neck = "Justice Torque",
+    feet = "Sulevia's Leggings +1",
   })
 
 
@@ -150,7 +151,7 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Fotia Belt",
     legs = "Cizin Breeches +1",
-    feet = "Whirlpool Greaves",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
@@ -214,6 +215,7 @@ function init_gear_sets()
   sets.defense.MDT = {
     hands = "Sulevia's Gauntlets +1",
     legs = "Cizin Breeches +1",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.Kiting = {}

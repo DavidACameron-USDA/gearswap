@@ -44,7 +44,7 @@ function init_gear_sets()
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
-    feet = "Whirlpool Greaves",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.idle.Refresh = set_combine(sets.idle, {
@@ -89,6 +89,7 @@ function init_gear_sets()
     back = "Updraft Mantle",
     waist = "Wyrm Belt",
     legs = "Vishap Brais +1",
+    feet = "Sulevia's Leggings +1",
   })
 
 
@@ -156,7 +157,7 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = "Fotia Belt",
     legs = "Cizin Breeches +1",
-    feet = "Vishap Greaves +1",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
@@ -225,11 +226,13 @@ function init_gear_sets()
     hands = "Sulevia's Gauntlets +1",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.defense.MDT = {
     hands = "Sulevia's Gauntlets +1",
     legs = "Cizin Breeches +1",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.Kiting = {}
