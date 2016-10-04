@@ -81,7 +81,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
-    head = "Whirlpool Mask",
+    head = "Jhakri Coronal +1",
     neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
@@ -157,7 +157,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].Physical = {
     ammo = "Mavi Tathlum",
-    head = "Whirlpool Mask",
+    head = "Jhakri Coronal +1",
     neck = "Justice Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -188,10 +188,13 @@ function init_gear_sets()
   })
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
+    head = "Whirlpool Mask",
     neck = "Fortitude Torque",
   })
 
-  sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {})
+  sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {
+    head = "Whirlpool Mask",
+  })
 
   sets.midcast['Blue Magic'].PhysicalInt = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Imbodla Necklace",
@@ -213,6 +216,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Blue Magic'].PhysicalHP = set_combine(sets.midcast['Blue Magic'].Physical, {
+    head = "Whirlpool Mask",
     feet = "Assimilator's Charuqs +1",
   })
 
@@ -221,7 +225,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].Magical = {
     ammo = "Mavi Tathlum",
-    head = "Assimilator's Keffiyeh +1",
+    head = "Jhakri Coronal +1",
     neck = "Eddy Necklace",
     ear1 = "Hecate's Earring",
     ear2 = "Psystorm Earring",
@@ -257,7 +261,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
-    head = "Assimilator's Keffiyeh +1",
+    head = "Jhakri Coronal +1",
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Assimilator's Jubbah +1",
