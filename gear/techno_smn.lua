@@ -67,6 +67,7 @@ function init_gear_sets()
   sets.precast.FC = {
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
+    ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
     legs = "Orvail Pants +1",
     feet = gear.fc_helios_boots,

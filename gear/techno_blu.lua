@@ -64,6 +64,7 @@ function init_gear_sets()
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
     body = "Luhlaza Jubbah +1",
+    ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
     legs = "Orvail Pants +1",
     feet = gear.fc_helios_boots,
@@ -224,6 +225,7 @@ function init_gear_sets()
     ear2 = "Psystorm Earring",
     body = "Hagondes Coat +1",
     hands = "Helios Gloves",
+    ring1 = "Weatherspoon Ring",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
@@ -257,6 +259,7 @@ function init_gear_sets()
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Assimilator's Jubbah +1",
+    ring1 = "Weatherspoon Ring",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
   }
