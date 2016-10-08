@@ -43,7 +43,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 
@@ -54,12 +54,12 @@ function init_gear_sets()
   -- sets.idle.Weak = {}
 
   sets.idle.PDT = set_combine(sets.idle, {
-    head = "Outrider Mask",
-    body = "Outrider Mail",
-    hands = "Outrider Mittens",
+    hands = "Sulevia's Gauntlets +1",
     ring1 = "Patronus Ring",
-    legs = "Outrider Hose",
-    feet = "Outrider Greaves",
+    back = "Repulse Mantle",
+    waist = "Flume Belt +1",
+    legs = "Sulevia's Cuisses +1",
+    feet = "Sulevia's Leggings +1",
   })
 
   sets.idle.Proc = set_combine(sets.idle, {
@@ -138,7 +138,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Fotia Belt",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 
@@ -146,7 +146,6 @@ function init_gear_sets()
     head = "Yaoyotl Helm",
     ammo = "Ginsen",
     body = "Xaddi Mail",
-    legs = "Acro Breeches",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -180,19 +179,17 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
-    head = "Outrider Mask",
-    body = "Outrider Mail",
-    hands = "Outrider Mittens",
+    hands = "Sulevia's Gauntlets +1",
     ring1 = "Patronus Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Outrider Hose",
-    feet = "Outrider Greaves",
+    legs = "Sulevia's Cuisses +1",
+    feet = "Sulevia's Leggings +1",
   }
 
   sets.defense.MDT = {
     hands = "Sulevia's Gauntlets +1",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 

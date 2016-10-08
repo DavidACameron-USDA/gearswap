@@ -69,7 +69,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Fotia Belt",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
@@ -170,7 +170,7 @@ function init_gear_sets()
     hands = "Sulevia's Gauntlets +1",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
   sets.defense.HP = {}
@@ -178,7 +178,7 @@ function init_gear_sets()
   -- Shellra V can provide 75/256, which would need another 53/256 in gear.
   sets.defense.MDT = {
     hands = "Sulevia's Gauntlets +1",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 
@@ -207,6 +207,7 @@ function init_gear_sets()
     head = "Yaoyotl Helm",
     neck = "Fortitude Torque",
     hands = "Sulevia's Gauntlets +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   })
 

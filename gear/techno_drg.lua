@@ -88,7 +88,7 @@ function init_gear_sets()
     hands = "Sulevia's Gauntlets +1",
     back = "Updraft Mantle",
     waist = "Wyrm Belt",
-    legs = "Vishap Brais +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   })
 
@@ -97,6 +97,7 @@ function init_gear_sets()
   -- Precast sets to enhance JAs
   sets.precast.JA.Jump = set_combine(sets.engaged, {
     body = "Vishap Mail",
+    legs = "Sulevia's Cuisses +1",
     feet = "Vishap Greaves +1",
   })
 
@@ -156,14 +157,13 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = "Fotia Belt",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
     back = "Updraft Mantle",
-    legs = "Acro Breeches",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -226,12 +226,13 @@ function init_gear_sets()
     hands = "Sulevia's Gauntlets +1",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 
   sets.defense.MDT = {
     hands = "Sulevia's Gauntlets +1",
-    legs = "Cizin Breeches +1",
+    legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 
