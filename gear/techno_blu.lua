@@ -85,14 +85,14 @@ function init_gear_sets()
     neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
-    body = "Assimilator's Jubbah +1",
-    hands = "Iuitl Wristbands +1",
+    body = "Jhakri Robe +1",
+    hands = "Jhakri Cuffs +1",
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = "Fotia Belt",
     legs = "Taeon Tights",
-    feet = "Assimilator's Charuqs +1",
+    feet = "Jhakri Pigaches +1",
   }
 
   sets.precast.WS.acc = set_combine(sets.precast.WS, {
@@ -119,7 +119,6 @@ function init_gear_sets()
   -- Soil gorgets/belts.
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
-    body = "Luhlaza Jubbah +1",
     ring2 = "K'ayres Ring",
   })
   sets.precast.WS['Requiescat'].CP = set_combine(sets.precast.WS['Requiescat'], {
@@ -133,13 +132,13 @@ function init_gear_sets()
     neck = "Eddy Necklace",
     ear1 = "Hecate's Earring",
     ear2 = "Moonshade Earring",
-    body = "Hagondes Coat +1",
-    hands = "Helios Gloves",
+    body = "Jhakri Robe +1",
+    hands = "Jhakri Cuffs +1",
     ring2 = "Archon Ring",
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
     legs = "Hagondes Pants",
-    feet = "Helios Boots",
+    feet = "Jhakri Pigaches +1",
   }
 
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
@@ -172,18 +171,18 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Assimilator's Jubbah +1",
-    hands = "Iuitl Wristbands +1",
+    hands = "Jhakri Cuffs +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = "Warwolf Belt",
     legs = "Assimilator's Shalwar +1",
-    feet = "Assimilator's Charuqs +1",
+    feet = "Jhakri Pigaches +1",
   }
 
   sets.midcast['Blue Magic'].PhysicalAcc = set_combine(sets.midcast['Blue Magic'].Physical, {
     ammo = "Honed Tathlum",
-    body = "Luhlaza Jubbah +1",
+    body = "Jhakri Robe +1",
     back = "Rosmerta's Cape",
     legs = "Taeon Tights",
   })
@@ -210,19 +209,16 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear1 = "Psystorm Earring",
     ring2 = "Omega Ring",
-    feet = "Hagondes Sabots",
   })
 
   sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Imbodla Necklace",
     ring2 = "Omega Ring",
-    feet = "Hagondes Sabots",
   })
 
   sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {
     ear1 = "Delta Earring",
     ring2 = "Omega Ring",
-    feet = "Hagondes Sabots",
   })
 
   sets.midcast['Blue Magic'].PhysicalHP = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -239,14 +235,14 @@ function init_gear_sets()
     neck = "Eddy Necklace",
     ear1 = "Hecate's Earring",
     ear2 = "Psystorm Earring",
-    body = "Hagondes Coat +1",
-    hands = "Helios Gloves",
+    body = "Jhakri Robe +1",
+    hands = "Jhakri Cuffs +1",
     ring1 = "Weatherspoon Ring",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
     legs = "Hagondes Pants",
-    feet = "Helios Boots",
+    feet = "Jhakri Pigaches +1",
   }
 
   sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
@@ -267,14 +263,13 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
     ear2 = "Delta Earring",
     ring2 = "Rajas Ring",
-    feet = "Assimilator's Charuqs +1",
   })
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     head = "Jhakri Coronal +1",
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
-    body = "Assimilator's Jubbah +1",
+    body = "Jhakri Robe +1",
     ring1 = "Weatherspoon Ring",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
@@ -302,11 +297,11 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Healing = {
     head = "Assimilator's Keffiyeh +1",
     neck = "Imbodla Necklace",
-    body = "Assimilator's Jubbah +1",
-    hands = "Iuitl Wristbands +1",
+    body = "Jhakri Robe +1",
+    hands = "Jhakri Cuffs +1",
     back = "Cornflower Cape",
     legs = "Assimilator's Shalwar +1",
-    feet = "Hagondes Sabots",
+    feet = "Jhakri Pigaches +1",
   }
 
   sets.midcast['Blue Magic'].SkillBasedBuff = {
@@ -352,7 +347,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
-    body = "Luhlaza Jubbah +1",
+    body = "Jhakri Robe +1",
     hands = "Iuitl Wristbands +1",
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
@@ -418,8 +413,10 @@ function init_gear_sets()
   sets.engaged.Acc = {
     ammo = "Honed Tathlum",
     neck = "Fortitude Torque",
-    body = "Luhlaza Jubbah +1",
+    body = "Jhakri Robe +1",
+    hands = "Jhakri Cuffs +1",
     legs = "Espial Hose",
+    feet = "Jhakri Pigaches +1",
   }
 
   sets.engaged.Refresh = set_combine(sets.engaged, {
@@ -434,7 +431,7 @@ function init_gear_sets()
   sets.engaged.DW.Acc = set_combine(sets.engaged.DW, sets.engaged.Acc)
 
   sets.engaged.DW.Refresh = set_combine(sets.engaged.DW, {
-    body = "Assimilator's Jubbah +1",
+    body = "Jhakri Robe +1",
   })
 
   sets.engaged.Learning = set_combine(sets.engaged, sets.Learning)
