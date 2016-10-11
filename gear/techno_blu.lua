@@ -4,10 +4,10 @@
 
 -- Setup vars that are user-dependent.
 function user_setup()
-  state.OffenseMode:options('Normal', 'Acc', 'Refresh', 'Learning')
-  state.WeaponskillMode:options('Normal', 'Acc')
+  state.OffenseMode:options('Normal', 'Acc', 'Refresh', 'Learning', 'CP')
+  state.WeaponskillMode:options('Normal', 'Acc', 'CP')
   state.CastingMode:options('Normal', 'Resistant')
-  state.IdleMode:options('Normal', 'PDT', 'Learning', 'Nuking')
+  state.IdleMode:options('Normal', 'PDT', 'Learning', 'Nuking', 'CP')
 
   gear.fc_helios_boots = {name="Helios Boots", augments={'"Mag. Atk. Bns."+4', '"Fast Cast"+5', 'Mag. crit. hit dmg. +8%'}}
 
@@ -99,6 +99,10 @@ function init_gear_sets()
     ammo = "Honed Tathlum",
   })
 
+  sets.precast.WS.CP = set_combine(sets.precast.WS, {
+    back = "Mecistopins Mantle",
+  })
+
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
   -- Chant du Cygne has a DEX 80% modifier, has a chance of dealing critical
@@ -106,7 +110,9 @@ function init_gear_sets()
   -- Snow gorgets/belts.
   sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
-    back = "Atheling Mantle",
+  })
+  sets.precast.WS['Chant du Cygne'].CP = set_combine(sets.precast.WS['Chant du Cygne'], {
+    back = "Mecistopins Mantle",
   })
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
@@ -115,7 +121,9 @@ function init_gear_sets()
     ammo = "Ginsen",
     body = "Luhlaza Jubbah +1",
     ring2 = "K'ayres Ring",
-    back = "Atheling Mantle",
+  })
+  sets.precast.WS['Requiescat'].CP = set_combine(sets.precast.WS['Requiescat'], {
+    back = "Mecistopins Mantle",
   })
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
@@ -137,10 +145,12 @@ function init_gear_sets()
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
   -- the Aqua, Snow, and Soil gorgets/belts.
   sets.precast.WS.Expiacion = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Expiacion.CP = set_combine(sets.precast.WS.CP, {})
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
   -- Breeze, Thunder, and Soil gorgets/belts.
   sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Savage Blade'].CP = set_combine(sets.precast.WS.CP, {})
 
 
   -- Midcast Sets
@@ -363,6 +373,10 @@ function init_gear_sets()
     sub = "Tamaxchi",
   })
 
+  sets.idle.CP = set_combine(sets.idle, {
+    back = "Mecistopins Mantle",
+  })
+
 
   -- Defense sets
   sets.defense.PDT = {
@@ -426,6 +440,12 @@ function init_gear_sets()
   sets.engaged.Learning = set_combine(sets.engaged, sets.Learning)
   sets.engaged.DW.Learning = set_combine(sets.engaged.DW, sets.Learning)
 
+  sets.engaged.CP = set_combine(sets.engaged, {
+    back = "Mecistopins Mantle",
+  })
+  sets.engaged.DW.CP = set_combine(sets.engaged, {
+    back = "Mecistopins Mantle",
+  })
 
   sets.self_healing = {}
 end
