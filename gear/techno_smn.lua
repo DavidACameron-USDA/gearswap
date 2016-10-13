@@ -67,6 +67,7 @@ function init_gear_sets()
   sets.precast.FC = {
     head = "Nahtirah Hat",
     ear2 = "Loquacious Earring",
+    body = "Inyanga Jubbah",
     ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
     legs = "Orvail Pants +1",
@@ -349,7 +350,11 @@ function init_gear_sets()
   }
 
   sets.defense.MDT = {
+    head = "Inyanga Tiara",
     neck = "Twilight Torque",
+    body = "Inyanga Jubbah",
+    hands = "Inyanga Dastanas",
+    legs = "Inyanga Shalwar",
   }
 
   sets.Kiting = {
