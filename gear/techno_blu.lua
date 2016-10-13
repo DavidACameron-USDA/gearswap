@@ -344,7 +344,7 @@ function init_gear_sets()
     sub = "Usonmunku",
     ammo = "Ginsen",
     head = "Assimilator's Keffiyeh +1",
-    neck = "Asperity Necklace",
+    neck = "Twilight Torque",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
     body = "Jhakri Robe +1",
@@ -375,14 +375,19 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
+    neck = "Twilight Torque",
     hands = "Iuitl Wristbands +1",
     waist = "Flume Belt +1",
     back = "Repulse Mantle",
   }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    neck = "Twilight Torque",
+  }
 
   sets.Kiting = {
+    waist = "Flume Belt +1",
+    back = "Repulse Mantle",
     legs = "Crimson Cuisses",
   }
 

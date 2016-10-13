@@ -33,7 +33,7 @@ function init_gear_sets()
     sub = "Pole Grip",
     ammo = "Ginsen",
     head = "Outrider Mask",
-    neck = "Asperity Necklace",
+    neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
@@ -54,6 +54,7 @@ function init_gear_sets()
 
   sets.idle.PDT = set_combine(sets.idle, {
     head = "Outrider Mask",
+    neck = "Twilight Torque",
     body = "Outrider Mail",
     hands = "Outrider Mittens",
     ring1 = "Patronus Ring",
@@ -172,6 +173,7 @@ function init_gear_sets()
   -- Defense sets
   sets.defense.PDT = {
     head = "Outrider Mask",
+    neck = "Twilight Torque",
     body = "Outrider Mail",
     hands = "Outrider Mittens",
     ring1 = "Patronus Ring",
@@ -181,9 +183,15 @@ function init_gear_sets()
     feet = "Outrider Greaves",
   }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    neck = "Twilight Torque",
+  }
 
-  sets.Kiting = {}
+  sets.Kiting = {
+    neck = "Twilight Torque",
+    back = "Repulse Mantle",
+    waist = "Flume Belt +1",
+  }
 
 
   sets.buff.Sekkanoki = {}

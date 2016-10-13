@@ -34,7 +34,7 @@ function init_gear_sets()
     sub = "Pole Grip",
     ammo = "Ginsen",
     head = "Outrider Mask",
-    neck = "Asperity Necklace",
+    neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
@@ -54,6 +54,7 @@ function init_gear_sets()
   -- sets.idle.Weak = {}
 
   sets.idle.PDT = set_combine(sets.idle, {
+    neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Patronus Ring",
     back = "Repulse Mantle",
@@ -179,6 +180,7 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
+    neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Patronus Ring",
     back = "Repulse Mantle",
@@ -188,12 +190,21 @@ function init_gear_sets()
   }
 
   sets.defense.MDT = {
+    neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
     legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
 
-  sets.Kiting = {}
+  sets.Kiting = {
+    neck = "Twilight Torque",
+    hands = "Sulevia's Gauntlets +1",
+    ring1 = "Patronus Ring",
+    back = "Repulse Mantle",
+    waist = "Flume Belt +1",
+    legs = "Sulevia's Cuisses +1",
+    feet = "Sulevia's Leggings +1",
+  }
 end
 
 

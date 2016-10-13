@@ -220,7 +220,7 @@ function init_gear_sets()
     sub = "Vox Grip",
     ammo = "Seraphicaller",
     head = "Convoker's Horn +1",
-    neck = "Caller's Pendant",
+    neck = "Twilight Torque",
     ear1 = "Loquacious Earring",
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
@@ -342,12 +342,17 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
+    neck = "Twilight Torque",
     back = "Repulse Mantle",
   }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    neck = "Twilight Torque",
+  }
 
-  sets.Kiting = {}
+  sets.Kiting = {
+    neck = "Twilight Torque",
+  }
 
   sets.latent_refresh = {}
 

@@ -144,7 +144,7 @@ function init_gear_sets()
     sub = "Svalinn",
     ammo = "Ginsen",
     head = "Otomi Helm",
-    neck = "Asperity Necklace",
+    neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
@@ -167,6 +167,7 @@ function init_gear_sets()
   --------------------------------------
 
   sets.defense.PDT = {
+    neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
@@ -177,6 +178,7 @@ function init_gear_sets()
   -- To cap MDT with Shell IV (52/256), need 76/256 in gear.
   -- Shellra V can provide 75/256, which would need another 53/256 in gear.
   sets.defense.MDT = {
+    neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
     legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
