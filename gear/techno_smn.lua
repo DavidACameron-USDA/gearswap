@@ -26,7 +26,7 @@ function init_gear_sets()
     sub = "Vox Grip",
     head = "Convoker's Horn +1",
     neck = "Caller's Pendant",
-    body = "Caller's Doublet +2",
+    body = "Beckoner's Doublet",
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     back = "Conveyance Cape",
@@ -43,7 +43,7 @@ function init_gear_sets()
 
   sets.precast.JA['Elemental Siphon'] = set_combine(sets['Summoning Magic Skill'], {
     back = "Conveyance Cape",
-    feet = "Caller's Pigaches +2",
+    feet = "Beckoner's Pigaches",
   })
 
   sets.precast.JA['Mana Cede'] = {
@@ -65,7 +65,7 @@ function init_gear_sets()
   -- Fast cast sets for spells
 
   sets.precast.FC = {
-    head = "Haruspex Hat",
+    head = "Nahtirah Hat",
     ear2 = "Loquacious Earring",
     ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
@@ -186,7 +186,9 @@ function init_gear_sets()
     feet = "Hagondes Sabots",
   })
 
-  sets.midcast.Pet.MagicalBloodPactRage.Acc = sets.midcast.Pet.MagicalBloodPactRage
+  sets.midcast.Pet.MagicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.MagicalBloodPactRage, {
+    feet = "Beckoner's Pigaches",
+  })
 
 
   -- Spirits cast magic spells, which can be identified in standard ways.
@@ -275,7 +277,7 @@ function init_gear_sets()
     sub = "Vox Grip",
     head = "Caller's Horn +2",
     neck = "Caller's Pendant +2",
-    body = "Caller's Doublet +2",
+    body = "Beckoner's Doublet",
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     back = "Conveyance Mantle",
@@ -291,7 +293,7 @@ function init_gear_sets()
     sub = "Vox Grip",
     head = "Caller's Horn +2",
     neck = "Caller's Pendant",
-    body = "Caller's Doublet +2",
+    body = "Beckoner's Doublet",
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     legs = "Convoker's Spats +1",
