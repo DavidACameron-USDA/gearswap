@@ -34,7 +34,7 @@ function init_gear_sets()
     legs = "Assimilator's Shalwar +1",
   }
   sets.buff['Chain Affinity'] = {
-    head = "Mavi Kavuk +2",
+    head = "Hashishin Kavuk",
     feet = "Assimilator's Charuqs +1",
   }
   sets.buff.Convergence = {}
@@ -73,7 +73,7 @@ function init_gear_sets()
   }
 
   sets.precast.FC['Blue Magic'] = set_combine(sets.precast.FC, {
-    body = "Mavi Mintan +2",
+    body = "Hashishin Mintan",
   })
 
 
@@ -159,7 +159,7 @@ function init_gear_sets()
   }
 
   sets.midcast['Blue Magic'] = {
-    hands = "Mavi Bazubands +1",
+    hands = "Hashishin Bazubands",
   }
 
   -- Physical Spells --
