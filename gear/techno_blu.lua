@@ -349,7 +349,7 @@ function init_gear_sets()
     ear2 = "Heartseeker Earring",
     body = "Jhakri Robe +1",
     hands = "Iuitl Wristbands +1",
-    ring1 = "Epona's Ring",
+    ring1 = "Defending Ring",
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
@@ -377,15 +377,18 @@ function init_gear_sets()
   sets.defense.PDT = {
     neck = "Twilight Torque",
     hands = "Iuitl Wristbands +1",
+    ring1 = "Defending Ring",
     waist = "Flume Belt +1",
     back = "Repulse Mantle",
   }
 
   sets.defense.MDT = {
     neck = "Twilight Torque",
+    ring1 = "Defending Ring",
   }
 
   sets.Kiting = {
+    ring1 = "Defending Ring",
     waist = "Flume Belt +1",
     back = "Repulse Mantle",
     legs = "Crimson Cuisses",

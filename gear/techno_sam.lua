@@ -38,7 +38,7 @@ function init_gear_sets()
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
     hands = "Xaddi Gauntlets",
-    ring1 = "K'ayres Ring",
+    ring1 = "Defending Ring",
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
@@ -57,7 +57,7 @@ function init_gear_sets()
     neck = "Twilight Torque",
     body = "Outrider Mail",
     hands = "Outrider Mittens",
-    ring1 = "Patronus Ring",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
     legs = "Outrider Hose",
     feet = "Outrider Greaves",
@@ -176,7 +176,7 @@ function init_gear_sets()
     neck = "Twilight Torque",
     body = "Outrider Mail",
     hands = "Outrider Mittens",
-    ring1 = "Patronus Ring",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Outrider Hose",
@@ -185,10 +185,12 @@ function init_gear_sets()
 
   sets.defense.MDT = {
     neck = "Twilight Torque",
+    ring1 = "Defending Ring",
   }
 
   sets.Kiting = {
     neck = "Twilight Torque",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
   }

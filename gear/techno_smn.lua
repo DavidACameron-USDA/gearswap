@@ -228,7 +228,7 @@ function init_gear_sets()
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
-    ring1 = "Fervor Ring",
+    ring1 = "Defending Ring",
     ring2 = "Evoker's Ring",
     back = "Conveyance Cape",
     waist = "Fucho-no-Obi",
@@ -346,6 +346,7 @@ function init_gear_sets()
   -- Defense sets
   sets.defense.PDT = {
     neck = "Twilight Torque",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
   }
 
@@ -354,11 +355,13 @@ function init_gear_sets()
     neck = "Twilight Torque",
     body = "Inyanga Jubbah",
     hands = "Inyanga Dastanas",
+    ring1 = "Defending Ring",
     legs = "Inyanga Shalwar",
   }
 
   sets.Kiting = {
     neck = "Twilight Torque",
+    ring1 = "Defending Ring",
   }
 
   sets.latent_refresh = {}

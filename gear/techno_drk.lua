@@ -39,7 +39,7 @@ function init_gear_sets()
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
     hands = "Sulevia's Gauntlets +1",
-    ring1 = "K'ayres Ring",
+    ring1 = "Defending Ring",
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
@@ -60,7 +60,7 @@ function init_gear_sets()
 
   sets.idle.PDT = set_combine(sets.idle, {
     hands = "Sulevia's Gauntlets +1",
-    ring1 = "Patronus Ring",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Sulevia's Cuisses +1",
@@ -203,7 +203,7 @@ function init_gear_sets()
   sets.defense.PDT = {
     neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
-    ring1 = "Patronus Ring",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Sulevia's Cuisses +1",
@@ -213,6 +213,7 @@ function init_gear_sets()
   sets.defense.MDT = {
     neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Sulevia's Cuisses +1",
@@ -222,6 +223,7 @@ function init_gear_sets()
   sets.Kiting = {
     neck = "Twilight Torque",
     hands = "Sulevia's Gauntlets +1",
+    ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
