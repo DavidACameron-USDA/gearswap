@@ -57,7 +57,7 @@ function init_gear_sets()
     body = "Glyphic Doublet",
     hands = "Glyphic Bracers",
     legs = "Glyphic Spats",
-    feet = "Summoner's Pgch. +2",
+    feet = "Glyphic Pigaches",
   }
 
   sets.precast.BloodPactRage = sets.precast.BloodPactWard
