@@ -107,12 +107,12 @@ function init_gear_sets()
   })
 
   sets.precast.JA['Spirit Jump'] = set_combine(sets.engaged, {
-    legs = "Lancer's Cuissots +2",
+    legs = "Peltast's Cuissots",
     feet = "Lancer's Schynbalds +2",
   })
 
   sets.precast.JA['Soul Jump'] = set_combine(sets.engaged, {
-    legs = "Lancer's Cuissots +2",
+    legs = "Peltast's Cuissots",
   })
 
   sets.precast.JA['Spirit Link'] = {
