@@ -33,11 +33,11 @@ function init_gear_sets()
     main = "Mekosuchus Blade",
     sub = "Pole Grip",
     ammo = "Ginsen",
-    head = "Outrider Mask",
+    head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Xaddi Mail",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     ring2 = "Rajas Ring",
@@ -59,6 +59,8 @@ function init_gear_sets()
   -- sets.idle.Weak = {}
 
   sets.idle.PDT = set_combine(sets.idle, {
+    head = "Sulevia's Mask +1",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
@@ -83,7 +85,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Cizin Mufflers +1",
+    hands = "Flamma Manopolas +1",
     ring1 = "K'ayres Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -93,9 +95,11 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
-    head = "Yaoyotl Helm",
+    head = "Flamma Zucchetto +1",
     neck = "Justice Torque",
-    feet = "Sulevia's Leggings +1",
+    body = "Flamma Korazin +1",
+    legs = "Flamma Dirs +1",
+    feet = "Flamma Gambieras +1",
   })
 
 
@@ -144,7 +148,7 @@ function init_gear_sets()
     neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
-    body = "Outrider Mail",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
@@ -155,9 +159,9 @@ function init_gear_sets()
   }
 
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-    head = "Yaoyotl Helm",
+    head = "Flamma Zucchetto +1",
     ammo = "Ginsen",
-    body = "Xaddi Mail",
+    body = "Flamma Korazin +1",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -201,7 +205,9 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
+    head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
@@ -211,7 +217,9 @@ function init_gear_sets()
   }
 
   sets.defense.MDT = {
+    head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
@@ -221,7 +229,9 @@ function init_gear_sets()
   }
 
   sets.Kiting = {
+    head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",

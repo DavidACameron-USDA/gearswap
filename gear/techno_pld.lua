@@ -63,7 +63,7 @@ function init_gear_sets()
     neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
-    body = "Xaddi Mail",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
@@ -73,17 +73,21 @@ function init_gear_sets()
     feet = "Sulevia's Leggings +1",
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-    head = "Yaoyotl Helm",
+    head = "Flamma Zucchetto +1",
     neck = "Fortitude Torque",
-    legs = "Acro Breeches",
+    body = "Flamma Korazin +1",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
   -- Chant du Cygne has a DEX: 80% modifier and is aligned with the Light, Aqua,
   -- and Snow gorgets/belts.
-  sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {})
-  sets.precast.WS['Chant du Cygne'].Acc = set_combine(sets.precast.WS.Acc, {})
+  sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
+    hands = "Flamma Manopolas +1",
+  })
+  sets.precast.WS['Chant du Cygne'].Acc = set_combine(sets.precast.WS.Acc, {
+    hands = "Flamma Manopolas +1",
+  })
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
   -- Soil gorgets/belts.
@@ -113,7 +117,7 @@ function init_gear_sets()
     head = "Cizin Helm +1",
     ear2 = "Loquacious Earring",
     body = "Xaddi Mail",
-    hands = "Cizin Mufflers +1",
+    hands = "Flamma Manopolas +1",
     waist = "Cetl Belt",
     legs = "Cizin Breeches +1",
     feet = "Whirlpool Greaves",
@@ -143,11 +147,11 @@ function init_gear_sets()
     main = "Usonmunku",
     sub = "Svalinn",
     ammo = "Ginsen",
-    head = "Otomi Helm",
+    head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Xaddi Mail",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     ring2 = "Rajas Ring",
@@ -167,7 +171,9 @@ function init_gear_sets()
   --------------------------------------
 
   sets.defense.PDT = {
+    head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
@@ -179,7 +185,9 @@ function init_gear_sets()
   -- To cap MDT with Shell IV (52/256), need 76/256 in gear.
   -- Shellra V can provide 75/256, which would need another 53/256 in gear.
   sets.defense.MDT = {
+    head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
+    body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     legs = "Sulevia's Cuisses +1",
@@ -198,7 +206,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Xaddi Mail",
-    hands = "Cizin Mufflers +1",
+    hands = "Flamma Manopolas +1",
     ring1 = "K'ayres Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -208,11 +216,12 @@ function init_gear_sets()
   }
 
   sets.engaged.Acc = set_combine(sets.engaged, {
-    head = "Yaoyotl Helm",
+    head = "Flamma Zucchetto +1",
     neck = "Fortitude Torque",
-    hands = "Sulevia's Gauntlets +1",
-    legs = "Sulevia's Cuisses +1",
-    feet = "Sulevia's Leggings +1",
+    body = "Flamma Korazin +1",
+    hands = "Flamma Manopolas +1",
+    legs = "Flamma Dirs +1",
+    feet = "Flamma Gambieras +1",
   })
 
   sets.engaged.DW = set_combine(sets.engaged, {
