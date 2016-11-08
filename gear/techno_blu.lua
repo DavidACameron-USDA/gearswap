@@ -343,7 +343,7 @@ function init_gear_sets()
     main = "Usonmunku",
     sub = "Usonmunku",
     ammo = "Ginsen",
-    head = "Assimilator's Keffiyeh +1",
+    head = "Whirlpool Mask",
     neck = "Twilight Torque",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
