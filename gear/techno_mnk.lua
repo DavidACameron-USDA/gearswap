@@ -1,0 +1,242 @@
+--------------------------------------------------------------------------------
+-- User setup functions for this job.
+--------------------------------------------------------------------------------
+
+-- Setup vars that are user-dependent.  Can override this function in a sidecar file.
+function user_setup()
+  state.OffenseMode:options('Normal', 'Acc')
+  state.WeaponskillMode:options('Normal', 'Acc')
+  state.HybridMode:options('Normal', 'PDT', 'Counter')
+  state.PhysicalDefenseMode:options('PDT', 'HP')
+
+  update_combat_form()
+  update_melee_groups()
+
+  select_default_macro_book()
+end
+
+
+-- Define sets and vars used by this job file.
+function init_gear_sets()
+  --------------------------------------
+  -- Start defining the sets
+  --------------------------------------
+
+  -- Precast Sets
+
+  -- Precast sets to enhance JAs on use
+  sets.precast.JA['Hundred Fists'] = {}
+  sets.precast.JA['Boost'] = {}
+  sets.precast.JA['Dodge'] = {}
+  sets.precast.JA['Focus'] = {}
+  sets.precast.JA['Counterstance'] = {}
+  sets.precast.JA['Footwork'] = {}
+  sets.precast.JA['Formless Strikes'] = {}
+  sets.precast.JA['Mantra'] = {}
+
+  sets.precast.JA['Chi Blast'] = {}
+
+  sets.precast.JA['Chakra'] = {}
+
+  -- Waltz set (CHR and VIT)
+  sets.precast.Waltz = {}
+
+  -- Don't need any special gear for Healing Waltz.
+  sets.precast.Waltz['Healing Waltz'] = {}
+
+  sets.precast.Step = {}
+  sets.precast.Flourish1 = {}
+
+
+  -- Fast cast sets for spells
+
+  sets.precast.FC = {
+    ear2="Loquacious Earring"
+  }
+
+  sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {})
+
+
+  -- Weaponskill sets
+  -- Default set for any weaponskill that isn't any more specifically defined
+  sets.precast.WS = {
+    head = "Aurore Beret",
+    neck = "Fotia Gorget",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Aurore Doublet",
+    hands = "Aurore Gloves",
+    ring1 = "Flame Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Warwolf Belt",
+    legs = "Aurore Brais",
+    feet = "Aurore Gaiters",
+  }
+  sets.precast.WS.Acc = set_combine(
+
+  )
+
+  -- Specific weaponskill sets.
+
+  sets.precast.WS['Spinning Attack'] = set_combine(sets.precast.WS, {})
+
+  sets.precast.WS['Howling Fist'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Howling Fist"].Acc = set_combine(sets.precast.WS.Acc, {})
+
+  sets.precast.WS['Asuran Fists'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Asuran Fists"].Acc = set_combine(sets.precast.WS.Acc, {})
+
+  sets.precast.WS["Ascetic's Fury"] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Ascetic's Fury"].Acc = set_combine(sets.precast.WS.Acc, {})
+
+  sets.precast.WS["Victory Smite"] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Victory Smite"].Acc = set_combine(sets.precast.WS.Acc, {})
+
+  sets.precast.WS['Shijin Spiral'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Shijin Spiral"].Acc = set_combine(sets.precast.WS.Acc, {})
+
+  sets.precast.WS['Dragon Kick'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Dragon Kick"].Acc = set_combine(sets.precast.WS.Acc, {})
+
+  sets.precast.WS['Tornado Kick'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Tornado Kick"].Acc = set_combine(sets.precast.WS.Acc, {})
+
+  sets.precast.WS['Cataclysm'] = {}
+
+
+  -- Midcast Sets
+  sets.midcast.FastRecast = {
+
+  }
+
+  -- Specific spells
+  sets.midcast.Utsusemi = {
+
+  }
+
+
+  -- Sets to return to when not performing an action.
+
+  -- Resting sets
+  sets.resting = {}
+
+
+  -- Idle sets
+  sets.idle = {
+    main = "Afflictors",
+    ammo = "Thew Bomblet",
+    head = "Aurore Beret",
+    neck = "Chivalrous Chain",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Aurore Doublet",
+    hands = "Aurore Gloves",
+    ring1 = "Defending Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Aurore Brais",
+    feet = "Aurore Gaiters",
+  }
+
+  -- sets.idle.Town = {}
+
+  -- Defense sets
+  sets.defense.PDT = {
+
+  }
+
+  sets.defense.HP = {
+
+  }
+
+  sets.defense.MDT = {
+
+  }
+
+  sets.Kiting = {
+
+  }
+
+  -- Engaged sets
+
+  -- Variations for TP weapon and (optional) offense/defense modes.  Code will fall back on previous
+  -- sets if more refined versions aren't defined.
+  -- If you create a set with both offense and defense modes, the offense mode should be first.
+  -- EG: sets.engaged.Dagger.Accuracy.Evasion
+
+  -- Normal melee sets
+  sets.engaged = {
+    head = "Aurore Beret",
+    neck = "Chivalrous Chain",
+    ear1 = "Brutal Earring",
+    ear2 = "Ethereal Earring",
+    body = "Aurore Doublet",
+    hands = "Aurore Gloves",
+    ring1 = "Ulthalam's Ring",
+    ring2 = "Rajas Ring",
+    back = "Cuchulain's Mantle",
+    waist = "Swift Belt",
+    legs = "Aurore Brais",
+    feet = "Aurore Gaiters",
+  }
+  sets.engaged.Acc = {
+
+  }
+
+  -- Defensive melee hybrid sets
+  sets.engaged.PDT = {
+
+  }
+  sets.engaged.Acc.PDT = {
+
+  }
+  sets.engaged.Counter = {
+
+  }
+  sets.engaged.Acc.Counter = {
+
+  }
+
+
+  -- Hundred Fists/Impetus melee set mods
+  sets.engaged.HF = set_combine(sets.engaged)
+  sets.engaged.HF.Impetus = set_combine(sets.engaged, {})
+  sets.engaged.Acc.HF = set_combine(sets.engaged.Acc)
+  sets.engaged.Acc.HF.Impetus = set_combine(sets.engaged.Acc, {})
+  sets.engaged.Counter.HF = set_combine(sets.engaged.Counter)
+  sets.engaged.Counter.HF.Impetus = set_combine(sets.engaged.Counter, {})
+  sets.engaged.Acc.Counter.HF = set_combine(sets.engaged.Acc.Counter)
+  sets.engaged.Acc.Counter.HF.Impetus = set_combine(sets.engaged.Acc.Counter, {})
+
+
+  -- Footwork combat form
+  sets.engaged.Footwork = {
+
+  }
+  sets.engaged.Footwork.Acc = {
+
+  }
+
+  -- Quick sets for post-precast adjustments, listed here so that the gear can be Validated.
+  sets.impetus_body = {}
+  sets.footwork_kick_feet = {}
+end
+
+
+-------------------------------------------------------------------------------------------------------------------
+-- Utility functions specific to this job.
+-------------------------------------------------------------------------------------------------------------------
+
+-- Select default macro book on initial load or subjob change.
+function select_default_macro_book()
+    -- Default macro set/book
+    if player.sub_job == 'WAR' then
+        set_macro_page(1, 2)
+    elseif player.sub_job == 'NIN' then
+        set_macro_page(2, 2)
+    else
+        set_macro_page(1, 2)
+    end
+end
