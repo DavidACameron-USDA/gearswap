@@ -63,15 +63,15 @@ function init_gear_sets()
     head = "Aurore Beret",
     neck = "Fotia Gorget",
     ear1 = "Brutal Earring",
-    ear2 = "Ethereal Earring",
-    body = "Aurore Doublet",
-    hands = "Aurore Gloves",
+    ear2 = "Moonshade Earring",
+    body = "Qaaxo Harness",
+    hands = "Qaaxo Mitaines",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Warwolf Belt",
-    legs = "Aurore Brais",
-    feet = "Aurore Gaiters",
+    waist = "Windbuffet Belt +1",
+    legs = "Taeon Tights",
+    feet = "Espial Socks",
   }
   sets.precast.WS.Acc = set_combine(
 
@@ -112,7 +112,7 @@ function init_gear_sets()
 
   -- Specific spells
   sets.midcast.Utsusemi = {
-
+    neck = "Magoraga Beads",
   }
 
 
@@ -124,27 +124,29 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Afflictors",
-    ammo = "Thew Bomblet",
-    head = "Aurore Beret",
-    neck = "Chivalrous Chain",
-    ear1 = "Brutal Earring",
-    ear2 = "Ethereal Earring",
-    body = "Aurore Doublet",
-    hands = "Aurore Gloves",
+    main = "Oatixur",
+    ammo = "Ginsen",
+    head = "Whirlpool Mask",
+    neck = "Twilight Torque",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
+    body = "Qaaxo Harness",
+    hands = "Qaaxo Mitaines",
     ring1 = "Defending Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Aurore Brais",
-    feet = "Aurore Gaiters",
+    back = "Repulse Mantle",
+    waist = "Windbuffet Belt +1",
+    legs = "Taeon Tights",
+    feet = "Espial Socks",
   }
 
   -- sets.idle.Town = {}
 
   -- Defense sets
   sets.defense.PDT = {
-
+    neck = "Twilight Torque",
+    ring1 = "Defending Ring",
+    back = "Repulse Mantle",
   }
 
   sets.defense.HP = {
@@ -152,11 +154,13 @@ function init_gear_sets()
   }
 
   sets.defense.MDT = {
-
+    neck = "Twilight Torque",
+    ring1 = "Defending Ring",
   }
 
   sets.Kiting = {
-
+    neck = "Twilight Torque",
+    ring1 = "Defending Ring",
   }
 
   -- Engaged sets
@@ -168,18 +172,18 @@ function init_gear_sets()
 
   -- Normal melee sets
   sets.engaged = {
-    head = "Aurore Beret",
-    neck = "Chivalrous Chain",
-    ear1 = "Brutal Earring",
-    ear2 = "Ethereal Earring",
-    body = "Aurore Doublet",
-    hands = "Aurore Gloves",
-    ring1 = "Ulthalam's Ring",
+    head = "Whirlpool Mask",
+    neck = "Asperity Necklace",
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
+    body = "Qaaxo Harness",
+    hands = "Qaaxo Mitaines",
+    ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
-    waist = "Swift Belt",
-    legs = "Aurore Brais",
-    feet = "Aurore Gaiters",
+    back = "Atheling Mantle",
+    waist = "Windbuffet Belt +1",
+    legs = "Taeon Tights",
+    feet = "Espial Socks",
   }
   sets.engaged.Acc = {
 
