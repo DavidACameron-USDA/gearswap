@@ -130,7 +130,7 @@ function init_gear_sets()
   sets.precast.WS['Sanguine Blade'] = {
     head = "Pixie Hairpin +1",
     neck = "Eddy Necklace",
-    ear1 = "Hecate's Earring",
+    ear1 = "Friomisi Earring",
     ear2 = "Moonshade Earring",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
@@ -233,8 +233,8 @@ function init_gear_sets()
     ammo = "Mavi Tathlum",
     head = "Jhakri Coronal +1",
     neck = "Eddy Necklace",
-    ear1 = "Hecate's Earring",
-    ear2 = "Psystorm Earring",
+    ear1 = "Friomisi Earring",
+    ear2 = "Hecate's Earring",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Weatherspoon Ring",
@@ -250,18 +250,13 @@ function init_gear_sets()
     ear2 = "Psystorm Earring",
   })
 
-  sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {
-    ear2 = "Lifestorm Earring",
-  })
+  sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
-  sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {
-    ear2 = "Delta Earring",
-  })
+  sets.midcast['Blue Magic'].MagicalChr = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
-    ear2 = "Delta Earring",
     ring2 = "Rajas Ring",
   })
 
