@@ -22,6 +22,9 @@ function init_gear_sets()
   -- Fast cast sets for spells
   sets.precast.FC = {
     ear2 = "Loquacious Earring",
+    head = "Haruspex Hat",
+    body = "Inyanga Jubbah +1",
+    hands = "Gendewitha Gages",
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
@@ -58,10 +61,10 @@ function init_gear_sets()
   -- Midcast Sets
 
   sets.midcast.FastRecast = {
-    head = "Wayfarer Circlet",
+    head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
-    body = "Wayfarer Robe",
-    hands = "Weatherspoon Cuffs +1",
+    body = "Inyanga Jubbah +1",
+    hands = "Gendewitha Gages",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -78,7 +81,7 @@ function init_gear_sets()
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
-    back = "Orison Cape",
+    back = "Alaunus's Cape",
     waist = "Bishop's Sash",
     legs = "Orison Pantaloons +2",
     feet = "Wayfarer Clogs",
@@ -95,7 +98,7 @@ function init_gear_sets()
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
-    back = "Orison Cape",
+    back = "Alaunus's Cape",
     waist = "Bishop's Sash",
     legs = "Orison Pantaloons +2",
     feet = "Wayfarer Clogs",
@@ -112,7 +115,7 @@ function init_gear_sets()
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Leviathan Ring",
     ring2 = "Tamas Ring",
-    back = "Orison Cape",
+    back = "Alaunus's Cape",
     waist = "Demonry Sash",
     legs = "Orison Pantaloons +2",
     feet = "Wayfarer Clogs",
@@ -130,26 +133,28 @@ function init_gear_sets()
 
   sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
     ring1 = "Ephedra Ring",
+    back = "Alaunus's Cape",
     legs = "Theophany Pantaloons",
     feet = "Gendewitha Galoshes",
   })
 
   -- 110 total Enhancing Magic Skill; caps even without Light Arts
   sets.midcast['Enhancing Magic'] = {
+    hands = "Inyanga Dastanas +1",
     feet = "Cleric's Duckbills",
   }
 
   sets.midcast.Stoneskin = {
     main = "Bolelabunga",
     ammo = "Kalboron Stone",
-    head = "Wayfarer Circlet",
+    head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
-    body = "Wayfarer Robe",
-    hands = "Wayfarer Cuffs",
+    body = "Inyanga Jubbah +1",
+    hands = "Inyanga Dastanas +1",
     ring1 = "Leviathan Ring",
     ring2 = "Tamas Ring",
-    back = "Aslan Cape",
+    back = "Alaunus's Cape",
     waist = "Demonry Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
@@ -163,6 +168,7 @@ function init_gear_sets()
 
   sets.midcast.Regen = {
     main = "Bolelabunga",
+    head = "Inyanga Tiara",
     body = "Cleric's Briault",
     hands = "Orison Mitts +2",
     legs = "Theophany Pantaloons",
@@ -174,10 +180,11 @@ function init_gear_sets()
 
 
   sets.midcast['Divine Magic'] = {
-    head = "Wayfarer Circlet",
+    head = "Inyanga Tiara",
     ear1 = "Influx Earring",
-    body = "Wayfarer Robe",
-    hands = "Wayfarer Cuffs",
+    body = "Inyanga Jubbah +1",
+    hands = "Inyanga Dastanas +1",
+    back = "Alaunus's Cape",
     waist = "Bishop's Sash",
     legs = "Theophany Pantaloons",
     feet = "Gendewitha Galoshes",
@@ -188,26 +195,27 @@ function init_gear_sets()
   -- Custom spell classes
   sets.midcast.MndEnfeebles = {
     ammo = "Kalboron Stone",
-    head = "Wayfarer Circlet",
+    head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
-    body = "Healer's Briault",
-    hands = "Cleric's Mitts",
+    body = "Inyanga Jubbah +1",
+    hands = "Inyanga Dastanas +1",
     ring1 = "Leviathan Ring",
     ring2 = "Tamas Ring",
-    back = "Aslan Cape",
+    back = "Alaunus's Cape",
     waist = "Demonry Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
 
   sets.midcast.IntEnfeebles = {
-    head = "Wayfarer Circlet",
+    head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
-    body = "Healer's Briault",
-    hands = "Cleric's Mitts",
+    body = "Inyanga Jubbah +1",
+    hands = "Inyanga Dastanas +1",
     ring1 = "Omega Ring",
     ring2 = "Tamas Ring",
+    back = "Alaunus's Cape",
     waist = "Demonry Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
@@ -234,15 +242,15 @@ function init_gear_sets()
     main = "Bolelabunga",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
-    head = "Wayfarer Circlet",
+    head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     ear2 = "Loquacious Earring",
     body = "Orison Bliaud +2",
-    hands = "Weatherspoon Cuffs +1",
+    hands = "Inyanga Dastanas +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
-    back = "Orison Cape",
+    back = "Alaunus's Cape",
     legs = "Tatsumaki Sitagoromo",
     feet = "Gendewitha Galoshes",
   }
@@ -279,15 +287,15 @@ function init_gear_sets()
     main = "Bolelabunga",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
-    head = "Wayfarer Circlet",
+    head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     ear2 = "Loquacious Earring",
-    body = "Wayfarer Robe",
-    hands = "Weatherspoon Cuffs +1",
+    body = "Inyanga Jubbah +1",
+    hands = "Inyanga Dastanas +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
-    back = "Orison Cape",
+    back = "Alaunus's Cape",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
