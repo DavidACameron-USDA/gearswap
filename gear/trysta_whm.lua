@@ -32,7 +32,7 @@ function init_gear_sets()
   sets.precast.FC.Stoneskin = set_combine(sets.precast.FC['Enhancing Magic'], {})
 
   sets.precast.FC['Healing Magic'] = set_combine(sets.precast.FC, {
-    legs = "Orison Pantaloons +2",
+    legs = "Ebers Pantaloons",
   })
 
   sets.precast.FC.StatusRemoval = sets.precast.FC['Healing Magic']
@@ -74,16 +74,16 @@ function init_gear_sets()
     main = "Tamaxchi",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
-    head = "Theophany Cap",
+    head = "Ebers Cap",
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
-    body = "Orison Bliaud +2",
+    body = "Ebers Bliaud",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
     waist = "Bishop's Sash",
-    legs = "Orison Pantaloons +2",
+    legs = "Ebers Pantaloons",
     feet = "Wayfarer Clogs",
   }
 
@@ -91,7 +91,7 @@ function init_gear_sets()
     main = "Tamaxchi",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
-    head = "Theophany Cap",
+    head = "Ebers Cap",
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     body = "Gendewitha Bliaut",
@@ -100,7 +100,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
     waist = "Bishop's Sash",
-    legs = "Orison Pantaloons +2",
+    legs = "Ebers Pantaloons",
     feet = "Wayfarer Clogs",
   }
 
@@ -108,7 +108,7 @@ function init_gear_sets()
     main = "Tamaxchi",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
-    head = "Theophany Cap",
+    head = "Ebers Cap",
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     body = "Gendewitha Bliaut",
@@ -117,7 +117,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
     waist = "Demonry Sash",
-    legs = "Orison Pantaloons +2",
+    legs = "Ebers Pantaloons",
     feet = "Wayfarer Clogs",
   }
 
@@ -127,8 +127,8 @@ function init_gear_sets()
   })
 
   sets.midcast.StatusRemoval = {
-    head = "Orison Cap +2",
-    legs = "Orison Pantaloons +2",
+    head = "Ebers Cap",
+    legs = "Ebers Pantaloons",
   }
 
   sets.midcast.Cursna = set_combine(sets.midcast.StatusRemoval, {
@@ -141,7 +141,7 @@ function init_gear_sets()
   -- 110 total Enhancing Magic Skill; caps even without Light Arts
   sets.midcast['Enhancing Magic'] = {
     hands = "Inyanga Dastanas +1",
-    feet = "Cleric's Duckbills",
+    feet = "Ebers Duckbills",
   }
 
   sets.midcast.Stoneskin = {
@@ -160,17 +160,23 @@ function init_gear_sets()
     feet = "Wayfarer Clogs",
   }
 
-  sets.midcast.Auspice = {}
+  sets.midcast.Auspice = {
+    feet = "Ebers Duckbills",
+  }
 
   sets.midcast.BarElement = {
+    head = "Ebers Cap",
+    body = "Ebers Bliaud",
+    hands = "Ebers Mitts",
     legs = "Cleric's Pantaloons",
+    feet = "Ebers Duckbills",
   }
 
   sets.midcast.Regen = {
     main = "Bolelabunga",
     head = "Inyanga Tiara",
     body = "Cleric's Briault",
-    hands = "Orison Mitts +2",
+    hands = "Ebers Mitts",
     legs = "Theophany Pantaloons",
   }
 
@@ -200,8 +206,8 @@ function init_gear_sets()
     ear1 = "Influx Earring",
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
-    ring1 = "Leviathan Ring",
-    ring2 = "Tamas Ring",
+    ring1 = "Metamorph Ring +1",
+    ring2 = "Leviathan Ring",
     back = "Alaunus's Cape",
     waist = "Demonry Sash",
     legs = "Wayfarer Slops",
@@ -213,7 +219,7 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
-    ring1 = "Omega Ring",
+    ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
     waist = "Demonry Sash",
@@ -246,9 +252,9 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear1 = "Influx Earring",
     ear2 = "Loquacious Earring",
-    body = "Orison Bliaud +2",
+    body = "Ebers Bliaud",
     hands = "Inyanga Dastanas +1",
-    ring1 = "Ephedra Ring",
+    ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
     legs = "Tatsumaki Sitagoromo",
@@ -303,7 +309,7 @@ function init_gear_sets()
 
   -- Buff sets: Gear that needs to be worn to actively enhance a current player buff.
   sets.buff['Divine Caress'] = {
-    hands = "Orison Mitts +2",
+    hands = "Ebers Mitts",
   }
 end
 
