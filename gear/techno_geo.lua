@@ -21,7 +21,7 @@ function init_gear_sets()
 
   -- Precast sets to enhance JAs
   sets.precast.JA.Bolster = {body = "Bagua Tunic"}
-  sets.precast.JA['Life cycle'] = {body = "Geomancy Tunic"}
+  sets.precast.JA['Life cycle'] = {body = "Geomancy Tunic +1"}
 
   -- Fast cast sets for spells
 
@@ -31,7 +31,7 @@ function init_gear_sets()
     ear2 = "Loquacious Earring",
     ring1 = "Weatherspoon Ring",
     back = "Lifestream Cape",
-    legs = "Orvail Pants +1",
+    legs = "Geomancy Pants",
     feet = "Helios Boots",
   }
 
@@ -71,10 +71,12 @@ function init_gear_sets()
 
   sets.midcast.Geomancy = {
     range = "Nepote Bell",
+    hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
   }
   sets.midcast.Geomancy.Indi = {
     range = "Nepote Bell",
+    hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
   }
 
@@ -86,7 +88,22 @@ function init_gear_sets()
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Weatherspoon Ring",
-    ring2 = "Omega Ring",
+    ring2 = "Metamorph Ring",
+    back = "Argochampsa Mantle",
+    waist = "Yamabuki-no-obi",
+    legs = "Hagondes Pants",
+    foot = "Jhakri Pigaches",
+  }
+
+  sets.midcast['Dark Magic'] = {
+    head = "Jhakri Coronal +1",
+    neck = "Eddy Necklace",
+    ear1 = "Friomisi Earring",
+    ear2 = "Hecate's Earring",
+    body = "Jhakri Robe +1",
+    hands = "Jhakri Cuffs +1",
+    ring1 = "Weatherspoon Ring",
+    ring2 = "Metamorph Ring",
     back = "Argochampsa Mantle",
     waist = "Yamabuki-no-obi",
     legs = "Hagondes Pants",
@@ -156,13 +173,13 @@ function init_gear_sets()
     ear1 = "Friomisi Earring",
     ear2 = "Hecate's Earring",
     body = "Jhakri Robe +1",
-    hands = "Jhakri Cuffs +1",
+    hands = "Geomancy Mitaines +1",
     ring1 = "Weatherspoon Ring",
-    ring2 = "Omega Ring",
+    ring2 = "Metamorph Ring",
     back = "Repulse Mantle",
     waist = "Yamabuki-no-obi",
     legs = "Perdition Slops",
-    foot = "Jhakri Pigaches",
+    feet = "Geomancy Sandals +1",
   }
 
   sets.idle.PDT = {
@@ -171,10 +188,12 @@ function init_gear_sets()
 
   -- .Pet sets are for when Luopan is present.
   sets.idle.Pet = {
+    hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
   }
 
   sets.idle.PDT.Pet = {
+    hands = "Geomancy Mitaines +1",
     back = "Repulse Mantle",
   }
 
@@ -214,7 +233,11 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    
+    ear1 = "Steelflash Earring",
+    ear2 = "Bladeborn Earring",
+    ring1 = "K'ayres Ring",
+    ring2 = "Rajas Ring",
+    waist = "Windbuffet Belt +1",
   }
 
   --------------------------------------
