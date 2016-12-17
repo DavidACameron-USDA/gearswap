@@ -30,7 +30,7 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Qalgwer",
+    main = "Ferocity",
     sub = "Pole Grip",
     ammo = "Ginsen",
     head = "Sulevia's Mask +1",
@@ -54,15 +54,7 @@ function init_gear_sets()
   -- sets.idle.Weak = {}
 
   sets.idle.PDT = set_combine(sets.idle, {
-    head = "Sulevia's Mask +1",
-    neck = "Twilight Torque",
-    body = "Sulevia's Platemail +1",
-    hands = "Sulevia's Gauntlets +1",
-    ring1 = "Defending Ring",
-    back = "Repulse Mantle",
-    waist = "Flume Belt +1",
-    legs = "Sulevia's Cuisses +1",
-    feet = "Sulevia's Leggings +1",
+    main = "Qalgwer",
   })
 
   sets.idle.Proc = set_combine(sets.idle, {
