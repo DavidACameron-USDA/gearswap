@@ -107,8 +107,9 @@ function init_gear_sets()
   -- Fast Cast set
   sets.precast.FC = {
     head = "Cizin Helm +1",
+    neck = "Baetyl Pendant",
     ear2 = "Loquacious Earring",
-    waist = "Zoran's Belt",
+    ring1 = "Weatherspoon Ring",
     legs = "Homam Cosciales",
   }
 
@@ -131,7 +132,7 @@ function init_gear_sets()
   sets.precast.JA['Nether Void'] = {}
 
 
-  -- Waltz set (chr and vit)
+  -- Waltz set (CHR and VIT)
   sets.precast.Waltz = {
     ammo="Sonia's Plectrum",
   }

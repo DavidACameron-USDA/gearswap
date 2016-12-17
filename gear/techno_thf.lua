@@ -79,11 +79,12 @@ function init_gear_sets()
 
   -- Fast cast sets for spells
   sets.precast.FC = {
-    ear2="Loquacious Earring"
+    neck = "Baetyl Pendant",
+    ear2 = "Loquacious Earring",
     ring1 = "Weatherspoon Ring",
   }
 
-  sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck="Magoraga Beads"})
+  sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck = "Magoraga Beads"})
 
 
   -- Ranged snapshot gear

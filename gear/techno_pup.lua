@@ -34,11 +34,14 @@ function init_gear_sets()
 
   -- Fast cast sets for spells
   sets.precast.FC = {
+    neck = "Baetyl Pendant",
+    ear2 = "Loquacious Earring",
+    ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
     legs = "Orvail Pants +1",
   }
 
-  sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {})
+  sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck = "Magoraga Beads"})
 
 
   -- Precast sets to enhance JAs

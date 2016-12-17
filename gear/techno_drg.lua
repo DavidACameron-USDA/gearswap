@@ -145,6 +145,17 @@ function init_gear_sets()
   sets.precast.Waltz['Healing Waltz'] = {}
 
 
+  -- Precast Sets
+  -- Fast Cast set
+  sets.precast.FC = {
+    head = "Cizin Helm +1",
+    neck = "Baetyl Pendant",
+    ear2 = "Loquacious Earring",
+    ring1 = "Weatherspoon Ring",
+    legs = "Homam Cosciales",
+  }
+
+
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {

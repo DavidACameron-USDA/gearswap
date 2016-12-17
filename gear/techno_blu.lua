@@ -65,6 +65,7 @@ function init_gear_sets()
   sets.precast.FC = {
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
+    neck = "Baetyl Pendant",
     body = "Luhlaza Jubbah +1",
     ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
@@ -129,7 +130,7 @@ function init_gear_sets()
   -- element.
   sets.precast.WS['Sanguine Blade'] = {
     head = "Pixie Hairpin +1",
-    neck = "Eddy Necklace",
+    neck = "Baetyl Pendant",
     ear1 = "Friomisi Earring",
     ear2 = "Moonshade Earring",
     body = "Jhakri Robe +1",
@@ -232,7 +233,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Magical = {
     ammo = "Mavi Tathlum",
     head = "Jhakri Coronal +1",
-    neck = "Eddy Necklace",
+    neck = "Baetyl Pendant",
     ear1 = "Friomisi Earring",
     ear2 = "Hecate's Earring",
     body = "Jhakri Robe +1",
@@ -262,6 +263,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     head = "Jhakri Coronal +1",
+    neck = "Eddy Necklace",
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Jhakri Robe +1",
