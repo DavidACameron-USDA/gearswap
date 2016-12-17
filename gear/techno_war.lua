@@ -137,7 +137,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Aqreqaq Bomblet",
     head = "Otomi Helm",
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Kemas Earring",
     body = "Sulevia's Platemail +1",
@@ -145,7 +145,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
     legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }

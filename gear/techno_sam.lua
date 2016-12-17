@@ -127,7 +127,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Thew Bomblet",
     head = "Otomi Helm",
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Flamma Korazin +1",
@@ -135,7 +135,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Unkai Sugemino",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
     legs = "Flamma Dirs +1",
     feet = "Flamma Gambieras +1",
   }

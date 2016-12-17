@@ -146,7 +146,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Aqreqaq Bomblet",
     head = "Otomi Helm",
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Sulevia's Platemail +1",
@@ -154,7 +154,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Niht Mantle",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
     legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }
@@ -196,6 +196,7 @@ function init_gear_sets()
     hands = "Crimson Finger Gauntlets",
     ring1 = "Omega Ring",
     back = "Niht Mantle",
+    waist = gear.ElementalObi,
   }
 
   -- Sets to return to when not performing an action.

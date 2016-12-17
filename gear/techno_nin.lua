@@ -60,7 +60,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Aqreqaq Bomblet",
     head = "Whirlpool Mask",
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Qaaxo Harness",
@@ -68,7 +68,7 @@ function init_gear_sets()
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
     back = "Yokaze Mantle",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
     legs = "Taeon Tights",
     feet = "Outrider Greaves",
   }

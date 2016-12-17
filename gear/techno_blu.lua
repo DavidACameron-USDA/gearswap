@@ -52,7 +52,7 @@ function init_gear_sets()
   sets.precast.JA['Azure Lore'] = {}
 
 
-  -- Waltz set (chr and vit)
+  -- Waltz set (CHR and VIT)
   sets.precast.Waltz = {
     ammo = "Sonia's Plectrum"
   }
@@ -83,7 +83,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ammo = "Olibanum Sachet",
     head = "Jhakri Coronal +1",
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Jhakri Robe +1",
@@ -91,7 +91,7 @@ function init_gear_sets()
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
     legs = "Taeon Tights",
     feet = "Jhakri Pigaches +1",
   }

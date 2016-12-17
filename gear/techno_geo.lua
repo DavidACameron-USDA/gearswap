@@ -47,9 +47,9 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     hands = "Jhakri Cuffs",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
   }
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -90,7 +90,7 @@ function init_gear_sets()
     ring1 = "Weatherspoon Ring",
     ring2 = "Metamorph Ring",
     back = "Argochampsa Mantle",
-    waist = "Yamabuki-no-obi",
+    waist = gear.ElementalObi,
     legs = "Hagondes Pants",
     foot = "Jhakri Pigaches",
   }
@@ -105,7 +105,7 @@ function init_gear_sets()
     ring1 = "Weatherspoon Ring",
     ring2 = "Metamorph Ring",
     back = "Argochampsa Mantle",
-    waist = "Yamabuki-no-obi",
+    waist = gear.ElementalObi,
     legs = "Hagondes Pants",
     foot = "Jhakri Pigaches",
   }

@@ -96,7 +96,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     head = "Whirlpool Mask",
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Qaaxo Harness",
@@ -104,7 +104,7 @@ function init_gear_sets()
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
     legs = "Taeon Tights",
     feet = "Espial Socks",
   }

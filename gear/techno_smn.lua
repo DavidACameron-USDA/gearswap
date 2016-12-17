@@ -82,11 +82,11 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     head = "Bokwus Circlet",
-    neck = "Fotia Gorget",
+    neck = gear.ElementalGorget,
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
-    waist = "Fotia Belt",
+    waist = gear.ElementalBelt,
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches +1",
   }
