@@ -153,7 +153,7 @@ function init_gear_sets()
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Flame Ring",
     ring2 = "Rajas Ring",
-    back = "Cuchulain's Mantle",
+    back = "Niht Mantle",
     waist = "Fotia Belt",
     legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
@@ -194,8 +194,8 @@ function init_gear_sets()
     head = "Chaos Burgeonet",
     neck = "Aesir Torque",
     hands = "Crimson Finger Gauntlets",
-    waist = "Crimson Belt",
     ring1 = "Omega Ring",
+    back = "Niht Mantle",
   }
 
   -- Sets to return to when not performing an action.
