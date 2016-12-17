@@ -5,7 +5,7 @@
 -- Setup vars that are user-dependent.
 function user_setup()
   state.OffenseMode:options('Normal', 'Acc', 'Refresh', 'Learning', 'CP')
-  state.WeaponskillMode:options('Normal', 'Acc', 'CP')
+  state.WeaponskillMode:options('Normal', 'Acc')
   state.CastingMode:options('Normal', 'Resistant')
   state.IdleMode:options('Normal', 'PDT', 'Learning', 'Nuking', 'CP')
 
@@ -100,10 +100,6 @@ function init_gear_sets()
     ammo = "Honed Tathlum",
   })
 
-  sets.precast.WS.CP = set_combine(sets.precast.WS, {
-    back = "Mecistopins Mantle",
-  })
-
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
 
   -- Chant du Cygne has a DEX 80% modifier, has a chance of dealing critical
@@ -112,18 +108,12 @@ function init_gear_sets()
   sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
   })
-  sets.precast.WS['Chant du Cygne'].CP = set_combine(sets.precast.WS['Chant du Cygne'], {
-    back = "Mecistopins Mantle",
-  })
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
   -- Soil gorgets/belts.
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
     ring2 = "K'ayres Ring",
-  })
-  sets.precast.WS['Requiescat'].CP = set_combine(sets.precast.WS['Requiescat'], {
-    back = "Mecistopins Mantle",
   })
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
@@ -145,12 +135,10 @@ function init_gear_sets()
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
   -- the Aqua, Snow, and Soil gorgets/belts.
   sets.precast.WS.Expiacion = set_combine(sets.precast.WS, {})
-  sets.precast.WS.Expiacion.CP = set_combine(sets.precast.WS.CP, {})
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
   -- Breeze, Thunder, and Soil gorgets/belts.
   sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {})
-  sets.precast.WS['Savage Blade'].CP = set_combine(sets.precast.WS.CP, {})
 
 
   -- Midcast Sets
@@ -324,6 +312,10 @@ function init_gear_sets()
   -- body = "Assimilator's Jubbah +1",
   -- ammo = "Mavi Tathlum",
 
+  -- Gear for getting more CP.
+  sets.CP = {
+    back = "Mecistopins Mantle",
+  }
 
   sets.latent_refresh = {
     waist = "Fucho-no-Obi",
@@ -365,9 +357,7 @@ function init_gear_sets()
     sub = "Tamaxchi",
   })
 
-  sets.idle.CP = set_combine(sets.idle, {
-    back = "Mecistopins Mantle",
-  })
+  sets.idle.CP = set_combine(sets.idle, sets.CP)
 
 
   -- Defense sets
@@ -442,12 +432,8 @@ function init_gear_sets()
   sets.engaged.Learning = set_combine(sets.engaged, sets.Learning)
   sets.engaged.DW.Learning = set_combine(sets.engaged.DW, sets.Learning)
 
-  sets.engaged.CP = set_combine(sets.engaged, {
-    back = "Mecistopins Mantle",
-  })
-  sets.engaged.DW.CP = set_combine(sets.engaged, {
-    back = "Mecistopins Mantle",
-  })
+  sets.engaged.CP = set_combine(sets.engaged, sets.CP)
+  sets.engaged.DW.CP = set_combine(sets.engaged.DW, sets.CP)
 
   sets.self_healing = {}
 end

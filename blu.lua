@@ -379,6 +379,11 @@ function job_post_midcast(spell, action, spellMap, eventArgs)
   if state.OffenseMode.value == 'Learning' then
     equip(sets.Learning)
   end
+
+  -- If in CP mode, keep on gear intended to help with that, regardless of action.
+  if state.OffenseMode.value == 'CP' then
+    equip(sets.CP)
+  end
 end
 
 
