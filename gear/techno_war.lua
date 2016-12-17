@@ -40,7 +40,7 @@ function init_gear_sets()
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Apeile Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Sulevia's Cuisses +1",
@@ -96,6 +96,10 @@ function init_gear_sets()
 
   -- Precast Sets
   -- Precast sets to enhance JAs
+  sets.precast.JA.Provoke = {
+    ring2 = "Apeile Ring",
+  }
+
   sets.precast.JA.Berserk = {}
 
   sets.precast.JA.Warcry = {}

@@ -128,6 +128,7 @@ function init_gear_sets()
   sets.midcast.Enmity = {
     head = "Cizin Helm +1",
     hands = "Cizin Mufflers +1",
+    ring2 = "Apeile Ring",
   }
 
   sets.midcast.Flash = set_combine(sets.midcast.Enmity, {})
@@ -156,7 +157,7 @@ function init_gear_sets()
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Apeile Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Crimson Cuisses",
@@ -210,7 +211,7 @@ function init_gear_sets()
     body = "Xaddi Mail",
     hands = "Flamma Manopolas +1",
     ring1 = "K'ayres Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Apeile Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Cizin Breeches +1",
