@@ -68,13 +68,13 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
-    hands = "Qaaxo Mitaines",
+    hands = "Tali'ah Gages +1",
     ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Argochampsa Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
-    feet = "Espial Socks",
+    feet = "Tali'ah Crackows +1",
 }
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -120,18 +120,18 @@ function init_gear_sets()
   sets.idle = {
     main = "Oatixur",
     range = "Divinator",
-    head = "Whirlpool Mask",
+    head = "Tali'ah Turban +1",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
-    hands = "Qaaxo Mitaines",
+    hands = "Tali'ah Gages +1",
     ring1 = "Defending Ring",
     ring2 = "Rajas Ring",
     back = "Repulse Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Espial Socks",
+    feet = "Tali'ah Crackows +1",
   }
 
   -- sets.idle.Town = {}
@@ -141,12 +141,23 @@ function init_gear_sets()
 
   -- Idle sets to wear while pet is engaged
   sets.idle.Pet.Engaged = {
+    head = "Tali'ah Turban +1",
+    hands = "Tali'ah Gages +1",
     back = "Argochampsa Mantle",
+    feet = "Tali'ah Crackows +1",
   }
 
-  sets.idle.Pet.Engaged.Ranged = set_combine(sets.idle.Pet.Engaged, {})
+  sets.idle.Pet.Engaged.Ranged = set_combine(sets.idle.Pet.Engaged, {
+    head = "Tali'ah Turban +1",
+    hands = "Tali'ah Gages +1",
+    feet = "Tali'ah Crackows +1",
+  })
 
-  sets.idle.Pet.Engaged.Nuke = set_combine(sets.idle.Pet.Engaged, {})
+  sets.idle.Pet.Engaged.Nuke = set_combine(sets.idle.Pet.Engaged, {
+    head = "Tali'ah Turban +1",
+    hands = "Tali'ah Gages +1",
+    feet = "Tali'ah Crackows +1",
+  })
 
   sets.idle.Pet.Engaged.Magic = set_combine(sets.idle.Pet.Engaged, {
     back = "Refraction Cape",
@@ -177,13 +188,13 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
-    hands = "Qaaxo Mitaines",
+    hands = "Tali'ah Gages +1",
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Argochampsa Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Espial Socks",
+    feet = "Tali'ah Crackows +1",
   }
 
   sets.engaged.Acc = {}

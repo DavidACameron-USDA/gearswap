@@ -142,17 +142,19 @@ function init_gear_sets()
   }
 
   sets.midcast['Elemental Magic'] = {
-    head = "Bokwus Circlet",
+    head = "Tali'ah Turban +1",
     body = "Hagondes Coat +1",
-    hands = "Glyphic Bracers",
+    hands = "Tali'ah Gages +1",
     legs = "Convoker's Spats +1",
+    feet = "Tali'ah Crackows +1",
   }
 
   sets.midcast['Dark Magic'] = {
-    head = "Bokwus Circlet",
+    head = "Tali'ah Turban +1",
     body = "Hagondes Coat +1",
-    hands = "Glyphic Bracers",
+    hands = "Tali'ah Gages +1",
     legs = "Convoker's Spats +1",
+    feet = "Tali'ah Crackows +1",
   }
 
 
@@ -168,29 +170,33 @@ function init_gear_sets()
 
   sets.midcast.Pet.PhysicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     main = "Tumafyrig",
+    head = "Tali'ah Turban +1",
     body = "Convoker's Doublet +1",
     hands = "Helios Gloves",
     back = "Argochampsa Mantle",
     legs = "Helios Spats",
+    feet = "Tali'ah Crackows +1",
   })
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
     main = "Gridarvor",
-    hands = "Glyphic Bracers",
+    hands = "Tali'ah Gages +1",
     legs = "Convoker's Spats +1",
   })
 
   sets.midcast.Pet.MagicalBloodPactRage = set_combine(sets['Summoning Magic Skill'], {
     main = "Tumafyrig",
+    head = "Tali'ah Turban +1",
     body = "Convoker's Doublet +1",
-    hands = "Tethyan Cuffs +3",
+    hands = "Helios Gloves",
     back = "Argochampsa Mantle",
     legs = "Helios Spats",
     feet = "Hagondes Sabots",
   })
 
   sets.midcast.Pet.MagicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.MagicalBloodPactRage, {
-    feet = "Beckoner's Pigaches",
+    hands = "Tali'ah Gages +1",
+    feet = "Tali'ah Crackows +1",
   })
 
 
@@ -204,7 +210,11 @@ function init_gear_sets()
     legs = "Glyphic Spats"
   })
 
-  sets.midcast.Pet['Elemental Magic'].Resistant = {}
+  sets.midcast.Pet['Elemental Magic'].Resistant = {
+    head = "Tali'ah Turban +1",
+    hands = "Tali'ah Gages +1",
+    feet = "Tali'ah Crackows +1",
+  }
 
 
   --------------------------------------
@@ -229,13 +239,13 @@ function init_gear_sets()
     ear1 = "Loquacious Earring",
     ear2 = "Influx Earring",
     body = "Shomonjijoe",
-    hands = "Glyphic Bracers",
+    hands = "Tali'ah Gages +1",
     ring1 = "Defending Ring",
     ring2 = "Evoker's Ring",
     back = "Conveyance Cape",
     waist = "Fucho-no-Obi",
     legs = "Convoker's Spats +1",
-    feet = "Convoker's Pigaches +1",
+    feet = "Tali'ah Crackows +1",
   }
 
   sets.idle.PDT = {
