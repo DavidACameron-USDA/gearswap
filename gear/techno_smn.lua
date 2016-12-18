@@ -57,7 +57,7 @@ function init_gear_sets()
     body = "Glyphic Doublet",
     hands = "Glyphic Bracers",
     legs = "Glyphic Spats",
-    feet = "Glyphic Pigaches",
+    feet = "Glyphic Pigaches +1",
   }
 
   sets.precast.BloodPactRage = sets.precast.BloodPactWard
