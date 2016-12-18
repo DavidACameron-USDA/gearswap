@@ -39,7 +39,9 @@ function init_gear_sets()
   sets.ExtraRegen = {}
   sets.Kiting = {}
 
-  sets.buff['Sneak Attack'] = {}
+  sets.buff['Sneak Attack'] = {
+    ring1 = "Ramuh Ring",
+  }
 
   sets.buff['Trick Attack'] = {}
 
@@ -68,7 +70,7 @@ function init_gear_sets()
   sets.precast.JA['Trick Attack'] = sets.buff['Trick Attack']
 
 
-  -- Waltz set (chr and vit)
+  -- Waltz set (CHR and VIT)
   sets.precast.Waltz = {
     ammo="Sonia's Plectrum",
   }
@@ -232,7 +234,7 @@ function init_gear_sets()
     ear2 = "Heartseeker Earring",
     body = "Qaaxo Harness",
     hands = "Floral Gauntlets",
-    ring1 = "Epona's Ring",
+    ring1 = "Ramuh Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",

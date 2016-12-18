@@ -132,7 +132,7 @@ function init_gear_sets()
     ear2 = "Moonshade Earring",
     body = "Flamma Korazin +1",
     hands = "Flamma Manopolas +1",
-    ring1 = "Flame Ring",
+    ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Unkai Sugemino",
     waist = gear.ElementalBelt,

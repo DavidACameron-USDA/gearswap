@@ -68,7 +68,7 @@ function init_gear_sets()
     ear2 = "Moonshade Earring",
     body = "Qaaxo Harness",
     hands = "Qaaxo Mitaines",
-    ring1 = "Flame Ring",
+    ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = gear.ElementalBelt,

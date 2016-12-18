@@ -142,7 +142,7 @@ function init_gear_sets()
     ear2 = "Kemas Earring",
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
-    ring1 = "Flame Ring",
+    ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
     waist = gear.ElementalBelt,
