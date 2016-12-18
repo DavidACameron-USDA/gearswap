@@ -108,6 +108,7 @@ function init_gear_sets()
   -- Snow gorgets/belts.
   sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
+    head = "Adhemar Bonnet",
     back = "Rosmerta's Cape",
   })
 
@@ -351,7 +352,7 @@ function init_gear_sets()
     main = "Usonmunku",
     sub = "Usonmunku",
     ammo = "Ginsen",
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Twilight Torque",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
@@ -410,7 +411,7 @@ function init_gear_sets()
   -- Normal melee group
   sets.engaged = {
     ammo = "Ginsen",
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -426,6 +427,7 @@ function init_gear_sets()
 
   sets.engaged.Acc = {
     ammo = "Honed Tathlum",
+    head = "Whirlpool Mask",
     neck = "Fortitude Torque",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",

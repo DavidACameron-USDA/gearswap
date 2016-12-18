@@ -62,7 +62,7 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    head = "Aurore Beret",
+    head = "Whirlpool Mask",
     neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
@@ -128,7 +128,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Oatixur",
     ammo = "Ginsen",
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -174,7 +174,7 @@ function init_gear_sets()
 
   -- Normal melee sets
   sets.engaged = {
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -188,7 +188,7 @@ function init_gear_sets()
     feet = "Espial Socks",
   }
   sets.engaged.Acc = {
-
+    head = "Whirlpool Mask",
   }
 
   -- Defensive melee hybrid sets

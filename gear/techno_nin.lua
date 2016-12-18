@@ -125,7 +125,7 @@ function init_gear_sets()
     main = "Ochu",
     sub = "Tancho",
     ammo = "Ginsen",
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -174,7 +174,7 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
@@ -188,7 +188,7 @@ function init_gear_sets()
     feet = "Outrider Greaves",
   }
   sets.engaged.Acc = {
-    
+    head = "Whirlpool Mask",
   }
   sets.engaged.Evasion = {
     

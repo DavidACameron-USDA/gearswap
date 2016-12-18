@@ -189,7 +189,7 @@ function init_gear_sets()
     main = "Izhiikoh",
     sub = "Atoyac",
     range = "Raider's Boomerang",
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Twilight Torque",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
@@ -228,7 +228,7 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = "Asperity Necklace",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
@@ -242,7 +242,7 @@ function init_gear_sets()
     feet = "Espial Socks",
   }
   sets.engaged.Acc = {
-    
+    head = "Whirlpool Mask",
   }
 
   sets.engaged.Evasion = {}
