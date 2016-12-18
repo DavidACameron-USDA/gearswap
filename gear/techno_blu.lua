@@ -98,6 +98,7 @@ function init_gear_sets()
 
   sets.precast.WS.acc = set_combine(sets.precast.WS, {
     ammo = "Honed Tathlum",
+    back = "Rosmerta's Cape",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -107,6 +108,7 @@ function init_gear_sets()
   -- Snow gorgets/belts.
   sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
+    back = "Rosmerta's Cape",
   })
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
@@ -125,7 +127,7 @@ function init_gear_sets()
     ear2 = "Moonshade Earring",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
-    ring2 = "Archon Ring",
+    ring1 = "Archon Ring",
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
     legs = "Hagondes Pants",
@@ -161,7 +163,7 @@ function init_gear_sets()
     ear2 = "Bladeborn Earring",
     body = "Assimilator's Jubbah +1",
     hands = "Jhakri Cuffs +1",
-    ring1 = "Flame Ring",
+    ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = "Warwolf Belt",
@@ -176,13 +178,13 @@ function init_gear_sets()
     legs = "Taeon Tights",
   })
 
-  sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {
-    ring1 = "Flame Ring",
-  })
+  sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {})
 
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Love Torque",
     ear1 = "Delta Earring",
+    ring1 = "Ramuh Ring",
+    back = "Rosmerta's Cape",
   })
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -197,7 +199,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].PhysicalInt = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Imbodla Necklace",
     ear1 = "Psystorm Earring",
-    ring2 = "Omega Ring",
+    ring2 = "Shiva Ring",
   })
 
   sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -219,24 +221,38 @@ function init_gear_sets()
   -- Magical Spells --
 
   sets.midcast['Blue Magic'].Magical = {
-    ammo = "Mavi Tathlum",
+    ammo = "Ghastly Tathlum",
     head = "Jhakri Coronal +1",
     neck = "Baetyl Pendant",
     ear1 = "Friomisi Earring",
     ear2 = "Hecate's Earring",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
-    ring1 = "Weatherspoon Ring",
-    ring2 = "Omega Ring",
+    ring1 = "Shiva Ring",
+    ring2 = "Metamorph Ring",
     back = "Cornflower Cape",
-    waist = "Yamabuki-no-Obi",
+    waist = gear.ElementalObi,
     legs = "Hagondes Pants",
     feet = "Jhakri Pigaches +1",
+  }
+
+  sets.LightMAB = {
+    ring1 = "Weatherspoon Ring",
+  }
+
+  sets.DarkMAB = {
+    head = "Pixie Hairpin +1",
+    ring1 = "Archon Ring",
   }
 
   sets.midcast['Blue Magic'].Magical.Resistant = set_combine(sets.midcast['Blue Magic'].Magical, {
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
+  })
+
+  sets.midcast['Blue Magic'].MagicalStr = set_combine(sets.midcast['Blue Magic'].Magical, {
+    ring1 = "Ifrit Ring",
+    ring2 = "Rajas Ring",
   })
 
   sets.midcast['Blue Magic'].MagicalMnd = set_combine(sets.midcast['Blue Magic'].Magical, {})
@@ -246,8 +262,11 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].MagicalVit = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
   sets.midcast['Blue Magic'].MagicalDex = set_combine(sets.midcast['Blue Magic'].Magical, {
+    ring1 = "Ramuh Ring",
     ring2 = "Rajas Ring",
   })
+
+  sets.midcast['Blue Magic'].MagicalAgi = set_combine(sets.midcast['Blue Magic'].Magical, {})
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     head = "Jhakri Coronal +1",

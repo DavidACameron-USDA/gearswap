@@ -323,6 +323,23 @@ function job_setup()
   }
 
 
+  blue_magic_light_damage = S{
+    'Blinding Fulgor',
+    'Diffusion Ray',
+    'Magic Hammer',
+    'Rail Cannon',
+    'Retinal Glare'
+  }
+
+  blue_magic_dark_damage = S{
+    'Dark Orb',
+    'Death Ray',
+    'Evryone. Grudge',
+    'Eyes On Me',
+    'Palling Salvo',
+    'Tenebral Crush'
+  }
+
   -- Spells that require Unbridled Learning to cast.
   unbridled_spells = S{
     'Absolute Terror',
@@ -372,6 +389,12 @@ function job_post_midcast(spell, action, spellMap, eventArgs)
     end
     if spellMap == 'Healing' and spell.target.type == 'SELF' and sets.self_healing then
       equip(sets.self_healing)
+    end
+    if blue_magic_light_damage:contains(spell.english) and sets.LightMAB then
+      equip(sets.LightMAB)
+    end
+    if blue_magic_dark_damage:contains(spell.english) and sets.DarkMAB then
+      equip(sets.DarkMAB)
     end
   end
 
