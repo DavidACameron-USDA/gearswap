@@ -56,6 +56,7 @@ function init_gear_sets()
     head = "Convoker's Horn +1",
     body = "Glyphic Doublet",
     hands = "Glyphic Bracers",
+    back = "Conveyance Cape",
     legs = "Glyphic Spats",
     feet = "Glyphic Pigaches +1",
   }
