@@ -225,7 +225,7 @@ function init_gear_sets()
   sets.resting = {
     main = "Dark Staff",
     head = "Convoker's Horn +1",
-    body = "Shomonjijoe",
+    body = "Shomonjijoe +1",
     waist = "Fucho-no-Obi",
   }
 
@@ -238,7 +238,7 @@ function init_gear_sets()
     neck = "Twilight Torque",
     ear1 = "Loquacious Earring",
     ear2 = "Influx Earring",
-    body = "Shomonjijoe",
+    body = "Shomonjijoe +1",
     hands = "Tali'ah Gages +1",
     ring1 = "Defending Ring",
     ring2 = "Evoker's Ring",
@@ -330,7 +330,7 @@ function init_gear_sets()
   sets.perp.Day = {
     main = "Gridarvor",
     head = "Convoker's Horn +1",
-    body = "Shomonjijoe",
+    body = "Shomonjijoe +1",
     hands = "Caller's Bracers +2",
     ring2 = "Evoker's Ring",
     feet = "Convoker's Pigaches +1",
@@ -340,7 +340,7 @@ function init_gear_sets()
     main = "Gridarvor",
     head = "Convoker's Horn +1",
     neck = "Caller's Pendant",
-    body = "Shomonjijoe",
+    body = "Shomonjijoe +1",
     hands = "Caller's Bracers +2",
     ring2 = "Evoker's Ring",
     feet = "Convoker's Pigaches +1",
@@ -349,7 +349,7 @@ function init_gear_sets()
   sets.perp.Carbuncle = {
     main = "Gridarvor",
     head = "Convoker's Horn +1",
-    body = "Shomonjijoe",
+    body = "Shomonjijoe +1",
     hands = "Carbuncle Mitts",
   }
 
