@@ -180,6 +180,7 @@ function init_gear_sets()
   --------------------------------------
 
   sets.defense.PDT = {
+    sub = "Nibiru Shield",
     head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
     body = "Sulevia's Platemail +1",
@@ -194,6 +195,7 @@ function init_gear_sets()
   -- To cap MDT with Shell IV (52/256), need 76/256 in gear.
   -- Shellra V can provide 75/256, which would need another 53/256 in gear.
   sets.defense.MDT = {
+    sub = "Nibiru Shield",
     head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
     body = "Sulevia's Platemail +1",
