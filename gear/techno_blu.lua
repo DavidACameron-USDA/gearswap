@@ -88,7 +88,7 @@ function init_gear_sets()
     ear2 = "Moonshade Earring",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
-    ring1 = "Epona's Ring",
+    ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = gear.ElementalBelt,
@@ -107,8 +107,10 @@ function init_gear_sets()
   -- damage, and is aligned with the Light, Flame, Thunder, Breeze, Aqua, and
   -- Snow gorgets/belts.
   sets.precast.WS['Chant du Cygne'] = set_combine(sets.precast.WS, {
-    ammo = "Ginsen",
+    ammo = "Jukukik Feather",
     head = "Adhemar Bonnet",
+    ring1 = "Epona's Ring",
+    ring2 = "Ramuh Ring",
     back = "Rosmerta's Cape",
   })
 
