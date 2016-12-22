@@ -56,6 +56,10 @@ function init_gear_sets()
     ring1 = "Weatherspoon Ring",
   }
 
+  sets.precast.Cure = set_combine(sets.precast.FC, {
+    ear1 = "Nourishing Earring",
+  })
+
 
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
@@ -133,7 +137,9 @@ function init_gear_sets()
 
   sets.midcast.Flash = set_combine(sets.midcast.Enmity, {})
 
-  sets.midcast.Cure = {}
+  sets.midcast.Cure = {
+    ear1 = "Nourishing Earring",
+  }
 
   sets.midcast['Enhancing Magic'] = {}
   sets.midcast.Protect = {}
