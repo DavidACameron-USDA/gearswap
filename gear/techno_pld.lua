@@ -147,7 +147,7 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Usonmunku",
+    main = "Nibiru Blade",
     sub = "Svalinn",
     ammo = "Ginsen",
     head = "Sulevia's Mask +1",

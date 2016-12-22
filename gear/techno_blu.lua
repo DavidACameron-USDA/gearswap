@@ -349,8 +349,8 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Usonmunku",
-    sub = "Usonmunku",
+    main = "Nibiru Blade",
+    sub = {name="Usonmunku", augments={'Accuracy+10', 'DEX+7', 'DMG+3'}},
     ammo = "Ginsen",
     head = "Adhemar Bonnet",
     neck = "Twilight Torque",
