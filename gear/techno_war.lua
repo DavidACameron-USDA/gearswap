@@ -79,7 +79,7 @@ function init_gear_sets()
     body = "Xaddi Mail",
     hands = "Flamma Manopolas +1",
     ring1 = "K'ayres Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Petrov Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Cizin Breeches +1",

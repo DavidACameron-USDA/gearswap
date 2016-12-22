@@ -236,7 +236,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     ring1 = "K'ayres Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Petrov Ring",
     waist = "Windbuffet Belt +1",
   }
 

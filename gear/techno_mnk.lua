@@ -52,7 +52,7 @@ function init_gear_sets()
 
   sets.precast.FC = {
     neck = "Baetyl Pendant",
-    ear2 = "Loquacious Earring"
+    ear2 = "Loquacious Earring",
     ring1 = "Weatherspoon Ring",
   }
 
@@ -69,7 +69,7 @@ function init_gear_sets()
     body = "Qaaxo Harness",
     hands = "Qaaxo Mitaines",
     ring1 = "Ifrit Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Petrov Ring",
     back = "Cuchulain's Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
@@ -135,7 +135,7 @@ function init_gear_sets()
     body = "Qaaxo Harness",
     hands = "Qaaxo Mitaines",
     ring1 = "Defending Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
