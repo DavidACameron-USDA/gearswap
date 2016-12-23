@@ -133,7 +133,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
-    hands = "Qaaxo Mitaines",
+    hands = "Nilas Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
@@ -179,7 +179,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Qaaxo Harness",
-    hands = "Qaaxo Mitaines",
+    hands = "Nilas Gloves",
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Atheling Mantle",
@@ -189,6 +189,7 @@ function init_gear_sets()
   }
   sets.engaged.Acc = {
     head = "Whirlpool Mask",
+    hands = "Qaaxo Mitaines",
   }
 
   -- Defensive melee hybrid sets
