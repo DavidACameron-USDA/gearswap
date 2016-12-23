@@ -38,7 +38,7 @@ function init_gear_sets()
     ear2 = "Loquacious Earring",
     ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
-    legs = "Orvail Pants +1",
+    legs = "Rawhide Trousers",
   }
 
   sets.precast.FC.Utsusemi = set_combine(sets.precast.FC, {neck = "Magoraga Beads"})

@@ -69,7 +69,7 @@ function init_gear_sets()
     body = "Luhlaza Jubbah +1",
     ring1 = "Weatherspoon Ring",
     back = "Swith Cape",
-    legs = "Orvail Pants +1",
+    legs = "Rawhide Trousers",
     feet = gear.fc_helios_boots,
   }
 
@@ -280,6 +280,7 @@ function init_gear_sets()
     ring1 = "Weatherspoon Ring",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
+    legs = "Rawhide Trousers",
   }
 
   -- Breath Spells --
@@ -347,6 +348,7 @@ function init_gear_sets()
   sets.resting = {
     body = "Assimilator's Jubbah",
     waist = "Fucho-no-Obi",
+    legs = "Rawhide Trousers",
   }
 
   -- Idle sets
@@ -439,6 +441,7 @@ function init_gear_sets()
 
   sets.engaged.Refresh = set_combine(sets.engaged, {
     body = "Assimilator's Jubbah +1",
+    legs = "Rawhide Trousers",
   })
 
   sets.engaged.DW = set_combine(sets.engaged, {
