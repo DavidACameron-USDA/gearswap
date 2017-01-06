@@ -39,6 +39,7 @@ function init_gear_sets()
 
   sets.precast.FC.Cure = set_combine(sets.precast.FC['Healing Magic'], {
     head = "Theophany Cap",
+    ear1 = "Nourishing Earring +1",
   })
 
   sets.precast.FC.Curaga = sets.precast.FC.Cure
@@ -76,7 +77,7 @@ function init_gear_sets()
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
     neck = "Imbodla Necklace",
-    ear1 = "Influx Earring",
+    ear1 = "Nourishing Earring +1",
     body = "Ebers Bliaud",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
@@ -93,7 +94,7 @@ function init_gear_sets()
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
     neck = "Imbodla Necklace",
-    ear1 = "Influx Earring",
+    ear1 = "Nourishing Earring +1",
     body = "Gendewitha Bliaut",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
@@ -110,7 +111,7 @@ function init_gear_sets()
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
     neck = "Imbodla Necklace",
-    ear1 = "Influx Earring",
+    ear1 = "Nourishing Earring +1",
     body = "Gendewitha Bliaut",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Leviathan Ring",
@@ -250,7 +251,7 @@ function init_gear_sets()
     ammo = "Kalboron Stone",
     head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
-    ear1 = "Influx Earring",
+    ear1 = "Nourishing Earring +1",
     ear2 = "Loquacious Earring",
     body = "Ebers Bliaud",
     hands = "Inyanga Dastanas +1",
@@ -295,7 +296,7 @@ function init_gear_sets()
     ammo = "Kalboron Stone",
     head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
-    ear1 = "Influx Earring",
+    ear1 = "Nourishing Earring +1",
     ear2 = "Loquacious Earring",
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
