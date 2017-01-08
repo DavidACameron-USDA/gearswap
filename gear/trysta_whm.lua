@@ -258,8 +258,8 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
-    legs = "Tatsumaki Sitagoromo",
-    feet = "Gendewitha Galoshes",
+    legs = "Ebers Pantaloons",
+    feet = "Herald's Gaiters",
   }
 
   sets.idle.PDT = {
