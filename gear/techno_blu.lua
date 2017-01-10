@@ -99,6 +99,7 @@ function init_gear_sets()
   sets.precast.WS.acc = set_combine(sets.precast.WS, {
     ammo = "Honed Tathlum",
     back = "Rosmerta's Cape",
+    waist = "Kentarch Belt",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -435,6 +436,7 @@ function init_gear_sets()
     neck = "Fortitude Torque",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
+    waist = "Kentarch Belt",
     legs = "Espial Hose",
     feet = "Jhakri Pigaches +1",
   }

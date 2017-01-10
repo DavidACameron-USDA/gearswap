@@ -112,7 +112,7 @@ function init_gear_sets()
     feet = "Espial Socks",
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
-    
+    waist = "Kentarch Belt",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -244,6 +244,7 @@ function init_gear_sets()
   }
   sets.engaged.Acc = {
     head = "Whirlpool Mask",
+    waist = "Kentarch Belt",
   }
 
   sets.engaged.Evasion = {}

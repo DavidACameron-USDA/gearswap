@@ -98,6 +98,7 @@ function init_gear_sets()
     head = "Flamma Zucchetto +1",
     neck = "Justice Torque",
     body = "Flamma Korazin +1",
+    waist = "Kentarch Belt",
     legs = "Flamma Dirs +1",
     feet = "Flamma Gambieras +1",
   })
@@ -163,6 +164,7 @@ function init_gear_sets()
     head = "Flamma Zucchetto +1",
     ammo = "Ginsen",
     body = "Flamma Korazin +1",
+    waist = "Kentarch Belt",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.

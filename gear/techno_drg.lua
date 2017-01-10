@@ -87,7 +87,7 @@ function init_gear_sets()
     neck = "Love Torque",
     body = "Flamma Korazin +1",
     back = "Updraft Mantle",
-    waist = "Wyrm Belt",
+    waist = "Kentarch Belt",
     legs = "Flamma Dirs +1",
     feet = "Flamma Gambieras +1",
   })
@@ -178,6 +178,7 @@ function init_gear_sets()
     head = "Flamma Zucchetto +1",
     ammo = "Ginsen",
     body = "Flamma Korazin +1",
+    waist = "Kentarch Belt",
     back = "Updraft Mantle",
   })
 

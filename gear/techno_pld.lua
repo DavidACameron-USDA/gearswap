@@ -82,6 +82,7 @@ function init_gear_sets()
     head = "Flamma Zucchetto +1",
     neck = "Fortitude Torque",
     body = "Flamma Korazin +1",
+    waist = "Kentarch Belt",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -231,6 +232,7 @@ function init_gear_sets()
     neck = "Fortitude Torque",
     body = "Flamma Korazin +1",
     hands = "Flamma Manopolas +1",
+    waist = "Kentarch Belt",
     legs = "Flamma Dirs +1",
     feet = "Flamma Gambieras +1",
   })
