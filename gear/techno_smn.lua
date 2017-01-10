@@ -245,7 +245,7 @@ function init_gear_sets()
     ring2 = "Evoker's Ring",
     back = "Campestres's Cape",
     waist = "Fucho-no-Obi",
-    legs = "Convoker's Spats +1",
+    legs = "Assiduity Pants",
     feet = "Tali'ah Crackows +1",
   }
 

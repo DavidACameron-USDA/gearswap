@@ -178,7 +178,7 @@ function init_gear_sets()
     ring2 = "Metamorph Ring",
     back = "Repulse Mantle",
     waist = "Yamabuki-no-obi",
-    legs = "Perdition Slops",
+    legs = "Assiduity Pants",
     feet = "Geomancy Sandals +1",
   }
 
