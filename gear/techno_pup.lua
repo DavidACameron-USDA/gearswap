@@ -124,7 +124,7 @@ function init_gear_sets()
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Qaaxo Harness",
+    body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
@@ -142,6 +142,7 @@ function init_gear_sets()
   -- Idle sets to wear while pet is engaged
   sets.idle.Pet.Engaged = {
     head = "Tali'ah Turban +1",
+    body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     back = "Argochampsa Mantle",
     feet = "Tali'ah Crackows +1",
@@ -149,12 +150,14 @@ function init_gear_sets()
 
   sets.idle.Pet.Engaged.Ranged = set_combine(sets.idle.Pet.Engaged, {
     head = "Tali'ah Turban +1",
+    body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     feet = "Tali'ah Crackows +1",
   })
 
   sets.idle.Pet.Engaged.Nuke = set_combine(sets.idle.Pet.Engaged, {
     head = "Tali'ah Turban +1",
+    body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     feet = "Tali'ah Crackows +1",
   })
@@ -187,7 +190,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Qaaxo Harness",
+    body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     ring1 = "Epona's Ring",
     ring2 = "Petrov Ring",

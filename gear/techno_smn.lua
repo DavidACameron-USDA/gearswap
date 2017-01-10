@@ -181,6 +181,7 @@ function init_gear_sets()
 
   sets.midcast.Pet.PhysicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.PhysicalBloodPactRage, {
     main = "Gridarvor",
+    body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     legs = "Convoker's Spats +1",
   })
@@ -196,6 +197,7 @@ function init_gear_sets()
   })
 
   sets.midcast.Pet.MagicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.MagicalBloodPactRage, {
+    body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     feet = "Tali'ah Crackows +1",
   })
