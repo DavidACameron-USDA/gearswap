@@ -98,7 +98,7 @@ function init_gear_sets()
 
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet +1",
     neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
@@ -109,10 +109,14 @@ function init_gear_sets()
     back = "Cuchulain's Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
-    feet = "Espial Socks",
+    feet = "Mummu Gamashes +1",
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
     waist = "Kentarch Belt",
+    legs = "Mummu Kecks +1",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -130,7 +134,13 @@ function init_gear_sets()
   sets.precast.WS['Dancing Edge'].TA = set_combine(sets.precast.WS['Dancing Edge'].Mod, {})
   sets.precast.WS['Dancing Edge'].SATA = set_combine(sets.precast.WS['Dancing Edge'].Mod, {})
 
-  sets.precast.WS['Evisceration'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Evisceration'] = set_combine(sets.precast.WS, {
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
+  })
   sets.precast.WS['Evisceration'].Acc = set_combine(sets.precast.WS['Evisceration'], {})
   sets.precast.WS['Evisceration'].Mod = set_combine(sets.precast.WS['Evisceration'], {})
   sets.precast.WS['Evisceration'].SA = set_combine(sets.precast.WS['Evisceration'].Mod, {})
@@ -190,17 +200,17 @@ function init_gear_sets()
     main = "Izhiikoh",
     sub = "Atoyac",
     range = "Raider's Boomerang",
-    head = "Adhemar Bonnet",
+    head = "Mummu Bonnet +1",
     neck = "Twilight Torque",
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
-    body = "Qaaxo Harness",
+    body = "Mummu Jacket +1",
     hands = "Floral Gauntlets",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Taeon Tights",
+    legs = "Mummu Kecks +1",
     feet = "Fajin Boots",
   }
 
@@ -215,6 +225,7 @@ function init_gear_sets()
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
+    legs = "Mummu Kecks +1",
   }
 
   sets.defense.MDT = {
@@ -240,11 +251,14 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Espial Socks",
+    feet = "Mummu Gamashes +1",
   }
   sets.engaged.Acc = {
-    head = "Whirlpool Mask",
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
     waist = "Kentarch Belt",
+    legs = "Mummu Kecks +1",
   }
 
   sets.engaged.Evasion = {}

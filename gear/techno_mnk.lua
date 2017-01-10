@@ -68,16 +68,21 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Qaaxo Harness",
-    hands = "Qaaxo Mitaines",
+    hands = "Mummu Wrists +1",
     ring1 = "Ifrit Ring",
     ring2 = "Petrov Ring",
     back = "Cuchulain's Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
-    feet = "Espial Socks",
+    feet = "Mummu Gamashes +1",
   }
   sets.precast.WS.Acc = set_combine(
-
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
+    waist = "Kentarch Belt",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
   )
 
   -- Specific weaponskill sets.
@@ -90,10 +95,22 @@ function init_gear_sets()
   sets.precast.WS['Asuran Fists'] = set_combine(sets.precast.WS, {})
   sets.precast.WS["Asuran Fists"].Acc = set_combine(sets.precast.WS.Acc, {})
 
-  sets.precast.WS["Ascetic's Fury"] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Ascetic's Fury"] = set_combine(sets.precast.WS, {
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
+  })
   sets.precast.WS["Ascetic's Fury"].Acc = set_combine(sets.precast.WS.Acc, {})
 
-  sets.precast.WS["Victory Smite"] = set_combine(sets.precast.WS, {})
+  sets.precast.WS["Victory Smite"] = set_combine(sets.precast.WS, {
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
+  })
   sets.precast.WS["Victory Smite"].Acc = set_combine(sets.precast.WS.Acc, {})
 
   sets.precast.WS['Shijin Spiral'] = set_combine(sets.precast.WS, {})
@@ -129,18 +146,18 @@ function init_gear_sets()
   sets.idle = {
     main = "Oatixur",
     ammo = "Ginsen",
-    head = "Adhemar Bonnet",
+    head = "Mummu Bonnet +1",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Qaaxo Harness",
+    body = "Mummu Jacket +1",
     hands = "Nilas Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Taeon Tights",
-    feet = "Espial Socks",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
   }
 
   -- sets.idle.Town = {}
@@ -150,6 +167,7 @@ function init_gear_sets()
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
+    legs = "Mummu Kecks +1",
   }
 
   sets.defense.HP = {
@@ -186,11 +204,13 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Espial Socks",
+    feet = "Mummu Gamashes +1",
   }
   sets.engaged.Acc = {
-    head = "Whirlpool Mask",
-    hands = "Qaaxo Mitaines",
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
+    legs = "Mummu Kecks +1",
   }
 
   -- Defensive melee hybrid sets

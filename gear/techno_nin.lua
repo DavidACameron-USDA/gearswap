@@ -60,7 +60,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ammo = "Aqreqaq Bomblet",
-    head = "Whirlpool Mask",
+    head = "Adhemar Bonnet",
     neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
@@ -71,16 +71,33 @@ function init_gear_sets()
     back = "Yokaze Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
-    feet = "Outrider Greaves",
+    feet = "Mummu Gamashes +1",
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
     waist = "Kentarch Belt",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-  sets.precast.WS['Blade: Jin'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Blade: Jin'] = set_combine(sets.precast.WS, {
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
+  })
 
-  sets.precast.WS['Blade: Hi'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Blade: Hi'] = set_combine(sets.precast.WS, {
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
+    legs = "Mummu Kecks +1",
+    feet = "Mummu Gamashes +1",
+  })
 
   sets.precast.WS['Blade: Shun'] = set_combine(sets.precast.WS, {})
 
@@ -126,17 +143,17 @@ function init_gear_sets()
     main = "Ochu",
     sub = "Tancho",
     ammo = "Ginsen",
-    head = "Adhemar Bonnet",
+    head = "Mummu Bonnet +1",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Qaaxo Harness",
+    body = "Mummu Jacket +1",
     hands = "Floral Gauntlets",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Taeon Tights",
+    legs = "Mummu Kecks +1",
     feet = "Danzo Sune-ate",
   }
 
@@ -152,6 +169,7 @@ function init_gear_sets()
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
+    legs = "Mummu Kecks +1",
   }
 
   sets.defense.MDT = {
@@ -186,11 +204,14 @@ function init_gear_sets()
     back = "Yokaze Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Outrider Greaves",
+    feet = "Mummu Gamashes +1",
   }
   sets.engaged.Acc = {
-    head = "Whirlpool Mask",
+    head = "Mummu Bonnet +1",
+    body = "Mummu Jacket +1",
+    hands = "Mummu Wrists +1",
     waist = "Kentarch Belt",
+    legs = "Mummu Kecks +1",
   }
   sets.engaged.Evasion = {
     
