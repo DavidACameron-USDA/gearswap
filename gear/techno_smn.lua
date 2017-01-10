@@ -173,7 +173,7 @@ function init_gear_sets()
     head = "Tali'ah Turban +1",
     body = "Convoker's Doublet +1",
     hands = "Helios Gloves",
-    back = "Argochampsa Mantle",
+    back = "Campestres's Cape",
     legs = "Helios Spats",
     feet = "Tali'ah Crackows +1",
   })
@@ -189,7 +189,7 @@ function init_gear_sets()
     head = "Tali'ah Turban +1",
     body = "Convoker's Doublet +1",
     hands = "Helios Gloves",
-    back = "Argochampsa Mantle",
+    back = "Campestres's Cape",
     legs = "Helios Spats",
     feet = "Hagondes Sabots",
   })
@@ -242,7 +242,7 @@ function init_gear_sets()
     hands = "Tali'ah Gages +1",
     ring1 = "Defending Ring",
     ring2 = "Evoker's Ring",
-    back = "Conveyance Cape",
+    back = "Campestres's Cape",
     waist = "Fucho-no-Obi",
     legs = "Convoker's Spats +1",
     feet = "Tali'ah Crackows +1",
