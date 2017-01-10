@@ -30,6 +30,7 @@ function init_gear_sets()
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
     back = "Conveyance Cape",
+    legs = "Beckoner's Spats",
     feet = "Nashira Crackows",
   }
 
