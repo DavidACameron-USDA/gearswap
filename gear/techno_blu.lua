@@ -86,7 +86,7 @@ function init_gear_sets()
     neck = gear.ElementalGorget,
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
-    body = "Jhakri Robe +1",
+    body = "Rawhide Vest",
     hands = "Jhakri Cuffs +1",
     ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
@@ -98,6 +98,7 @@ function init_gear_sets()
 
   sets.precast.WS.acc = set_combine(sets.precast.WS, {
     ammo = "Honed Tathlum",
+    body = "Jhakri Robe +1",
     back = "Rosmerta's Cape",
     waist = "Kentarch Belt",
   })
@@ -420,7 +421,7 @@ function init_gear_sets()
     neck = "Asperity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Qaaxo Harness",
+    body = "Rawhide Vest",
     hands = "Nilas Gloves",
     ring1 = "Epona's Ring",
     ring2 = "Petrov Ring",

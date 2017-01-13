@@ -67,7 +67,7 @@ function init_gear_sets()
     neck = gear.ElementalGorget,
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Qaaxo Harness",
+    body = "Rawhide Vest",
     hands = "Tali'ah Gages +1",
     ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
