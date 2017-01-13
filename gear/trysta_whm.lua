@@ -25,6 +25,7 @@ function init_gear_sets()
     head = "Haruspex Hat",
     body = "Inyanga Jubbah +1",
     hands = "Gendewitha Gages",
+    back = "Swith Cape",
   }
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
