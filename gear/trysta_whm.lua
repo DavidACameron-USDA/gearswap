@@ -40,6 +40,7 @@ function init_gear_sets()
   sets.precast.FC.Cure = set_combine(sets.precast.FC['Healing Magic'], {
     head = "Theophany Cap",
     ear1 = "Nourishing Earring +1",
+    ear2 = "Mendicant's Earring",
   })
 
   sets.precast.FC.Curaga = sets.precast.FC.Cure
@@ -78,6 +79,7 @@ function init_gear_sets()
     head = "Ebers Cap",
     neck = "Imbodla Necklace",
     ear1 = "Nourishing Earring +1",
+    ear2 = "Mendicant's Earring",
     body = "Ebers Bliaud",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
@@ -95,6 +97,7 @@ function init_gear_sets()
     head = "Ebers Cap",
     neck = "Imbodla Necklace",
     ear1 = "Nourishing Earring +1",
+    ear2 = "Mendicant's Earring",
     body = "Gendewitha Bliaut",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
@@ -112,6 +115,7 @@ function init_gear_sets()
     head = "Ebers Cap",
     neck = "Imbodla Necklace",
     ear1 = "Nourishing Earring +1",
+    ear2 = "Mendicant's Earring",
     body = "Gendewitha Bliaut",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Leviathan Ring",
@@ -252,7 +256,7 @@ function init_gear_sets()
     head = "Inyanga Tiara",
     neck = "Imbodla Necklace",
     ear1 = "Nourishing Earring +1",
-    ear2 = "Loquacious Earring",
+    ear2 = "Mendicant's Earring",
     body = "Ebers Bliaud",
     hands = "Inyanga Dastanas +1",
     ring1 = "Metamorph Ring +1",
