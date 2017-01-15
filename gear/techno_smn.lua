@@ -83,7 +83,7 @@ function init_gear_sets()
   -- Weaponskill sets
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
-    head = "Bokwus Circlet",
+    head = "Inyanga Tiara",
     neck = gear.ElementalGorget,
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
@@ -125,7 +125,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Cure = {
-    head = "Bokwus Circlet",
+    head = "Inyanga Tiara",
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
@@ -134,7 +134,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Stoneskin = {
-    head = "Bokwus Circlet",
+    head = "Inyanga Tiara",
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
