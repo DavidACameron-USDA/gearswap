@@ -21,7 +21,10 @@ function init_gear_sets()
 
   -- Precast sets to enhance JAs
   sets.precast.JA.Bolster = {body = "Bagua Tunic"}
-  sets.precast.JA['Life cycle'] = {body = "Geomancy Tunic"}
+  sets.precast.JA['Life cycle'] = {
+    body = "Geomancy Tunic",
+    back = "Nantosuelta's Cape",
+  }
 
   -- Fast cast sets for spells
 
@@ -74,6 +77,7 @@ function init_gear_sets()
   }
   sets.midcast.Geomancy.Indi = {
     hands = "Geomancy Mitaines +1",
+    back = "Nantosuelta's Cape",
   }
 
   sets.midcast['Elemental Magic'] = {
