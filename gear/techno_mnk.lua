@@ -76,14 +76,14 @@ function init_gear_sets()
     legs = "Taeon Tights",
     feet = "Mummu Gamashes +1",
   }
-  sets.precast.WS.Acc = set_combine(
+  sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     head = "Mummu Bonnet +1",
     body = "Mummu Jacket +1",
     hands = "Mummu Wrists +1",
     waist = "Kentarch Belt",
     legs = "Mummu Kecks +1",
     feet = "Mummu Gamashes +1",
-  )
+  })
 
   -- Specific weaponskill sets.
 
