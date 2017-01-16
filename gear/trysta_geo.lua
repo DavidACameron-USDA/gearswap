@@ -42,7 +42,9 @@ function init_gear_sets()
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
 
-  sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {})
+  sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {
+    hands = "Bagua Mitaines",
+  })
 
 
   -- Weaponskill sets
@@ -73,9 +75,11 @@ function init_gear_sets()
   }
 
   sets.midcast.Geomancy = {
+    body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
   }
   sets.midcast.Geomancy.Indi = {
+    body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
     back = "Nantosuelta's Cape",
   }
@@ -85,7 +89,7 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear1 = "Friomisi Earring",
     ear2 = "Abyssal Earring",
-    body = "Wayfarer Robe",
+    body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
     ring1 = "Shiva Ring",
     ring2 = "Shiva Ring",
@@ -96,7 +100,7 @@ function init_gear_sets()
   }
 
   sets.midcast['Dark Magic'] = {
-    head = "Geomancy Galero",
+    head = "Bagua Galero",
     neck = "Imbodla Necklace",
     ear1 = "Friomisi Earring",
     ear2 = "Abyssal Earring",
@@ -183,7 +187,7 @@ function init_gear_sets()
     ear1 = "Friomisi Earring",
     ear2 = "Loquacious Earring",
     body = "Geomancy Tunic",
-    hands = "Geomancy Mitaines +1",
+    hands = "Bagua Mitaines",
     ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Nantosuelta's Cape",
