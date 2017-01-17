@@ -77,11 +77,14 @@ function init_gear_sets()
   sets.midcast.Geomancy = {
     body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
+    feet = "Bagua Sandals",
   }
   sets.midcast.Geomancy.Indi = {
     body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
     back = "Nantosuelta's Cape",
+    legs = "Bagua Pants",
+    feet = "Bagua Sandals",
   }
 
   sets.midcast['Elemental Magic'] = {
@@ -151,7 +154,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Penitent's Rope",
     legs = "Wayfarer Slops",
-    feet = "Almaric Nails",
+    feet = "Bagua Sandals",
   }
 
   sets.midcast.MndEnfeebles = {
@@ -165,7 +168,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Demonry Sash",
     legs = "Wayfarer Slops",
-    feet = "Almaric Nails",
+    feet = "Bagua Sandals",
   }
 
 
@@ -255,5 +258,5 @@ end
 
 -- Select default macro book on initial load or subjob change.
 function select_default_macro_book()
-  set_macro_page(5, 20)
+  set_macro_page(9, 3)
 end
