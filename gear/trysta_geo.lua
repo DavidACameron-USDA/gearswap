@@ -76,11 +76,13 @@ function init_gear_sets()
 
   sets.midcast.Geomancy = {
     body = "Bagua Tunic",
+    neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
     feet = "Bagua Sandals",
   }
   sets.midcast.Geomancy.Indi = {
     body = "Bagua Tunic",
+    neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
     back = "Nantosuelta's Cape",
     legs = "Bagua Pants",
@@ -104,7 +106,7 @@ function init_gear_sets()
 
   sets.midcast['Dark Magic'] = {
     head = "Bagua Galero",
-    neck = "Imbodla Necklace",
+    neck = "Deceiver's Torque",
     ear1 = "Friomisi Earring",
     ear2 = "Abyssal Earring",
     body = "Geomancy Tunic",
@@ -186,7 +188,7 @@ function init_gear_sets()
     main = "Bolelabunga",
     range = "Dunna",
     head = "Wayfarer Circlet",
-    neck = "Reti Pendant",
+    neck = "Deceiver's Torque",
     ear1 = "Friomisi Earring",
     ear2 = "Loquacious Earring",
     body = "Geomancy Tunic",
