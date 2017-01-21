@@ -97,7 +97,7 @@ function init_gear_sets()
     ring1 = "Shiva Ring",
     ring2 = "Shiva Ring",
     back = "Nantosuelta's Cape",
-    waist = "Penitent's Rope",
+    waist = "Refoccilation Stone",
     legs = "Wayfarer Slops",
     feet = "Almaric Nails",
   }
@@ -112,7 +112,7 @@ function init_gear_sets()
     ring1 = "Shiva Ring",
     ring2 = "Evanescence Ring",
     back = "Nantosuelta's Cape",
-    waist = "Penitent's Rope",
+    waist = "Refoccilation Stone",
     legs = "Wayfarer Slops",
     feet = "Almaric Nails",
   }
@@ -194,7 +194,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Nantosuelta's Cape",
-    waist = "Demonry Sash",
+    waist = "Refoccilation Stone",
     legs = "Geomancy Pants",
     feet = "Geomancy Sandals",
   }
