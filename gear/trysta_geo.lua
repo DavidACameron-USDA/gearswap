@@ -179,7 +179,9 @@ function init_gear_sets()
   --------------------------------------
 
   -- Resting sets
-  sets.resting = {}
+  sets.resting = {
+    main = "Bolelabunga",
+  }
 
 
   -- Idle sets
