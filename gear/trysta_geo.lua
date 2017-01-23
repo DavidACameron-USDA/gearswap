@@ -185,7 +185,7 @@ function init_gear_sets()
   -- Idle sets
 
   sets.idle = {
-    main = "Bolelabunga",
+    main = "Solstice",
     range = "Dunna",
     head = "Wayfarer Circlet",
     neck = "Deceiver's Torque",
