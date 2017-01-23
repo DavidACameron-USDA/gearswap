@@ -193,6 +193,7 @@ function init_gear_sets()
 
   sets.midcast['Divine Magic'] = {
     head = "Inyanga Tiara",
+    neck = "Sanctity Necklace",
     ear1 = "Influx Earring",
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
@@ -240,8 +241,8 @@ function init_gear_sets()
   sets.resting = {
     main = "Bolelabunga",
     head = "Wayfarer Circlet",
+    neck = "Sanctity Necklace",
     body = "Wayfarer Robe",
-    neck = "Grandiose Chain",
     hands = "Wayfarer Cuffs",
     waist = "Hierarch Belt",
     legs = "Wayfarer Slops",
@@ -255,7 +256,7 @@ function init_gear_sets()
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Inyanga Tiara",
-    neck = "Imbodla Necklace",
+    neck = "Sanctity Necklace",
     ear1 = "Nourishing Earring +1",
     ear2 = "Mendicant's Earring",
     body = "Ebers Bliaud",
@@ -300,7 +301,7 @@ function init_gear_sets()
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Inyanga Tiara",
-    neck = "Imbodla Necklace",
+    neck = "Sanctity Necklace",
     ear1 = "Nourishing Earring +1",
     ear2 = "Loquacious Earring",
     body = "Inyanga Jubbah +1",

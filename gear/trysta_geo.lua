@@ -91,7 +91,7 @@ function init_gear_sets()
 
   sets.midcast['Elemental Magic'] = {
     head = "Geomancy Galero",
-    neck = "Imbodla Necklace",
+    neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
     ear2 = "Abyssal Earring",
     body = "Bagua Tunic",
@@ -188,7 +188,7 @@ function init_gear_sets()
     main = "Solstice",
     range = "Dunna",
     head = "Wayfarer Circlet",
-    neck = "Deceiver's Torque",
+    neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
     ear2 = "Loquacious Earring",
     body = "Geomancy Tunic",
