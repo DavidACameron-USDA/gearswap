@@ -140,9 +140,12 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     ear1 = "Nourishing Earring",
+    legs = "Carmine Cuisses",
   }
 
-  sets.midcast['Enhancing Magic'] = {}
+  sets.midcast['Enhancing Magic'] = {
+    legs = "Carmine Cuisses",
+  }
   sets.midcast.Protect = {}
   sets.midcast.Shell = {}
 
@@ -167,7 +170,7 @@ function init_gear_sets()
     ring2 = "Apeile Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Crimson Cuisses",
+    legs = "Carmine Cuisses",
     feet = "Sulevia's Leggings +1",
   }
 

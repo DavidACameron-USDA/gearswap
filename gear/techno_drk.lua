@@ -43,7 +43,7 @@ function init_gear_sets()
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Crimson Cuisses",
+    legs = "Carmine Cuisses",
     feet = "Sulevia's Leggings +1",
   }
 
@@ -240,7 +240,7 @@ function init_gear_sets()
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Crimson Cuisses",
+    legs = "Carmine Cuisses",
     feet = "Sulevia's Leggings +1",
   }
 end

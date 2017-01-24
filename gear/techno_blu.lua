@@ -101,6 +101,7 @@ function init_gear_sets()
     body = "Jhakri Robe +1",
     back = "Rosmerta's Cape",
     waist = "Kentarch Belt",
+    legs = "Carmine Cuisses",
   })
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -172,7 +173,7 @@ function init_gear_sets()
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
     waist = "Warwolf Belt",
-    legs = "Assimilator's Shalwar +1",
+    legs = "Carmine Cuisses",
     feet = "Jhakri Pigaches +1",
   }
 
@@ -368,7 +369,7 @@ function init_gear_sets()
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
-    legs = "Crimson Cuisses",
+    legs = "Carmine Cuisses",
     feet = "Assimilator's Charuqs +1",
   }
 
@@ -404,7 +405,7 @@ function init_gear_sets()
     ring1 = "Defending Ring",
     waist = "Flume Belt +1",
     back = "Repulse Mantle",
-    legs = "Crimson Cuisses",
+    legs = "Carmine Cuisses",
   }
 
   -- Engaged sets
@@ -438,7 +439,7 @@ function init_gear_sets()
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     waist = "Kentarch Belt",
-    legs = "Espial Hose",
+    legs = "Carmine Cuisses",
     feet = "Jhakri Pigaches +1",
   }
 
