@@ -167,7 +167,7 @@ function init_gear_sets()
     neck = "Justice Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Assimilator's Jubbah +1",
+    body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
@@ -349,7 +349,7 @@ function init_gear_sets()
 
   -- Resting sets
   sets.resting = {
-    body = "Assimilator's Jubbah",
+    body = "Jhakri Robe +1",
     waist = "Fucho-no-Obi",
     legs = "Rawhide Trousers",
   }
