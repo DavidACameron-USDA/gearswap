@@ -356,8 +356,8 @@ function init_gear_sets()
     ammo = "Ginsen",
     head = "Adhemar Bonnet",
     neck = "Twilight Torque",
-    ear1 = "Dudgeon Earring",
-    ear2 = "Heartseeker Earring",
+    ear1 = "Brutal Earring",
+    ear2 = "Suppanomimi",
     body = "Jhakri Robe +1",
     hands = "Nilas Gloves",
     ring1 = "Defending Ring",
@@ -442,8 +442,8 @@ function init_gear_sets()
   })
 
   sets.engaged.DW = set_combine(sets.engaged, {
-    ear1 = "Dudgeon Earring",
-    ear2 = "Heartseeker Earring",
+    ear1 = "Brutal Earring",
+    ear2 = "Suppanomimi",
   })
 
   sets.engaged.DW.Acc = set_combine(sets.engaged.DW, sets.engaged.Acc)
