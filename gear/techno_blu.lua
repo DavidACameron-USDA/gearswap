@@ -4,10 +4,10 @@
 
 -- Setup vars that are user-dependent.
 function user_setup()
-  state.OffenseMode:options('Normal', 'Acc', 'Refresh', 'Learning', 'CP')
+  state.OffenseMode:options('Normal', 'Acc', 'Refresh', 'Learning')
   state.WeaponskillMode:options('Normal', 'Acc')
   state.CastingMode:options('Normal', 'Resistant')
-  state.IdleMode:options('Normal', 'PDT', 'Learning', 'Nuking', 'CP')
+  state.IdleMode:options('Normal', 'PDT', 'Learning', 'Nuking')
 
   gear.fc_helios_boots = {name="Helios Boots", augments={'"Mag. Atk. Bns."+4', '"Fast Cast"+5', 'Mag. crit. hit dmg. +8%'}}
 
@@ -338,11 +338,6 @@ function init_gear_sets()
   -- body = "Assimilator's Jubbah +1",
   -- ammo = "Mavi Tathlum",
 
-  -- Gear for getting more CP.
-  sets.CP = {
-    back = "Mecistopins Mantle",
-  }
-
   sets.latent_refresh = {
     waist = "Fucho-no-Obi",
   }
@@ -383,8 +378,6 @@ function init_gear_sets()
     main = "Bolelabunga",
     sub = "Tamaxchi",
   })
-
-  sets.idle.CP = set_combine(sets.idle, sets.CP)
 
 
   -- Defense sets
@@ -461,9 +454,6 @@ function init_gear_sets()
 
   sets.engaged.Learning = set_combine(sets.engaged, sets.Learning)
   sets.engaged.DW.Learning = set_combine(sets.engaged.DW, sets.Learning)
-
-  sets.engaged.CP = set_combine(sets.engaged, sets.CP)
-  sets.engaged.DW.CP = set_combine(sets.engaged.DW, sets.CP)
 
   sets.self_healing = {}
 end
