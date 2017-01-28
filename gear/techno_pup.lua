@@ -68,13 +68,13 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Rawhide Vest",
-    hands = "Tali'ah Gages +1",
+    hands = "Herculean Gloves",
     ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Argochampsa Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
-    feet = "Tali'ah Crackows +1",
+    feet = "Herculean Boots",
 }
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -125,13 +125,13 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Tali'ah Manteel +1",
-    hands = "Tali'ah Gages +1",
+    hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Ukko Sash",
     legs = "Taeon Tights",
-    feet = "Tali'ah Crackows +1",
+    feet = "Herculean Boots",
   }
 
   -- sets.idle.Town = {}
@@ -175,7 +175,10 @@ function init_gear_sets()
 
   sets.defense.Evasion = {}
 
-  sets.defense.PDT = {}
+  sets.defense.PDT = {
+    hands = "Herculean Gloves",
+    feet = "Herculean Boots",
+  }
 
   sets.defense.MDT = {}
 
@@ -195,16 +198,19 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Tali'ah Manteel +1",
-    hands = "Tali'ah Gages +1",
+    hands = "Herculean Gloves",
     ring1 = "Epona's Ring",
     ring2 = "Petrov Ring",
     back = "Argochampsa Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Tali'ah Crackows +1",
+    feet = "Herculean Boots",
   }
 
-  sets.engaged.Acc = {}
+  sets.engaged.Acc = {
+    hands = "Tali'ah Gages +1",
+    feet = "Tali'ah Crackows +1",
+  }
 
   sets.engaged.DT = {}
 

@@ -87,7 +87,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Rawhide Vest",
-    hands = "Jhakri Cuffs +1",
+    hands = "Herculean Gloves",
     ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Cornflower Cape",
@@ -115,6 +115,7 @@ function init_gear_sets()
     ring1 = "Epona's Ring",
     ring2 = "Ramuh Ring",
     back = "Rosmerta's Cape",
+    feet = "Herculean Boots",
   })
 
   -- Requiescat has a MND 73~85% modifier and is aligned with the Shadow and
@@ -359,13 +360,13 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Suppanomimi",
     body = "Jhakri Robe +1",
-    hands = "Nilas Gloves",
+    hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Carmine Cuisses",
-    feet = "Assimilator's Charuqs +1",
+    feet = "Herculean Boots",
   }
 
   -- sets.idle.PDT = {}
@@ -383,10 +384,11 @@ function init_gear_sets()
   -- Defense sets
   sets.defense.PDT = {
     neck = "Twilight Torque",
-    hands = "Iuitl Wristbands +1",
+    hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     waist = "Flume Belt +1",
     back = "Repulse Mantle",
+    feet = "Herculean Boots",
   }
 
   sets.defense.MDT = {
@@ -416,13 +418,13 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Rawhide Vest",
-    hands = "Nilas Gloves",
+    hands = "Herculean Gloves",
     ring1 = "Epona's Ring",
     ring2 = "Petrov Ring",
     back = "Rosmerta's Cape",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Assimilator's Charuqs +1",
+    feet = "Herculean Boots",
   }
 
   sets.engaged.Acc = {

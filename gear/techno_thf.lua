@@ -103,7 +103,7 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Rawhide Vest",
-    hands = "Floral Gauntlets",
+    hands = "Herculean Gloves",
     ring1 = "Epona's Ring",
     ring2 = "Rajas Ring",
     back = "Cuchulain's Mantle",
@@ -206,7 +206,7 @@ function init_gear_sets()
     ear1 = "Dudgeon Earring",
     ear2 = "Heartseeker Earring",
     body = "Mummu Jacket +1",
-    hands = "Floral Gauntlets",
+    hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
@@ -224,9 +224,11 @@ function init_gear_sets()
 
   sets.defense.PDT = {
     neck = "Twilight Torque",
+    hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
     legs = "Mummu Kecks +1",
+    feet = "Herculean Boots",
   }
 
   sets.defense.MDT = {
@@ -252,7 +254,7 @@ function init_gear_sets()
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Mummu Gamashes +1",
+    feet = "Herculean Boots",
   }
   sets.engaged.Acc = {
     head = "Mummu Bonnet +1",

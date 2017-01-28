@@ -65,13 +65,13 @@ function init_gear_sets()
     ear1 = "Brutal Earring",
     ear2 = "Moonshade Earring",
     body = "Rawhide Vest",
-    hands = "Floral Gauntlets",
+    hands = "Herculean Gloves",
     ring1 = "Ifrit Ring",
     ring2 = "Rajas Ring",
     back = "Yokaze Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
-    feet = "Mummu Gamashes +1",
+    feet = "Herculean Boots",
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     head = "Mummu Bonnet +1",
@@ -148,7 +148,7 @@ function init_gear_sets()
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Mummu Jacket +1",
-    hands = "Floral Gauntlets",
+    hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
@@ -166,10 +166,12 @@ function init_gear_sets()
 
   sets.defense.PDT = {
     neck = "Twilight Torque",
+    hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     back = "Repulse Mantle",
     waist = "Flume Belt +1",
     legs = "Mummu Kecks +1",
+    feet = "Herculean Boots",
   }
 
   sets.defense.MDT = {
@@ -204,7 +206,7 @@ function init_gear_sets()
     back = "Yokaze Mantle",
     waist = "Windbuffet Belt +1",
     legs = "Taeon Tights",
-    feet = "Mummu Gamashes +1",
+    feet = "Herculean Boots",
   }
   sets.engaged.Acc = {
     head = "Mummu Bonnet +1",
@@ -248,22 +250,22 @@ function init_gear_sets()
 
   -- Custom melee group: Max Haste (0% DW)
   sets.engaged.MaxHaste = {
-    
+    hands = "Herculean Gloves",
   }
   sets.engaged.Acc.MaxHaste = {
-    
+    hands = "Mummu Wrists +1",
   }
   sets.engaged.Evasion.MaxHaste = {
-    
+    hands = "Mummu Wrists +1",
   }
   sets.engaged.Acc.Evasion.MaxHaste = {
-    
+    hands = "Mummu Wrists +1",
   }
   sets.engaged.PDT.MaxHaste = {
-    
+    hands = "Herculean Gloves",
   }
   sets.engaged.Acc.PDT.MaxHaste = {
-    
+    hands = "Herculean Gloves",
   }
 
 
