@@ -129,7 +129,7 @@ function init_gear_sets()
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
     back = "Repulse Mantle",
-    waist = "Windbuffet Belt +1",
+    waist = "Ukko Sash",
     legs = "Taeon Tights",
     feet = "Tali'ah Crackows +1",
   }
@@ -145,6 +145,7 @@ function init_gear_sets()
     body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
     back = "Argochampsa Mantle",
+    waist = "Ukko Sash",
     feet = "Tali'ah Crackows +1",
   }
 
@@ -152,6 +153,7 @@ function init_gear_sets()
     head = "Tali'ah Turban +1",
     body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
+    waist = "Ukko Sash",
     feet = "Tali'ah Crackows +1",
   })
 
@@ -159,11 +161,13 @@ function init_gear_sets()
     head = "Tali'ah Turban +1",
     body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
+    waist = "Ukko Sash",
     feet = "Tali'ah Crackows +1",
   })
 
   sets.idle.Pet.Engaged.Magic = set_combine(sets.idle.Pet.Engaged, {
     back = "Refraction Cape",
+    waist = "Ukko Sash",
   })
 
 
