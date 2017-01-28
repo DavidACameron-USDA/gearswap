@@ -84,7 +84,7 @@ function init_gear_sets()
 
   sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Flamma Zucchetto +1",
-    neck = "Love Torque",
+    neck = "Maskirova Torque",
     body = "Flamma Korazin +1",
     back = "Updraft Mantle",
     waist = "Kentarch Belt",
@@ -177,6 +177,7 @@ function init_gear_sets()
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     head = "Flamma Zucchetto +1",
     ammo = "Ginsen",
+    neck = "Maskirova Torque",
     body = "Flamma Korazin +1",
     waist = "Kentarch Belt",
     back = "Updraft Mantle",

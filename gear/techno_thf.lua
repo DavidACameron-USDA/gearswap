@@ -113,6 +113,7 @@ function init_gear_sets()
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     head = "Mummu Bonnet +1",
+    neck = "Maskirova Torque",
     body = "Mummu Jacket +1",
     hands = "Mummu Wrists +1",
     waist = "Kentarch Belt",
@@ -255,6 +256,7 @@ function init_gear_sets()
   }
   sets.engaged.Acc = {
     head = "Mummu Bonnet +1",
+    neck = "Maskirova Torque",
     body = "Mummu Jacket +1",
     hands = "Mummu Wrists +1",
     waist = "Kentarch Belt",
