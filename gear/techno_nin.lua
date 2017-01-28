@@ -33,6 +33,7 @@ function init_gear_sets()
   -- Waltz set (chr and vit)
   sets.precast.Waltz = {
     ammo = "Sonia's Plectrum",
+    feet = "Rawhide Boots",
   }
 
   -- Don't need any special gear for Healing Waltz.
