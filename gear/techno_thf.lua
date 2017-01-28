@@ -199,7 +199,7 @@ function init_gear_sets()
 
   sets.idle = {
     main = "Izhiikoh",
-    sub = "Atoyac",
+    sub = "Jugo Kukri",
     range = "Raider's Boomerang",
     head = "Mummu Bonnet +1",
     neck = "Twilight Torque",
