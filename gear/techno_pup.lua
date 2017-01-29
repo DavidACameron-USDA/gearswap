@@ -130,7 +130,7 @@ function init_gear_sets()
     hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Ukko Sash",
     legs = "Taeon Tights",
     feet = "Herculean Boots",
@@ -179,6 +179,7 @@ function init_gear_sets()
 
   sets.defense.PDT = {
     hands = "Herculean Gloves",
+    back = "Solemnity Cape",
     feet = "Herculean Boots",
   }
 

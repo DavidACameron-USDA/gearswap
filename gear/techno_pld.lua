@@ -140,6 +140,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     ear1 = "Nourishing Earring",
+    back = "Solemnity Cape",
     legs = "Carmine Cuisses",
   }
 
@@ -168,7 +169,7 @@ function init_gear_sets()
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
     ring2 = "Apeile Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Flume Belt +1",
     legs = "Carmine Cuisses",
     feet = "Sulevia's Leggings +1",
@@ -190,7 +191,7 @@ function init_gear_sets()
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Flume Belt +1",
     legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
@@ -205,6 +206,7 @@ function init_gear_sets()
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Defending Ring",
+    back = "Solemnity Cape",
     legs = "Sulevia's Cuisses +1",
     feet = "Sulevia's Leggings +1",
   }

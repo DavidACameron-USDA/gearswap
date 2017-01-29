@@ -209,7 +209,7 @@ function init_gear_sets()
     hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Flume Belt +1",
     legs = "Mummu Kecks +1",
     feet = "Fajin Boots",
@@ -226,7 +226,7 @@ function init_gear_sets()
     neck = "Twilight Torque",
     hands = "Herculean Gloves",
     ring1 = "Defending Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     legs = "Mummu Kecks +1",
     feet = "Herculean Boots",
   }
@@ -234,6 +234,7 @@ function init_gear_sets()
   sets.defense.MDT = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
+    back = "Solemnity Cape",
   }
 
 

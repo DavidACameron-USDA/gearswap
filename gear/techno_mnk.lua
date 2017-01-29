@@ -154,7 +154,7 @@ function init_gear_sets()
     hands = "Nilas Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Windbuffet Belt +1",
     legs = "Mummu Kecks +1",
     feet = "Mummu Gamashes +1",
@@ -166,7 +166,7 @@ function init_gear_sets()
   sets.defense.PDT = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     legs = "Mummu Kecks +1",
   }
 
@@ -177,6 +177,7 @@ function init_gear_sets()
   sets.defense.MDT = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
+    back = "Solemnity Cape",
   }
 
   sets.Kiting = {
@@ -215,7 +216,7 @@ function init_gear_sets()
 
   -- Defensive melee hybrid sets
   sets.engaged.PDT = {
-
+    back = "Solemnity Cape",
   }
   sets.engaged.Acc.PDT = {
 

@@ -129,6 +129,7 @@ function init_gear_sets()
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
+    back = "Solemnity Cape",
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches +1",
   }
@@ -245,14 +246,14 @@ function init_gear_sets()
     hands = "Tali'ah Gages +1",
     ring1 = "Defending Ring",
     ring2 = "Evoker's Ring",
-    back = "Campestres's Cape",
+    back = "Solemnity Cape",
     waist = "Fucho-no-Obi",
     legs = "Assiduity Pants",
     feet = "Tali'ah Crackows +1",
   }
 
   sets.idle.PDT = {
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
   }
 
   -- perp costs:
@@ -362,7 +363,7 @@ function init_gear_sets()
   sets.defense.PDT = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
   }
 
   sets.defense.MDT = {
@@ -371,12 +372,14 @@ function init_gear_sets()
     body = "Inyanga Jubbah",
     hands = "Inyanga Dastanas",
     ring1 = "Defending Ring",
+    back = "Solemnity Cape",
     legs = "Inyanga Shalwar",
   }
 
   sets.Kiting = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
+    back = "Solemnity Cape",
   }
 
   sets.latent_refresh = {}

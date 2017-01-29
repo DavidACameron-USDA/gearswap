@@ -40,7 +40,7 @@ function init_gear_sets()
     hands = "Flamma Manopolas +1",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Flume Belt +1",
     legs = "Flamma Dirs +1",
     feet = "Flamma Gambieras +1",
@@ -55,7 +55,7 @@ function init_gear_sets()
   sets.idle.PDT = set_combine(sets.idle, {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
   })
 
 
@@ -174,19 +174,20 @@ function init_gear_sets()
   sets.defense.PDT = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Flume Belt +1",
   }
 
   sets.defense.MDT = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
+    back = "Solemnity Cape",
   }
 
   sets.Kiting = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Flume Belt +1",
   }
 

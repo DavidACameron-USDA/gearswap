@@ -112,6 +112,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     main = "Tamaxchi",
+    back = "Solemnity Cape",
   }
 
   sets.midcast.Curaga = sets.midcast.Cure
@@ -176,14 +177,14 @@ function init_gear_sets()
     hands = "Geomancy Mitaines +1",
     ring1 = "Weatherspoon Ring",
     ring2 = "Metamorph Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Yamabuki-no-obi",
     legs = "Assiduity Pants",
     feet = "Geomancy Sandals +1",
   }
 
   sets.idle.PDT = {
-    
+    back = "Solemnity Cape",
   }
 
   -- .Pet sets are for when Luopan is present.
@@ -194,7 +195,7 @@ function init_gear_sets()
 
   sets.idle.PDT.Pet = {
     hands = "Geomancy Mitaines +1",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
   }
 
   -- Indi sets are for when an Indi-spell is active.
@@ -208,11 +209,11 @@ function init_gear_sets()
   -- Defense sets
 
   sets.defense.PDT = {
-    
+    back = "Solemnity Cape",
   }
 
   sets.defense.MDT = {
-    
+    back = "Solemnity Cape",
   }
 
   sets.Kiting = {

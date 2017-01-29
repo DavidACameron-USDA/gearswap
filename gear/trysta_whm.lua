@@ -266,7 +266,7 @@ function init_gear_sets()
     hands = "Inyanga Dastanas +1",
     ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
-    back = "Alaunus's Cape",
+    back = "Solemnity Cape",
     legs = "Ebers Pantaloons",
     feet = "Herald's Gaiters",
   }

@@ -364,7 +364,7 @@ function init_gear_sets()
     hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     waist = "Flume Belt +1",
     legs = "Carmine Cuisses",
     feet = "Herculean Boots",
@@ -388,19 +388,20 @@ function init_gear_sets()
     hands = "Herculean Gloves",
     ring1 = "Defending Ring",
     waist = "Flume Belt +1",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     feet = "Herculean Boots",
   }
 
   sets.defense.MDT = {
     neck = "Twilight Torque",
     ring1 = "Defending Ring",
+    back = "Solemnity Cape",
   }
 
   sets.Kiting = {
     ring1 = "Defending Ring",
     waist = "Flume Belt +1",
-    back = "Repulse Mantle",
+    back = "Solemnity Cape",
     legs = "Carmine Cuisses",
   }
 
