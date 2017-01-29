@@ -52,6 +52,7 @@ function init_gear_sets()
   sets.precast.WS = {
     ear2 = "Moonshade Earring",
     ring2 = "Rufescent Ring",
+    legs = "Merlinic Shalwar",
   }
 
   -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
@@ -103,7 +104,7 @@ function init_gear_sets()
     ring2 = "Shiva Ring",
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
-    legs = "Wayfarer Slops",
+    legs = "Merlinic Shalwar",
     feet = "Almaric Nails",
   }
 
@@ -118,7 +119,7 @@ function init_gear_sets()
     ring2 = "Evanescence Ring",
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
-    legs = "Wayfarer Slops",
+    legs = "Merlinic Shalwar",
     feet = "Almaric Nails",
   }
 
@@ -134,7 +135,7 @@ function init_gear_sets()
     ring2 = "Leviathan Ring",
     back = "Swith Cape",
     waist = "Bishop's Sash",
-    legs = "Wayfarer Slops",
+    legs = "Merlinic Shalwar",
     feet = "Almaric Nails",
   }
 
@@ -158,7 +159,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Nantosuelta's Cape",
     waist = "Penitent's Rope",
-    legs = "Wayfarer Slops",
+    legs = "Merlinic Shalwar",
     feet = "Bagua Sandals",
   }
 
@@ -172,7 +173,7 @@ function init_gear_sets()
     ring2 = "Leviathan Ring",
     back = "Nantosuelta's Cape",
     waist = "Demonry Sash",
-    legs = "Wayfarer Slops",
+    legs = "Merlinic Shalwar",
     feet = "Bagua Sandals",
   }
 
@@ -203,7 +204,7 @@ function init_gear_sets()
     ring2 = "Renaye Ring",
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
-    legs = "Geomancy Pants",
+    legs = "Merlinic Shalwar",
     feet = "Geomancy Sandals",
   }
 
