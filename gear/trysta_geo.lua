@@ -79,12 +79,14 @@ function init_gear_sets()
     body = "Bagua Tunic",
     neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
+    ring2 = "Renaye Ring",
     feet = "Bagua Sandals",
   }
   sets.midcast.Geomancy.Indi = {
     body = "Bagua Tunic",
     neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
+    ring2 = "Renaye Ring",
     back = "Nantosuelta's Cape",
     legs = "Bagua Pants",
     feet = "Bagua Sandals",
@@ -182,6 +184,7 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     main = "Bolelabunga",
+    ring2 = "Renaye Ring",
   }
 
 
@@ -197,7 +200,7 @@ function init_gear_sets()
     body = "Geomancy Tunic",
     hands = "Bagua Mitaines",
     ring1 = "Metamorph Ring +1",
-    ring2 = "Tamas Ring",
+    ring2 = "Renaye Ring",
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
     legs = "Geomancy Pants",
