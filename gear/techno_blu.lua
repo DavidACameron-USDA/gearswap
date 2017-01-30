@@ -354,7 +354,7 @@ function init_gear_sets()
   -- Idle sets
   sets.idle = {
     main = "Nibiru Blade",
-    sub = {name="Usonmunku", augments={'Accuracy+10', 'DEX+7', 'DMG+3'}},
+    sub = "Vampirism",
     ammo = "Ginsen",
     head = "Adhemar Bonnet",
     neck = "Twilight Torque",
@@ -378,7 +378,7 @@ function init_gear_sets()
 
   sets.idle.Nuking = set_combine(sets.idle, {
     main = "Bolelabunga",
-    sub = "Tamaxchi",
+    sub = "Vampirism",
   })
 
 
