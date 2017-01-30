@@ -31,7 +31,7 @@ function init_gear_sets()
   sets.precast.FC = {
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
-    back = "Swith Cape",
+    back = "Lifestream Cape",
     legs = "Geomancy Pants",
     feet = "Almaric Nails",
   }
@@ -71,7 +71,7 @@ function init_gear_sets()
   sets.midcast.FastRecast = {
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
-    back = "Swith Cape",
+    back = "Lifestream Cape",
     legs = "Geomancy Pants",
     feet = "Almaric Nails",
   }
@@ -81,6 +81,7 @@ function init_gear_sets()
     neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
     ring2 = "Renaye Ring",
+    back = "Lifestream Cape",
     feet = "Bagua Sandals",
   }
   sets.midcast.Geomancy.Indi = {
@@ -88,7 +89,7 @@ function init_gear_sets()
     neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
     ring2 = "Renaye Ring",
-    back = "Nantosuelta's Cape",
+    back = "Lifestream Cape",
     legs = "Bagua Pants",
     feet = "Bagua Sandals",
   }
@@ -219,6 +220,7 @@ function init_gear_sets()
   sets.idle.PDT.Pet = {
     ear2 = "Handler's Earring",
     hands = "Geomancy Mitaines +1",
+    back = "Lifestream Cape",
   }
 
   -- Indi sets are for when an Indi-spell is active.
