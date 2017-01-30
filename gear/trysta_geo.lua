@@ -20,7 +20,12 @@ function init_gear_sets()
   --------------------------------------
 
   -- Precast sets to enhance JAs
-  sets.precast.JA.Bolster = {body = "Bagua Tunic"}
+  sets.precast.JA['Full Circle'] = {
+    head = "Azimuth Hood",
+  }
+  sets.precast.JA.Bolster = {
+    body = "Bagua Tunic"
+  }
   sets.precast.JA['Life cycle'] = {
     body = "Geomancy Tunic",
     back = "Nantosuelta's Cape",
@@ -77,6 +82,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Geomancy = {
+    head = "Azimuth Hood",
     body = "Bagua Tunic",
     neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
@@ -85,6 +91,7 @@ function init_gear_sets()
     feet = "Bagua Sandals",
   }
   sets.midcast.Geomancy.Indi = {
+    head = "Azimuth Hood",
     body = "Bagua Tunic",
     neck = "Deceiver's Torque",
     hands = "Geomancy Mitaines +1",
@@ -213,8 +220,10 @@ function init_gear_sets()
 
   -- .Pet sets are for when Luopan is present.
   sets.idle.Pet = {
+    head = "Azimuth Hood",
     ear2 = "Handler's Earring",
     hands = "Geomancy Mitaines +1",
+    feet = "Bagua Sandals",
   }
 
   sets.idle.PDT.Pet = {
