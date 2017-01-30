@@ -91,7 +91,7 @@ function init_gear_sets()
     ring2 = "Metamorph Ring",
     back = "Argochampsa Mantle",
     waist = gear.ElementalObi,
-    legs = "Hagondes Pants",
+    legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
   }
 
@@ -106,7 +106,7 @@ function init_gear_sets()
     ring2 = "Metamorph Ring",
     back = "Argochampsa Mantle",
     waist = gear.ElementalObi,
-    legs = "Hagondes Pants",
+    legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
   }
 
@@ -135,7 +135,7 @@ function init_gear_sets()
     ring1 = "Shiva Ring",
     back = "Lifestream Cape",
     waist = "Yamabuki-no-obi",
-    legs = "Perdition Slops",
+    legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
   }
 
@@ -149,7 +149,7 @@ function init_gear_sets()
     ring1 = "Weatherspoon Ring",
     back = "Lifestream Cape",
     waist = "Demonry Sash",
-    legs = "Perdition Slops",
+    legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
   }
 
