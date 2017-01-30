@@ -77,7 +77,7 @@ function init_gear_sets()
 
   -- Cure sets
   sets.midcast.CureSolace = {
-    main = "Tamaxchi",
+    main = "Queller Rod",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
@@ -95,7 +95,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Cure = {
-    main = "Tamaxchi",
+    main = "Queller Rod",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
@@ -103,7 +103,7 @@ function init_gear_sets()
     ear1 = "Nourishing Earring +1",
     ear2 = "Mendicant's Earring",
     body = "Gendewitha Bliaut",
-    hands = "Weatherspoon Cuffs +1",
+    hands = "Inyanga Dastanas +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
@@ -113,7 +113,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Curaga = {
-    main = "Tamaxchi",
+    main = "Queller Rod",
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
@@ -121,7 +121,7 @@ function init_gear_sets()
     ear1 = "Nourishing Earring +1",
     ear2 = "Mendicant's Earring",
     body = "Gendewitha Bliaut",
-    hands = "Weatherspoon Cuffs +1",
+    hands = "Inyanga Dastanas +1",
     ring1 = "Leviathan Ring",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
@@ -267,6 +267,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Solemnity Cape",
+    waist = "Bishop's Sash",
     legs = "Ebers Pantaloons",
     feet = "Herald's Gaiters",
   }
