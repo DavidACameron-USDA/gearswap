@@ -193,11 +193,13 @@ function init_gear_sets()
   sets.idle.Pet = {
     hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
+    legs = "Psycloth Lappas",
   }
 
   sets.idle.PDT.Pet = {
     hands = "Geomancy Mitaines +1",
     back = "Solemnity Cape",
+    legs = "Psycloth Lappas",
   }
 
   -- Indi sets are for when an Indi-spell is active.
