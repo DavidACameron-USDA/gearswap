@@ -99,7 +99,7 @@ function init_gear_sets()
     ring2 = "Renaye Ring",
     back = "Lifestream Cape",
     legs = "Bagua Pants",
-    feet = "Bagua Sandals",
+    feet = "Azimuth Gaiters",
   }
 
   sets.midcast['Elemental Magic'] = {
@@ -163,7 +163,7 @@ function init_gear_sets()
     neck = "Imbodla Necklace",
     ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
-    hands = "Merlinic Dastanas",
+    hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Nantosuelta's Cape",
@@ -178,7 +178,7 @@ function init_gear_sets()
     ear1 = "Lifestorm Earring",
     ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
-    hands = "Merlinic Dastanas",
+    hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
     ring2 = "Leviathan Ring",
     back = "Nantosuelta's Cape",
@@ -244,9 +244,14 @@ function init_gear_sets()
 
   -- Defense sets
 
-  sets.defense.PDT = {}
+  sets.defense.PDT = {
+    back = "Solemnity Cape",
+    feet = "Azimuth Gaiters",
+  }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    back = "Solemnity Cape",
+  }
 
   sets.Kiting = {
     feet = "Geomancy Sandals",
