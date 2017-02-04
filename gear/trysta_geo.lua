@@ -35,7 +35,7 @@ function init_gear_sets()
 
   sets.precast.FC = {
     head = "Haruspex Hat",
-    ear2 = "Loquacious Earring",
+    ear1 = "Loquacious Earring",
     back = "Lifestream Cape",
     legs = "Geomancy Pants",
     feet = "Almaric Nails",
@@ -48,6 +48,7 @@ function init_gear_sets()
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {})
 
   sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {
+    ear2 = "Barkarole Earring",
     hands = "Bagua Mitaines",
   })
 
@@ -105,7 +106,7 @@ function init_gear_sets()
     head = "Geomancy Galero",
     neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
-    ear2 = "Abyssal Earring",
+    ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
     hands = "Merlinic Dastanas",
     ring1 = "Shiva Ring",
@@ -120,7 +121,7 @@ function init_gear_sets()
     head = "Bagua Galero",
     neck = "Deceiver's Torque",
     ear1 = "Friomisi Earring",
-    ear2 = "Abyssal Earring",
+    ear2 = "Barkarole Earring",
     body = "Geomancy Tunic",
     hands = "Merlinic Dastanas",
     ring1 = "Shiva Ring",
@@ -160,7 +161,7 @@ function init_gear_sets()
   sets.midcast.IntEnfeebles = {
     head = "Wayfarer Circlet",
     neck = "Imbodla Necklace",
-    ear2 = "Abyssal Earring",
+    ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
     hands = "Merlinic Dastanas",
     ring1 = "Metamorph Ring +1",
@@ -175,6 +176,7 @@ function init_gear_sets()
     head = "Wayfarer Circlet",
     neck = "Imbodla Necklace",
     ear1 = "Lifestorm Earring",
+    ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
     hands = "Merlinic Dastanas",
     ring1 = "Metamorph Ring +1",
@@ -205,7 +207,7 @@ function init_gear_sets()
     head = "Wayfarer Circlet",
     neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
-    ear2 = "Loquacious Earring",
+    ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
     hands = "Bagua Mitaines",
     ring1 = "Metamorph Ring +1",

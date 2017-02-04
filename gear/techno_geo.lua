@@ -28,7 +28,7 @@ function init_gear_sets()
   sets.precast.FC = {
     head = "Nahtirah Hat",
     neck = "Baetyl Pendant",
-    ear2 = "Loquacious Earring",
+    ear1 = "Loquacious Earring",
     ring1 = "Weatherspoon Ring",
     back = "Lifestream Cape",
     legs = "Geomancy Pants",
@@ -41,7 +41,9 @@ function init_gear_sets()
     waist = "Siegel Sash",
   })
 
-  sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {})
+  sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {
+    ear2 = "Barkarole Earring",
+  })
 
 
   -- Weaponskill sets
@@ -84,7 +86,7 @@ function init_gear_sets()
     head = "Jhakri Coronal +1",
     neck = "Eddy Necklace",
     ear1 = "Friomisi Earring",
-    ear2 = "Hecate's Earring",
+    ear2 = "Barkarole Earring",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
@@ -99,7 +101,7 @@ function init_gear_sets()
     head = "Jhakri Coronal +1",
     neck = "Eddy Necklace",
     ear1 = "Friomisi Earring",
-    ear2 = "Hecate's Earring",
+    ear2 = "Barkarole Earring",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
@@ -172,7 +174,7 @@ function init_gear_sets()
     head = "Jhakri Coronal +1",
     neck = "Twilight Torque",
     ear1 = "Friomisi Earring",
-    ear2 = "Hecate's Earring",
+    ear2 = "Barkarole Earring",
     body = "Jhakri Robe +1",
     hands = "Geomancy Mitaines +1",
     ring1 = "Weatherspoon Ring",
