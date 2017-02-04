@@ -377,8 +377,10 @@ function init_gear_sets()
   sets.idle.Learning = set_combine(sets.idle, sets.Learning)
 
   sets.idle.Nuking = set_combine(sets.idle, {
-    main = "Bolelabunga",
-    sub = "Vampirism",
+    main = "Nibiru Cudgel",
+    sub = "Nibiru Cudgel",
+    waist = "Fucho-no-Obi",
+    legs = "Rawhide Trousers",
   })
 
 
