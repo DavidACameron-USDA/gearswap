@@ -353,8 +353,8 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Nibiru Blade",
-    sub = "Vampirism",
+    main = "Tanmogayi",
+    sub = "Nibiru Blade",
     ammo = "Ginsen",
     head = "Adhemar Bonnet",
     neck = "Twilight Torque",
