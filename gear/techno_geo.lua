@@ -73,11 +73,13 @@ function init_gear_sets()
 
   sets.midcast.Geomancy = {
     range = "Nepote Bell",
+    neck = "Incanter's Torque",
     hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
   }
   sets.midcast.Geomancy.Indi = {
     range = "Nepote Bell",
+    neck = "Incanter's Torque",
     hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
   }
@@ -129,7 +131,7 @@ function init_gear_sets()
 
   sets.midcast.IntEnfeebles = {
     head = "Jhakri Coronal +1",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Jhakri Robe +1",
@@ -143,7 +145,7 @@ function init_gear_sets()
 
   sets.midcast.MndEnfeebles = {
     head = "Jhakri Coronal +1",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Jhakri Robe +1",

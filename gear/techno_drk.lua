@@ -194,7 +194,7 @@ function init_gear_sets()
   sets.midcast['Dark Magic'] = {
     ammo = "Sturm's Report",
     head = "Chaos Burgeonet",
-    neck = "Aesir Torque",
+    neck = "Incanter's Torque",
     hands = "Crimson Finger Gauntlets",
     ring1 = "Omega Ring",
     back = "Niht Mantle",

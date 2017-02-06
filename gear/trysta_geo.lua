@@ -85,7 +85,7 @@ function init_gear_sets()
   sets.midcast.Geomancy = {
     head = "Azimuth Hood",
     body = "Bagua Tunic",
-    neck = "Deceiver's Torque",
+    neck = "Incanter's Torque",
     hands = "Geomancy Mitaines +1",
     ring2 = "Renaye Ring",
     back = "Lifestream Cape",
@@ -94,7 +94,7 @@ function init_gear_sets()
   sets.midcast.Geomancy.Indi = {
     head = "Azimuth Hood",
     body = "Bagua Tunic",
-    neck = "Deceiver's Torque",
+    neck = "Incanter's Torque",
     hands = "Geomancy Mitaines +1",
     ring2 = "Renaye Ring",
     back = "Lifestream Cape",
@@ -119,7 +119,7 @@ function init_gear_sets()
 
   sets.midcast['Dark Magic'] = {
     head = "Bagua Galero",
-    neck = "Deceiver's Torque",
+    neck = "Incanter's Torque",
     ear1 = "Friomisi Earring",
     ear2 = "Barkarole Earring",
     body = "Geomancy Tunic",
@@ -135,7 +135,7 @@ function init_gear_sets()
   sets.midcast.Cure = {
     main = "Tamaxchi",
     head = "Wayfarer Circlet",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",
     ear2 = "Mendicant's Earring",
     body = "Wayfarer Robe",
@@ -160,7 +160,7 @@ function init_gear_sets()
 
   sets.midcast.IntEnfeebles = {
     head = "Wayfarer Circlet",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
     hands = "Azimuth Gloves",
@@ -174,7 +174,7 @@ function init_gear_sets()
 
   sets.midcast.MndEnfeebles = {
     head = "Wayfarer Circlet",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",
     ear2 = "Barkarole Earring",
     body = "Azimuth Coat",

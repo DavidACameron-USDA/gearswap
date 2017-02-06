@@ -139,12 +139,14 @@ function init_gear_sets()
   sets.midcast.Flash = set_combine(sets.midcast.Enmity, {})
 
   sets.midcast.Cure = {
+    neck = "Incanter's Torque",
     ear1 = "Nourishing Earring",
     back = "Solemnity Cape",
     legs = "Carmine Cuisses",
   }
 
   sets.midcast['Enhancing Magic'] = {
+    neck = "Incanter's Torque",
     legs = "Carmine Cuisses",
   }
   sets.midcast.Protect = {}

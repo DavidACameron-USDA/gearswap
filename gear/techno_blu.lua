@@ -278,7 +278,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     head = "Jhakri Coronal +1",
-    neck = "Eddy Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Jhakri Robe +1",

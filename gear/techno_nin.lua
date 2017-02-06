@@ -112,20 +112,25 @@ function init_gear_sets()
   }
 
   sets.midcast.Utsusemi = set_combine(sets.midcast.SelfNinjutsu, {
+    neck = "Incanter's Torque",
     ear1 = "Stealth Earring",
   })
 
-  sets.midcast.ElementalNinjutsu = {}
+  sets.midcast.ElementalNinjutsu = {
+    neck = "Incanter's Torque",
+  }
 
   sets.midcast.ElementalNinjutsu.Resistant = set_combine(sets.midcast.Ninjutsu, {
     ear1 = "Stealth Earring",
   })
 
   sets.midcast.NinjutsuDebuff = {
+    neck = "Incanter's Torque",
     ear1 = "Stealth Earring",
   }
 
   sets.midcast.NinjutsuBuff = {
+    neck = "Incanter's Torque",
     ear1 = "Stealth Earring",
   }
 

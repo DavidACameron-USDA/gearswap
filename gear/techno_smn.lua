@@ -25,7 +25,7 @@ function init_gear_sets()
     main = "Tumafyrig",
     sub = "Vox Grip",
     head = "Convoker's Horn +1",
-    neck = "Caller's Pendant",
+    neck = "Incanter's Torque",
     body = "Beckoner's Doublet",
     hands = "Glyphic Bracers",
     ring1 = "Fervor Ring",
@@ -126,6 +126,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     head = "Inyanga Tiara",
+    neck = "Incanter's Torque",
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
@@ -136,6 +137,7 @@ function init_gear_sets()
 
   sets.midcast.Stoneskin = {
     head = "Inyanga Tiara",
+    neck = "Incanter's Torque",
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
@@ -145,6 +147,7 @@ function init_gear_sets()
 
   sets.midcast['Elemental Magic'] = {
     head = "Tali'ah Turban +1",
+    neck = "Incanter's Torque",
     body = "Hagondes Coat +1",
     hands = "Tali'ah Gages +1",
     legs = "Convoker's Spats +1",
@@ -153,6 +156,7 @@ function init_gear_sets()
 
   sets.midcast['Dark Magic'] = {
     head = "Tali'ah Turban +1",
+    neck = "Incanter's Torque",
     body = "Hagondes Coat +1",
     hands = "Tali'ah Gages +1",
     legs = "Convoker's Spats +1",

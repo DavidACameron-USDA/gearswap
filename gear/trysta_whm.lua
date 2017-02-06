@@ -81,7 +81,7 @@ function init_gear_sets()
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Nourishing Earring +1",
     ear2 = "Mendicant's Earring",
     body = "Ebers Bliaud",
@@ -99,7 +99,7 @@ function init_gear_sets()
     sub = "Sors Shield",
     ammo = "Kalboron Stone",
     head = "Ebers Cap",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Nourishing Earring +1",
     ear2 = "Mendicant's Earring",
     body = "Gendewitha Bliaut",
@@ -149,6 +149,7 @@ function init_gear_sets()
 
   -- 110 total Enhancing Magic Skill; caps even without Light Arts
   sets.midcast['Enhancing Magic'] = {
+    neck = "Incanter's Torque",
     hands = "Inyanga Dastanas +1",
     feet = "Ebers Duckbills",
   }
@@ -212,7 +213,7 @@ function init_gear_sets()
   sets.midcast.MndEnfeebles = {
     ammo = "Kalboron Stone",
     head = "Inyanga Tiara",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Influx Earring",
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
@@ -226,7 +227,7 @@ function init_gear_sets()
 
   sets.midcast.IntEnfeebles = {
     head = "Inyanga Tiara",
-    neck = "Imbodla Necklace",
+    neck = "Incanter's Torque",
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
     ring1 = "Metamorph Ring +1",
