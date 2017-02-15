@@ -196,6 +196,8 @@ function init_gear_sets()
     head = "Tali'ah Turban +1",
     body = "Convoker's Doublet +1",
     hands = "Merlinic Dastanas",
+    ring1 = "Speaker's Ring",
+    ring2 = "Fervor Ring",
     back = "Campestres's Cape",
     legs = "Helios Spats",
     feet = "Hagondes Sabots",
@@ -204,6 +206,7 @@ function init_gear_sets()
   sets.midcast.Pet.MagicalBloodPactRage.Acc = set_combine(sets.midcast.Pet.MagicalBloodPactRage, {
     body = "Tali'ah Manteel +1",
     hands = "Tali'ah Gages +1",
+    ring2 = "Evoker's Ring",
     feet = "Tali'ah Crackows +1",
   })
 
