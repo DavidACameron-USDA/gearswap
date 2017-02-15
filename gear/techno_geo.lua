@@ -86,7 +86,7 @@ function init_gear_sets()
 
   sets.midcast['Elemental Magic'] = {
     head = "Jhakri Coronal +1",
-    neck = "Eddy Necklace",
+    neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
     ear2 = "Barkarole Earring",
     body = "Jhakri Robe +1",
@@ -101,7 +101,7 @@ function init_gear_sets()
 
   sets.midcast['Dark Magic'] = {
     head = "Jhakri Coronal +1",
-    neck = "Eddy Necklace",
+    neck = "Incanter's Torque",
     ear1 = "Friomisi Earring",
     ear2 = "Barkarole Earring",
     body = "Jhakri Robe +1",

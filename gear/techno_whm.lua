@@ -178,7 +178,7 @@ function init_gear_sets()
 
   sets.midcast['Divine Magic'] = {
     head = "Inyanga Tiara",
-    neck = "Incanter's Torque",
+    neck = "Sanctity Necklace",
     ear1 = "Influx Earring",
     ear2 = "Lifestorm Earring",
     body = "Inyanga Jubbah",

@@ -166,7 +166,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Physical = {
     ammo = "Mavi Tathlum",
     head = "Jhakri Coronal +1",
-    neck = "Justice Torque",
+    neck = "Sanctity Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Jhakri Robe +1",
@@ -230,7 +230,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Magical = {
     ammo = "Ghastly Tathlum",
     head = "Jhakri Coronal +1",
-    neck = "Baetyl Pendant",
+    neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
     ear2 = "Hecate's Earring",
     body = "Jhakri Robe +1",
@@ -277,7 +277,7 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].MagicAccuracy = {
     head = "Jhakri Coronal +1",
-    neck = "Incanter's Torque",
+    neck = "Sanctity Necklace",
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Jhakri Robe +1",
