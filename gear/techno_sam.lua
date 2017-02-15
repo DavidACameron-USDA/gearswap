@@ -129,7 +129,7 @@ function init_gear_sets()
     body = "Flamma Korazin +1",
     hands = "Flamma Manopolas +1",
     ring1 = "Ifrit Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Rufescent Ring",
     back = "Unkai Sugemino",
     waist = gear.ElementalBelt,
     legs = "Flamma Dirs +1",

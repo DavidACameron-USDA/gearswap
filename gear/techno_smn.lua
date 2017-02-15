@@ -88,6 +88,8 @@ function init_gear_sets()
     ear2 = "Influx Earring",
     body = "Hagondes Coat +1",
     hands = "Glyphic Bracers",
+    ring1 = "Ifrit Ring",
+    ring2 = "Rufescent Ring",
     waist = gear.ElementalBelt,
     legs = "Convoker's Spats +1",
     feet = "Convoker's Pigaches +1",

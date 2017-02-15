@@ -153,7 +153,7 @@ function init_gear_sets()
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
     ring1 = "Ifrit Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Rufescent Ring",
     back = "Niht Mantle",
     waist = gear.ElementalBelt,
     legs = "Sulevia's Cuisses +1",

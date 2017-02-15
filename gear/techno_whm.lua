@@ -63,6 +63,7 @@ function init_gear_sets()
   -- Default set for any weaponskill that isn't any more specifically defined
   sets.precast.WS = {
     ear2 = "Moonshade Earring",
+    ring2 = "Rufescent Ring",
   }
 
   sets.precast.WS['Flash Nova'] = {}

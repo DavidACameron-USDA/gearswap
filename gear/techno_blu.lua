@@ -90,7 +90,7 @@ function init_gear_sets()
     body = "Rawhide Vest",
     hands = "Herculean Gloves",
     ring1 = "Ifrit Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Rufescent Ring",
     back = "Cornflower Cape",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
@@ -123,7 +123,8 @@ function init_gear_sets()
   -- Soil gorgets/belts.
   sets.precast.WS['Requiescat'] = set_combine(sets.precast.WS, {
     ammo = "Ginsen",
-    ring2 = "K'ayres Ring",
+    ring1 = "Epona's Ring",
+    ring2 = "Rufescent Ring",
   })
 
   -- Sanguine Blade has STR 30% and MND 50% modifiers and isn't aligned with any
@@ -172,7 +173,7 @@ function init_gear_sets()
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Ifrit Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Rufescent Ring",
     back = "Cornflower Cape",
     waist = "Warwolf Belt",
     legs = "Carmine Cuisses",
@@ -211,7 +212,6 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].PhysicalMnd = set_combine(sets.midcast['Blue Magic'].Physical, {
     neck = "Imbodla Necklace",
-    ring2 = "Omega Ring",
   })
 
   sets.midcast['Blue Magic'].PhysicalChr = set_combine(sets.midcast['Blue Magic'].Physical, {

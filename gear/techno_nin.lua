@@ -68,7 +68,7 @@ function init_gear_sets()
     body = "Rawhide Vest",
     hands = "Herculean Gloves",
     ring1 = "Ifrit Ring",
-    ring2 = "Rajas Ring",
+    ring2 = "Rufescent Ring",
     back = "Yokaze Mantle",
     waist = gear.ElementalBelt,
     legs = "Taeon Tights",
