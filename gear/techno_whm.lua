@@ -266,8 +266,12 @@ function init_gear_sets()
   -- Defense sets
 
   sets.defense.PDT = {
+    head = "Ayanmo Zucchetto",
     neck = "Twilight Torque",
+    body = "Ayanmo Corazza",
+    hands = "Ayanmo Manopolas +1",
     back = "Solemnity Cape",
+    legs = "Ayanmo Cosciales",
     feet = "Chironic Slippers",
   }
 
@@ -277,6 +281,7 @@ function init_gear_sets()
     body = "Inyanga Jubbah",
     hands = "Inyanga Dastanas",
     back = "Solemnity Cape",
+    legs = "Ayanmo Cosciales",
   }
 
   sets.Kiting = {}

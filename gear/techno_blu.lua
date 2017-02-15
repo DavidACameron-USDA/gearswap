@@ -385,21 +385,28 @@ function init_gear_sets()
 
   -- Defense sets
   sets.defense.PDT = {
+    head = "Ayanmo Zucchetto",
     neck = "Twilight Torque",
+    body = "Ayanmo Corazza",
     hands = "Herculean Gloves",
     ring1 = "Defending Ring",
-    waist = "Flume Belt +1",
     back = "Solemnity Cape",
+    waist = "Flume Belt +1",
     feet = "Herculean Boots",
   }
 
   sets.defense.MDT = {
+    head = "Ayanmo Zucchetto",
     neck = "Twilight Torque",
+    body = "Ayanmo Corazza",
+    hands = "Ayanmo Manopolas +1",
     ring1 = "Defending Ring",
     back = "Solemnity Cape",
   }
 
   sets.Kiting = {
+    head = "Ayanmo Zucchetto",
+    body = "Ayanmo Corazza",
     ring1 = "Defending Ring",
     waist = "Flume Belt +1",
     back = "Solemnity Cape",
@@ -435,7 +442,7 @@ function init_gear_sets()
     head = "Whirlpool Mask",
     neck = "Decimus Torque",
     body = "Jhakri Robe +1",
-    hands = "Jhakri Cuffs +1",
+    hands = "Ayanmo Manopolas +1",
     waist = "Kentarch Belt",
     legs = "Carmine Cuisses",
     feet = "Jhakri Pigaches +1",
