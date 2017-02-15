@@ -197,7 +197,6 @@ function init_gear_sets()
 
   sets.midcast['Blue Magic'].PhysicalVit = set_combine(sets.midcast['Blue Magic'].Physical, {
     head = "Whirlpool Mask",
-    neck = "Fortitude Torque",
   })
 
   sets.midcast['Blue Magic'].PhysicalAgi = set_combine(sets.midcast['Blue Magic'].Physical, {
@@ -434,7 +433,7 @@ function init_gear_sets()
   sets.engaged.Acc = {
     ammo = "Honed Tathlum",
     head = "Whirlpool Mask",
-    neck = "Fortitude Torque",
+    neck = "Decimus Torque",
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     waist = "Kentarch Belt",

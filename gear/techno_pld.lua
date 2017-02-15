@@ -80,7 +80,7 @@ function init_gear_sets()
   }
   sets.precast.WS.Acc = set_combine(sets.precast.WS, {
     head = "Flamma Zucchetto +1",
-    neck = "Fortitude Torque",
+    neck = "Decimus Torque",
     body = "Flamma Korazin +1",
     waist = "Kentarch Belt",
   })
@@ -236,7 +236,7 @@ function init_gear_sets()
 
   sets.engaged.Acc = set_combine(sets.engaged, {
     head = "Flamma Zucchetto +1",
-    neck = "Fortitude Torque",
+    neck = "Decimus Torque",
     body = "Flamma Korazin +1",
     hands = "Flamma Manopolas +1",
     waist = "Kentarch Belt",
