@@ -172,7 +172,7 @@ function init_gear_sets()
 
   sets.idle = {
     main = "Bolelabunga",
-    range = "Nepote Bell",
+    range = "Filiae Bell",
     head = "Jhakri Coronal +1",
     neck = "Twilight Torque",
     ear1 = "Friomisi Earring",
