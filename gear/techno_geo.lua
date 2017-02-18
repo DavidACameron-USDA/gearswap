@@ -84,7 +84,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Geomancy = {
-    range = "Nepote Bell",
+    range = "Dunna",
     head = "Azimuth Hood +1",
     neck = "Incanter's Torque",
     body = "Bagua Tunic",
@@ -92,7 +92,7 @@ function init_gear_sets()
     back = "Lifestream Cape",
   }
   sets.midcast.Geomancy.Indi = {
-    range = "Nepote Bell",
+    range = "Dunna",
     head = "Azimuth Hood +1",
     neck = "Incanter's Torque",
     body = "Bagua Tunic",
@@ -198,7 +198,7 @@ function init_gear_sets()
 
   sets.idle = {
     main = "Bolelabunga",
-    range = "Filiae Bell",
+    range = "Dunna",
     head = "Jhakri Coronal +1",
     neck = "Twilight Torque",
     ear1 = "Friomisi Earring",
