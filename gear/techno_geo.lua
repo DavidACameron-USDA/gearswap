@@ -114,6 +114,14 @@ function init_gear_sets()
     foot = "Jhakri Pigaches",
   }
 
+  sets.midcast.Drain = set_combine(sets.midcast['Dark Magic'], {
+    head = "Pixie Hairpin +1",
+    ring1 = "Archon Ring",
+    waist = "Fucho-no-obi",
+  })
+
+  sets.midcast.Aspir = sets.midcast.Drain
+
   sets.midcast.Cure = {
     main = "Tamaxchi",
     back = "Solemnity Cape",
