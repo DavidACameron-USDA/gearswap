@@ -134,7 +134,7 @@ function init_gear_sets()
 
   sets.midcast.Drain = set_combine(sets.midcast['Dark Magic'], {
     head = "Pixie Hairpin +1",
-  }
+  })
 
   sets.midcast.Aspir = sets.midcast.Drain
 
