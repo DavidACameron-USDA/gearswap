@@ -20,8 +20,18 @@ function init_gear_sets()
   --------------------------------------
 
   -- Precast sets to enhance JAs
-  sets.precast.JA.Bolster = {body = "Bagua Tunic"}
-  sets.precast.JA['Life cycle'] = {body = "Geomancy Tunic +1"}
+  sets.precast.JA['Full Circle'] = {
+    hands = "Bagua Mitaines",
+  }
+  sets.precast.JA.Bolster = {
+    body = "Bagua Tunic"
+  }
+  sets.precast.JA['Life cycle'] = {
+    body = "Geomancy Tunic +1"
+  }
+  sets.precast.JA['Radial Arcana'] = {
+    feet = "Bagua Sandals",
+  }
 
   -- Fast cast sets for spells
 
@@ -43,6 +53,7 @@ function init_gear_sets()
 
   sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {
     ear2 = "Barkarole Earring",
+    hands = "Bagua Mitaines",
   })
 
 
@@ -74,13 +85,16 @@ function init_gear_sets()
   sets.midcast.Geomancy = {
     range = "Nepote Bell",
     neck = "Incanter's Torque",
+    body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
   }
   sets.midcast.Geomancy.Indi = {
     range = "Nepote Bell",
     neck = "Incanter's Torque",
+    body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
+    legs = "Bagua Pants",
     back = "Lifestream Cape",
   }
 
@@ -186,7 +200,7 @@ function init_gear_sets()
     ear1 = "Friomisi Earring",
     ear2 = "Barkarole Earring",
     body = "Jhakri Robe +1",
-    hands = "Geomancy Mitaines +1",
+    hands = "Bagua Mitaines",
     ring1 = "Weatherspoon Ring",
     ring2 = "Metamorph Ring",
     back = "Solemnity Cape",
@@ -204,12 +218,14 @@ function init_gear_sets()
     hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
     legs = "Psycloth Lappas",
+    feet = "Bagua Sandals",
   }
 
   sets.idle.PDT.Pet = {
     hands = "Geomancy Mitaines +1",
     back = "Solemnity Cape",
     legs = "Psycloth Lappas",
+    feet = "Bagua Sandals",
   }
 
   -- Indi sets are for when an Indi-spell is active.
