@@ -132,7 +132,7 @@ function init_gear_sets()
     ring2 = "Evanescence Ring",
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
-    legs = "Merlinic Shalwar",
+    legs = "Azimuth Tights",
     feet = "Almaric Nails",
   }
 

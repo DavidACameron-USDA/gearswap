@@ -21,6 +21,7 @@ function init_gear_sets()
 
   -- Precast sets to enhance JAs
   sets.precast.JA['Full Circle'] = {
+    head = "Azimuth Hood +1",
     hands = "Bagua Mitaines",
   }
   sets.precast.JA.Bolster = {
@@ -84,6 +85,7 @@ function init_gear_sets()
 
   sets.midcast.Geomancy = {
     range = "Nepote Bell",
+    head = "Azimuth Hood +1",
     neck = "Incanter's Torque",
     body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
@@ -91,11 +93,13 @@ function init_gear_sets()
   }
   sets.midcast.Geomancy.Indi = {
     range = "Nepote Bell",
+    head = "Azimuth Hood +1",
     neck = "Incanter's Torque",
     body = "Bagua Tunic",
     hands = "Geomancy Mitaines +1",
     legs = "Bagua Pants",
     back = "Lifestream Cape",
+    feet = "Azimuth Gaiters +1",
   }
 
   sets.midcast['Elemental Magic'] = {
@@ -118,13 +122,13 @@ function init_gear_sets()
     neck = "Incanter's Torque",
     ear1 = "Friomisi Earring",
     ear2 = "Barkarole Earring",
-    body = "Jhakri Robe +1",
+    body = "Geomancy Tunic",
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Metamorph Ring",
     back = "Argochampsa Mantle",
     waist = gear.ElementalObi,
-    legs = "Merlinic Shalwar",
+    legs = "Azimuth Tights",
     foot = "Jhakri Pigaches",
   }
 
@@ -215,6 +219,7 @@ function init_gear_sets()
 
   -- .Pet sets are for when Luopan is present.
   sets.idle.Pet = {
+    head = "Azimuth Hood +1",
     hands = "Geomancy Mitaines +1",
     back = "Lifestream Cape",
     legs = "Psycloth Lappas",
@@ -222,10 +227,11 @@ function init_gear_sets()
   }
 
   sets.idle.PDT.Pet = {
+    head = "Azimuth Hood +1",
     hands = "Geomancy Mitaines +1",
     back = "Solemnity Cape",
     legs = "Psycloth Lappas",
-    feet = "Bagua Sandals",
+    feet = "Azimuth Gaiters +1",
   }
 
   -- Indi sets are for when an Indi-spell is active.
