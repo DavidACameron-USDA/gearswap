@@ -117,7 +117,8 @@ function update_timers(spell)
 
   cmd_queue = cmd_queue .. trim()
 
-  add_to_chat(123,'cmd_queue='..cmd_queue)
+  -- Pretty sure this is a debugging line.
+  --add_to_chat(123,'cmd_queue='..cmd_queue)
 
   send_command(cmd_queue)
 end
