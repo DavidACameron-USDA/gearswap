@@ -281,10 +281,16 @@ end
 -- Select default macro book on initial load or subjob change.
 function select_default_macro_book()
 	-- Default macro set/book
-	if player.sub_job == 'WAR' then
-		set_macro_page(10, 20)
+	if player.sub_job == 'BLU' then
+		set_macro_page(1, 10)
+	elseif player.sub_job == 'NIN' then
+		set_macro_page(2, 10)
+	elseif player.sub_job == 'SAM' then
+		set_macro_page(3, 10)
+	elseif player.sub_job == 'WAR' then
+		set_macro_page(4, 10)
 	else
-		set_macro_page(10, 20)
+		set_macro_page(1, 10)
 	end
 end
 
