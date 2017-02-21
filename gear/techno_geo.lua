@@ -105,7 +105,7 @@ function init_gear_sets()
   sets.midcast['Elemental Magic'] = {
     sub = "Willpower Grip",
     ammo = "Ghastly Tathlum",
-    head = "Jhakri Coronal +1",
+    head = "Merlinic Hood",
     neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
     ear2 = "Barkarole Earring",
@@ -208,7 +208,7 @@ function init_gear_sets()
   sets.idle = {
     main = "Marin Staff",
     sub = "Willpower Grip",
-    head = "Jhakri Coronal +1",
+    head = "Merlinic Hood",
     neck = "Twilight Torque",
     ear1 = "Friomisi Earring",
     ear2 = "Barkarole Earring",
