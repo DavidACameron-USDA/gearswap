@@ -103,6 +103,8 @@ function init_gear_sets()
   }
 
   sets.midcast['Elemental Magic'] = {
+    sub = "Willpower Grip",
+    ammo = "Ghastly Tathlum",
     head = "Jhakri Coronal +1",
     neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
@@ -160,6 +162,8 @@ function init_gear_sets()
   }
 
   sets.midcast.IntEnfeebles = {
+    sub = "Mephitis Grip",
+    ammo = "Ghastly Tathlum",
     head = "Jhakri Coronal +1",
     neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",
@@ -174,6 +178,7 @@ function init_gear_sets()
   }
 
   sets.midcast.MndEnfeebles = {
+    sub = "Mephitis Grip",
     head = "Jhakri Coronal +1",
     neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",
@@ -201,8 +206,8 @@ function init_gear_sets()
   -- Idle sets
 
   sets.idle = {
-    main = "Bolelabunga",
-    range = "Dunna",
+    main = "Marin Staff",
+    sub = "Willpower Grip",
     head = "Jhakri Coronal +1",
     neck = "Twilight Torque",
     ear1 = "Friomisi Earring",
