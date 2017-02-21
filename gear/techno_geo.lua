@@ -5,7 +5,7 @@
 -- Setup vars that are user-dependent.  Can override this function in a sidecar file.
 function user_setup()
   state.OffenseMode:options('None', 'Normal')
-  state.CastingMode:options('Normal', 'Resistant')
+  state.CastingMode:options('Normal', 'Resistant', 'MB')
   state.IdleMode:options('Normal', 'PDT')
 
   select_default_macro_book()
@@ -116,6 +116,10 @@ function init_gear_sets()
     legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
   }
+
+  sets.midcast['Elemental Magic'].MB = set_combine(sets.midcast['Elemental Magic'], {
+    neck = "Mizukage-no-Kubikazari",
+  })
 
   sets.midcast['Dark Magic'] = {
     head = "Jhakri Coronal +1",
