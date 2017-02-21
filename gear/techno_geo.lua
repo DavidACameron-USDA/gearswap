@@ -214,7 +214,7 @@ function init_gear_sets()
     ear2 = "Barkarole Earring",
     body = "Jhakri Robe +1",
     hands = "Bagua Mitaines",
-    ring1 = "Weatherspoon Ring",
+    ring1 = "Defending Ring",
     ring2 = "Metamorph Ring",
     back = "Solemnity Cape",
     waist = "Yamabuki-no-obi",
@@ -223,6 +223,7 @@ function init_gear_sets()
   }
 
   sets.idle.PDT = {
+    ring1 = "Defending Ring",
     back = "Solemnity Cape",
   }
 
