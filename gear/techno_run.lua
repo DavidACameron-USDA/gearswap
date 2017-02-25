@@ -332,9 +332,22 @@ function init_gear_sets()
 end
 
 
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- User self-commands.
+--------------------------------------------------------------------------------
+
+-- Called for custom player commands.
+function job_self_command(cmdParams, eventArgs)
+    if cmdParams[1]:lower() == 'change_macro_set' then
+        select_default_macro_book()
+        eventArgs.handled = true
+    end
+end
+
+
+--------------------------------------------------------------------------------
 -- Utility functions specific to this job.
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 -- Select default macro book on initial load or subjob change.
 function select_default_macro_book()
