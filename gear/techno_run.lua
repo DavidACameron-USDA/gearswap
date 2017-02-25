@@ -6,7 +6,7 @@ function user_setup()
   state.OffenseMode:options('Normal', 'DD', 'Acc', 'PDT', 'MDT')
   state.WeaponskillMode:options('Normal', 'Acc')
   state.PhysicalDefenseMode:options('PDT')
-  state.IdleMode:options('Regen', 'Refresh')
+  state.IdleMode:options('None', 'Refresh', 'Regen')
 
 	select_default_macro_book()
 end
@@ -248,6 +248,11 @@ function init_gear_sets()
     head = "Erilaz Galea",
     body = "Runeist Coat +1",
     legs = "Rawhide Trousers",
+  })
+
+  sets.idle.Regen = set_combine(sets.idle, {
+    neck = "Sanctity Necklace",
+    body = "Futhark Coat",
   })
 
 	sets.defense.PDT = {
