@@ -15,9 +15,11 @@ end
 function init_gear_sets()
   sets.enmity = {
     neck = "Warder's Charm",
+    hands = "Futhark Mitons",
     ring2 = "Petrov Ring",
     back = "Evasionist's Cape",
     waist = "Warwolf Belt",
+    legs = "Erilaz Leg Guards",
   }
 
 	--------------------------------------
@@ -25,15 +27,24 @@ function init_gear_sets()
 	--------------------------------------
 
 	-- Precast sets to enhance JAs
-  sets.precast.JA['Vallation'] = {}
+  sets.precast.JA['Vallation'] = {
+    body = "Runeist Coat +1",
+    legs = "Futhark Trousers",
+  }
 
   sets.precast.JA['Valiance'] = sets.precast.JA['Vallation']
 
-  sets.precast.JA['Pflug'] = {}
+  sets.precast.JA['Pflug'] = {
+    feet = "Runeist Bottes",
+  }
 
-  sets.precast.JA['Battuta'] = {}
+  sets.precast.JA['Battuta'] = {
+    head = "Futhark Bandeau",
+  }
 
-  sets.precast.JA['Liement'] = {}
+  sets.precast.JA['Liement'] = {
+    body = "Futhark Coat",
+  }
 
   sets.precast.JA['Lunge'] = {
     neck = "Baetyl Pendant",
@@ -47,13 +58,21 @@ function init_gear_sets()
 
   sets.precast.JA['Swipe'] = sets.precast.JA['Lunge']
 
-  sets.precast.JA['Gambit'] = {}
+  sets.precast.JA['Gambit'] = {
+    hands = "Runeist Mitons",
+  }
 
-  sets.precast.JA['Rayke'] = {}
+  sets.precast.JA['Rayke'] = {
+    feet = "Futhark Boots +1",
+  }
 
-  sets.precast.JA['Elemental Sforzo'] = {}
+  sets.precast.JA['Elemental Sforzo'] = {
+    body = "Futhark Coat",
+  }
 
-  sets.precast.JA['Swordplay'] = {}
+  sets.precast.JA['Swordplay'] = {
+    hands = "Futhark Mitons",
+  }
 
   sets.precast.JA['Embolden'] = {
     back = "Evasionist's Cape",
@@ -61,7 +80,9 @@ function init_gear_sets()
 
   -- Vivacious Pulse is enhanced by Divine Magic skill.
   sets.precast.JA['Vivacious Pulse'] = {
+    head = "Erilaz Galea",
     neck = "Incanter's Torque",
+    legs = "Runeist Trousers +1",
   }
 
   sets.precast.JA['One For All'] = {}
@@ -71,6 +92,7 @@ function init_gear_sets()
 
 	-- Fast cast sets for spells
   sets.precast.FC = {
+    head = "Runeist Bandeau +1",
     ear2 = "Loquacious Earring",
     neck = "Baetyl Pendant",
     ring1 = "Weatherspoon Ring",
@@ -79,6 +101,7 @@ function init_gear_sets()
 
   sets.precast.FC['Enhancing Magic'] = set_combine(sets.precast.FC, {
     waist = "Siegel Sash",
+    legs = "Futhark Trousers",
   })
 
   sets.precast.FC['Utsusemi: Ichi'] = set_combine(sets.precast.FC, {
@@ -157,19 +180,38 @@ function init_gear_sets()
 	-- Midcast sets
 	--------------------------------------
 
-  sets.midcast.FastRecast = {}
+  sets.midcast.FastRecast = {
+    head = "Runeist Bandeau +1",
+  }
 
   sets.midcast['Enhancing Magic'] = {
+    head = "Erilaz Galea",
     neck = "Incanter's Torque",
+    hands = "Runeist Mitons",
     legs = "Carmine Cuisses",
   }
 
-  sets.midcast['Phalanx'] = set_combine(sets.midcast['Enhancing Magic'], {})
+  sets.midcast['Phalanx'] = set_combine(sets.midcast['Enhancing Magic'], {
+    head = "Futhark Bandeau",
+  })
 
-  sets.midcast['Regen'] = {}
+  sets.midcast['Regen'] = {
+    head = "Runeist Bandeau +1",
+    body = "Futhark Coat",
+    legs = "Futhark Trousers",
+  }
+
+  sets.midcast['Refresh'] = {
+    legs = "Futhark Trousers",
+  }
 
   sets.midcast['Stoneskin'] = {
     waist = "Siegel Sash",
+    legs = "Futhark Trousers",
+  }
+
+  sets.midcast['Crusade'] = {
+    legs = "Futhark Trousers",
   }
 
   sets.midcast.Cure = {
@@ -188,11 +230,11 @@ function init_gear_sets()
     main = "Montante",
     sub = "Refined Grip +1",
     ammo = "Ginsen",
-    head = "Ayanmo Zucchetto",
+    head = "Erilaz Galea",
     neck = "Twilight Torque",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
-    body = "Ayanmo Corazza",
+    body = "Runeist Coat +1",
     hands = "Ayanmo Manopolas +1",
     ring1 = "Defending Ring",
     ring2 = "Petrov Ring",
@@ -203,14 +245,25 @@ function init_gear_sets()
   }
 
   sets.idle.Refresh = set_combine(sets.idle, {
+    head = "Erilaz Galea",
+    body = "Runeist Coat +1",
     legs = "Rawhide Trousers",
   })
 
-	sets.defense.PDT = {}
+	sets.defense.PDT = {
+    head = "Ayanmo Zucchetto",
+    body = "Ayanmo Corazza",
+  }
 
-	sets.defense.MDT = {}
+	sets.defense.MDT = {
+    head = "Ayanmo Zucchetto",
+    body = "Ayanmo Corazza",
+  }
 
-	sets.Kiting = {}
+	sets.Kiting = {
+    head = "Ayanmo Zucchetto",
+    body = "Ayanmo Corazza",
+  }
 
 
 	--------------------------------------
