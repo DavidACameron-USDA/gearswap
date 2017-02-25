@@ -282,7 +282,7 @@ function init_gear_sets()
     sub = "Bloodrain Strap",
     ammo = "Ginsen",
     head = "Adhemar Bonnet",
-    neck = "Asperity Necklace",
+    neck = "Lissome Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Rawhide Vest",
