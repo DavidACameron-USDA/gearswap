@@ -29,6 +29,7 @@ function init_gear_sets()
   }
   sets.precast.JA['Life cycle'] = {
     body = "Geomancy Tunic +1"
+    back = "Nantosuelta's Cape",
   }
   sets.precast.JA['Radial Arcana'] = {
     feet = "Bagua Sandals",
@@ -113,7 +114,7 @@ function init_gear_sets()
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Metamorph Ring",
-    back = "Argochampsa Mantle",
+    back = "Nantosuelta's Cape",
     waist = gear.ElementalObi,
     legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
@@ -132,7 +133,7 @@ function init_gear_sets()
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Metamorph Ring",
-    back = "Argochampsa Mantle",
+    back = "Nantosuelta's Cape",
     waist = gear.ElementalObi,
     legs = "Azimuth Tights",
     foot = "Jhakri Pigaches",
@@ -171,7 +172,7 @@ function init_gear_sets()
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
-    back = "Lifestream Cape",
+    back = "Nantosuelta's Cape",
     waist = "Yamabuki-no-obi",
     legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
@@ -186,7 +187,7 @@ function init_gear_sets()
     body = "Jhakri Robe +1",
     hands = "Jhakri Cuffs +1",
     ring1 = "Weatherspoon Ring",
-    back = "Lifestream Cape",
+    back = "Nantosuelta's Cape",
     waist = "Demonry Sash",
     legs = "Merlinic Shalwar",
     foot = "Jhakri Pigaches",
