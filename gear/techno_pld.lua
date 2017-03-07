@@ -126,7 +126,7 @@ function init_gear_sets()
     body = "Xaddi Mail",
     hands = "Flamma Manopolas +1",
     waist = "Cetl Belt",
-    legs = "Cizin Breeches +1",
+    legs = "Flamma Dirs +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -230,7 +230,7 @@ function init_gear_sets()
     ring2 = "Apeile Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Cizin Breeches +1",
+    legs = "Flamma Dirs +1",
     feet = "Whirlpool Greaves",
   }
 

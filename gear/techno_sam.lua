@@ -1,6 +1,6 @@
--------------------------------------------------------------------------------------------------------------------
--- User setup functions for this job.  Recommend that these be overridden in a sidecar file.
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- User setup functions for this job.
+--------------------------------------------------------------------------------
 
 -- Setup vars that are user-dependent.
 function user_setup()
@@ -30,7 +30,7 @@ function init_gear_sets()
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
     main = "Ichimonji-Yofusa",
-    sub = "Pole Grip",
+    sub = "Bloodrain Strap",
     ammo = "Ginsen",
     head = "Flamma Zucchetto +1",
     neck = "Twilight Torque",
@@ -68,8 +68,6 @@ function init_gear_sets()
 
   -- Normal melee group
   sets.engaged = {
-    main = "Ichimonji-Yofusa",
-    sub = "Pole Grip",
     ammo = "Ginsen",
     head = "Otomi Helm",
     neck = "Asperity Necklace",
@@ -81,7 +79,7 @@ function init_gear_sets()
     ring2 = "Petrov Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Acro Breeches",
+    legs = "Flamma Dirs +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -130,7 +128,7 @@ function init_gear_sets()
     hands = "Flamma Manopolas +1",
     ring1 = "Ifrit Ring",
     ring2 = "Rufescent Ring",
-    back = "Unkai Sugemino",
+    back = "Atheling Mantle",
     waist = gear.ElementalBelt,
     legs = "Flamma Dirs +1",
     feet = "Flamma Gambieras +1",
@@ -200,9 +198,9 @@ function init_gear_sets()
 end
 
 
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 -- Utility functions specific to this job.
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 function update_combat_form()
 

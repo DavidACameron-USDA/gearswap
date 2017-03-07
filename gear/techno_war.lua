@@ -1,6 +1,6 @@
--------------------------------------------------------------------------------------------------------------------
--- User setup functions for this job.  Recommend that these be overridden in a sidecar file.
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+-- User setup functions for this job.
+--------------------------------------------------------------------------------
 
 -- Setup vars that are user-dependent.
 function user_setup()
@@ -31,7 +31,7 @@ function init_gear_sets()
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
     main = "Ferocity",
-    sub = "Pole Grip",
+    sub = "Bloodrain Strap",
     ammo = "Ginsen",
     head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
@@ -53,9 +53,7 @@ function init_gear_sets()
 
   -- sets.idle.Weak = {}
 
-  sets.idle.PDT = set_combine(sets.idle, {
-    main = "Qalgwer",
-  })
+  sets.idle.PDT = set_combine(sets.idle, {})
 
   sets.idle.Proc = set_combine(sets.idle, {
     main = "",
@@ -82,7 +80,7 @@ function init_gear_sets()
     ring2 = "Petrov Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Cizin Breeches +1",
+    legs = "Flamma Dirs +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -229,9 +227,9 @@ function init_gear_sets()
 end
 
 
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 -- Utility functions specific to this job.
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 function update_combat_form()
 

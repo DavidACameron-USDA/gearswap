@@ -1,6 +1,6 @@
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 -- User setup functions for this job.
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 -- Setup vars that are user-dependent.
 function user_setup()
@@ -31,7 +31,7 @@ function init_gear_sets()
   -- Idle sets
   sets.idle = {
     main = "Upukirex",
-    sub = "Pole Grip",
+    sub = "Bloodrain Strap",
     ammo = "Ginsen",
     head = "Sulevia's Mask +1",
     neck = "Twilight Torque",
@@ -78,7 +78,7 @@ function init_gear_sets()
     ring2 = "Petrov Ring",
     back = "Atheling Mantle",
     waist = "Windbuffet Belt +1",
-    legs = "Cizin Breeches +1",
+    legs = "Flamma Dirs +1",
     feet = "Whirlpool Greaves",
   }
 
@@ -152,7 +152,6 @@ function init_gear_sets()
     neck = "Baetyl Pendant",
     ear2 = "Loquacious Earring",
     ring1 = "Weatherspoon Ring",
-    legs = "Homam Cosciales",
   }
 
 
@@ -280,9 +279,9 @@ function init_gear_sets()
 end
 
 
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 -- Utility functions specific to this job.
--------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 function update_combat_form()
 
