@@ -57,7 +57,7 @@ function init_gear_sets()
   }
 
   sets.precast.Cure = set_combine(sets.precast.FC, {
-    ear1 = "Nourishing Earring",
+    ear1 = "Nourishing Earring +1",
   })
 
 
@@ -140,7 +140,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     neck = "Incanter's Torque",
-    ear1 = "Nourishing Earring",
+    ear1 = "Nourishing Earring +1",
     back = "Solemnity Cape",
     legs = "Carmine Cuisses",
   }

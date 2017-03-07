@@ -46,7 +46,7 @@ function init_gear_sets()
   sets.precast.FC.StatusRemoval = sets.precast.FC['Healing Magic']
 
   sets.precast.FC.Cure = set_combine(sets.precast.FC['Healing Magic'], {
-    ear1 = "Nourishing Earring",
+    ear1 = "Nourishing Earring +1",
   })
 
   sets.precast.FC.Curaga = sets.precast.FC.Cure
@@ -86,7 +86,7 @@ function init_gear_sets()
     main = "Tamaxchi",
     head = "Chironic Hat",
     neck = "Incanter's Torque",
-    ear1 = "Nourishing Earring",
+    ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
     body = "Inyanga Jubbah",
     hands = "Telchine Gloves",
@@ -101,7 +101,7 @@ function init_gear_sets()
     main = "Tamaxchi",
     head = "Chironic Hat",
     neck = "Incanter's Torque",
-    ear1 = "Nourishing Earring",
+    ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
     body = "Inyanga Jubbah",
     hands = "Telchine Gloves",
@@ -116,7 +116,7 @@ function init_gear_sets()
     main = "Tamaxchi",
     head = "Chironic Hat",
     neck = "Imbodla Necklace",
-    ear1 = "Nourishing Earring",
+    ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
     body = "Inyanga Jubbah",
     hands = "Telchine Gloves",
@@ -242,7 +242,7 @@ function init_gear_sets()
     main = "Bolelabunga",
     head = "Inyanga Tiara",
     neck = "Twilight Torque",
-    ear1 = "Nourishing Earring",
+    ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
     body = "Artsieq Jubbah",
     hands = "Inyanga Dastanas",
