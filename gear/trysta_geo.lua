@@ -207,7 +207,7 @@ function init_gear_sets()
     main = "Bolelabunga",
     body = "Azimuth Coat",
     ring2 = "Renaye Ring",
-    legs = "Assuidity Pants",
+    legs = "Assiduity Pants",
   }
 
 
@@ -226,7 +226,7 @@ function init_gear_sets()
     ring2 = "Renaye Ring",
     back = "Solemnity Cape",
     waist = "Refoccilation Stone",
-    legs = "Assuidity Pants",
+    legs = "Assiduity Pants",
     feet = "Geomancy Sandals",
   }
 

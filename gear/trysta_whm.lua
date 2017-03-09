@@ -247,7 +247,7 @@ function init_gear_sets()
     neck = "Sanctity Necklace",
     body = "Ebers Bliaud",
     waist = "Hierarch Belt",
-    legs = "Assuidity Pants",
+    legs = "Assiduity Pants",
   }
 
 
@@ -266,7 +266,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Solemnity Cape",
     waist = "Bishop's Sash",
-    legs = "Assuidity Pants",
+    legs = "Assiduity Pants",
     feet = "Herald's Gaiters",
   }
 
