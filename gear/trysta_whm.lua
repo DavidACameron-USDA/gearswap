@@ -244,13 +244,10 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     main = "Bolelabunga",
-    head = "Wayfarer Circlet",
     neck = "Sanctity Necklace",
-    body = "Wayfarer Robe",
-    hands = "Wayfarer Cuffs",
+    body = "Ebers Bliaud",
     waist = "Hierarch Belt",
-    legs = "Wayfarer Slops",
-    feet = "Wayfarer Clogs",
+    legs = "Assuidity Pants",
   }
 
 
@@ -269,7 +266,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Solemnity Cape",
     waist = "Bishop's Sash",
-    legs = "Ebers Pantaloons",
+    legs = "Assuidity Pants",
     feet = "Herald's Gaiters",
   }
 

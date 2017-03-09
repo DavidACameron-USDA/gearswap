@@ -205,7 +205,9 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     main = "Bolelabunga",
+    body = "Azimuth Coat",
     ring2 = "Renaye Ring",
+    legs = "Assuidity Pants",
   }
 
 
@@ -224,7 +226,7 @@ function init_gear_sets()
     ring2 = "Renaye Ring",
     back = "Solemnity Cape",
     waist = "Refoccilation Stone",
-    legs = "Merlinic Shalwar",
+    legs = "Assuidity Pants",
     feet = "Geomancy Sandals",
   }
 
