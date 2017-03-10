@@ -139,7 +139,7 @@ function init_gear_sets()
     ring1 = "Archon Ring",
     back = "Cornflower Cape",
     waist = "Yamabuki-no-Obi",
-    legs = "Hagondes Pants",
+    legs = "Jhakri Slops +1",
     feet = "Jhakri Pigaches +1",
   }
 
@@ -239,7 +239,7 @@ function init_gear_sets()
     ring2 = "Metamorph Ring",
     back = "Cornflower Cape",
     waist = gear.ElementalObi,
-    legs = "Hagondes Pants",
+    legs = "Jhakri Slops +1",
     feet = "Jhakri Pigaches +1",
   }
 
@@ -284,7 +284,8 @@ function init_gear_sets()
     ring1 = "Weatherspoon Ring",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
-    legs = "Rawhide Trousers",
+    legs = "Jhakri Slops +1",
+    feet = "Jhakri Pigaches +1",
   }
 
   -- Breath Spells --
