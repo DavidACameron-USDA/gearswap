@@ -222,7 +222,7 @@ function init_gear_sets()
     ear2 = "Barkarole Earring",
     body = "Azimuth Coat",
     hands = "Bagua Mitaines",
-    ring1 = "Metamorph Ring +1",
+    ring1 = "Defending Ring",
     ring2 = "Renaye Ring",
     back = "Solemnity Cape",
     waist = "Refoccilation Stone",
@@ -230,7 +230,10 @@ function init_gear_sets()
     feet = "Geomancy Sandals",
   }
 
-  sets.idle.PDT = {}
+  sets.idle.PDT = {
+    ring1 = "Defending Ring",
+    back = "Solemnity Cape",
+  }
 
   -- .Pet sets are for when Luopan is present.
   sets.idle.Pet = {
@@ -262,10 +265,12 @@ function init_gear_sets()
   }
 
   sets.defense.MDT = {
+    ring1 = "Defending Ring",
     back = "Solemnity Cape",
   }
 
   sets.Kiting = {
+    ring1 = "Defending Ring",
     feet = "Geomancy Sandals",
   }
 

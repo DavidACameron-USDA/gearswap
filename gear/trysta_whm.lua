@@ -262,7 +262,7 @@ function init_gear_sets()
     ear2 = "Glorious Earring",
     body = "Ebers Bliaud",
     hands = "Inyanga Dastanas +1",
-    ring1 = "Metamorph Ring +1",
+    ring1 = "Defending Ring",
     ring2 = "Tamas Ring",
     back = "Solemnity Cape",
     waist = "Bishop's Sash",
@@ -272,6 +272,7 @@ function init_gear_sets()
 
   sets.idle.PDT = {
     body = "Gendewitha Bliaut",
+    ring1 = "Defending Ring",
   }
 
   sets.idle.Town = set_combine(sets.idle, {
@@ -282,11 +283,17 @@ function init_gear_sets()
 
   -- Defense sets
 
-  sets.defense.PDT = {}
+  sets.defense.PDT = {
+    ring1 = "Defending Ring",
+  }
 
-  sets.defense.MDT = {}
+  sets.defense.MDT = {
+    ring1 = "Defending Ring",
+  }
 
-  sets.Kiting = {}
+  sets.Kiting = {
+    ring1 = "Defending Ring",
+  }
 
   sets.latent_refresh = {}
 
