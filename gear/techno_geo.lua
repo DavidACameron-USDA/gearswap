@@ -117,7 +117,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = gear.ElementalObi,
     legs = "Merlinic Shalwar",
-    foot = "Jhakri Pigaches",
+    foot = "Jhakri Pigaches +1",
   }
 
   sets.midcast['Elemental Magic'].MB = set_combine(sets.midcast['Elemental Magic'], {
@@ -136,7 +136,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = gear.ElementalObi,
     legs = "Azimuth Tights",
-    foot = "Jhakri Pigaches",
+    foot = "Jhakri Pigaches +1",
   }
 
   sets.midcast.Drain = set_combine(sets.midcast['Dark Magic'], {
@@ -175,7 +175,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Yamabuki-no-obi",
     legs = "Merlinic Shalwar",
-    foot = "Jhakri Pigaches",
+    foot = "Jhakri Pigaches +1",
   }
 
   sets.midcast.MndEnfeebles = {
@@ -190,7 +190,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Demonry Sash",
     legs = "Merlinic Shalwar",
-    foot = "Jhakri Pigaches",
+    foot = "Jhakri Pigaches +1",
   }
 
 

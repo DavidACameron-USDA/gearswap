@@ -42,7 +42,7 @@ function init_gear_sets()
     ear1 = "Loquacious Earring",
     back = "Lifestream Cape",
     legs = "Geomancy Pants",
-    feet = "Almaric Nails",
+    feet = "Amalric Nails",
   }
 
   sets.precast.FC.Cure = set_combine(sets.precast.FC, {
@@ -83,7 +83,7 @@ function init_gear_sets()
     ear2 = "Loquacious Earring",
     back = "Lifestream Cape",
     legs = "Geomancy Pants",
-    feet = "Almaric Nails",
+    feet = "Amalric Nails",
   }
 
   sets.midcast.Geomancy = {
@@ -118,7 +118,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
     legs = "Merlinic Shalwar",
-    feet = "Almaric Nails",
+    feet = "Amalric Nails",
   }
 
   sets.midcast['Dark Magic'] = {
@@ -133,7 +133,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
     legs = "Azimuth Tights",
-    feet = "Almaric Nails",
+    feet = "Amalric Nails",
   }
 
   sets.midcast.Drain = set_combine(sets.midcast['Dark Magic'], {
@@ -155,7 +155,7 @@ function init_gear_sets()
     back = "Solemnity Cape",
     waist = "Bishop's Sash",
     legs = "Merlinic Shalwar",
-    feet = "Almaric Nails",
+    feet = "Amalric Nails",
   }
 
   sets.midcast.Curaga = set_combine(sets.midcast.Cure, {
