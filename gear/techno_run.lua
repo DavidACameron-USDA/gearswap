@@ -227,7 +227,7 @@ function init_gear_sets()
 	--------------------------------------
 
   sets.idle = {
-    main = "Montante",
+    main = "Montante +1",
     sub = "Refined Grip +1",
     ammo = "Ginsen",
     head = "Erilaz Galea",
