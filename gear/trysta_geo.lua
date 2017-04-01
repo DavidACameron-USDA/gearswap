@@ -90,7 +90,7 @@ function init_gear_sets()
     head = "Azimuth Hood",
     body = "Bagua Tunic",
     neck = "Incanter's Torque",
-    hands = "Geomancy Mitaines +1",
+    hands = "Geomancy Mitaines +2",
     ring2 = "Renaye Ring",
     back = "Lifestream Cape",
     feet = "Bagua Sandals",
@@ -99,7 +99,7 @@ function init_gear_sets()
     head = "Azimuth Hood",
     body = "Bagua Tunic",
     neck = "Incanter's Torque",
-    hands = "Geomancy Mitaines +1",
+    hands = "Geomancy Mitaines +2",
     ring2 = "Renaye Ring",
     back = "Lifestream Cape",
     legs = "Bagua Pants",
@@ -239,13 +239,13 @@ function init_gear_sets()
   sets.idle.Pet = {
     head = "Azimuth Hood",
     ear2 = "Handler's Earring",
-    hands = "Geomancy Mitaines +1",
+    hands = "Geomancy Mitaines +2",
     feet = "Bagua Sandals",
   }
 
   sets.idle.PDT.Pet = {
     ear2 = "Handler's Earring",
-    hands = "Geomancy Mitaines +1",
+    hands = "Geomancy Mitaines +2",
     back = "Lifestream Cape",
   }
 
