@@ -85,6 +85,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Geomancy = {
+    main = "Solstice",
     range = "Dunna",
     head = "Azimuth Hood +1",
     neck = "Incanter's Torque",
@@ -93,6 +94,7 @@ function init_gear_sets()
     back = "Lifestream Cape",
   }
   sets.midcast.Geomancy.Indi = {
+    main = "Solstice",
     range = "Dunna",
     head = "Azimuth Hood +1",
     neck = "Incanter's Torque",
@@ -104,6 +106,7 @@ function init_gear_sets()
   }
 
   sets.midcast['Elemental Magic'] = {
+    main = "Marin Staff",
     sub = "Willpower Grip",
     ammo = "Ghastly Tathlum",
     head = "Merlinic Hood",
@@ -163,6 +166,7 @@ function init_gear_sets()
   }
 
   sets.midcast.IntEnfeebles = {
+    main = "Marin Staff",
     sub = "Mephitis Grip",
     ammo = "Ghastly Tathlum",
     head = "Jhakri Coronal +1",
@@ -179,6 +183,7 @@ function init_gear_sets()
   }
 
   sets.midcast.MndEnfeebles = {
+    main = "Marin Staff",
     sub = "Mephitis Grip",
     head = "Jhakri Coronal +1",
     neck = "Incanter's Torque",
@@ -207,8 +212,7 @@ function init_gear_sets()
   -- Idle sets
 
   sets.idle = {
-    main = "Marin Staff",
-    sub = "Willpower Grip",
+    main = "Solstice",
     head = "Merlinic Hood",
     neck = "Twilight Torque",
     ear1 = "Friomisi Earring",
