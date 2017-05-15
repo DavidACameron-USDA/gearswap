@@ -144,7 +144,7 @@ function init_gear_sets()
 
   -- Idle sets
   sets.idle = {
-    main = "Oatixur",
+    main = "Ohrmazd",
     ammo = "Ginsen",
     head = "Mummu Bonnet +1",
     neck = "Twilight Torque",

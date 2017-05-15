@@ -120,7 +120,7 @@ function init_gear_sets()
   -- Idle sets
 
   sets.idle = {
-    main = "Oatixur",
+    main = "Ohrmazd",
     range = "Divinator",
     head = "Tali'ah Turban +1",
     neck = "Twilight Torque",
