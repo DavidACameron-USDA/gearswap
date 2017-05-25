@@ -108,7 +108,7 @@ function init_gear_sets()
   sets.midcast['Elemental Magic'] = {
     main = "Marin Staff",
     sub = "Willpower Grip",
-    ammo = "Ghastly Tathlum",
+    ammo = "Ghastly Tathlum +1",
     head = "Merlinic Hood",
     neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
@@ -168,7 +168,7 @@ function init_gear_sets()
   sets.midcast.IntEnfeebles = {
     main = "Marin Staff",
     sub = "Mephitis Grip",
-    ammo = "Ghastly Tathlum",
+    ammo = "Ghastly Tathlum +1",
     head = "Jhakri Coronal +1",
     neck = "Incanter's Torque",
     ear1 = "Lifestorm Earring",

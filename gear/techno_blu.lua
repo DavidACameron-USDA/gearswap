@@ -228,7 +228,7 @@ function init_gear_sets()
   -- Magical Spells --
 
   sets.midcast['Blue Magic'].Magical = {
-    ammo = "Ghastly Tathlum",
+    ammo = "Ghastly Tathlum +1",
     head = "Jhakri Coronal +1",
     neck = "Sanctity Necklace",
     ear1 = "Friomisi Earring",
