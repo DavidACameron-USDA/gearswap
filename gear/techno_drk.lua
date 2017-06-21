@@ -195,7 +195,8 @@ function init_gear_sets()
     head = "Chaos Burgeonet",
     neck = "Incanter's Torque",
     hands = "Crimson Finger Gauntlets",
-    ring1 = "Omega Ring",
+    ring1 = "Shiva Ring",
+    ring2 = "Evanescence Ring",
     back = "Niht Mantle",
     waist = gear.ElementalObi,
   }

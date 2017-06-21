@@ -135,7 +135,7 @@ function init_gear_sets()
     body = "Geomancy Tunic",
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
-    ring2 = "Metamorph Ring",
+    ring2 = "Evanescence Ring",
     back = "Nantosuelta's Cape",
     waist = gear.ElementalObi,
     legs = "Azimuth Tights",
