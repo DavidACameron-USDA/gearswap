@@ -145,11 +145,15 @@ function init_gear_sets()
 
   -- Expiacion has STR 30%, INT 30%, and DEX 20% modifiers and is aligned with
   -- the Aqua, Snow, and Soil gorgets/belts.
-  sets.precast.WS.Expiacion = set_combine(sets.precast.WS, {})
+  sets.precast.WS.Expiacion = set_combine(sets.precast.WS, {
+    neck = "Caro Necklace",
+  })
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
   -- Breeze, Thunder, and Soil gorgets/belts.
-  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {
+    neck = "Caro Necklace",
+  })
 
 
   -- Midcast Sets
@@ -167,7 +171,7 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].Physical = {
     ammo = "Mavi Tathlum",
     head = "Jhakri Coronal +1",
-    neck = "Sanctity Necklace",
+    neck = "Caro Necklace",
     ear1 = "Steelflash Earring",
     ear2 = "Bladeborn Earring",
     body = "Jhakri Robe +1",
@@ -190,7 +194,6 @@ function init_gear_sets()
   sets.midcast['Blue Magic'].PhysicalStr = set_combine(sets.midcast['Blue Magic'].Physical, {})
 
   sets.midcast['Blue Magic'].PhysicalDex = set_combine(sets.midcast['Blue Magic'].Physical, {
-    neck = "Love Torque",
     ear1 = "Delta Earring",
     ring1 = "Ramuh Ring",
     back = "Rosmerta's Cape",

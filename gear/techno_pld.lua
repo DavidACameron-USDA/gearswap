@@ -112,7 +112,9 @@ function init_gear_sets()
 
   -- Savage Blade has STR: 50% and MND 50% modifiers and is aligned with the
   -- Breeze, Thunder, and Soil gorgets/belts.
-  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {})
+  sets.precast.WS['Savage Blade'] = set_combine(sets.precast.WS, {
+    neck = "Caro Necklace",
+  })
   sets.precast.WS['Savage Blade'].Acc = set_combine(sets.precast.WS.Acc, {})
 
 

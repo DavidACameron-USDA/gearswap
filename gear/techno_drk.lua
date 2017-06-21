@@ -175,8 +175,12 @@ function init_gear_sets()
 
   -- Cross Reaper has STR: 30% and MND 30% modifiers and is aligned with the
   -- Aqua and Snow gorgets/belts.
-  sets.precast.WS['Cross Reaper'] = set_combine(sets.precast.WS, {})
-  sets.precast.WS['Cross Reaper'].Acc = set_combine(sets.precast.WS.Acc, {})
+  sets.precast.WS['Cross Reaper'] = set_combine(sets.precast.WS, {
+    neck = "Caro Necklace",
+  })
+  sets.precast.WS['Cross Reaper'].Acc = set_combine(sets.precast.WS.Acc, {
+    neck = "Caro Necklace",
+  })
 
   -- Spiral Hell has STR: 50% and INT 50% modifiers and is aligned with the
   -- Aqua, Snow, and Soil gorgets/belts.
