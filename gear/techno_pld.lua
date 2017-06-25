@@ -133,7 +133,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Enmity = {
-    head = "Cizin Helm +1",
+    head = "Loess Barbuta",
     hands = "Cizin Mufflers +1",
     ring2 = "Apeile Ring",
   }
@@ -190,7 +190,7 @@ function init_gear_sets()
 
   sets.defense.PDT = {
     sub = "Nibiru Shield",
-    head = "Sulevia's Mask +1",
+    head = "Loess Barbuta",
     neck = "Twilight Torque",
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
@@ -205,7 +205,7 @@ function init_gear_sets()
   -- Shellra V can provide 75/256, which would need another 53/256 in gear.
   sets.defense.MDT = {
     sub = "Nibiru Shield",
-    head = "Sulevia's Mask +1",
+    head = "Loess Barbuta",
     neck = "Twilight Torque",
     body = "Sulevia's Platemail +1",
     hands = "Sulevia's Gauntlets +1",
