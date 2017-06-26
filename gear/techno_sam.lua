@@ -29,7 +29,7 @@ function init_gear_sets()
 
   -- Idle sets (default idle set not needed since the other three are defined, but leaving for testing purposes)
   sets.idle = {
-    main = "Ichimonji-Yofusa",
+    main = "Himetsuruichimonji",
     sub = "Bloodrain Strap",
     ammo = "Ginsen",
     head = "Flamma Zucchetto +1",
