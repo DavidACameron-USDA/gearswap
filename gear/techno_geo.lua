@@ -128,6 +128,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Dark Magic'] = {
+    main = "Rubicundity",
     head = "Jhakri Coronal +1",
     neck = "Incanter's Torque",
     ear1 = "Friomisi Earring",
