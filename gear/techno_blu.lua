@@ -68,7 +68,7 @@ function init_gear_sets()
     ear2 = "Loquacious Earring",
     neck = "Baetyl Pendant",
     body = "Luhlaza Jubbah +1",
-    ring1 = "Weatherspoon Ring",
+    ring1 = "Weatherspoon Ring +1",
     back = "Swith Cape",
     legs = "Rawhide Trousers",
     feet = gear.fc_helios_boots,
@@ -247,7 +247,7 @@ function init_gear_sets()
   }
 
   sets.LightMAB = {
-    ring1 = "Weatherspoon Ring",
+    ring1 = "Weatherspoon Ring +1",
   }
 
   sets.DarkMAB = {
@@ -284,7 +284,7 @@ function init_gear_sets()
     ear1 = "Lifestorm Earring",
     ear2 = "Psystorm Earring",
     body = "Jhakri Robe +1",
-    ring1 = "Weatherspoon Ring",
+    ring1 = "Weatherspoon Ring +1",
     ring2 = "Omega Ring",
     back = "Cornflower Cape",
     legs = "Jhakri Slops +1",

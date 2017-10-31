@@ -72,7 +72,7 @@ function init_gear_sets()
     neck = "Baetyl Pendant",
     ear2 = "Loquacious Earring",
     body = "Inyanga Jubbah",
-    ring1 = "Weatherspoon Ring",
+    ring1 = "Weatherspoon Ring +1",
     back = "Swith Cape",
     legs = "Orvail Pants +1",
     feet = gear.fc_helios_boots,

@@ -95,7 +95,7 @@ function init_gear_sets()
     head = "Runeist Bandeau +1",
     ear2 = "Loquacious Earring",
     neck = "Baetyl Pendant",
-    ring1 = "Weatherspoon Ring",
+    ring1 = "Weatherspoon Ring +1",
     legs = "Rawhide Trousers",
   }
 

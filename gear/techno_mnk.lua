@@ -53,7 +53,7 @@ function init_gear_sets()
   sets.precast.FC = {
     neck = "Baetyl Pendant",
     ear2 = "Loquacious Earring",
-    ring1 = "Weatherspoon Ring",
+    ring1 = "Weatherspoon Ring +1",
     legs = "Rawhide Trousers",
   }
 
