@@ -54,7 +54,7 @@ function init_gear_sets()
 
   sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {
     ear2 = "Barkarole Earring",
-	body = "Mallquis Saio",
+    body = "Mallquis Saio",
     hands = "Bagua Mitaines",
   })
 
@@ -90,8 +90,8 @@ function init_gear_sets()
 
   sets.midcast.Geomancy = {
     head = "Azimuth Hood",
-	ear1 = "Gna Earring",
-	ear2 = "Fulla Earring",
+    ear1 = "Gna Earring",
+    ear2 = "Fulla Earring",
     body = "Bagua Tunic +1",
     neck = "Incanter's Torque",
     hands = "Geomancy Mitaines +2",
@@ -176,7 +176,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Penitent's Rope",
     legs = "Merlinic Shalwar",
-    foot = "Jhakri Pigaches +1",
+    foot = "Jhakri Pigaches +2",
   }
 
   sets.midcast.MndEnfeebles = {
@@ -191,7 +191,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Demonry Sash",
     legs = "Merlinic Shalwar",
-    foot = "Jhakri Pigaches +1",
+    foot = "Jhakri Pigaches +2",
   }
 
 
