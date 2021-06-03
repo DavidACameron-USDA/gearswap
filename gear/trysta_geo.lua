@@ -25,10 +25,10 @@ function init_gear_sets()
     hands = "Bagua Mitaines",
   }
   sets.precast.JA.Bolster = {
-    body = "Bagua Tunic"
+    body = "Bagua Tunic +1"
   }
   sets.precast.JA['Life cycle'] = {
-    body = "Geomancy Tunic",
+    body = "Geomancy Tunic +1",
     back = "Nantosuelta's Cape",
   }
   sets.precast.JA['Radial Arcana'] = {
@@ -39,9 +39,10 @@ function init_gear_sets()
 
   sets.precast.FC = {
     head = "Haruspex Hat",
-    ear1 = "Loquacious Earring",
+    ear1 = "Malignance Earring",
+    ear2 = "Loquacious Earring",
     back = "Lifestream Cape",
-    legs = "Geomancy Pants",
+    legs = "Geomancy Pants +1",
     feet = "Amalric Nails",
   }
 
@@ -53,6 +54,7 @@ function init_gear_sets()
 
   sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {
     ear2 = "Barkarole Earring",
+	body = "Mallquis Saio",
     hands = "Bagua Mitaines",
   })
 
@@ -82,58 +84,53 @@ function init_gear_sets()
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
     back = "Lifestream Cape",
-    legs = "Geomancy Pants",
+    legs = "Geomancy Pants +1",
     feet = "Amalric Nails",
   }
 
   sets.midcast.Geomancy = {
     head = "Azimuth Hood",
-    body = "Bagua Tunic",
+	ear1 = "Gna Earring",
+	ear2 = "Fulla Earring",
+    body = "Bagua Tunic +1",
     neck = "Incanter's Torque",
     hands = "Geomancy Mitaines +2",
     ring2 = "Renaye Ring",
     back = "Lifestream Cape",
-    feet = "Bagua Sandals",
   }
-  sets.midcast.Geomancy.Indi = {
-    head = "Azimuth Hood",
-    body = "Bagua Tunic",
-    neck = "Incanter's Torque",
-    hands = "Geomancy Mitaines +2",
-    ring2 = "Renaye Ring",
-    back = "Lifestream Cape",
+  sets.midcast.Geomancy.Indi = set_combine(sets.midcast.Geomancy, {
     legs = "Bagua Pants",
     feet = "Azimuth Gaiters",
-  }
+  })
 
   sets.midcast['Elemental Magic'] = {
-    head = "Geomancy Galero",
-    neck = "Sanctity Necklace",
-    ear1 = "Friomisi Earring",
+    head = "Jhakri Coronal +1",
+    neck = "Mizukage-no-Kubikazari",
+    ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
-    body = "Azimuth Coat",
-    hands = "Merlinic Dastanas",
+    body = "Jhakri Robe +2",
+    hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Shiva Ring",
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
     legs = "Merlinic Shalwar",
-    feet = "Amalric Nails",
+    feet = "Jhakri Pigaches +2",
   }
 
   sets.midcast['Dark Magic'] = {
-    head = "Bagua Galero",
+    head = "Mallquis Chapeau +1",
     neck = "Incanter's Torque",
-    ear1 = "Friomisi Earring",
+    ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
-    body = "Geomancy Tunic",
-    hands = "Merlinic Dastanas",
+    body = "Geomancy Tunic +1",
+    hands = "Mallquis Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Evanescence Ring",
     back = "Nantosuelta's Cape",
     waist = "Refoccilation Stone",
     legs = "Azimuth Tights",
-    feet = "Amalric Nails",
+    feet = "Mallquis Clogs +1",
   }
 
   sets.midcast.Drain = set_combine(sets.midcast['Dark Magic'], {
@@ -179,7 +176,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Penitent's Rope",
     legs = "Merlinic Shalwar",
-    feet = "Bagua Sandals",
+    foot = "Jhakri Pigaches +1",
   }
 
   sets.midcast.MndEnfeebles = {
@@ -194,7 +191,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
     waist = "Demonry Sash",
     legs = "Merlinic Shalwar",
-    feet = "Bagua Sandals",
+    foot = "Jhakri Pigaches +1",
   }
 
 
@@ -207,7 +204,7 @@ function init_gear_sets()
     main = "Bolelabunga",
     body = "Azimuth Coat",
     ring2 = "Renaye Ring",
-    legs = "Assiduity Pants",
+    legs = "Assiduity Pants +1",
   }
 
 
@@ -216,18 +213,18 @@ function init_gear_sets()
   sets.idle = {
     main = "Solstice",
     range = "Dunna",
-    head = "Wayfarer Circlet",
+    head = "Hike Khat +1",
     neck = "Sanctity Necklace",
-    ear1 = "Friomisi Earring",
+    ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
-    body = "Azimuth Coat",
+    body = "Jhakri Robe +2",
     hands = "Bagua Mitaines",
     ring1 = "Defending Ring",
     ring2 = "Renaye Ring",
     back = "Solemnity Cape",
     waist = "Refoccilation Stone",
-    legs = "Assiduity Pants",
-    feet = "Geomancy Sandals",
+    legs = "Assiduity Pants +1",
+    feet = "Geomancy Sandals +1",
   }
 
   sets.idle.PDT = {
@@ -271,7 +268,7 @@ function init_gear_sets()
 
   sets.Kiting = {
     ring1 = "Defending Ring",
-    feet = "Geomancy Sandals",
+    feet = "Geomancy Sandals +1",
   }
 
   sets.latent_refresh = {}
