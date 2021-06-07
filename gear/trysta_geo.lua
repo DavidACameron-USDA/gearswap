@@ -91,7 +91,7 @@ function init_gear_sets()
   sets.midcast.Geomancy = {
     head = "Azimuth Hood",
     ear1 = "Gna Earring",
-    ear2 = "Fulla Earring",
+    ear2 = "Calamitous Earring",
     body = "Bagua Tunic +1",
     neck = "Incanter's Torque",
     hands = "Geomancy Mitaines +2",
@@ -141,18 +141,18 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     main = "Tamaxchi",
-    head = "Wayfarer Circlet",
+    head = "Geomancy Galero +1",
     neck = "Incanter's Torque",
-    ear1 = "Lifestorm Earring",
+    ear1 = "Malignance Earring",
     ear2 = "Mendicant's Earring",
-    body = "Wayfarer Robe",
+    body = "Mallquis Saio",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
     ring2 = "Leviathan Ring",
     back = "Solemnity Cape",
     waist = "Bishop's Sash",
-    legs = "Merlinic Shalwar",
-    feet = "Amalric Nails",
+    legs = "Perdition Slops",
+    feet = "Mallquis Clogs",
   }
 
   sets.midcast.Curaga = set_combine(sets.midcast.Cure, {
@@ -168,29 +168,30 @@ function init_gear_sets()
   sets.midcast.IntEnfeebles = {
     head = "Wayfarer Circlet",
     neck = "Incanter's Torque",
+    ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
-    body = "Azimuth Coat",
+    body = "Jhakri Robe +2",
     hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
-    ring2 = "Tamas Ring",
+    ring2 = "Shiva Ring",
     back = "Nantosuelta's Cape",
     waist = "Penitent's Rope",
-    legs = "Merlinic Shalwar",
+    legs = "Jhakri Slops +1",
     foot = "Jhakri Pigaches +2",
   }
 
   sets.midcast.MndEnfeebles = {
-    head = "Wayfarer Circlet",
+    head = "Geomancy Galero +1",
     neck = "Incanter's Torque",
-    ear1 = "Lifestorm Earring",
+    ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
-    body = "Azimuth Coat",
+    body = "Jhakri Robe +2",
     hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
     ring2 = "Leviathan Ring",
     back = "Nantosuelta's Cape",
     waist = "Demonry Sash",
-    legs = "Merlinic Shalwar",
+    legs = "Jhakri Slops +1",
     foot = "Jhakri Pigaches +2",
   }
 
@@ -202,7 +203,9 @@ function init_gear_sets()
   -- Resting sets
   sets.resting = {
     main = "Bolelabunga",
-    body = "Azimuth Coat",
+    neck = "Sanctity Necklace",
+    body = "Jhakri Robe +2",
+    hands = "Bagua Mitaines",
     ring2 = "Renaye Ring",
     legs = "Assiduity Pants +1",
   }
@@ -228,8 +231,11 @@ function init_gear_sets()
   }
 
   sets.idle.PDT = {
+    body = "Mallquis Saio",
+    hands = "Geomancy Mitaines +2",
     ring1 = "Defending Ring",
     back = "Solemnity Cape",
+    feet = "Azimuth Gaiters",
   }
 
   -- .Pet sets are for when Luopan is present.
@@ -238,12 +244,11 @@ function init_gear_sets()
     ear2 = "Handler's Earring",
     hands = "Geomancy Mitaines +2",
     feet = "Bagua Sandals",
+    back = "Lifestream Cape",
   }
 
   sets.idle.PDT.Pet = {
-    ear2 = "Handler's Earring",
-    hands = "Geomancy Mitaines +2",
-    back = "Lifestream Cape",
+    hands = "Artsieq Cuffs",
   }
 
   -- Indi sets are for when an Indi-spell is active.
@@ -257,11 +262,15 @@ function init_gear_sets()
   -- Defense sets
 
   sets.defense.PDT = {
+    body = "Mallquis Saio",
+    hands = "Geomancy Mitaines +2",
+    ring1 = "Defending Ring",
     back = "Solemnity Cape",
     feet = "Azimuth Gaiters",
   }
 
   sets.defense.MDT = {
+    body = "Mallquis Saio",
     ring1 = "Defending Ring",
     back = "Solemnity Cape",
   }
