@@ -94,7 +94,7 @@ function init_gear_sets()
     ear2 = "Calamitous Earring",
     body = "Bagua Tunic +1",
     neck = "Incanter's Torque",
-    hands = "Geomancy Mitaines +2",
+    hands = "Geomancy Mitaines +3",
     ring2 = "Renaye Ring",
     back = "Lifestream Cape",
   }
@@ -232,7 +232,7 @@ function init_gear_sets()
 
   sets.idle.PDT = {
     body = "Mallquis Saio",
-    hands = "Geomancy Mitaines +2",
+    hands = "Geomancy Mitaines +3",
     ring1 = "Defending Ring",
     back = "Solemnity Cape",
     feet = "Azimuth Gaiters",
@@ -242,7 +242,7 @@ function init_gear_sets()
   sets.idle.Pet = {
     head = "Azimuth Hood",
     ear2 = "Handler's Earring",
-    hands = "Geomancy Mitaines +2",
+    hands = "Geomancy Mitaines +3",
     feet = "Bagua Sandals",
     back = "Lifestream Cape",
   }
@@ -263,7 +263,7 @@ function init_gear_sets()
 
   sets.defense.PDT = {
     body = "Mallquis Saio",
-    hands = "Geomancy Mitaines +2",
+    hands = "Geomancy Mitaines +3",
     ring1 = "Defending Ring",
     back = "Solemnity Cape",
     feet = "Azimuth Gaiters",
