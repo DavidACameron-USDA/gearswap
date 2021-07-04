@@ -243,8 +243,9 @@ function init_gear_sets()
     head = "Azimuth Hood",
     ear2 = "Handler's Earring",
     hands = "Geomancy Mitaines +3",
-    feet = "Bagua Sandals",
     back = "Lifestream Cape",
+    waist = "Isa Belt",
+    feet = "Bagua Sandals",
   }
 
   sets.idle.PDT.Pet = {
