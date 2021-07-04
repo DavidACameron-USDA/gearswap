@@ -190,7 +190,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
     ring2 = "Leviathan Ring",
     back = "Nantosuelta's Cape",
-    waist = "Demonry Sash",
+    waist = "Porous Rope",
     legs = "Jhakri Slops +1",
     foot = "Jhakri Pigaches +2",
   }

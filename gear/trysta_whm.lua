@@ -125,7 +125,7 @@ function init_gear_sets()
     ring1 = "Leviathan Ring",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
-    waist = "Demonry Sash",
+    waist = "Porous Rope",
     legs = "Ebers Pantaloons",
     feet = "Wayfarer Clogs",
   }
@@ -165,7 +165,7 @@ function init_gear_sets()
     ring1 = "Leviathan Ring",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
-    waist = "Demonry Sash",
+    waist = "Porous Rope",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -220,7 +220,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
     ring2 = "Leviathan Ring",
     back = "Alaunus's Cape",
-    waist = "Demonry Sash",
+    waist = "Porous Rope",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -233,7 +233,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
     ring2 = "Tamas Ring",
     back = "Alaunus's Cape",
-    waist = "Demonry Sash",
+    waist = "Porous Rope",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -247,7 +247,7 @@ function init_gear_sets()
     neck = "Sanctity Necklace",
     body = "Ebers Bliaud",
     waist = "Hierarch Belt",
-    legs = "Assiduity Pants",
+    legs = "Assiduity Pants +1",
   }
 
 
@@ -266,7 +266,7 @@ function init_gear_sets()
     ring2 = "Tamas Ring",
     back = "Solemnity Cape",
     waist = "Bishop's Sash",
-    legs = "Assiduity Pants",
+    legs = "Assiduity Pants +1",
     feet = "Herald's Gaiters",
   }
 
