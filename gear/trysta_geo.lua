@@ -32,7 +32,7 @@ function init_gear_sets()
     back = "Nantosuelta's Cape",
   }
   sets.precast.JA['Radial Arcana'] = {
-    feet = "Bagua Sandals",
+    feet = "Bagua Sandals +1",
   }
 
   -- Fast cast sets for spells
@@ -245,7 +245,7 @@ function init_gear_sets()
     hands = "Geomancy Mitaines +3",
     back = "Lifestream Cape",
     waist = "Isa Belt",
-    feet = "Bagua Sandals",
+    feet = "Bagua Sandals +1",
   }
 
   sets.idle.PDT.Pet = {
