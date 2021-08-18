@@ -84,7 +84,7 @@ function init_gear_sets()
     neck = "Incanter's Torque",
     ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
-    body = "Ebers Bliaud",
+    body = "Ebers Bliaut",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
@@ -176,7 +176,7 @@ function init_gear_sets()
 
   sets.midcast.BarElement = {
     head = "Ebers Cap",
-    body = "Ebers Bliaud",
+    body = "Ebers Bliaut",
     hands = "Ebers Mitts",
     legs = "Cleric's Pantaloons",
     feet = "Ebers Duckbills",
@@ -245,7 +245,7 @@ function init_gear_sets()
   sets.resting = {
     main = "Bolelabunga",
     neck = "Sanctity Necklace",
-    body = "Ebers Bliaud",
+    body = "Ebers Bliaut",
     waist = "Hierarch Belt",
     legs = "Assiduity Pants +1",
   }
@@ -260,7 +260,7 @@ function init_gear_sets()
     neck = "Sanctity Necklace",
     ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
-    body = "Ebers Bliaud",
+    body = "Ebers Bliaut",
     hands = "Inyanga Dastanas +1",
     ring1 = "Defending Ring",
     ring2 = "Tamas Ring",
