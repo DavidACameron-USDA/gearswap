@@ -25,6 +25,7 @@ function init_gear_sets()
     head = "Haruspex Hat",
     body = "Inyanga Jubbah +1",
     hands = "Gendewitha Gages",
+	ring2 = "Kishar Ring",
     back = "Swith Cape",
   }
 
@@ -84,7 +85,7 @@ function init_gear_sets()
     neck = "Incanter's Torque",
     ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
-    body = "Ebers Bliaut",
+    body = "Ebers Bliaut +1",
     hands = "Weatherspoon Cuffs +1",
     ring1 = "Ephedra Ring",
     ring2 = "Tamas Ring",
@@ -176,7 +177,7 @@ function init_gear_sets()
 
   sets.midcast.BarElement = {
     head = "Ebers Cap",
-    body = "Ebers Bliaut",
+    body = "Ebers Bliaut +1",
     hands = "Ebers Mitts",
     legs = "Cleric's Pantaloons",
     feet = "Ebers Duckbills",
@@ -218,7 +219,7 @@ function init_gear_sets()
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
     ring1 = "Metamorph Ring +1",
-    ring2 = "Leviathan Ring",
+	ring2 = "Kishar Ring",
     back = "Alaunus's Cape",
     waist = "Porous Rope",
     legs = "Wayfarer Slops",
@@ -231,7 +232,7 @@ function init_gear_sets()
     body = "Inyanga Jubbah +1",
     hands = "Inyanga Dastanas +1",
     ring1 = "Metamorph Ring +1",
-    ring2 = "Tamas Ring",
+	ring2 = "Kishar Ring",
     back = "Alaunus's Cape",
     waist = "Porous Rope",
     legs = "Wayfarer Slops",
@@ -245,7 +246,7 @@ function init_gear_sets()
   sets.resting = {
     main = "Bolelabunga",
     neck = "Sanctity Necklace",
-    body = "Ebers Bliaut",
+    body = "Ebers Bliaut +1",
     waist = "Hierarch Belt",
     legs = "Assiduity Pants +1",
   }
@@ -260,7 +261,7 @@ function init_gear_sets()
     neck = "Sanctity Necklace",
     ear1 = "Nourishing Earring +1",
     ear2 = "Glorious Earring",
-    body = "Ebers Bliaut",
+    body = "Ebers Bliaut +1",
     hands = "Inyanga Dastanas +1",
     ring1 = "Defending Ring",
     ring2 = "Tamas Ring",

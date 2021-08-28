@@ -41,6 +41,7 @@ function init_gear_sets()
     head = "Haruspex Hat",
     ear1 = "Malignance Earring",
     ear2 = "Loquacious Earring",
+	ring2 = "Kishar Ring",
     back = "Lifestream Cape",
     legs = "Geomancy Pants +1",
     feet = "Amalric Nails",
@@ -120,7 +121,7 @@ function init_gear_sets()
 
   sets.midcast['Dark Magic'] = {
     head = "Mallquis Chapeau +1",
-    neck = "Incanter's Torque",
+	neck = "Erra Pendant",
     ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
     body = "Geomancy Tunic +1",
@@ -135,6 +136,7 @@ function init_gear_sets()
 
   sets.midcast.Drain = set_combine(sets.midcast['Dark Magic'], {
     head = "Pixie Hairpin +1",
+	neck = "Erra Pendant",
   })
 
   sets.midcast.Aspir = sets.midcast.Drain
@@ -173,7 +175,7 @@ function init_gear_sets()
     body = "Jhakri Robe +2",
     hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
-    ring2 = "Shiva Ring",
+	ring2 = "Kishar Ring",
     back = "Nantosuelta's Cape",
     waist = "Penitent's Rope",
     legs = "Jhakri Slops +1",
@@ -188,7 +190,7 @@ function init_gear_sets()
     body = "Jhakri Robe +2",
     hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
-    ring2 = "Leviathan Ring",
+	ring2 = "Kishar Ring",
     back = "Nantosuelta's Cape",
     waist = "Porous Rope",
     legs = "Jhakri Slops +1",
@@ -215,11 +217,12 @@ function init_gear_sets()
 
   sets.idle = {
     main = "Solstice",
+	sub = "Genmei Shield",
     range = "Dunna",
     head = "Hike Khat +1",
     neck = "Sanctity Necklace",
     ear1 = "Malignance Earring",
-    ear2 = "Barkarole Earring",
+    ear2 = "Lugalbanda Earring",
     body = "Jhakri Robe +2",
     hands = "Bagua Mitaines",
     ring1 = "Defending Ring",
