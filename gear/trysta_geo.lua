@@ -28,7 +28,7 @@ function init_gear_sets()
     body = "Bagua Tunic +1"
   }
   sets.precast.JA['Life cycle'] = {
-    body = "Geomancy Tunic +1",
+    body = "Geomancy Tunic +2",
     back = "Nantosuelta's Cape",
   }
   sets.precast.JA['Radial Arcana'] = {
@@ -43,7 +43,7 @@ function init_gear_sets()
     ear2 = "Loquacious Earring",
 	ring2 = "Kishar Ring",
     back = "Lifestream Cape",
-    legs = "Geomancy Pants +1",
+    legs = "Geomancy Pants +2",
     feet = "Amalric Nails",
   }
 
@@ -85,7 +85,7 @@ function init_gear_sets()
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
     back = "Lifestream Cape",
-    legs = "Geomancy Pants +1",
+    legs = "Geomancy Pants +2",
     feet = "Amalric Nails",
   }
 
@@ -124,7 +124,7 @@ function init_gear_sets()
 	neck = "Erra Pendant",
     ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
-    body = "Geomancy Tunic +1",
+    body = "Geomancy Tunic +2",
     hands = "Mallquis Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Evanescence Ring",
@@ -143,7 +143,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     main = "Tamaxchi",
-    head = "Geomancy Galero +1",
+    head = "Geomancy Galero +2",
     neck = "Incanter's Torque",
     ear1 = "Malignance Earring",
     ear2 = "Mendicant's Earring",
@@ -183,7 +183,7 @@ function init_gear_sets()
   }
 
   sets.midcast.MndEnfeebles = {
-    head = "Geomancy Galero +1",
+    head = "Geomancy Galero +2",
     neck = "Incanter's Torque",
     ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
@@ -230,7 +230,7 @@ function init_gear_sets()
     back = "Solemnity Cape",
     waist = "Refoccilation Stone",
     legs = "Assiduity Pants +1",
-    feet = "Geomancy Sandals +1",
+    feet = "Geomancy Sandals +2",
   }
 
   sets.idle.PDT = {
@@ -281,7 +281,7 @@ function init_gear_sets()
 
   sets.Kiting = {
     ring1 = "Defending Ring",
-    feet = "Geomancy Sandals +1",
+    feet = "Geomancy Sandals +2",
   }
 
   sets.latent_refresh = {}
