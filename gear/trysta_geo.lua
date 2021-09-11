@@ -105,7 +105,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Elemental Magic'] = {
-    head = "Jhakri Coronal +1",
+    head = "Jhakri Coronal +2",
     neck = "Mizukage-no-Kubikazari",
     ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
