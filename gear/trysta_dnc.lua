@@ -117,6 +117,7 @@ function init_gear_sets()
     -- Weaponskill sets
     -- Default set for any weaponskill that isn't any more specifically defined
     sets.precast.WS = {
+	  neck = "Caro Necklace",
 	  ear2 = "Moonshade Earring",
 	  hands = "Maxixi Bangles +2",
 	  ring1 = "Ramuh Ring",
@@ -233,7 +234,7 @@ function init_gear_sets()
 	  body = "Mummu Jacket",
 	  hands = "Mummu Wrists +2",
       ring1 = "Epona's Ring",
-	  ring2 = "Hetairoi Ring",
+	  ring2 = "Petrov Ring",
 	  back = gear.sen_mantle_tp,
 	  waist = "Sailfi Belt +1",
 	  legs = gear.dw_herc_trousers,
