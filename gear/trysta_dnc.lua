@@ -19,6 +19,7 @@ function user_setup()
 
     gear.sen_mantle_tp = { name="Senuna's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','"Dbl.Atk."+10','Damage taken-5%',}}
 	gear.sen_mantle_crit = { name="Senuna's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Crit.hit rate+10',}}
+    gear.sen_mantle_wsd = { name="Senuna's Mantle", augments={'DEX+20','Accuracy+20 Attack+20','DEX+10','Weapon skill damage +10%',}}
 
 
     select_default_macro_book()
@@ -47,7 +48,7 @@ function init_gear_sets()
     -- Precast sets to enhance JAs
 
     sets.precast.JA['No Foot Rise'] = {
-	  body = "Horos Casaque +1",
+	  body = "Horos Casaque +3",
 	}
 
     sets.precast.JA['Trance'] = {
@@ -88,7 +89,7 @@ function init_gear_sets()
 	  hands = "Horos Bangles",
 	}
     sets.precast.Flourish1['Violent Flourish'] = {
-	  body = "Horos Casaque +1",
+	  body = "Horos Casaque +3",
 	}
     sets.precast.Flourish1['Desperate Flourish'] = {
 	}
@@ -117,47 +118,70 @@ function init_gear_sets()
     -- Weaponskill sets
     -- Default set for any weaponskill that isn't any more specifically defined
     sets.precast.WS = {
+	  ammo = "Cath Palug Stone",
 	  neck = "Caro Necklace",
 	  ear2 = "Moonshade Earring",
+      body = "Horos Casaque +3",
 	  hands = "Maxixi Bangles +2",
 	  ring1 = "Ramuh Ring",
-	  ring2 = "Rufescent Ring",
+	  ring2 = "Ilabrat Ring",
+	  back = gear.sen_mantle_wsd,
 	  legs = gear.dw_herc_trousers,
 	}
     sets.precast.WS.Acc = set_combine(sets.precast.WS, {
+	  legs = "Malignance Tights",
 	})
     
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
+
+    -- Exenterator has an AGI modifier, the value of which depends on the number
+    -- of merits.  fTP is transferred to all hits.
     sets.precast.WS['Exenterator'] = set_combine(sets.precast.WS, {
+      ear1 = "Sherida Earring",
+	  ear2 = "Mache Earring",
+      body = "Horos Casaque +3",
+      ring1 = "Epona's Ring",
+	  legs = "Meghanada Chausses +2",
 	})
     sets.precast.WS['Exenterator'].Acc = set_combine(sets.precast.WS['Exenterator'], {
 	})
 
     sets.precast.WS['Pyrrhic Kleos'] = set_combine(sets.precast.WS, {
+	  head = "Skormoth Mask",
+      ear1 = "Sherida Earring",
+	  ear2 = "Mache Earring",
+      ring1 = "Epona's Ring",
+	  legs = "Meghanada Chausses +2",
 	})
     sets.precast.WS['Pyrrhic Kleos'].Acc = set_combine(sets.precast.WS.Acc, {
 	})
 
+    -- Evisceration has a DEX 50% modifier and has a chance of dealing critical
+    -- damage.  fTP is transferred to all hits.
     sets.precast.WS['Evisceration'] = set_combine(sets.precast.WS, {
 	  head = "Mummu Bonnet +1",
       ear1 = "Sherida Earring",
 	  ear2 = "Mache Earring",
-	  body = "Mummu Jacket",
+	  body = "Meghanada Cuirie +2",
 	  hands = "Mummu Wrists +2",
       ring1 = "Epona's Ring",
 	  ring2 = "Hetairoi Ring",
 	  back = gear.sen_mantle_crit,
 	  waist = "Sarissaphoroi Belt",
 	  legs = "Mummu Kecks +2",
+	  feet = gear.qa_herc_boots,
 	})
     sets.precast.WS['Evisceration'].Acc = set_combine(sets.precast.WS['Evisceration'], {
 	})
 
+  -- Rudra's Storm has a DEX 80% modifier.
     sets.precast.WS["Rudra's Storm"] = set_combine(sets.precast.WS, {
+	  body = "Meghanada Cuirie +2",
 	})
     sets.precast.WS["Rudra's Storm"].Acc = set_combine(sets.precast.WS["Rudra's Storm"], {
 	})
 
+  -- Aeolian Edge has DEX 40% and INT 40% modifiers.
     sets.precast.WS['Aeolian Edge'] = {
 	}
     
@@ -191,27 +215,38 @@ function init_gear_sets()
 	  main = "Tauret",
 	  sub = "Enchufla",
 	  ammo = "Ginsen",
-	  head = "Meghanada Visor",
+	  head = "Meghanada Visor +1",
 	  neck = "Loricate Torque +1",
-	  body = "Meghanada Cuirie",
+      body = "Horos Casaque +3",
 	  hands = "Meghanada Gloves +1",
       ring1 = "Defending Ring",
+	  ring2 = "Ilabrat Ring",
 	  back = gear.sen_mantle_tp,
-	  legs = gear.dw_herc_trousers,
+	  legs = "Malignance Tights",
 	  feet = gear.qa_herc_boots,
 	}
 
     -- Defense sets
 
     sets.defense.Evasion = {
+	  legs = "Malignance Tights",
 	}
 
     sets.defense.PDT = {
+	  head = "Meghanada Visor +1",
 	  neck = "Loricate Torque +1",
+	  body = "Meghanada Cuirie +2",
+	  hands = "Meghanada Gloves +1",
+      ring1 = "Defending Ring",
+	  back = gear.sen_mantle_tp,
+	  legs = "Malignance Tights",
+	  feet = gear.qa_herc_boots,
 	}
 
     sets.defense.MDT = {
 	  neck = "Loricate Torque +1",
+      ring1 = "Defending Ring",
+	  legs = "Malignance Tights",
 	}
 
     sets.Kiting = {
@@ -231,20 +266,22 @@ function init_gear_sets()
 	  neck = "Sanctity Necklace",
       ear1 = "Sherida Earring",
 	  ear2 = "Mache Earring",
-	  body = "Mummu Jacket",
+      body = "Horos Casaque +3",
 	  hands = "Mummu Wrists +2",
       ring1 = "Epona's Ring",
-	  ring2 = "Petrov Ring",
+	  ring2 = "Ilabrat Ring",
 	  back = gear.sen_mantle_tp,
-	  waist = "Sailfi Belt +1",
-	  legs = gear.dw_herc_trousers,
+	  waist = "Sarissaphoroi Belt",
+	  legs = "Meghanada Chausses +2",
 	  feet = gear.qa_herc_boots,
 	}
 
     sets.engaged.Acc = set_combine(sets.engaged, {
+	  ammo = "Cath Palug Stone",
 	  legs = "Malignance Tights",
 	})
     sets.engaged.Evasion = set_combine(sets.engaged, {
+	  legs = "Malignance Tights",
 	})
     sets.engaged.PDT = set_combine(sets.engaged, {
 	})
@@ -293,6 +330,7 @@ function init_gear_sets()
 	}
     sets.buff['Climactic Flourish'] = {
 	  head = "Charis Tiara +2",
+	  body = "Meghanada Cuirie +2",
 	}
 end
 
