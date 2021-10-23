@@ -137,10 +137,12 @@ function init_gear_sets()
     -- Exenterator has an AGI modifier, the value of which depends on the number
     -- of merits.  fTP is transferred to all hits.
     sets.precast.WS['Exenterator'] = set_combine(sets.precast.WS, {
+      neck = "Fotia Gorget",
       ear1 = "Sherida Earring",
 	  ear2 = "Mache Earring",
       body = "Horos Casaque +3",
       ring1 = "Epona's Ring",
+	  waist = "Fotia Belt",
 	  legs = "Meghanada Chausses +2",
 	})
     sets.precast.WS['Exenterator'].Acc = set_combine(sets.precast.WS['Exenterator'], {
@@ -148,9 +150,11 @@ function init_gear_sets()
 
     sets.precast.WS['Pyrrhic Kleos'] = set_combine(sets.precast.WS, {
 	  head = "Skormoth Mask",
+      neck = "Fotia Gorget",
       ear1 = "Sherida Earring",
 	  ear2 = "Mache Earring",
       ring1 = "Epona's Ring",
+	  waist = "Fotia Belt",
 	  legs = "Meghanada Chausses +2",
 	})
     sets.precast.WS['Pyrrhic Kleos'].Acc = set_combine(sets.precast.WS.Acc, {
@@ -160,6 +164,7 @@ function init_gear_sets()
     -- damage.  fTP is transferred to all hits.
     sets.precast.WS['Evisceration'] = set_combine(sets.precast.WS, {
 	  head = "Mummu Bonnet +1",
+      neck = "Fotia Gorget",
       ear1 = "Sherida Earring",
 	  ear2 = "Mache Earring",
 	  body = "Meghanada Cuirie +2",
@@ -167,7 +172,7 @@ function init_gear_sets()
       ring1 = "Epona's Ring",
 	  ring2 = "Hetairoi Ring",
 	  back = gear.sen_mantle_crit,
-	  waist = "Sarissaphoroi Belt",
+	  waist = "Fotia Belt",
 	  legs = "Mummu Kecks +2",
 	  feet = gear.qa_herc_boots,
 	})
