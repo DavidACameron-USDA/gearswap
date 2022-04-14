@@ -228,7 +228,7 @@ function init_gear_sets()
     neck = "Loricate Torque +1",
     ear1 = "Malignance Earring",
     ear2 = "Lugalbanda Earring",
-    body = "Jhakri Robe +2",
+	body = "Geomancy Tunic +3",
     hands = "Bagua Mitaines +1",
     ring1 = "Defending Ring",
     ring2 = "Renaye Ring",
