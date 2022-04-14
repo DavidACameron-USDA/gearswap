@@ -8,6 +8,11 @@ function user_setup()
   state.CastingMode:options('Normal', 'Resistant')
   state.IdleMode:options('Normal', 'PDT')
 
+  gear.nant_cape_nuke = { name="Nantosuelta's Cape", augments={'Mag. Acc+20 /Mag. Dmg.+20','INT+10','"Mag.Atk.Bns."+10',}}
+  gear.nant_cape_pet_regen = { name="Nantosuelta's Cape", augments={'Eva.+20 /Mag. Eva.+20','Mag. Evasion+10','Pet: "Regen"+10','Pet: "Regen"+5',}}
+
+  gear.telchine_legs_pet = { name="Telchine Braconi", augments={'Pet: "Regen"+3','Pet: Damage taken -4%',}}
+
   select_default_macro_book()
 end
 
@@ -21,18 +26,18 @@ function init_gear_sets()
 
   -- Precast sets to enhance JAs
   sets.precast.JA['Full Circle'] = {
-    head = "Azimuth Hood",
-    hands = "Bagua Mitaines",
+    head = "Azimuth Hood +1",
+    hands = "Bagua Mitaines +1",
   }
   sets.precast.JA.Bolster = {
     body = "Bagua Tunic +1"
   }
   sets.precast.JA['Life cycle'] = {
-    body = "Geomancy Tunic +2",
-    back = "Nantosuelta's Cape",
+    body = "Geomancy Tunic +3",
+    back = gear.nant_cape_pet_regen,
   }
   sets.precast.JA['Radial Arcana'] = {
-    feet = "Bagua Sandals +1",
+    feet = "Bagua Sandals +3",
   }
 
   -- Fast cast sets for spells
@@ -56,7 +61,7 @@ function init_gear_sets()
   sets.precast.FC['Elemental Magic'] = set_combine(sets.precast.FC, {
     ear2 = "Barkarole Earring",
     body = "Mallquis Saio",
-    hands = "Bagua Mitaines",
+    hands = "Bagua Mitaines +1",
   })
 
 
@@ -90,7 +95,7 @@ function init_gear_sets()
   }
 
   sets.midcast.Geomancy = {
-    head = "Azimuth Hood",
+    head = "Azimuth Hood +1",
     ear1 = "Gna Earring",
     ear2 = "Calamitous Earring",
     body = "Bagua Tunic +1",
@@ -113,7 +118,7 @@ function init_gear_sets()
     hands = "Jhakri Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Shiva Ring",
-    back = "Nantosuelta's Cape",
+    back = gear.nant_cape_nuke,
     waist = "Refoccilation Stone",
     legs = "Merlinic Shalwar",
     feet = "Jhakri Pigaches +2",
@@ -124,11 +129,11 @@ function init_gear_sets()
 	neck = "Erra Pendant",
     ear1 = "Malignance Earring",
     ear2 = "Barkarole Earring",
-    body = "Geomancy Tunic +2",
+    body = "Geomancy Tunic +3",
     hands = "Mallquis Cuffs +1",
     ring1 = "Shiva Ring",
     ring2 = "Evanescence Ring",
-    back = "Nantosuelta's Cape",
+    back = gear.nant_cape_nuke,
     waist = "Refoccilation Stone",
     legs = "Azimuth Tights",
     feet = "Mallquis Clogs +1",
@@ -176,7 +181,7 @@ function init_gear_sets()
     hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
 	ring2 = "Kishar Ring",
-    back = "Nantosuelta's Cape",
+    back = gear.nant_cape_nuke,
     waist = "Penitent's Rope",
     legs = "Jhakri Slops +1",
     foot = "Jhakri Pigaches +2",
@@ -191,7 +196,7 @@ function init_gear_sets()
     hands = "Azimuth Gloves",
     ring1 = "Metamorph Ring +1",
 	ring2 = "Kishar Ring",
-    back = "Nantosuelta's Cape",
+    back = gear.nant_cape_nuke,
     waist = "Porous Rope",
     legs = "Jhakri Slops +1",
     foot = "Jhakri Pigaches +2",
@@ -207,7 +212,7 @@ function init_gear_sets()
     main = "Bolelabunga",
     neck = "Sanctity Necklace",
     body = "Jhakri Robe +2",
-    hands = "Bagua Mitaines",
+    hands = "Bagua Mitaines +1",
     ring2 = "Renaye Ring",
     legs = "Assiduity Pants +1",
   }
@@ -216,15 +221,15 @@ function init_gear_sets()
   -- Idle sets
 
   sets.idle = {
-    main = "Solstice",
+    main = "Idris",
 	sub = "Genmei Shield",
     range = "Dunna",
     head = "Hike Khat +1",
-    neck = "Sanctity Necklace",
+    neck = "Loricate Torque +1",
     ear1 = "Malignance Earring",
     ear2 = "Lugalbanda Earring",
     body = "Jhakri Robe +2",
-    hands = "Bagua Mitaines",
+    hands = "Bagua Mitaines +1",
     ring1 = "Defending Ring",
     ring2 = "Renaye Ring",
     back = "Solemnity Cape",
@@ -243,12 +248,15 @@ function init_gear_sets()
 
   -- .Pet sets are for when Luopan is present.
   sets.idle.Pet = {
-    head = "Azimuth Hood",
+    head = "Azimuth Hood +1",
+	neck = "Bagua Charm +2",
     ear2 = "Handler's Earring",
+	body = "Geomancy Tunic +3",
     hands = "Geomancy Mitaines +3",
-    back = "Lifestream Cape",
+    back = gear.nant_cape_pet_regen,
     waist = "Isa Belt",
-    feet = "Bagua Sandals +1",
+	legs = gear.telchine_legs_pet,
+    feet = "Bagua Sandals +3",
   }
 
   sets.idle.PDT.Pet = {
