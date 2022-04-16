@@ -48,7 +48,7 @@ function init_gear_sets()
     ear2 = "Loquacious Earring",
 	ring2 = "Kishar Ring",
     back = "Lifestream Cape",
-    legs = "Geomancy Pants +2",
+    legs = "Geomancy Pants +3",
     feet = "Amalric Nails",
   }
 
@@ -90,7 +90,7 @@ function init_gear_sets()
     head = "Haruspex Hat",
     ear2 = "Loquacious Earring",
     back = "Lifestream Cape",
-    legs = "Geomancy Pants +2",
+    legs = "Geomancy Pants +3",
     feet = "Amalric Nails",
   }
 
@@ -148,7 +148,7 @@ function init_gear_sets()
 
   sets.midcast.Cure = {
     main = "Tamaxchi",
-    head = "Geomancy Galero +2",
+    head = "Geomancy Galero +3",
     neck = "Incanter's Torque",
     ear1 = "Malignance Earring",
     ear2 = "Mendicant's Earring",
@@ -173,7 +173,7 @@ function init_gear_sets()
   sets.midcast.Stoneskin = {}
 
   sets.midcast.IntEnfeebles = {
-    head = "Wayfarer Circlet",
+    head = "Geomancy Galero +3",
     neck = "Incanter's Torque",
     ear1 = "Malignance Earring",
     ear2 = "Regal Earring",
@@ -183,12 +183,12 @@ function init_gear_sets()
 	ring2 = "Kishar Ring",
     back = gear.nant_cape_nuke,
     waist = "Penitent's Rope",
-    legs = "Jhakri Slops +1",
-    foot = "Jhakri Pigaches +2",
+    legs = "Geomancy Pants +3",
+    feet = "Geomancy Sandals +3",
   }
 
   sets.midcast.MndEnfeebles = {
-    head = "Geomancy Galero +2",
+    head = "Geomancy Galero +3",
     neck = "Incanter's Torque",
     ear1 = "Malignance Earring",
     ear2 = "Regal Earring",
@@ -198,8 +198,8 @@ function init_gear_sets()
 	ring2 = "Kishar Ring",
     back = gear.nant_cape_nuke,
     waist = "Porous Rope",
-    legs = "Jhakri Slops +1",
-    foot = "Jhakri Pigaches +2",
+    legs = "Geomancy Pants +3",
+    feet = "Geomancy Sandals +3",
   }
 
 
@@ -235,7 +235,7 @@ function init_gear_sets()
     back = "Solemnity Cape",
     waist = "Refoccilation Stone",
     legs = "Assiduity Pants +1",
-    feet = "Geomancy Sandals +2",
+    feet = "Geomancy Sandals +3",
   }
 
   sets.idle.PDT = {
@@ -289,7 +289,7 @@ function init_gear_sets()
 
   sets.Kiting = {
     ring1 = "Defending Ring",
-    feet = "Geomancy Sandals +2",
+    feet = "Geomancy Sandals +3",
   }
 
   sets.latent_refresh = {}
