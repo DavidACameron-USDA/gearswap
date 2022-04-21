@@ -221,7 +221,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
 	ring2 = "Kishar Ring",
     back = "Alaunus's Cape",
-    waist = "Porous Rope",
+    waist = "Luminary Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -234,7 +234,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
 	ring2 = "Kishar Ring",
     back = "Alaunus's Cape",
-    waist = "Porous Rope",
+    waist = "Luminary Sash",
     legs = "Wayfarer Slops",
     feet = "Wayfarer Clogs",
   }
@@ -266,7 +266,7 @@ function init_gear_sets()
     ring1 = "Defending Ring",
     ring2 = "Tamas Ring",
     back = "Solemnity Cape",
-    waist = "Bishop's Sash",
+    waist = "Luminary Sash",
     legs = "Assiduity Pants +1",
     feet = "Herald's Gaiters",
   }

@@ -110,6 +110,7 @@ function init_gear_sets()
   })
 
   sets.midcast['Elemental Magic'] = {
+    ammo = "Pemphredo Tathlum",
     head = "Jhakri Coronal +2",
     neck = "Mizukage-no-Kubikazari",
     ear1 = "Malignance Earring",
@@ -157,7 +158,7 @@ function init_gear_sets()
     ring1 = "Ephedra Ring",
     ring2 = "Leviathan Ring",
     back = "Solemnity Cape",
-    waist = "Bishop's Sash",
+    waist = "Luminary Sash",
     legs = "Perdition Slops",
     feet = "Mallquis Clogs",
   }
@@ -173,6 +174,7 @@ function init_gear_sets()
   sets.midcast.Stoneskin = {}
 
   sets.midcast.IntEnfeebles = {
+    ammo = "Pemphredo Tathlum",
     head = "Geomancy Galero +3",
     neck = "Incanter's Torque",
     ear1 = "Malignance Earring",
@@ -182,12 +184,13 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
 	ring2 = "Kishar Ring",
     back = gear.nant_cape_nuke,
-    waist = "Penitent's Rope",
+    waist = "Luminary Sash",
     legs = "Geomancy Pants +3",
     feet = "Geomancy Sandals +3",
   }
 
   sets.midcast.MndEnfeebles = {
+    ammo = "Pemphredo Tathlum",
     head = "Geomancy Galero +3",
     neck = "Incanter's Torque",
     ear1 = "Malignance Earring",
@@ -197,7 +200,7 @@ function init_gear_sets()
     ring1 = "Metamorph Ring +1",
 	ring2 = "Kishar Ring",
     back = gear.nant_cape_nuke,
-    waist = "Porous Rope",
+    waist = "Luminary Sash",
     legs = "Geomancy Pants +3",
     feet = "Geomancy Sandals +3",
   }
@@ -233,7 +236,7 @@ function init_gear_sets()
     ring1 = "Defending Ring",
     ring2 = "Renaye Ring",
     back = "Solemnity Cape",
-    waist = "Refoccilation Stone",
+    waist = "Luminary Sash",
     legs = "Assiduity Pants +1",
     feet = "Geomancy Sandals +3",
   }
