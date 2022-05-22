@@ -141,7 +141,8 @@ function init_gear_sets()
       ear1 = "Sherida Earring",
 	  ear2 = "Mache Earring",
       body = "Horos Casaque +3",
-      ring1 = "Epona's Ring",
+      ring1 = "Regal Ring",
+	  ring2 = "Gere Ring",
 	  waist = "Fotia Belt",
 	  legs = "Meghanada Chausses +2",
 	})
@@ -154,6 +155,7 @@ function init_gear_sets()
       ear1 = "Sherida Earring",
 	  ear2 = "Mache Earring",
       ring1 = "Epona's Ring",
+	  ring2 = "Gere Ring",
 	  waist = "Fotia Belt",
 	  legs = "Meghanada Chausses +2",
 	})
@@ -169,8 +171,8 @@ function init_gear_sets()
 	  ear2 = "Mache Earring",
 	  body = "Meghanada Cuirie +2",
 	  hands = "Mummu Wrists +2",
-      ring1 = "Epona's Ring",
-	  ring2 = "Hetairoi Ring",
+      ring1 = "Regal Ring",
+	  ring2 = "Gere Ring",
 	  back = gear.sen_mantle_crit,
 	  waist = "Fotia Belt",
 	  legs = "Mummu Kecks +2",
@@ -182,6 +184,7 @@ function init_gear_sets()
   -- Rudra's Storm has a DEX 80% modifier.
     sets.precast.WS["Rudra's Storm"] = set_combine(sets.precast.WS, {
 	  body = "Meghanada Cuirie +2",
+	  ring1 = "Regal Ring",
 	})
     sets.precast.WS["Rudra's Storm"].Acc = set_combine(sets.precast.WS["Rudra's Storm"], {
 	})
@@ -274,7 +277,7 @@ function init_gear_sets()
       body = "Horos Casaque +3",
 	  hands = "Mummu Wrists +2",
       ring1 = "Epona's Ring",
-	  ring2 = "Ilabrat Ring",
+	  ring2 = "Gere Ring",
 	  back = gear.sen_mantle_tp,
 	  waist = "Sarissaphoroi Belt",
 	  legs = "Meghanada Chausses +2",
@@ -283,6 +286,7 @@ function init_gear_sets()
 
     sets.engaged.Acc = set_combine(sets.engaged, {
 	  ammo = "Cath Palug Stone",
+	  ring1 = "Regal Ring",
 	  legs = "Malignance Tights",
 	})
     sets.engaged.Evasion = set_combine(sets.engaged, {
